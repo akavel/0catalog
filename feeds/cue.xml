@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>CUE</name>
   <summary xml:lang="en">Validate, define, and use dynamic and text-based configuration</summary>
@@ -12,3 +13,7 @@
   </implementation>
   <entry-point command="run" binary-name="cue" />
 </interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJd9PyoAAoJEIqj3WcC4bjB8ckP/3UzVSSbKtwiM8y9w3MFzH+CDt9GlszTTQrDmcn6klw8VxuTv7oHkuf5V/J1M5Htptlo91fMSAKeUdy2y/EnzUMVK6Kh4X7im5XyG+WdbEbY6m9xnIWhRs2kGEXOPDp0prZAcYMPPsaGcdxH95fjxayKG4uQuCcRUmyLzclU1A4q1+VheQ6LRQekVl9gw86SZzrnJgABpsudUSQ14qTA+hbtUhISQqnEbZR3QhEeRnlixd5D4c3/45LdgTLmUkeDPEgO7a4RGFhh5VXEfXVAgkfE2CUV89DUpxmzAFbEPyfNrDC70R4WysvrRrIVJ4ciYmYdBEH2Glx3k0FUNcQerbCID+82mfsAsAIWIGy0vzFutzCG2DjaIXwtCpXJ3PuUzpo6T1bYoZMXy1yp4pWEJjS4tTJOhbsreIC8QfFp3qf7FFIdb/TaOVlOp0uwfeUGGLDA9UYTKTT1x+AKx5tpS8CbgE6sqr9OadSCDOHu2HJ3nyDMJ2FI+aOmiw77NHQ5U7HyL9nGRqS9bHnGGldSMHyPmiI3BPMFGlgN4XXRhL37i/xiUOuOIFfIJuT1ylxnbSlkCsmosqgPMyJXkqhQjSUu/xmMKjJZOnnCsUlvEY9o0bhx+BteRLcWuow+I87Q4JmSvYJCRR/u0Jibp73RBvNm9LZhP93HVluHpsrZht8H
+
+-->
