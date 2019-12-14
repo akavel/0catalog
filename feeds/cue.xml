@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>CUE</name>
+  <summary xml:lang="en">Validate, define, and use dynamic and text-based configuration</summary>
+  <category>Development</category>
+  <homepage>https://cuelang.org/</homepage>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="0.0.15" id="sha1new=643e8f5634d406bb9414f674cb920e110443fc37">
+    <command name="run" path="cue.exe" />
+    <manifest-digest sha256new="YSASWYWYMEP7RNRFWJMXHDMMX4IQ34NFTMWACMIK2EI5AUIV4BFA" />
+    <archive href="https://github.com/cuelang/cue/releases/download/v0.0.15/cue_0.0.15_Windows_x86_64.zip" size="10200400" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="cue" />
+</interface>

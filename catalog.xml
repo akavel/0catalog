@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://0install.de/schema/injector/catalog http://0install.de/schema/injector/catalog/catalog.xsd" xmlns="http://0install.de/schema/injector/catalog">
+  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>CUE</name>
+    <summary xml:lang="en">Validate, define, and use dynamic and text-based configuration</summary>
+    <category>Development</category>
+    <homepage>https://cuelang.org/</homepage>
+    <needs-terminal />
+    <entry-point command="run" binary-name="cue" />
+  </interface>
+</catalog>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJd9PkyAAoJEIqj3WcC4bjBmCcP/213/qrjoFCURmDaaCcg/EaksL7JMmyrStngdl9YeeU9ObIYViuC72el6cQqlXZSkaWYCtiduso4RsWugfVe+RXofwCDRfdYTn7puNva832Tz2G28CDLmhQz9yaGymY1QWzyui616yCAH4ogT8L1jJA8DqseP+3JBDR8f3f6Gqd8V3MrsBiS0LKQUITF7GScjD4/rx4Q3XgnyhqirWwtQ96DhaQ9QMUNDkd5Q5mTcTLPLBw/oyvoQS8hMcTMTDWnVIjhvVLDi5y+eBShxmVvuPVon+Fmaa9tVO5PgTqZ+B6eRniqQp7BkLZxxhKAASqJibQ97MQkTujJeCX84Mlklt0RnIgtfOYQUbQ7DAi3xuepkTWOUi6fJyYRzdubBYGsbcg5hESlcg5Jx+MRaD4j4FTLWJFmCJBEtxe4cCOAwnH7TCAC0qIvUWVBdyQWIZ5bC5Eq0CNxfH8u5hh58Q42RPqgzD89Jni1GDIWw5S62gbxivCmiDLnXY67GbR6H+bQTLDlL5eFa5LIay5sf9VlA+RBUuomISt9J6KjWy71xDoQ5+z334KPa7ppub2N6hdkcb0W/iSc2uyfwoEwIdDvHc1UKRQUtVegCujkzGwN44/boPNt6so6YUXAfxttQgTrNBCPBlSFnWmMOI1dRckuuCVgFTbe71+t6yIoiqYPQNZ7
+
+-->
