@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Go Explorer</name>
+  <summary xml:lang="en">Vim plugin for exploring Go code</summary>
+  <homepage>https://github.com/garyburd/go-explorer</homepage>
+  <implementation version="0.0.20160424" id="sha1new=b5362a57d7d57a88403340365a7e7e2efabd83cc">
+    <manifest-digest sha256new="EXWPGGO36SO6B676RMMXUAB5J3B66KIJBKVO6CGMZ4ZNDMJWKYYQ" />
+    <archive href="https://github.com/garyburd/go-explorer/archive/6a82202d18e3b4a4a06b6c22769ee9511335e6ae.tar.gz" size="14928" type="application/x-compressed-tar" />
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeBUhUAAoJEIqj3WcC4bjBHuAP/Aga2B1Y68Qdunv7lx069nL5dJlwd10UUcU1prnIm0/o3VLAN51nYaSYyfdJVcTUzA8B8nYej3cc/0XVYRbyNPKJq9938HIYhewJitLLhUutbcHTyd/bp9WxXBGLyxA30NHzOCy5N57cJfA1fikB4EgHcM6yAdIR2FZthREKYz3LCK67l+/By1bcaZHxGXkFR008wXbH0Cd9mTZe5eF/tRmMEiyxhVZ8aJT7KR9dW2L0QU1U9v34BhhNeJd1pkqP8FW3WC3kdGAxIhD53FR9DAob3tv1a1yjfTiu3K8RhHq/iCm8ueKYwVTArOYsD3W/7lKvs4E6DPW0dV/WidzBGl/+jWMoe6lNQcgccGwtitnfXRAFUptVOfkxInTqvHXXda1maDIx7GTGvMdLfSy1MC1TuSFOvrmniSBcYNry9lH8QUdv7UUrdi6wfwzUPA0wf3buYAbHiSifetGCPjLx+ZWI+zf0TgVu5eZdx/oma8OXbXAGbPQH6AlaIW1t8nv95cZ/KRLVbfBuWcGN6Ovb/TsvSzBZ+J2VsxQsnz/itpvgfQKirWKsG9T3Hbj8ukAWY++i6Q8T2qcGszoeLMCIzJNZ/WM85KHbIMD+Uq/6Nf+6Wh+s9d8cDVZosmX6NB4n9u0KSy/hupwBSe/kGhbYQzmhhSJ5wyKywvJFZeWBzD/1
+
+-->

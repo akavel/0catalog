@@ -9,8 +9,13 @@
     <needs-terminal />
     <entry-point command="run" binary-name="cue" />
   </interface>
+  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Go Explorer</name>
+    <summary xml:lang="en">Vim plugin for exploring Go code</summary>
+    <homepage>https://github.com/garyburd/go-explorer</homepage>
+  </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJd9PkyAAoJEIqj3WcC4bjBmCcP/213/qrjoFCURmDaaCcg/EaksL7JMmyrStngdl9YeeU9ObIYViuC72el6cQqlXZSkaWYCtiduso4RsWugfVe+RXofwCDRfdYTn7puNva832Tz2G28CDLmhQz9yaGymY1QWzyui616yCAH4ogT8L1jJA8DqseP+3JBDR8f3f6Gqd8V3MrsBiS0LKQUITF7GScjD4/rx4Q3XgnyhqirWwtQ96DhaQ9QMUNDkd5Q5mTcTLPLBw/oyvoQS8hMcTMTDWnVIjhvVLDi5y+eBShxmVvuPVon+Fmaa9tVO5PgTqZ+B6eRniqQp7BkLZxxhKAASqJibQ97MQkTujJeCX84Mlklt0RnIgtfOYQUbQ7DAi3xuepkTWOUi6fJyYRzdubBYGsbcg5hESlcg5Jx+MRaD4j4FTLWJFmCJBEtxe4cCOAwnH7TCAC0qIvUWVBdyQWIZ5bC5Eq0CNxfH8u5hh58Q42RPqgzD89Jni1GDIWw5S62gbxivCmiDLnXY67GbR6H+bQTLDlL5eFa5LIay5sf9VlA+RBUuomISt9J6KjWy71xDoQ5+z334KPa7ppub2N6hdkcb0W/iSc2uyfwoEwIdDvHc1UKRQUtVegCujkzGwN44/boPNt6so6YUXAfxttQgTrNBCPBlSFnWmMOI1dRckuuCVgFTbe71+t6yIoiqYPQNZ7
+iQIcBAABAgAGBQJeBUh9AAoJEIqj3WcC4bjBrm4QAI0bKmSHMBeTaFL3yooU0iv4dRPslShusMpm6KiCrR9j+PnxKkwMAtUkcRrq97yZn1d9VgZDIUz7Px2EaVeo+kgUHhCYn14L0kBOCDKZ4bX05gNWSKSEtJ/ERBi4RUd0DRgyZm3QNPSj2M3E0Ptcvg4AxZggk0B4RVPmH4OdvWCEKwZprRq3nmUCQEtXz1PRTclAWxBA0dfjPq5yv4zsgboNCiM73jUd69918IC1Qd3mCNc1p20//cgLZ8UBWP/ralRrp7wxau93kjp69DRou05UIPKWsJBImfG95AIC6njUd1EbuyyYzu8ykESzFBkyZxj9BkMBwiuOJOmMY6NsFofNajSgTWhB91/2WlHbmAaiUi9HRMaGiM7Pnm/V1+pEEUoYRmbHKPDXkdMCxhVbk85gyQT88fW+TZ1t7B8jJ2B35izwBAWIl2PBN+shb8jlHIGlB9dSfuUMsgbAPTFzZpQHFPcxdwWG0trHRyeipbDUseIUWkyEOspEn4azNvXXY0F27IetkEkbP6/FUU+Y+sLk7piNGufg62qhjMuyg2n6m24IU7vwJuP2XgI7YkoImZGnB5H+2RXkYwUSCaot0c2c2yrFTG2htkMf8/rIZ0XFsOAfC2lwI4phVlrCP+DcBcY16lokGm9QqblFg0iPrzfrGhzko2GVBoT3J1ABg5HK
 
 -->
