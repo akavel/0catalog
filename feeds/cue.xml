@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>CUE</name>
   <summary xml:lang="en">Validate, define, and use dynamic and text-based configuration</summary>
   <category>Development</category>
@@ -14,6 +14,6 @@
   <entry-point command="run" binary-name="cue" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJd9PyoAAoJEIqj3WcC4bjB8ckP/3UzVSSbKtwiM8y9w3MFzH+CDt9GlszTTQrDmcn6klw8VxuTv7oHkuf5V/J1M5Htptlo91fMSAKeUdy2y/EnzUMVK6Kh4X7im5XyG+WdbEbY6m9xnIWhRs2kGEXOPDp0prZAcYMPPsaGcdxH95fjxayKG4uQuCcRUmyLzclU1A4q1+VheQ6LRQekVl9gw86SZzrnJgABpsudUSQ14qTA+hbtUhISQqnEbZR3QhEeRnlixd5D4c3/45LdgTLmUkeDPEgO7a4RGFhh5VXEfXVAgkfE2CUV89DUpxmzAFbEPyfNrDC70R4WysvrRrIVJ4ciYmYdBEH2Glx3k0FUNcQerbCID+82mfsAsAIWIGy0vzFutzCG2DjaIXwtCpXJ3PuUzpo6T1bYoZMXy1yp4pWEJjS4tTJOhbsreIC8QfFp3qf7FFIdb/TaOVlOp0uwfeUGGLDA9UYTKTT1x+AKx5tpS8CbgE6sqr9OadSCDOHu2HJ3nyDMJ2FI+aOmiw77NHQ5U7HyL9nGRqS9bHnGGldSMHyPmiI3BPMFGlgN4XXRhL37i/xiUOuOIFfIJuT1ylxnbSlkCsmosqgPMyJXkqhQjSUu/xmMKjJZOnnCsUlvEY9o0bhx+BteRLcWuow+I87Q4JmSvYJCRR/u0Jibp73RBvNm9LZhP93HVluHpsrZht8H
+iQIcBAABAgAGBQJeDSrzAAoJEIqj3WcC4bjBBYUP/jny/4CPucb/8uHIOf2Dn65S9AHcvtg7RaCrRf4MFgQEqfFzTsM5OKYNQnkAqFCMgRpB+IDEiizCLiA+/3ztKECnUCzoQzT47aEGUpc/4SqjDXzxo6ODu15QTFD9FLFmNPmxHamBQIGVyTYKSDT3JI+o5Ic4U/5YnKJZzZtP+8WK8BW1PAdDCHk4yDMb9ZrzrdBpeCbWTQKNtXEnZ95Qjo4VqMVnAt0w+N8ZrRqFP7OPXHcpEA2cnj2HbSpe/SMNxZzxaCaRawq4xZKsctgSMo6YzuxtKP3XjN0XXg0y4M5FmhHnzn56dz/l5FSSIrk1rOaJZAZGFPl7K5+F26iw5tem9yvMovKJ786iMkPZOHEftLDcTLbqh/AuMV8dSvfPaQ2Cxf3RnHWluwvkuTSskQ27ekdQrRGRj3VbjXo98+qJHSXOCaxGEhiFmGshU9jiKjRQnnbQHUkRMKhyZmCAB0BB3I2+nryAbkELODpN5RV8iVrjE7S9Gly4Hr/4fgf+4/HPCOMwlut3gHNE1+f6tahRqLXE6Tjk+qjcihnfwWrqYvN6L8FPxiXbQmKh0KJbvlBWO/S4J91Xrw/2VMxP3RgVqgYNVBxn6fEMe4EJ/KdQW2wIVdzD3dYcq4oy5A9tS/+pRy/mfIYZhrNHjyWrbFK+Iu6fD/TbzaO3mkFBbzhG
 
 -->

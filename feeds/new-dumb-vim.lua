@@ -30,7 +30,7 @@ local list = {
 local template = [[
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/{NAME}.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="https://akavel.github.io/0catalog/feeds/{NAME}.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>{NAME}</name>
   <summary xml:lang="en">{SUMMARY}</summary>
   <homepage>https://github.com/{AUTHOR}/{REPO}</homepage>

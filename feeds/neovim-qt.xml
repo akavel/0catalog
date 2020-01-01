@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>neovim-qt</name>
   <summary xml:lang="en">Neovim  GUI and client library, in Qt5</summary>
-  <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.ico" type="image/vnd.microsoft.icon" />
-  <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.png" type="image/png" />
+  <icon href="https://akavel.github.io/0catalog/feeds/neovim.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/neovim.png" type="image/png" />
   <category>Development</category>
   <implementation arch="Windows-*" version="0.2.15" id="sha1new=2919c810c294d80110855522a67d4e3c7888cb66">
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
@@ -35,6 +35,6 @@
   <entry-point command="run" binary-name="nvim-qt" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQ7NAAoJEIqj3WcC4bjBwM8P+wVLY8EY5wUgjmp0vQLzPnH6LG4pfz/zKiQvHnbfSCPK2rhKe10AM2bWMnSsfyPXqirHMn4MPnFrQamX+UXpBIMsr0mHkXfakcIn0xrr/AtFVBg0j5Vq2cNWrFhW905E71wnTAOiV2X+STfeQEIpnhrohEYeIUZS458OHX8GbdL0AhTX/I/Y/ZL9kT0/NrvFFm/rbV/YdlCAK1GjU6/v49cEj74/mD8pIr8S/eHW1Hc4jCMFsxP2jJUbQnVKtpEvVjlqVoccxwx32PGhwWiyHur0MjV7+bSBtWz9RVEhZ53MXU/qVBZuPhSq43PC6/2xlvobLxpBJutakcuov2HbNiyVudsrPQsY56NSNNfn38GNo/BoiblbD4nXlHUSdpMr5YALtax6jlSfs2qQW0aaP3f7fsIwTEdSIrCMmkk37noT+ZU6V6BsWyy7Lo2hJoG+mcZW2QucNeZ5aaMP5h7th6p7j3dA9A+d1DbJXnEpqyAZcg1NfjOpGREWmlBJ+aADtL3fBBkjFNwVIk/0sEcR9e2saWhCHgkZFFJmJ+L/I14KMqI7J7Oet37TavodflT+IjZFRZLUDFzuYnsElaQ9litxC1PnC7SKG5adSsJjeoo0VXvyx8THYgeHrw+gPxX9nrPblCd5whbx9oIBRAJkOhM0hlgGftPT1UYBHJTfprOc
+iQIcBAABAgAGBQJeDSrVAAoJEIqj3WcC4bjBLVsP/3LE2WlExLA/RrYGcOKZAGi0PA5w6h3cRtGVpuy7M1RNNSyWpVmeh7I276P25nngnUETVH7oAj7CqKRR7DKGgdtTWwLozvM+vc/PlH/8iOUPHan/J7L6ndPkOfojPUmcB20MKeoeAsFuxTARfxsoBl4ZhJVHxgIs5mjsQxhxgnfJ58/e65VPCEFUcbnKosIVik49l/gzbEO+wwzkl3Su3cCkxBWHQN2mReDLXYNySSEhYiNa6wEI1i8SZkjwvF+pFCctnUSyygnmZWOMhc5S8F0oOXKWCDSUnxZjTFQkg3m+RvnozLemIbM9Pa/Zjzy1cImFOScaqCGkq6qU7Du16B8InqHu4Ap7apzNdz/tJzGD8l5IO5y6vvUjZuTNf38YDQmbAzXZSe42CYxhtqdNtxckHWbujfd4ILRPv/9Z+QIThtt2VGOHbK1I+WtxRmwlGpwDH83wzB7FYXKO/keu7k8QBU3r10/iKPVsie2cSTVi1Ndmpke1Ot8uw/akNLsaxAPFrc+MPgaeVIKNXjkXVuTS8E/SW53fq4yW0U6i9CBqRThzvdjecS/6C7RjCF/N035dTfPoPONIIAOOuG00r/l+ZT7Ul50G3IGjeniiQYGK/IPWr4cnarDSwMY5IC1fstcxQHFvEy3bbwBwBMK45D4I5ItLFhe6ef//zHl41aom
 
 -->

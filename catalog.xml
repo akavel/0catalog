@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://0install.de/schema/injector/catalog http://0install.de/schema/injector/catalog/catalog.xsd" xmlns="http://0install.de/schema/injector/catalog">
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>choosenim</name>
     <summary xml:lang="en">Easily install and manage Nim compiler versions</summary>
-    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/nim.ico" type="image/vnd.microsoft.icon" />
-    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/nim.png" type="image/png" />
+    <icon href="https://akavel.github.io/0catalog/feeds/nim.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/nim.png" type="image/png" />
     <category>Development</category>
     <needs-terminal />
     <entry-point command="run" binary-name="choosenim">
       <needs-terminal />
     </entry-point>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>CUE</name>
     <summary xml:lang="en">Validate, define, and use dynamic and text-based configuration</summary>
     <category>Development</category>
@@ -20,11 +20,11 @@
     <needs-terminal />
     <entry-point command="run" binary-name="cue" />
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>neovim-qt</name>
     <summary xml:lang="en">Neovim  GUI and client library, in Qt5</summary>
-    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.ico" type="image/vnd.microsoft.icon" />
-    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.png" type="image/png" />
+    <icon href="https://akavel.github.io/0catalog/feeds/neovim.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/neovim.png" type="image/png" />
     <category>Development</category>
     <entry-point command="run" binary-name="nvim-qt" />
   </interface>
@@ -130,6 +130,6 @@
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDSEyAAoJEIqj3WcC4bjBVaMP/02ergcmkkg9K3VyATVx4svQezhP12x4AWImF3PwZ6AWByVzElureu7jMqsfovY8p5UMJQqLkJ3E7yB2/Cvqb7aG9a/rgy5C78cHB4LEe229EfXs+zGRzsRAiONymUcTtsRhIKcN66Hhf4C2AdkucMJPyWcLx1jeRAloqspJCKtQF0JLNjVUXblPH9q2XrKaUx9SIh7L3tBY9HgYlrfb86+pjtJnymF09N+dGGb3tQbJdGHf5pvB3qBHvOrYh/Tl+dsLOU0PYSTDLLNrf6XwSvVOVdyLaQaSdpZOeILWM0RWGfvGAf05jSqyflZg54imIq3f7Qrlz7mgjeZ/zf4htNW6LfYnBhkj0kjxu+6kD8R63LEaczilmyIfamKJrt9a2V0omV8wU5CNxR9gYyWd8+GbcGFO+GY3YM5AyALYe08X2qE3CmqeH2SatQDMyL3GvE1tLQ9dDit7CVCBlNQh0T5hAICHUOHaD/sH7XP175HuEAzAaS6hH3zIidISvM+MoPF4IXHOsCh+o+hwXctTVSnlyR7ix1dvrJ8EcgjaDrK3Z6QFuBbl0uQBOcHg+cMGwd2FMJKIbfGO080jNhf3AXS001+riDp0mBBX01XJyo+69nT8joEpPlmkfN75cqkOZZCYxTGVM1RFu+mdYdkivLmfg1QkQTMsBI1+9B6jzfHm
+iQIcBAABAgAGBQJeDSsEAAoJEIqj3WcC4bjBNBIP/jAmkLQV5F6EOxmzKsIw5j6lch1HGCRnB/pNOaHLCG/inZqGFi8+2ayJRVS+D0G6tT4MFcM4bYqkotVTYd+haAN9kdBI/f5viZ1LPJwROwcK2tJqFwPgIGZ41wlw64q7Gk+wA32zLH4I4qbEzfvtOy7b0RbuzAnp4TQayQWCftMmfkebyeK3EuqX1bk/6lsFkBHTYT3SQ2Fm2TeyiVQr0zTaIY3LW8qgRW8KQbNbMqsQSrFsmkzQFNIC9ZtLi48DruAqP+4LSZaLwXQ8zf1C0lkH+8ZN+K83hOyOyLwvK5G9ouEEiS3Zs8J66AzxUm1v8HDjpKDg+15CuLX9rDUaxxV7VDrCr5BoVWwdLgczMfq/S9i+QyQY4MTOhLoA+gHSSBooOuWv7J+SYzbhkabCT5cwTzt6zLRG5VRcBocbV7lU2SrE80KQ6U1myps0zBwx8wXIEomNT99o0qW8+nEajbGRwonz3FUDoaTSWG2oyiVBFU48r5eiMN7099V74HsEdYsxiAvrkrvx+OeB3bAIkpvgWH1nFLzgnwX3QlRUQ8cZk0eJxbpbEHafxuGjlFZm+pAE+YlmSf9KNbfBq1SMl/4iiWvcj5nvNJ1NID5+5fk1EQT427zWwjNh18aIyU2MovWnajYxqwWcI5HXdB+DlsN6BmGbCa5mr8AN8q/N396O
 
 -->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>choosenim</name>
   <summary xml:lang="en">Easily install and manage Nim compiler versions</summary>
-  <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/nim.ico" type="image/vnd.microsoft.icon" />
-  <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/nim.png" type="image/png" />
+  <icon href="https://akavel.github.io/0catalog/feeds/nim.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/nim.png" type="image/png" />
   <category>Development</category>
   <needs-terminal />
   <implementation arch="Windows-*" version="0.4.0" id="sha1new=7eabd468436b96864d77f508049a1db4c2d5b46b">
@@ -18,6 +18,6 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDSDPAAoJEIqj3WcC4bjB528P/0AcrbhXlnaLdzCBOLy+ccYi9w0ODB9i3FVpTm76p6h8FC9KCYfEPb1ETz26Cflg7jEGzVW6taz7gAKamRCo/V9BeYtv+iHVDSQS2LrDM9wJfw/nOaREVIB7CXQVfEtG70N9LBL0Sce/1KzmkgsuZ7sokbfBSkY+bb8NcC0Y/64zbuAtUAfJUjyMrAIDcsIIAfLjFOBlBoSZRAruuohjCvErQBhgG9JgZRoLzofDZk8Ngc8i2iBVl3OyRFmfc3kDQZHqVj1f7DKgjLJ7JZkFWH9564bSxk6Axp49athgwPmoe/TaOkgKc+Izvi24RcRCkZlYVAFJ7cZFjqRnRCXueL8C7RT0uh+hL6nZHd0O/ZOFvVy0W5iwsIzr1hK6MV534cXDjb+wueUduMtkA50AxwA+xurjCX9ovhSHEVxXhoQnNdw7VH5oKj1pFwel4H3+1peq7dQVMoDidI0iZlmi9NDel9nVNCv6FohLaXuCF1H1c/WZu/BiVqm+OxEOLULTwrZZHnzjLRADPbm702nm3VZ1HcutcPTFJB/TDOdw/1RMLogwD8mVsaTe4B6RVN8fUd/yjE1uoAJfXxviy15PIEuxo/EzvEhYnSx7PXhNvcEo68Ry83CVqiBMbeJJO3jQsyltafAEhPMauTsKAfxjsm6V6bunSSuUV9UptQzuGHm9
+iQIcBAABAgAGBQJeDSmXAAoJEIqj3WcC4bjBbKMP/30/2JtGamMcMC7byYmjN8BSJwLclJ2QY64Pw4aKvapxEz0Ti79yttk7BevkEvHawbrjyQk9ZykqbVfjydRPF1BuGQSDwhENOc1g08bsa/Xx0MRTV2zkdKHCzNK1N+mSOTVtH22352EiMqVfG/4YoOQRkPILqPe4/U6YnZcUP8C6rctIYM9UHvUeXjoHt1pQBUYB2Ct2ahLqoK/a/Ol43z9iri2NKPTmFwcT9e9LFZWl1U0f2fWQYF0GuCkw33vrmYQAiFPBxp4XWmFU3ptgDPCjIgNGOWT45b/p+gZ/ydb4MtQWNuw2L160EsbDFcxqOwujrl2iSQ1h7ricQHKj3LfZGkz2aGXRvahiXNGrWf3YvF3DHjLIosaekrQ7u6Ow8mbp6C533VhLTMQmZ9lQQCPbegPnnX3b5iydV9S3hCWMAFh3AWtPZ7+YM/NOdlz6j8GJo+hOjLyvKlUIr60ZGDgwIttoWPEsQyfBXh/+yUVspwcKL05CfWQYj/kERYD2co4iBkEg+est1BN8iZqtQ5E4l5FBdY2JA6t2ukq/FGVsJVT3VHPIi0Bk3Bnah1tfLYu2ceraMQW0gw690Idkq4rOrR3CLln65h59VDZV/IF6WZaRwaenw6vwcyurQGfq+r7cR3edvytIlNucN7JGR5sMyCkwJ+rA8zl7pPER91my
 
 -->
