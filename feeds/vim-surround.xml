@@ -6,13 +6,13 @@
   <homepage>https://github.com/tpope/vim-surround</homepage>
   <group>
     <environment name="VIMRUNTIME" insert="" mode="append" />
-    <implementation version="0.20191128.62920" released="2020-01-01" id="sha1new=ea6c442752b61395c6690775e16b97de37ef1f04">
-      <manifest-digest sha256new="LXYYAXPQEYJHJYTCBOW3HGSH7DBCZWZ7TTYBQG2Z7VTWDRCGLA2A" />
-      <archive href="https://github.com/tpope/vim-surround/archive/f51a26d3710629d031806305b6c8727189cd1935.tar.gz" size="10268" type="application/x-compressed-tar" />
+    <implementation version="0.20191128.62920" released="2020-01-01" id="sha1new=1f75d31ed7dace4bcdd09cbc1590a77f74d0e1c5">
+      <manifest-digest sha256new="DWH42A3VFCSLBIU7GTAUW2E2TYQUMYGK4UBZVPKOUQWGQNM6CH5Q" />
+      <archive href="https://github.com/tpope/vim-surround/archive/f51a26d3710629d031806305b6c8727189cd1935.tar.gz" size="10268" type="application/x-compressed-tar" extract="vim-surround-f51a26d3710629d031806305b6c8727189cd1935" />
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDOOiAAoJEIqj3WcC4bjBQ8sQALxXtrxCGGAJG06Jr5MkIroKokBe2I6tCIXUTB3Lyshhu9Fhtoln+Rd2sVgqg/aznTmjoiD9XC/B87WlPSwudKFrNEi1ic16nD/iozpV90Nmg58BAhpzB+/lg+AtsS82IpNJnmSBXmZ5+cpzroJUaMVgfigyXxs5VtrLwV7Ku4jEKCciiuiOV8gnydPcUVFcCvzQqP8oIDNZwAF95d6ZdUWuxuLXTt3RFWp6ZwtTI1/6wZRxsLNH3peo24Mk8KfyrRHbbsQln+OuizBui/QkF302JEqpc+tEhtMt50A0k3Dr4W25TsP96r3T8QHUD7Ms4tp6Gm7Gmu4IV7bs5oX5rhphurmuleAgVrmnXLOm8R41umj3al2q4jdPrdtVCx8JOJiMxQLllMMrJWJLmu44pnkIkfF4IG8JpZjUMf9/Ja///TYlZrW0KyhOZO3dDD62rVVxu1Sf07rx6bL06JfekubdR+x/m6N3uNiMwxWYdWZiBM6KRH9GvCOX/yLuCIxFAJTixGHuol42MIWw71UVjc8x4iwvvGjbRbOtFVe2rSA3SdEC51dBjRNo7S5NAqm0yoo/kKOJuiVQzriEUs7Iim6zHGxU992wZ7rzqvOJKlWQJq/NDitZUrROs6yxl7pP4BBcThkQFPY86mx1S685KPlQXOwbYUH+ek6G09wkHyZv
+iQIcBAABAgAGBQJeDOzSAAoJEIqj3WcC4bjBLIwQALttjzsvQZ1ha7J5M06PAxLo7hIaUzvlubexdsFz74T6gJxXo/Hoh7EcCbvjbXxY17cnxt4DZrUxd/tRQNeKCBPPm2cVS2SGlfTZMZHycVBS+oevkK2w4kGA2AjbLxvcP7yZhpsYHCqbOaoC5jJE8GVyqAxJm1sZuJI4z+qVrpqagB4mwzISP2VoELWzdbXVpxNI5x1tMtdvkFwG4WsYN6pP4UI2zjOfU+cOhxV+91qmvcsjCKRdQ5xBcUH0fqrD928mLlxvMqqdaDbjc7DNmT6HEBNryhb6e4SfHz9he+58z0Vz2BVoLvlqW9TMXIEe5lbgIbOGlQ1WTqbgDzL9gr112dgVcYxT1v8xUs0gz0iUnFfYN37ZekWM76EBtOyNyICKF6/TW2V46gaHAScmg5bPk/8r3zzavkYTy7JCTVwyUn5KYHX7CwKo7zanwzs/xFDtA6+ZKoM3ZVHhkzMaDXQ3KRoYg6jv2G3SVINc45pdyggWV4fFTnGHT5Aab0UdZIWjrn0V/mxvvptzw3qMYDDlNuCAxsXVff+mNCibrlwwH8UXXU5TzBaF3ls35M6402flAaC14ipUSXiorhVKurYMN1aZDqSOfYANvySD7wLgiuzrWi71trkgPL5HF75bg1/eIqZqw4llfMZmqzDlhNtzFeqhVzZsbtZ/FrLg4twU
 
 -->

@@ -12,7 +12,7 @@ local template = [[
   <group>
     <environment name="VIMRUNTIME" insert="" mode="append" />
     <implementation version="{version}">
-      <archive href="https://github.com/{AUTHOR}/{REPO}/archive/{commit}.tar.gz"/>
+      <archive href="https://github.com/{AUTHOR}/{REPO}/archive/{commit}.tar.gz" extract="{REPO}-{commit}"/>
     </implementation>
   </group>
 </interface>
