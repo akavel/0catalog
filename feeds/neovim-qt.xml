@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>neovim-qt</name>
+  <summary xml:lang="en">Neovim  GUI and client library, in Qt5</summary>
+  <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.png" type="image/png" />
+  <category>Development</category>
+  <implementation arch="Windows-*" version="0.2.15" id="sha1new=2919c810c294d80110855522a67d4e3c7888cb66">
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
+    <command name="run" path="bin/nvim-qt.exe" />
+    <manifest-digest sha256new="LD5EM3LPFYXQE22KQ74DWLVYPIRVIVKVCWU5OBG26XHJREIIFCQA" />
+    <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.15/neovim-qt.zip" size="21497806" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="nvim-qt" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDOhLAAoJEIqj3WcC4bjBU4EQAIokY1yQsGqX7BtPoFxDXp5HX1T0PjuBZptu17dgi8thc7rNFjvcc+J+cpXqcoEyeTkiZrt8BNGNc0SJSr9C0bqvkNfT7OQTiTPlU67JDK9LShhF44UXYigM7XY1YwEScMwag9KcUhh3fyuPA5cVfjIpHSApJtn8R7F3Xk9CTtcLJID/yxeRBXMPx4RmOMBkJ9VEiZtlk2Cds+KmBK4CtCF7U/PbNQGVPZ3kDufglQUvmYbOYUEsgz0gaUZ5j+RNlAlF2jIf4p/Ez8//znBVtvJYdPtB2eJxcJD0zLEuBttZcsZqdVjLel918c87ml2HCmg58kM9f4NnbuLERJB3o25eXebMW8Dp/gFvSA20U2MeGrjoPFCDguiRxhN+BgwHViAZ5rAsZA7sWfF8fctiMnrBfFMxkOk5waBDbsulfGcf+kwaXwWfWlYVWrpiTgwHtF1TDjleyShRWN2SAYBwXor2WuwJOiMzj5h+l9yQTsEUQ/Payg2dKSTFNdshBc5ghMhc1+eu6kUT1Xf1Jr8QYGHfMAv6Xzco4dtxQ9+CGRD3VlGS0opb8f3+5+2i9MaTJ0k3Rr4tlE/4+401ZdKL04q5ou+1MyOxIlmmAjqLKg6bV9SlOj8dZMCS4vS9mFtOTjTlo92tlrjwNKTG2s/W5nlM/QX4/Axpz2Tzvn6LglVv
+
+-->

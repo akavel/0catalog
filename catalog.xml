@@ -9,6 +9,14 @@
     <needs-terminal />
     <entry-point command="run" binary-name="cue" />
   </interface>
+  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>neovim-qt</name>
+    <summary xml:lang="en">Neovim  GUI and client library, in Qt5</summary>
+    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/neovim.png" type="image/png" />
+    <category>Development</category>
+    <entry-point command="run" binary-name="nvim-qt" />
+  </interface>
   <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-surround</name>
     <summary xml:lang="en">surround.vim: quoting/parenthesizing made simple</summary>
@@ -16,6 +24,6 @@
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDORyAAoJEIqj3WcC4bjBnYkP/2RTefIo0PjUnu+hhs3lJbxWtpBmZv2mtF6McCQw7APJU3INJPecH/5cySVh2YT+Ip6gM3xclpj9FjoTWpNhmgjXNAhdCZPa/RZlkbMqF3g5vGCUCiiUHd164stnf0jWzkmWPcpsZPq4+4fdwQ3l3rxNWzP4Nerqd9VfF456pmdiPS7GhQXP+YEl4l4KPXH7bAeoB2auOHL+4wYsValKxGdQC7fu3O2rZohu/ZhjzoR5bNjglaQBNkfPrrD8MN5Yje99brDNSmRVQAXVk2oEuq2yAqGfjRYWVH28FNnTPMPEld7PzqsnHFAb+LvuEo6xjzAt3TkEbiHd16p5YQmyh10f4DGBK1EfnjSXKMAttyfAFVdW4zwAS/qfzIn9T/m5pOVk/2Vm024QwGcCIvx152sduQX2cFDIPnV4tK9WX1htzs0gounSj1A98NyRHOmwMjdhkZBJ8fb+PoNj5qV1kyAtBHJRciUMLUkeAtXQ+qPL10kgafcLhbKAp3/6fvolvTrLKv29LA+kfEb710f9ueRH8CkmgTDbKdbh1Iueo6c7r01yoXP+bV/Pz4u+i68L/jjOaaYR/co4OdmEunCi3uaflpd33LNdrilQ/KjNrG2EmjBxBnHIH46V/mBDoynufKXfnd1HiplS3nQKvtfAW4+jV8tbNoRvkOeb9cT44FwH
+iQIcBAABAgAGBQJeDOhbAAoJEIqj3WcC4bjB2t4P/itJqaWrPSfLB7L/cAqklolYSrnprhWOHnIm3R7giuIHd0DNNEHcfUaNpG2Qcr+tbOF8b/vh0lNQrCR4XIFlkByldclbTncxWAi9Qf7ooO+WW8L94kgXYVJQ1jEzYCA0lXGE0uHzb3gHC+dxZWqbqeJIwRHrVJJKMuCPiAR5sZQ/6n9LEhIW//BLZUR3yAa4lEJB+RKluUsHFPyzVc1/7mwcqvkLVLeDIsRqKFpZnVVibEwV1+T70NIu/FjpR918w7YJGDvMHy8Udn2s7thE/mFQRbBVsEbtuRyZDAuz5icuLbPjy+k6OGXwUac1qp9MWCmJektYjuwItX3S+R38r4iQE+ZX/ViU/tlfWNsj7wXEMoboMJYyoYGq7pzunPH9jIZRDpwecrad2tRGxrwmjAvlfLOJ0ysLK8GG0jzbgGBAPXgoxrQgw/J7RaTdqWS+M92MVUflm70GjtgbP6T8guxhvwnuVZtHToGC6KBwa76SPPj2XKDsQTuf2ip67bHKo/1Jznv0SbRzHjuo7TtxFS0I7miP0IGkaEhuh+1Nkq8bBTutIUkPSxz8Uot6/2eGdT5J8VgLeCtULUaSWBPRGyj088jAUlJS1JWZBy4QVOkekEcF6U5ZvfvGlo9bvfcoY2kDdYi/o1mWdihbqJq6xJ+WVg3Af4xYO3u6vRaT+N6B
 
 -->
