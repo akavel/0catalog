@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://0install.de/schema/injector/catalog http://0install.de/schema/injector/catalog/catalog.xsd" xmlns="http://0install.de/schema/injector/catalog">
+  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>choosenim</name>
+    <summary xml:lang="en">Easily install and manage Nim compiler versions</summary>
+    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/nim.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/nim.png" type="image/png" />
+    <category>Development</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="choosenim">
+      <needs-terminal />
+    </entry-point>
+  </interface>
   <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/cue.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>CUE</name>
     <summary xml:lang="en">Validate, define, and use dynamic and text-based configuration</summary>
@@ -119,6 +130,6 @@
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQ7fAAoJEIqj3WcC4bjB9twQAIKVHqcCS6lMblrc6RBAlhoD8rhzdNCPtaGX3aaqefFBW7MqiwU/mUbJtHpyRlZgXzInkKV9944SMVhnl51f8XimUIWz1p4MCyJ7sI7lbj1ijQQYPUb8zMWGR+MT4M5ug1yPmFihoPoJQ+BjUB9KzuQqI2lY4B9Ik4Dyz7w6L+znKvOT14z7De5iTO0N2Z8fl2SSAUU2GYz25oZ3NKDsnMMipq1OBc3OcJpB8zYqLXWh0ChJkUtCg804FEiKvMGEgNGipas67bpdOO124WiXcLb4xUZWFnCzYZi805Y+GYCVHgnJQdrerCZiLKi8JwUj/ophaueIMxDH6udWg8fj1TFQKYSOSMNr4gqnsLjDqFGU1SXszgvhU59Wlkzl28dElVwjSduxKzJCYPG3CvP96Yf2bAoFx0tUh1MibJdyNWZ4CbcwH8Y2URgALTjOTL9wHzf2grN4YQIpVbKCgcjyiAaoeFrxW8BqqTHafIeGYyimudsXrTR7Dv6TZPPbIug8Hha/y7yMTMPOh7GgIx2KHLQYA2Hee55KpiHrnc1pRwVQnu7oHPDOtgAk6yeY4Zf/vdqnQpCUbeym1lmiyaF6KCBEY08LSAVEdcyzBVsuzzhr8UelsTOoIonxoaBWTdIJq52etE0aolQQTTE7IZCpRK4auzA3UJ/ar3wAh/mhQb2T
+iQIcBAABAgAGBQJeDSEyAAoJEIqj3WcC4bjBVaMP/02ergcmkkg9K3VyATVx4svQezhP12x4AWImF3PwZ6AWByVzElureu7jMqsfovY8p5UMJQqLkJ3E7yB2/Cvqb7aG9a/rgy5C78cHB4LEe229EfXs+zGRzsRAiONymUcTtsRhIKcN66Hhf4C2AdkucMJPyWcLx1jeRAloqspJCKtQF0JLNjVUXblPH9q2XrKaUx9SIh7L3tBY9HgYlrfb86+pjtJnymF09N+dGGb3tQbJdGHf5pvB3qBHvOrYh/Tl+dsLOU0PYSTDLLNrf6XwSvVOVdyLaQaSdpZOeILWM0RWGfvGAf05jSqyflZg54imIq3f7Qrlz7mgjeZ/zf4htNW6LfYnBhkj0kjxu+6kD8R63LEaczilmyIfamKJrt9a2V0omV8wU5CNxR9gYyWd8+GbcGFO+GY3YM5AyALYe08X2qE3CmqeH2SatQDMyL3GvE1tLQ9dDit7CVCBlNQh0T5hAICHUOHaD/sH7XP175HuEAzAaS6hH3zIidISvM+MoPF4IXHOsCh+o+hwXctTVSnlyR7ix1dvrJ8EcgjaDrK3Z6QFuBbl0uQBOcHg+cMGwd2FMJKIbfGO080jNhf3AXS001+riDp0mBBX01XJyo+69nT8joEpPlmkfN75cqkOZZCYxTGVM1RFu+mdYdkivLmfg1QkQTMsBI1+9B6jzfHm
 
 -->
