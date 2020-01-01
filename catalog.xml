@@ -9,13 +9,13 @@
     <needs-terminal />
     <entry-point command="run" binary-name="cue" />
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-    <name>Go Explorer</name>
-    <summary xml:lang="en">Vim plugin for exploring Go code</summary>
-    <homepage>https://github.com/garyburd/go-explorer</homepage>
+  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>vim-surround</name>
+    <summary xml:lang="en">surround.vim: quoting/parenthesizing made simple</summary>
+    <homepage>https://github.com/tpope/vim-surround</homepage>
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeBUh9AAoJEIqj3WcC4bjBrm4QAI0bKmSHMBeTaFL3yooU0iv4dRPslShusMpm6KiCrR9j+PnxKkwMAtUkcRrq97yZn1d9VgZDIUz7Px2EaVeo+kgUHhCYn14L0kBOCDKZ4bX05gNWSKSEtJ/ERBi4RUd0DRgyZm3QNPSj2M3E0Ptcvg4AxZggk0B4RVPmH4OdvWCEKwZprRq3nmUCQEtXz1PRTclAWxBA0dfjPq5yv4zsgboNCiM73jUd69918IC1Qd3mCNc1p20//cgLZ8UBWP/ralRrp7wxau93kjp69DRou05UIPKWsJBImfG95AIC6njUd1EbuyyYzu8ykESzFBkyZxj9BkMBwiuOJOmMY6NsFofNajSgTWhB91/2WlHbmAaiUi9HRMaGiM7Pnm/V1+pEEUoYRmbHKPDXkdMCxhVbk85gyQT88fW+TZ1t7B8jJ2B35izwBAWIl2PBN+shb8jlHIGlB9dSfuUMsgbAPTFzZpQHFPcxdwWG0trHRyeipbDUseIUWkyEOspEn4azNvXXY0F27IetkEkbP6/FUU+Y+sLk7piNGufg62qhjMuyg2n6m24IU7vwJuP2XgI7YkoImZGnB5H+2RXkYwUSCaot0c2c2yrFTG2htkMf8/rIZ0XFsOAfC2lwI4phVlrCP+DcBcY16lokGm9QqblFg0iPrzfrGhzko2GVBoT3J1ABg5HK
+iQIcBAABAgAGBQJeDORyAAoJEIqj3WcC4bjBnYkP/2RTefIo0PjUnu+hhs3lJbxWtpBmZv2mtF6McCQw7APJU3INJPecH/5cySVh2YT+Ip6gM3xclpj9FjoTWpNhmgjXNAhdCZPa/RZlkbMqF3g5vGCUCiiUHd164stnf0jWzkmWPcpsZPq4+4fdwQ3l3rxNWzP4Nerqd9VfF456pmdiPS7GhQXP+YEl4l4KPXH7bAeoB2auOHL+4wYsValKxGdQC7fu3O2rZohu/ZhjzoR5bNjglaQBNkfPrrD8MN5Yje99brDNSmRVQAXVk2oEuq2yAqGfjRYWVH28FNnTPMPEld7PzqsnHFAb+LvuEo6xjzAt3TkEbiHd16p5YQmyh10f4DGBK1EfnjSXKMAttyfAFVdW4zwAS/qfzIn9T/m5pOVk/2Vm024QwGcCIvx152sduQX2cFDIPnV4tK9WX1htzs0gounSj1A98NyRHOmwMjdhkZBJ8fb+PoNj5qV1kyAtBHJRciUMLUkeAtXQ+qPL10kgafcLhbKAp3/6fvolvTrLKv29LA+kfEb710f9ueRH8CkmgTDbKdbh1Iueo6c7r01yoXP+bV/Pz4u+i68L/jjOaaYR/co4OdmEunCi3uaflpd33LNdrilQ/KjNrG2EmjBxBnHIH46V/mBDoynufKXfnd1HiplS3nQKvtfAW4+jV8tbNoRvkOeb9cT44FwH
 
 -->

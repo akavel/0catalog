@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-surround</name>
+  <summary xml:lang="en">surround.vim: quoting/parenthesizing made simple</summary>
+  <homepage>https://github.com/tpope/vim-surround</homepage>
+  <group>
+    <environment name="VIMRUNTIME" insert="" mode="append" />
+    <implementation version="0.20191128.62920" released="2020-01-01" id="sha1new=ea6c442752b61395c6690775e16b97de37ef1f04">
+      <manifest-digest sha256new="LXYYAXPQEYJHJYTCBOW3HGSH7DBCZWZ7TTYBQG2Z7VTWDRCGLA2A" />
+      <archive href="https://github.com/tpope/vim-surround/archive/f51a26d3710629d031806305b6c8727189cd1935.tar.gz" size="10268" type="application/x-compressed-tar" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDOOiAAoJEIqj3WcC4bjBQ8sQALxXtrxCGGAJG06Jr5MkIroKokBe2I6tCIXUTB3Lyshhu9Fhtoln+Rd2sVgqg/aznTmjoiD9XC/B87WlPSwudKFrNEi1ic16nD/iozpV90Nmg58BAhpzB+/lg+AtsS82IpNJnmSBXmZ5+cpzroJUaMVgfigyXxs5VtrLwV7Ku4jEKCciiuiOV8gnydPcUVFcCvzQqP8oIDNZwAF95d6ZdUWuxuLXTt3RFWp6ZwtTI1/6wZRxsLNH3peo24Mk8KfyrRHbbsQln+OuizBui/QkF302JEqpc+tEhtMt50A0k3Dr4W25TsP96r3T8QHUD7Ms4tp6Gm7Gmu4IV7bs5oX5rhphurmuleAgVrmnXLOm8R41umj3al2q4jdPrdtVCx8JOJiMxQLllMMrJWJLmu44pnkIkfF4IG8JpZjUMf9/Ja///TYlZrW0KyhOZO3dDD62rVVxu1Sf07rx6bL06JfekubdR+x/m6N3uNiMwxWYdWZiBM6KRH9GvCOX/yLuCIxFAJTixGHuol42MIWw71UVjc8x4iwvvGjbRbOtFVe2rSA3SdEC51dBjRNo7S5NAqm0yoo/kKOJuiVQzriEUs7Iim6zHGxU992wZ7rzqvOJKlWQJq/NDitZUrROs6yxl7pP4BBcThkQFPY86mx1S685KPlQXOwbYUH+ek6G09wkHyZv
+
+-->
