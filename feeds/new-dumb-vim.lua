@@ -1,4 +1,5 @@
 local list = {
+    -- TODO: handle vim `:helptags` somehow; try using https://docs.0install.net/tools/0compile/developers/ with <compile:dup-src .../>
     {"tpope/vim-surround", "f51a26d3710629d031806305b6c8727189cd1935", "2019-11-28T06:29:20Z", "surround.vim: quoting/parenthesizing made simple"},
 }
 
