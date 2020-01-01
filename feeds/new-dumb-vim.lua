@@ -58,7 +58,7 @@ local function mkfeed(info)
     fh:close()
 
     -- make 0install fetch the archive and fill SHA sum
-    -- TODO: is there a simpler way to get the SHA sum, size, etc. than by using 0template?
+    -- TODO: is there a simpler way to get the SHA sum, size, etc. than by using 0template? -> write my own OCaml or Go app/subcmd for this if not
     mustexec('0install run http://0install.net/tools/0template.xml _tmp.xml.template version=%s commit=%s', version, commit)
     os.remove(name .. '.xml')
     mustexec('ren _tmp-%s.xml %s.xml', version, name)
