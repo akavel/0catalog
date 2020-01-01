@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-unimpaired</name>
+  <summary xml:lang="en">unimpaired.vim: Pairs of handy bracket mappings</summary>
+  <homepage>https://github.com/tpope/vim-unimpaired</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20190825.220900" released="2020-01-01" id="sha1new=7b51253222cb8bcbbe59797095f5ed44eaf4669b">
+      <manifest-digest sha256new="VQR225ALJETCO4XS27FNYDOB7W5SSBHYCGDNQU3XH3TTUDOLB6WA" />
+      <archive href="https://github.com/tpope/vim-unimpaired/archive/08e66532bffed445c949ae0a0501940c000553ed.tar.gz" size="9456" type="application/x-compressed-tar" extract="vim-unimpaired-08e66532bffed445c949ae0a0501940c000553ed" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQy1AAoJEIqj3WcC4bjBKiUP/3dvSGc52eOV8VFD/JOwiDafVPbDl0yi2B9FDCgy45yZ25GAnEQlD3C1aJOkZrs6pPxn9ND326yh0A89DVXhx5W9t7QH8Lx39tI64GFvjIK7tsoGGGMLi10t0L82FpDUmRfrYBNlqb7KC8kMBkoCQDJ/PftB2aHxXx5xDMSbRzTgdIipPWXoAJvqsiwFMecqaTlcBAi1uxdtHttcqdV2XVVQdmV0MBMu1eaw5fdwx2DOY2KmXVuNhWh2mpvv4t+QWFncuvkP856izF2CCVTS9j2KIlsE6b4FZOjlUOg3b8YhDkp6vkns+/JvUGeRPCX0lxXIkDc7kRJxeWsaTOjozd49qK83MubfTo3U2EjMHCk6AHMgHcvo6GowuRfMssS1pug8PGfq4XLx4CfSZsWFpRcEWA7e4Fh4zeqJyX/fo0rAaYAh86I8rwijTJ3hrVoxqhyd77MkC5DOab1YsadLBzQaBSl4Jqp4lQL3In32Au3+pMBTjUL0Toc528nhcjAHQ40/Yz6JE/ASlyrgk3gIkfvsCP/AfnOjVEgASFdUE3VjFRWVL0Ojo5NrJVSp2LFahEfEchEtTzj1Z0O9e3NrrAoT6EPneoej/duzgwylnOnzME8BpW4PpoEsEZ/q53fZDEScWcPe/uX8pJXT4Ot4Gw9c56VSPf3huX+aQIUa+Gj1
+
+-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-neosnippet</name>
+  <summary xml:lang="en">neo-snippet plugin</summary>
+  <homepage>https://github.com/Shougo/neosnippet.vim</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191228.3657" released="2020-01-01" id="sha1new=daf9a8ce8bd21f672be9c77ab39a5b814f4abdfa">
+      <manifest-digest sha256new="WFJHDX7FOYH4Y5O26IASN26D4PSXZ4BWSGGKL2EWYX5ULJ6ODXEA" />
+      <archive href="https://github.com/Shougo/neosnippet.vim/archive/6cccbd41851f3d8f47c5e225d552a217cede4f3f.tar.gz" size="45702" type="application/x-compressed-tar" extract="neosnippet.vim-6cccbd41851f3d8f47c5e225d552a217cede4f3f" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQxNAAoJEIqj3WcC4bjBphAP/RJeWQY9+rMLnxlIhWgUTz4/c2deSjXJW9NNxiAuMTl0FerZFnFfftxyM+GzlcQLcOoRvVqwTcUIu9Uc5IppMx8GHbAlySQ+8zM3TP0wYgxO8ti+dmg4EKau3C+7yCFgJgPvpbTYP4ogl3HVZtc+QYq/2X+9C2o/QYUm0+zSsWneNMnrkyPV68d6qfAOtjAPEHrd6xQ/95aRpb+0chygtfmjrlgmGkSEdWeKi6ycFIkCe6J/C4Z/hSkSKUnaYF8V4dCscOQf/925OcL+Tv3iqO8TzoID5SNuv3Net22l4DY287EEzfXh0YGR2SXmPZQvd46QEHZjjmW7+uKj4M4rZA1y7omLvSsQYbLIPxdTQZwR7wZJhMVGteeUqgSQl7qXSGMkjB8rysChvWUgy/8XvUFIrrz4H2eWIHQMJeh1Xh0GzrBSI1hZZcnhuVJeIyRh+63rGW65w7M9+LtQ1uxksYVDjzYCCDS0MA50G+/9MiFuQS3ObnZDOTQRHeMv6PQUpgOj2JeKvzByb2YfVBZrFtUpcaLgnS7OdEfbtteZH3T4trt2eH9fJoOvb/aKUzmmp934AG8jceZldTdlOF+vBV1GiYGXjz1kQeag+ffI9InTVEWHQawLfCCBm+f/ZmlicKwmJnI9AlQg8JnjVMNKTNaBIXQrPwu4qG7PpsfbCDbU
+
+-->

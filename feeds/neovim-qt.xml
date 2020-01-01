@@ -8,6 +8,26 @@
   <category>Development</category>
   <implementation arch="Windows-*" version="0.2.15" id="sha1new=2919c810c294d80110855522a67d4e3c7888cb66">
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nim.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
     <manifest-digest sha256new="LD5EM3LPFYXQE22KQ74DWLVYPIRVIVKVCWU5OBG26XHJREIIFCQA" />
     <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.15/neovim-qt.zip" size="21497806" type="application/zip" />
@@ -15,6 +35,6 @@
   <entry-point command="run" binary-name="nvim-qt" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDPVuAAoJEIqj3WcC4bjBv78P/1h8igx+TG27uKR/Fg1g47mHLeviF5jMl+OlAC6WAclN/z/0tW9VFtmxdjsst3NddwjYS/Tg6B/LY/C7Bwyl9Z79AFUit+KkfgFRFX85a/bgflEf0KoSxuefggi1FEd1yjFTSzLTkc5OEfQxDQMTohBMNu8ijLsDtmCb4zLA129pwaon39Rj5ACwwP3Qyu8pgUVjUi8QByxY83pd8cWiIZ65CH4e7NfhG+sbWGMxd0T6KQzMsdRZgfGzv7/juNM82K6eHXnUckJbD+yKuIUReE/PXOKOjoUWR5s7f2hIMugiIeMA+UDthxsBrZmKdvdJSz6d2R+smAslh+Iorch7mhKza0iKK2Dcd+fWePU0hH0BKYFdsDWdzsjJPZTH2q2eolceQfmiIKQRkKveFqsjxQ1UeiQRh4iZwAikl3PEgAxz8IDuGJHfgHknfbp0AY9DzZl0AM6Wki1qyKjAm+M3fKUzY7kSkpJk/yawf1F8Y1IoikMcUOMU4eWFPGNrEHKe8vXtRBuw4dEj7reQj/x05TbGGfQujliIeaw7szvT3RcQDWIfTUk1VsvdFYUcJvOH7AsDOxzRKe4b1lrt81d6xVB7izVkc0YQnnWcsiPbxxWz5IWiF6wXx8rbygdSUBwvmYeKqrkQHD9as4kGLE3lIPYN1P22bgmpNCM+sWqi8ZtT
+iQIcBAABAgAGBQJeDQ7NAAoJEIqj3WcC4bjBwM8P+wVLY8EY5wUgjmp0vQLzPnH6LG4pfz/zKiQvHnbfSCPK2rhKe10AM2bWMnSsfyPXqirHMn4MPnFrQamX+UXpBIMsr0mHkXfakcIn0xrr/AtFVBg0j5Vq2cNWrFhW905E71wnTAOiV2X+STfeQEIpnhrohEYeIUZS458OHX8GbdL0AhTX/I/Y/ZL9kT0/NrvFFm/rbV/YdlCAK1GjU6/v49cEj74/mD8pIr8S/eHW1Hc4jCMFsxP2jJUbQnVKtpEvVjlqVoccxwx32PGhwWiyHur0MjV7+bSBtWz9RVEhZ53MXU/qVBZuPhSq43PC6/2xlvobLxpBJutakcuov2HbNiyVudsrPQsY56NSNNfn38GNo/BoiblbD4nXlHUSdpMr5YALtax6jlSfs2qQW0aaP3f7fsIwTEdSIrCMmkk37noT+ZU6V6BsWyy7Lo2hJoG+mcZW2QucNeZ5aaMP5h7th6p7j3dA9A+d1DbJXnEpqyAZcg1NfjOpGREWmlBJ+aADtL3fBBkjFNwVIk/0sEcR9e2saWhCHgkZFFJmJ+L/I14KMqI7J7Oet37TavodflT+IjZFRZLUDFzuYnsElaQ9litxC1PnC7SKG5adSsJjeoo0VXvyx8THYgeHrw+gPxX9nrPblCd5whbx9oIBRAJkOhM0hlgGftPT1UYBHJTfprOc
 
 -->

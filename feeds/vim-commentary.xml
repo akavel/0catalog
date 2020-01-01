@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-commentary</name>
+  <summary xml:lang="en">commentary.vim: comment stuff out</summary>
+  <homepage>https://github.com/tpope/vim-commentary</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191118.24553" released="2020-01-01" id="sha1new=0b086dc4dfe422191689768d85ec1fa0fab3ba06">
+      <manifest-digest sha256new="JQEQGXBUF4AQRXRCYU6FNHIDNP74DNQOAQO4YLWAGZUAXQ7KKTVQ" />
+      <archive href="https://github.com/tpope/vim-commentary/archive/f8238d70f873969fb41bf6a6b07ca63a4c0b82b1.tar.gz" size="3233" type="application/x-compressed-tar" extract="vim-commentary-f8238d70f873969fb41bf6a6b07ca63a4c0b82b1" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQwfAAoJEIqj3WcC4bjBY4YQAKsABwmmyJXgjOfwYQnXwM+S1wBflh5IGSqhFl7V5rJcYQB1aN+7NDnVS5geJs+sxQVB0UYaxCthHhMX2jVbpAvI7boNkYyiJs6LRfOyK+uKr13gJe5VJAiJ6hCMj9BgdTWQ9k83ejKhpnKyuyrHZC+Cq8wtVJ4oldWZZFKuoGw7A7YY/Xywi7I2s8L9vPtIwQnQW8inB+9uH5bqFgO8WtO1oYBlB4u1GVx5xupXGznNAXRCoiMHz7bmTVJ8rKyWCI3fSp995CDdhCTfiBDaVgh2jE+1Fv9jybzQKjHhBVF3RraaAuUv04NLrWjVS42CndPm8lq80irQHBUAGPR6MAiCyunLGcBvzhiuT9DnDiB7fSC+lS+vKkPkRlllbVubQTDar01es60OKx0w9ShcHs9X1snLhjjZKaZDTTyFbQZOhvk1yDB7HHeFS1KWY2MtWlrocAcL7tWAhVUoj2ExlSarz7C3x6pWxwxTPNQwHgmVDHDxw9z8eWHInq/tQ6cUCuxjXHcc0dUU6LOavarsnEt+twhZlQXJYXecxUttM/xUSdhI8+556d4UsPgRm0p1xJgh4NjNA6ABOcMbtka5o4B3JCOCBfup+XVpOpvfZVskWuOTuuPIYQBLVVqTDlbRjmSC7ka1/u5b/Yff4OP2rsr4E0oltut4DdkCQ8iYCGp0
+
+-->

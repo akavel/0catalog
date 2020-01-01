@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-changesPlugin</name>
+  <summary xml:lang="en">A Vim Plugin for indicating changes as colored bars using signs.</summary>
+  <homepage>https://github.com/chrisbra/changesPlugin</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20190716.154337" released="2020-01-01" id="sha1new=a9ef0fc446dae48a23c0897dcf009393752dd9a3">
+      <manifest-digest sha256new="YYRDDQNKMJLANMZEKSN7FWILO7EOY5FIWY2G272RALDTIHDCQVVQ" />
+      <archive href="https://github.com/chrisbra/changesPlugin/archive/6bf2c356875dffc61f27fac24fdcdc2d11f14554.tar.gz" size="185154" type="application/x-compressed-tar" extract="changesPlugin-6bf2c356875dffc61f27fac24fdcdc2d11f14554" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQwKAAoJEIqj3WcC4bjBVxYP+wctF07KTOxaY54nCR2vWX8aFGpZehuhYgrjhQZFbkUrVKql0VKbk+8gql69cIs55zvcO10H4sd8H63a/4q/UG1QFYd4cyZ1D9g5SX4DvK3JV/vobuMoxoQBkCLYNVHXQYHEEkR40+NqKyNCtjz1fVz821LMKsER/mck+H3eQDmFYqxAZ1VqMg6Mw2qms94qa864+NMKOS4Dq6nxbR6CuYD57aW7HfzhMEXOk38p3kFxcWLsS3u40EdZlT4w9dp+urZSxrSxc7FDhNBq2cuDSj2qo0t2aZw6FZwKCOfesvLoMmMkJq43Z/Krp48ngnnFqgDmRiSbUAx2QwzeQUvCwWUTL1EguhCnmj5iiiDwmX5S2CEzhNXqUmzlQB/WsqTjLUq+mbVquKnKaFVtsKv/sJv5N/x0gdWxEbdYdV/vG6hx2Uo3V5+Zd2a4jujh7fGWL+0eHz4idNveSzwj2p450DmUlw8TbQUtzMJmjCqcDRd7KMKn1C0H6/ejk/48Mk1Ivu/VZiwEOLLHpQd37DjFiRV7pF/Khcm4Qmr0Hp999DlaVkTgQXMwJMv5V9Pm3drKuSvENUa/P2G1WKbc4ncG10mrmgwI6Gzv+lhrtx6AjGp6ZDD6gVg6FbpULJhqg+C8SzxZoMXh6TLLGTfSIxTtmdtwTsVSA+PIiPV4uwxOguR9
+
+-->

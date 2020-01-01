@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-repeat</name>
+  <summary xml:lang="en">repeat.vim: enable repeating supported plugin maps with "."</summary>
+  <homepage>https://github.com/tpope/vim-repeat</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191026.220900" released="2020-01-01" id="sha1new=d12e0991834c0276fa5255391702133514fea468">
+      <manifest-digest sha256new="NX6V5BSRP3UNYTY2ZX2BAP4NZFUJBHX7SNLSGYOBBLNYA4Z6GWPA" />
+      <archive href="https://github.com/tpope/vim-repeat/archive/c947ad2b6a16983724a0153bdf7f66d7a80a32ca.tar.gz" size="3165" type="application/x-compressed-tar" extract="vim-repeat-c947ad2b6a16983724a0153bdf7f66d7a80a32ca" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQyIAAoJEIqj3WcC4bjBT/oP/3GYcp5rJxFUDmT5zkU5CQHzfcYFnq7eShOP62S5yEt8juzfg3xKhGFxTYxDAa9GUx2YSmVx+qGrmNLVsHunTB8Wg0a1Ok4LA31tqFTkfPR2h9y6lQvq/u3I02aKxrAe1SepI8CTgkMOMXWLTJr8TXAvAGNEhfGInMTR8PftFpJJjX9+ChL2WUX/SOs28GlRhHUj+4hM1CsgNrLrakHn2JreA3bW/gItzLHXAWN5a6UbOi31kZoMeYLQ0BLqCOA9VtpqNaHdc806TbXEbKYePEcfUG07wIYQxKj71Hnaa1UTW5w5/Tk50errP+LaNdgW61zO3xCmzDUKCP6gr0aeCv4Vsw13DoUveAT8ky8RQfdnHKD5OC8TTY9rTksQMqFQQkA55PhPIY55tBrTYS4kzMVoJCUSXhgUrq3oSfLgTwbSvFOC42ihkhITaVjQ/P3l2pQPMlj2e3bTc8/qR/COLT98V02HcumN2noQbmf5nJPIh/i/QuPfOSz5978osxCWk3cyaw7QMy8AzIvEB606NjoyQc6C/GXhjedwUbV03PcWlPHEXR5FQk8VfLJ85J7+HNkM5PktjPKzEy6t9IlbNxwjssjNw3MmsMVZwb17Hd50IHPmJGFfxU7MnaFMAp57La4eGlArW5y/P4g6+6qjneDFX3fWLH5HvN5oE9QFp0Ci
+
+-->

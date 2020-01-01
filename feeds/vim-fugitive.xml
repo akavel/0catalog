@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-fugitive</name>
+  <summary xml:lang="en">fugitive.vim: A Git wrapper so awesome, it should be illegal</summary>
+  <homepage>https://github.com/tpope/vim-fugitive</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191227.221930" released="2020-01-01" id="sha1new=8b3785867ee34974e50efd365d901a8d5621d3a4">
+      <manifest-digest sha256new="TZX5MFRSM2BTPPTBDQNTXHUWZREBQ2APT2QSIVCOBK3R2C54F73Q" />
+      <archive href="https://github.com/tpope/vim-fugitive/archive/3bf602b13d86b7aef57fec4a2df29467b61435cb.tar.gz" size="61640" type="application/x-compressed-tar" extract="vim-fugitive-3bf602b13d86b7aef57fec4a2df29467b61435cb" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQw1AAoJEIqj3WcC4bjBYIcP/AkudJExGGUmlCn7beG73tSz8i2HfutUGwdDhLfzIV4XJAi+bzG2/rXbiTlGAC7DA4W/FOk7IqOrfQDgY5vkf3bFsThf9v93gP0D7rFLB3IdMxUV2k9Q/5JvBlxOMOj8AjmGk++mQ16DW3Jp84szXXLbuwoZpE609toixBKXKOGL4+ixBwzhUek1p+qZxaqUKS+NRElBPxpdZXbqXX/FygP7chp4i4fWgV4ZVs4STL1xzUSByz9b5yKHe7n3R257byEYDXZLOZacMgWMaDL8TdxrtcqGXWBM5mnX9gqf8hieoOZ9WRKtLTRWXuZOQWMEnYDzQqR+KOTmDlVF4AFKUv/ruuL2CewMyQno2lMseaRUf0F3Fopq9GEZTZ27subhRvqrgZpkWdGZ8NVyYspp7N6GMEfy4MGonh74rQmpmLG4v7X3densD5JoszYu4/2+xVkmVvMWQkDAMnPPVTyI9Wp1TWKob0BMMlYkzdr7Czp5YL3kqaAHv3aPzaOCYMe19W2Kj8SVmI5mN1z0VuH8vLhHoVNtpah6Pj6ldxkDDC4G3GaLSV2wWkwpvBliPoS3v3hhZlcddeU/aZj/o2gtx8qhwsmb/DcCgoCsNlAgKctLLthEkz6LmqMqP3G+vDrB6/Oln/RsVUWMSFlZr3YYyb8Mdt4skzuU5eAmp+o1RB0S
+
+-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-abolish</name>
+  <summary xml:lang="en">abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word</summary>
+  <homepage>https://github.com/tpope/vim-abolish</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191004.172356" released="2020-01-01" id="sha1new=4c2b1ea5d9aa8f5b6ba653dc24007e08f14d9d16">
+      <manifest-digest sha256new="6B26EU6PLEZBCAX2SZT7HZXTBEKECBLYUHQQAXPUZJWLEWL35PKQ" />
+      <archive href="https://github.com/tpope/vim-abolish/archive/7e4da6e78002344d499af9b6d8d5d6fcd7c92125.tar.gz" size="10158" type="application/x-compressed-tar" extract="vim-abolish-7e4da6e78002344d499af9b6d8d5d6fcd7c92125" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQvyAAoJEIqj3WcC4bjB+kUP/2ARAh5S/JrU2VFTor3fUOc72dxPj1zMRI9t6SGIdiOZKBQIUbW8h6KddEoj0t1olaNPiajmafMzpG+5ORfVvcpJbR+aStETeDmUszjR7zNL1vgHDVRTT3brv5RJyX4E36xlIazUrl9q+7HKWXV9Xq663xKRxKh+09W70uRz3uzQwc9J+/wyD81LszYrlhpVAZ5po3pY85lGJmpdVcr58aL69szZoiLfn2ed3mDQgOVj7vLn4Q8C+nhDdYVtoyrgjZsBTfHLBgvWt8PjvXs9JPqjywHA0Ch2/LEd64KLxGik6jBIWE3Bg+4CDh1+bbIdnJgH32HhyQNhYYAir09k5IsiIerstuMdZP+P79Zc/QTOzz6hp/qXVEO59Qr63u5WHvdQVCbh/WnSOclLgEoazaz/3OWV0Z+VS2hzp+FdEUxMa6BXNjfBF80bOJMTqpKl0NtWmIQ6T6+H56Xzl3ALDuYseYEfswnQ4W+aYmv0vH499/2z2a87P4XEJf4N9MsC07ZR3FK46B4HTAA5UBWjdeL8jdCuUjajgCRjGiOkuEfD5yiqY1bOwap3DsxiFXoLm4Eu7boGxRYwc2nvrI4QRzszT9P21N69CnrU5tq3JyfWjJOBayo+r3lMb+sqmX8fanfMhqVUKp8KOkHiXBLmYOIxH9qosbng2D91IUc10pja
+
+-->

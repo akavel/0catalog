@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-expand-region</name>
+  <summary xml:lang="en">Vim plugin that allows you to visually select increasingly larger regions of text using the same key combination.</summary>
+  <homepage>https://github.com/terryma/vim-expand-region</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20130819.155009" released="2020-01-01" id="sha1new=0d1313830ecf55ff37774cb064546647833ea073">
+      <manifest-digest sha256new="JUGILEBINSAPQ5HOF363FIJJNT2PMFZO34S2MPMZYF3QLZBUUSZQ" />
+      <archive href="https://github.com/terryma/vim-expand-region/archive/966513543de0ddc2d673b5528a056269e7917276.tar.gz" size="743622" type="application/x-compressed-tar" extract="vim-expand-region-966513543de0ddc2d673b5528a056269e7917276" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQwuAAoJEIqj3WcC4bjBjv4QAKzCOrEWa6dWMKRe61E4nckWO7wbY1ChKSw4nF9gdjfRSuLOABuI6rmQ9++TFLg5wslOwfRwAdDJ8l82toH0L0DxxY6bKhZ2/WmtoKAgjFUGWbPEoGG/gp4e8JS4UldWt5Oa/TNtU+vmP2c69s+k1Lg4BYtfoRa0sRucBBZkTQhHUMgoKy9u6dgXW5JYyWvmZbZhC0nD7qgdwlccdBsPiPkdHUZEtGCW4m3nY7Pd5Kv019FBotm9+539E4wGVhN0ZUVcU+TfkOn6/JPNhP5M0Jze54Z1ilXMuUKbsDMfM5d1bNDZ7LljQAN0UhGH71ekw4Y142NwLquN9ooP9ha+oQdgjIQICxg8zjz+zRpcjAcpLVNSbJ6IcGbvyWHa9Wrtww/5uSpqJiZVXyYVn+mTHwjpHI7lj73X1IS7ITJ6B/MrYAIrPDWsY5/MJxLQR5P1IaG8oYf4QpKDwojIftnQX3e4varZr8xu1jzVe5AH24oNFQPLsSNk6P4bpwNWNwTvZxSAOxf+N5i0WdMFs7EVtU0LJ4tiaNRhiBHeHYOtb2CAPfjO7ibH7patB1dEKjEn3dFgwHtOu26/iCCH/UmQeAISRbyI26cK4ia8SmlCvTqguGvm/TH7rfoBxRmqHhAM2E3wX7HGG0tUWahJ+TE02Yi19Rks5GHAL6GNVUFeMwKk
+
+-->

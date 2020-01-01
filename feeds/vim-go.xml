@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-go</name>
+  <summary xml:lang="en">Go development plugin for Vim</summary>
+  <homepage>https://github.com/fatih/vim-go</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20200101.162354" released="2020-01-01" id="sha1new=82b8bdc1eeed8716a20b08771bfbef634e56d7fc">
+      <manifest-digest sha256new="CRVB2Z3RZDRJC5T77ZFDVXDRXN5KQOUKT7AL73BFB7EO74TMZRYQ" />
+      <archive href="https://github.com/fatih/vim-go/archive/ae7b7ea6dc7a37d425622ab825a46f946694909c.tar.gz" size="253928" type="application/x-compressed-tar" extract="vim-go-ae7b7ea6dc7a37d425622ab825a46f946694909c" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQw9AAoJEIqj3WcC4bjBLAYP/10DIfX5DvwQTmnEJ3mZSWrLjdEaz2XakhlGzug/FgMkDFZqQtXuqGRMVUuShm4AIfaN5XZre0dLx1PcjiIEU8DcgJ7FInKqwr69rRyY/vBU9rjuFpxaefYRE4eXYXywODKAUaKBkTqwA/Fljcc/V+uI/qwseem8l1rgDM03VTlwyA0niIKf18J2qwf6MJpOMlNQKHi15yH5VDQF5wTCIJtT+O7VGJ73sExX65SHwSUswqXXOaIEDWgMlzz3YdArmbleJl/RUM4Iq/XoHGA4vJ+QsOE53WqeTad27vjWim+s6gJmeakgOuihRxPq+5XtdOFdaT+KNBvY2pVb/umQzmDPPMz8mU5QDbTPfT5Kc0FfQH+VGu2FkiId69zoxLbiL9YfeHKdJG+DkOyR5QZCj9jb/XEmvxfDXQks1dyswsWUEWp40zo0pCTFELA9dL+EfwH0I7NeuFIdl9DmQHYT0T7PXzDKAh3dLCLESIPs/2BL1FdovADiBD7an0VPaGlXpK3qS2VXzVIFyZig6t9oe6rUXLotUwL3uFiC4iPPbP3KVt7yGiTzatXKLTIVpQG7n7xER8iCgk1lWByBC4h7UxKUOg7KZW1AFzFXQCikZP2GoEKIcQdaRsJ2AjSVvKFHBqDRtGpwPOlTYgjkOdR0pI2kzZ1yVTuSyhFxLjyhSgbP
+
+-->

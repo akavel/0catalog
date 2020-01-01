@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-nix</name>
+  <summary xml:lang="en">Vim configuration files for Nix http://nixos.org/nix</summary>
+  <homepage>https://github.com/LnL7/vim-nix</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20190603.180228" released="2020-01-01" id="sha1new=87b16f2a835e14d5353d9b4fbaf0a14ba5385cbb">
+      <manifest-digest sha256new="54C6EOGMZPHLTXECSE5M4SYIQFRBPUUIXAATREWJUXWVE4J5UERQ" />
+      <archive href="https://github.com/LnL7/vim-nix/archive/a3eed01f4de995a51dfdd06287e44fcb231f6adf.tar.gz" size="9245" type="application/x-compressed-tar" extract="vim-nix-a3eed01f4de995a51dfdd06287e44fcb231f6adf" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQxpAAoJEIqj3WcC4bjBYPIP/RobmcHY1ChLrth/hXm6tjypnIfKsfamtpBTmNDrDfRLCXW6yxoJ6mxM1/usvmrXRqm4gw5xaS4fb91/3oJcQ0uCrEzW+ENO6kPw5FwBx+9b/47TT8D4Bqc4XlDHpfLHc+QdCWp5r5h28KLDm9lGuu+PJ9U2K8wODv04i8rx8NSMehbBX4AjI9KlY6Lb5VPvy8S3IFlliuU/Eqp+267fWjsAGWpCn4ShGKdh2Fn+nmjT5tVTPMj/R5tpJubnvE5znVsSpADvDIfEumlKdmd/p5LX4LwGmVL1lAVrlzT0UKD+wy8rpmCFgiUTU7WMMZV4HmvawYaihwQsKvv8ClkRT66J+kpIjcLNOaVqI9I/yPwjT6fineY9sxDM/lb9QfJw0hUhXwBZZ23gvd0vpLpFdrKxONRE1LJIE9vtMaNlrsaZiraVNw9JLMr+xAHxSDD5GiYx/Yiw/dg7KXdHHX9sQI2Lo1+LhtCvN/hH2vqIgSCiuNtyqgx5dm5DQDUR05ebAHQJ1vm5xreNO9d13hBMPoqyey5mgGaiJiOYP3difS8yFO/DeBtiNUEGcyAQyU3b04gKsLsc+SF72kziiKzM0kUyvmeaoRY0I3193AX062xYjiRkxdwaBjnQi/sH5cpPPBWNiOFYhBXDoZtfdArhFO2hp99SQ38Nlb5FAi765khq
+
+-->

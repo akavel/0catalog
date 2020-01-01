@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-sensible</name>
+  <summary xml:lang="en">sensible.vim: Defaults everyone can agree on</summary>
+  <homepage>https://github.com/tpope/vim-sensible</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191124.204522" released="2020-01-01" id="sha1new=b4e938a09483f81417e6e4e48b3cda4086d44382">
+      <manifest-digest sha256new="62QVFGSCMDAUNSLAHSR47KZ6EAD335IK5LNQPYJAA66MOSM4QQMA" />
+      <archive href="https://github.com/tpope/vim-sensible/archive/2d9f34c09f548ed4df213389caa2882bfe56db58.tar.gz" size="3202" type="application/x-compressed-tar" extract="vim-sensible-2d9f34c09f548ed4df213389caa2882bfe56db58" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQyRAAoJEIqj3WcC4bjBZDwP/RcrPbjgmbD3Nbt7ow16Hky5Ay5e2eEJWcF9p06HK+NtPYA7DHErNJGATsqL2wUJJkuwqqF1MaAIQZHOkpQhgF3I916sXAYuOFEkHRaiob61BxVdxK7pQykSg2Vx4+K2wktVbh77ziNUEJACc0U2riGl6k1LVsXglGZeU4p5xvooCLipwSwvjTK6nhBdvKJPW2eKX/R263b+7enMuGujZ0eaIBmxocfJDnNKt15gIuwWXCL1b7ALG41FDmyTyACY0Yuxz5EJj834+q+cGfncurc67foKp2+hp155W0vCgDZkx04Rqw05AjOoP/RpLD6+omwm49YHrzfsfI9nHHxdBDmOs9tqQE1MWVpQGVCi0XlbAXLyA3ePR+RY76cpUM3M8D4l6Gm2EdVSUSoEtarOiogFM0gMd/ZXNZysRpU41nQ+ro+vmQqCmmNQh6WKcJtTujomhHlrmo9AbcUEoH/p6hhcOgyUr2MDWqX9xpjVG+XvXbyb/mDb4QhxgxsHHJzFK566GVxFCCtY24Nx2WPZxWdPSgvy5jVt8kt64qk59MTZzCG5HVj0Pwpf25he/8YMhHVR+jF8gaYhE42n02VCD1V01zl/H7op8xNZudWRDYt+p0yUYteGFaDA24mqevT5wje7f/k/jtCo3okjlUZMzxf+Pqy5f431DLhS7CkQCK01
+
+-->

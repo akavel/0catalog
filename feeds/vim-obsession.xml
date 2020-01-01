@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-obsession</name>
+  <summary xml:lang="en">obsession.vim: continuously updated session files</summary>
+  <homepage>https://github.com/tpope/vim-obsession</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20191023.215549" released="2020-01-01" id="sha1new=1131790ca87348f5e3510e77bb3d0e25744f6b7e">
+      <manifest-digest sha256new="MYSTRFD2PLFEWCW45XPH5S2XVNTDSI7WJQZQCSVC6CYDIS7SK3UA" />
+      <archive href="https://github.com/tpope/vim-obsession/archive/c44d3c432243d39469046f4e25d38a690e49c755.tar.gz" size="3538" type="application/x-compressed-tar" extract="vim-obsession-c44d3c432243d39469046f4e25d38a690e49c755" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeDQxzAAoJEIqj3WcC4bjB5PQP/1eY9bakTrO+XAgL9eQlmLQheCD04LEmR0NP831pD+jDHDwivDSXglAqEA3Ylzc8iQpJY4dyZwSt2MEycyvOuc6uJ3unn+A9ccD3+4rTOoKrjj1t5dHd7UeLN5CH328EZmPHbTHz95+zimAaIYLn/8hXnuga0dUAPj+rbij6jxkQ2OBo+F+v4PDiMcPgRSjiHfhy3KhTs1u3d+eYxyKjsj/uBQ9Xe3FOYIeob+rWKm3ntv3HWUm51Wt8KvRhgM8HKKuCGPuEAV/SBVr6cHUJvpLrfxDmcz7/Q82SCy00w8Wn81IvhIpRbvNmoFXlL21x9RUEUAvA/QnwINAEOJcshms9Kiese7VrHtaCWI5CzLmBjIZgNdGnyDRPfUr/IsNfNAHb6EgW94IKNQak8E7eU3wV2FBX+z+AMb9t9hENiNxdk4Yx0FOqx+JPhY+l83YWrgMFhXqSslQQtg/mkPD2VEflDm8eiWtxTfmReKKq7kKwPSYdrLW5t7QyU48zflwPK0bezC17jyd4lWejhp9kW+sc7nHhNTCLsME5tJ4KeefgJ7tAgJ/p6olpvC8AadFilRRTdY/nsszdJKB5Wcd6pMEGfQEjC2xRBGn8PNgQ1z2iXQPQXer6eLJTm8M45Oyayy52i19onbZUWc3ODsfsECBzQXmMFt1wlZ6ZKQOk97bx
+
+-->
