@@ -10,7 +10,7 @@ local template = [[
   <summary xml:lang="en">{SUMMARY}</summary>
   <homepage>https://github.com/{AUTHOR}/{REPO}</homepage>
   <group>
-    <environment name="VIMRUNTIME" insert="" mode="append" />
+    <environment name="VIMPATH" insert="" mode="append" />
     <implementation version="{version}">
       <archive href="https://github.com/{AUTHOR}/{REPO}/archive/{commit}.tar.gz" extract="{REPO}-{commit}"/>
     </implementation>

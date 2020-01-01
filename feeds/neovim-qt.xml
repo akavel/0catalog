@@ -8,13 +8,16 @@
   <category>Development</category>
   <implementation arch="Windows-*" version="0.2.15" id="sha1new=2919c810c294d80110855522a67d4e3c7888cb66">
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <command name="run" path="bin/nvim-qt.exe" />
+    <command name="run" path="bin/nvim-qt.exe">
+      <arg>--cmd</arg>
+      <arg>let &amp;rtp+=join(split($VIMPATH,'[:;]'),',')</arg>
+    </command>
     <manifest-digest sha256new="LD5EM3LPFYXQE22KQ74DWLVYPIRVIVKVCWU5OBG26XHJREIIFCQA" />
     <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.15/neovim-qt.zip" size="21497806" type="application/zip" />
   </implementation>
   <entry-point command="run" binary-name="nvim-qt" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDOhLAAoJEIqj3WcC4bjBU4EQAIokY1yQsGqX7BtPoFxDXp5HX1T0PjuBZptu17dgi8thc7rNFjvcc+J+cpXqcoEyeTkiZrt8BNGNc0SJSr9C0bqvkNfT7OQTiTPlU67JDK9LShhF44UXYigM7XY1YwEScMwag9KcUhh3fyuPA5cVfjIpHSApJtn8R7F3Xk9CTtcLJID/yxeRBXMPx4RmOMBkJ9VEiZtlk2Cds+KmBK4CtCF7U/PbNQGVPZ3kDufglQUvmYbOYUEsgz0gaUZ5j+RNlAlF2jIf4p/Ez8//znBVtvJYdPtB2eJxcJD0zLEuBttZcsZqdVjLel918c87ml2HCmg58kM9f4NnbuLERJB3o25eXebMW8Dp/gFvSA20U2MeGrjoPFCDguiRxhN+BgwHViAZ5rAsZA7sWfF8fctiMnrBfFMxkOk5waBDbsulfGcf+kwaXwWfWlYVWrpiTgwHtF1TDjleyShRWN2SAYBwXor2WuwJOiMzj5h+l9yQTsEUQ/Payg2dKSTFNdshBc5ghMhc1+eu6kUT1Xf1Jr8QYGHfMAv6Xzco4dtxQ9+CGRD3VlGS0opb8f3+5+2i9MaTJ0k3Rr4tlE/4+401ZdKL04q5ou+1MyOxIlmmAjqLKg6bV9SlOj8dZMCS4vS9mFtOTjTlo92tlrjwNKTG2s/W5nlM/QX4/Axpz2Tzvn6LglVv
+iQIcBAABAgAGBQJeDPIYAAoJEIqj3WcC4bjB6zcQAKdA3c17aX9fbG6/8xbEPO/xz5t86qi7J3BQWzR8sx3CFzkFh3wwckCiQvc1yMJ3vkOX88RJDiGiTXFxIFfIFLDCnExXgjuQUT0sE2AM3s4pokZKhIy1oT8fAn/sR8bf04pL195ai0/W2UrI9BoJdgmqJlh9JFGNsrRy0w/UA8Bb9G9XpXMzJtGs7xfZtbAflXx3Pg9A/6SmkEf7uC0QtOS7elHOyaAs1Wh2QQ0MWmrOFoSh3xEAoGRbFNDaRdeBEu2HDYWoVXR8LLvXAqCeyVaUKE1q7Jr2AhUPH/klm7egOL9GxiV/tCQVS2J6wiAbZ5/ckZJlSjdxy9PEfNQrFK+mvCz5xaIKaj0+Fhrpf/f/Ub5ke8mDIl/D29XTY1iJd7FCcu6OtgoE9jHATBmadxDPHsXsus1pYw+tSNG1LBFz5o+iwlC5X5QtQXA79oTxV12e3aNvJFp7VQUsbVtS5iXEWnGgqKs7COZtUBa0lfbE/ZB2otfQedBURZDViFQorjqa3lX02aPesiLj0zfb3gsOvNA998U9vNLekaHCNcLIDN3UQD1uluAWd8ZrtQ9yHR6k9ziT0153b0YbrWDqKyzW7aRouDdQIjq3PLeJ6ur9M7aOS31VI7KlCGrSR/0oTcHi5/fyIPUYuGaQfkp29GrzwvmoaXKkPqvngAkNqDDh
 
 -->

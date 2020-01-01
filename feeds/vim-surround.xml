@@ -5,7 +5,7 @@
   <summary xml:lang="en">surround.vim: quoting/parenthesizing made simple</summary>
   <homepage>https://github.com/tpope/vim-surround</homepage>
   <group>
-    <environment name="VIMRUNTIME" insert="" mode="append" />
+    <environment name="VIMPATH" insert="" mode="append" />
     <implementation version="0.20191128.62920" released="2020-01-01" id="sha1new=1f75d31ed7dace4bcdd09cbc1590a77f74d0e1c5">
       <manifest-digest sha256new="DWH42A3VFCSLBIU7GTAUW2E2TYQUMYGK4UBZVPKOUQWGQNM6CH5Q" />
       <archive href="https://github.com/tpope/vim-surround/archive/f51a26d3710629d031806305b6c8727189cd1935.tar.gz" size="10268" type="application/x-compressed-tar" extract="vim-surround-f51a26d3710629d031806305b6c8727189cd1935" />
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDOzSAAoJEIqj3WcC4bjBLIwQALttjzsvQZ1ha7J5M06PAxLo7hIaUzvlubexdsFz74T6gJxXo/Hoh7EcCbvjbXxY17cnxt4DZrUxd/tRQNeKCBPPm2cVS2SGlfTZMZHycVBS+oevkK2w4kGA2AjbLxvcP7yZhpsYHCqbOaoC5jJE8GVyqAxJm1sZuJI4z+qVrpqagB4mwzISP2VoELWzdbXVpxNI5x1tMtdvkFwG4WsYN6pP4UI2zjOfU+cOhxV+91qmvcsjCKRdQ5xBcUH0fqrD928mLlxvMqqdaDbjc7DNmT6HEBNryhb6e4SfHz9he+58z0Vz2BVoLvlqW9TMXIEe5lbgIbOGlQ1WTqbgDzL9gr112dgVcYxT1v8xUs0gz0iUnFfYN37ZekWM76EBtOyNyICKF6/TW2V46gaHAScmg5bPk/8r3zzavkYTy7JCTVwyUn5KYHX7CwKo7zanwzs/xFDtA6+ZKoM3ZVHhkzMaDXQ3KRoYg6jv2G3SVINc45pdyggWV4fFTnGHT5Aab0UdZIWjrn0V/mxvvptzw3qMYDDlNuCAxsXVff+mNCibrlwwH8UXXU5TzBaF3ls35M6402flAaC14ipUSXiorhVKurYMN1aZDqSOfYANvySD7wLgiuzrWi71trkgPL5HF75bg1/eIqZqw4llfMZmqzDlhNtzFeqhVzZsbtZ/FrLg4twU
+iQIcBAABAgAGBQJeDPJtAAoJEIqj3WcC4bjBByYP/0zRGsjrMkLRYcKNTtONQ5Zmf0bBpuQGQiAIFaJL4kUAy3XqJTbrUm30GUJsLL+hKhG2LftEw8Jk6GIlmBeEGIfq82u8wDFY/cMYXl9apnA7QHdIlMoShakqiFo4TWTDqGkI0woF9TUj6aGq/mQoPgNiJblkViMzHYs51yKOQ+rRkggv/1TPa9FoCkrn3mzJOgD5Kr7E2F3AqpwhBCAmWFdIqnMWo8qi8Y7TABvj6XitkwgPXEjYjERErprLaha5AfvfLHm9ALrevsAAqQ5LFl7rr3aT5umLYjGNrwon4w5k7olg2UlDo69gDOtpUDkdULXJOX1b17dFh3495uAMOqiDHkY0ncwsxUExj7t6nLEkkY0WuFfcBZRUTO9Hc2x68lIa65aoflo/qHP6Wbqjk/Z71qML7ZguC8Ejgz1TP8THOn+gyixDAffgMZSlU9T9kddZz1GYj8pHvxYmxullYVuwwzg6jrcFs84YBMizfwcfxI7t5CLRkD48xIN+iUHvdpRiqkxvY7cnTFNp0bMXXqud98A4rvrhloeN5IMT3W/zmxKnK0cZ3cs2mhC1qW+/j7Ejay/yWpAe1bNZOZ+r1joKAYrXO/FwOAyjkrBX2e1HbRN5dFz3H3lSviJ0IT0hsyrujtPpuHiKDU5iUT9/E1GX1SQLKkCTrZMGmP7G6HmI
 
 -->
