@@ -9,6 +9,7 @@
   <implementation arch="Windows-*" version="0.2.15" id="sha1new=2919c810c294d80110855522a67d4e3c7888cb66">
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe">
+      <arg>--</arg>
       <arg>--cmd</arg>
       <arg>let &amp;rtp+=join(split($VIMPATH,'[:;]'),',')</arg>
     </command>
@@ -18,6 +19,6 @@
   <entry-point command="run" binary-name="nvim-qt" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDPIYAAoJEIqj3WcC4bjB6zcQAKdA3c17aX9fbG6/8xbEPO/xz5t86qi7J3BQWzR8sx3CFzkFh3wwckCiQvc1yMJ3vkOX88RJDiGiTXFxIFfIFLDCnExXgjuQUT0sE2AM3s4pokZKhIy1oT8fAn/sR8bf04pL195ai0/W2UrI9BoJdgmqJlh9JFGNsrRy0w/UA8Bb9G9XpXMzJtGs7xfZtbAflXx3Pg9A/6SmkEf7uC0QtOS7elHOyaAs1Wh2QQ0MWmrOFoSh3xEAoGRbFNDaRdeBEu2HDYWoVXR8LLvXAqCeyVaUKE1q7Jr2AhUPH/klm7egOL9GxiV/tCQVS2J6wiAbZ5/ckZJlSjdxy9PEfNQrFK+mvCz5xaIKaj0+Fhrpf/f/Ub5ke8mDIl/D29XTY1iJd7FCcu6OtgoE9jHATBmadxDPHsXsus1pYw+tSNG1LBFz5o+iwlC5X5QtQXA79oTxV12e3aNvJFp7VQUsbVtS5iXEWnGgqKs7COZtUBa0lfbE/ZB2otfQedBURZDViFQorjqa3lX02aPesiLj0zfb3gsOvNA998U9vNLekaHCNcLIDN3UQD1uluAWd8ZrtQ9yHR6k9ziT0153b0YbrWDqKyzW7aRouDdQIjq3PLeJ6ur9M7aOS31VI7KlCGrSR/0oTcHi5/fyIPUYuGaQfkp29GrzwvmoaXKkPqvngAkNqDDh
+iQIcBAABAgAGBQJeDPPeAAoJEIqj3WcC4bjB7akP/3EyWkOksfnFwh/H+n7dxaO4CnsytUo+ZGxZbBv8iwy1CT8mDTUFzvVGKx9x7GZQk48akWSvRPeNPMc0GjGHrOsg1zSECy/NSML1n0YQa8zHUCtXY7YT4AGc4XEgM9ov1/Elyj1K1Nsz54dtEiWFrtrbfk+oN6nRfEipr1MOHxjn2/Ttv4DiyCRq/m4qId218UCCk1VLRCWwWvQ/GhWrFT9lPcrja+MksxQiYJ6ReaTfdD5/1N8gPT6CUhq/Kz6ugsd6S5oZv0YD2ZkU9ZrowDp9xkZtuOvFzfjnzCCVHsxl6TRd6iHmtXvzGLbfyd1RZ0VPRvQJ3weCrB1+n8sW54LA/kvGpzqqGijA2Uq/esrxceHc026Bi3qS1sMJ8eCDZ71DjGRJilxjMcZKeo1Ox0PwPM7WrPomnPdS3tZmVOYkNY0fyqv/A7LnVOF6EyVrMJOy0Y/nlxD58yaFW07ABgMjX2yOqmu8Q0NjMBR93IVmyYm4XDY9del59iWMm+yMkLMQu8JUJy15osekSsSgKkrlhdjAGXb7IfNW5M2OuKjURY7V1TZwoSeHtd0giROGpwy70BrXut23C2XqZBPuchrEje4f0p0+xJ4+avll2Mm88xHv/lcnUpqz/5X7sbpfRDLmtj9lplbvOLn+lwTZ+Hkps9RinHrdkPws6ZzIkybp
 
 -->
