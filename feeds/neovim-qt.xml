@@ -33,8 +33,15 @@
     <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.15/neovim-qt.zip" size="21497806" type="application/zip" />
   </implementation>
   <entry-point command="run" binary-name="nvim-qt" />
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <context-menu id="open-with">
+      <verb name="neovim_qt" args="%1">
+        <description xml:lang="en">Open with NeoVim-qt</description>
+      </verb>
+    </context-menu>
+  </capabilities>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDSrVAAoJEIqj3WcC4bjBLVsP/3LE2WlExLA/RrYGcOKZAGi0PA5w6h3cRtGVpuy7M1RNNSyWpVmeh7I276P25nngnUETVH7oAj7CqKRR7DKGgdtTWwLozvM+vc/PlH/8iOUPHan/J7L6ndPkOfojPUmcB20MKeoeAsFuxTARfxsoBl4ZhJVHxgIs5mjsQxhxgnfJ58/e65VPCEFUcbnKosIVik49l/gzbEO+wwzkl3Su3cCkxBWHQN2mReDLXYNySSEhYiNa6wEI1i8SZkjwvF+pFCctnUSyygnmZWOMhc5S8F0oOXKWCDSUnxZjTFQkg3m+RvnozLemIbM9Pa/Zjzy1cImFOScaqCGkq6qU7Du16B8InqHu4Ap7apzNdz/tJzGD8l5IO5y6vvUjZuTNf38YDQmbAzXZSe42CYxhtqdNtxckHWbujfd4ILRPv/9Z+QIThtt2VGOHbK1I+WtxRmwlGpwDH83wzB7FYXKO/keu7k8QBU3r10/iKPVsie2cSTVi1Ndmpke1Ot8uw/akNLsaxAPFrc+MPgaeVIKNXjkXVuTS8E/SW53fq4yW0U6i9CBqRThzvdjecS/6C7RjCF/N035dTfPoPONIIAOOuG00r/l+ZT7Ul50G3IGjeniiQYGK/IPWr4cnarDSwMY5IC1fstcxQHFvEy3bbwBwBMK45D4I5ItLFhe6ef//zHl41aom
+iQIcBAABAgAGBQJeDTH+AAoJEIqj3WcC4bjBPyoP/0HvlIGTo0g7mSKF5XEnOMOFKyhVujmnSOOzwEczLkDqS4OtNblk4uk0IIrQ0vNvoQ/7MnnIBbS+AaJmhQnCD3f1KvUAb5uVz86VxOLR9whM6GlOQaxG6jrJgNL1UUPw7IGp2jcf8KTKxFvOPssa5wVz53+AFX+lO7TErWQJqgdWY12LwnPp0DQWsf7DA0olgeZJcnzXe16VayQjd/w3ng60V22dXXN73FkU3FpBimQKBhCbM2H6X8R0l357NH1EQgVwpp2pInSwJV5zR+R9ZfREGQQyc2JWyRTpNXNpMml9Uj6Qk/BO+mavUe3FxBNv0PJTtUBn+22PQJ8mJ8HYl16q+JOMLyrWq8MSaB5R5qOLCdGV6H5LLXFw1GAlI2BasSWUPAyTMGxlLhsy3vJ8UmQwd639SQk24B+Z+KT0qD2DY07YOprNnc+LYUeQ71LHoLZr6M8rBl5fFjJdpnqNoZNtk/1b2Y3nbEPbDoodn5bR2IXLX8F/qU10EUkhohMXUfc66RJ/amFxOEzC+UJls0Nwru6gcIV8XOzVIWAfrEhfNI4iCANaQVEN+GMjTB/E97cvFpPAca//JVxoo+n+KSMztas9duJteDNBihYJmOzVqMr80CmIV5anfRePp/pl+4a6+3tQdARRpwMKgkP7DcY3wk9PduHrlzif+jhAYWQp
 
 -->
