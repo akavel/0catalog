@@ -35,7 +35,7 @@ end
 
 local function main()
     check(#arg == 1, 'expected 1 arg: "username/repo", got %d', #arg)
-    local author, repo = arg[1]:match('^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$')
+    local author, repo = arg[1]:match('^([a-zA-Z0-9_%.-]+)/([a-zA-Z0-9_%.-]+)$')
     check(author, 'expected 1 arg: "username/repo", got %q', arg[1])
 
     -- curl repo description
