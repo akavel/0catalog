@@ -57,13 +57,15 @@ local function main()
     log(version)
 
     -- replace appropriate fields in template
-    print((template:gsub('{([A-Z]+)}', {
+    local fh = assert(io.open(repo .. '.xml', 'w'))
+    fh:write((template:gsub('{([A-Z]+)}', {
         NAME = repo,
         AUTHOR = author,
         SUMMARY = summary,
         VERSION = version,
         COMMIT = commit,
     })))
+    fh:close()
 end
 
 main()
