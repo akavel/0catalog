@@ -20,6 +20,22 @@
     <needs-terminal />
     <entry-point command="run" binary-name="cue" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/love2d.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>LÖVE 2D</name>
+    <summary xml:lang="en">LÖVE 11.3</summary>
+    <description xml:lang="en">LÖVE is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/love2d.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/love2d.png" type="image/png" />
+    <category>Development</category>
+    <homepage>https://love2d.org/</homepage>
+    <needs-terminal />
+    <entry-point command="run" binary-name="love" />
+    <entry-point command="lovec" binary-name="lovec">
+      <needs-terminal />
+      <name xml:lang="en">LÖVE</name>
+      <summary xml:lang="en">LÖVE 11.3</summary>
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>neovim-qt</name>
     <summary xml:lang="en">Neovim  GUI and client library, in Qt5</summary>
@@ -163,6 +179,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeItjiAAoJEIqj3WcC4bjBmh4QAIEYCKh01KQVe0E766ZekZutV/pZrEChgkOHmv9p8SZp2zI/grv6rMXcxjRp8P/PWEdzBCzAHIZp3FWhDGiOPjgPqnlzpSc3TdpXuSpWk1xrw9Mk/uznWJ7F1kMlgbvlMykw6IXQ8vRZMgxTzkSlwqv4QDKfFIfpaHxdxhJeDtsSNU97S4mJ8NWn69qmJhACCB6xvBmw7U4lc2/obcvXYETRCzM7ns6yfPwcSqZbIbLrtl/ufHHH4tEUaLgF4eXBQ77KSXCwQc7ERMmDQ0yG0H7CrJHZg3igqcVz82ukibMnNOFTc5+WE9b3FT8m9Zm3tT+Wq8MygmipPN2lM4JNN1DUF44SqwKJjavzc2TIuzTMc8fGKw5GrvYQdr7USBdd+qNaM3dtmHoox0ky4s3pbzBQK39mxgrerxWqfN0nMtC4IEyg+Op5Ac3wCskcFfG3qzcRmMQLQUvj4XR/HJOT32k/IMz8/N7g7aAwXahack7KlrkPL8a9bQJvTqv5c7eEfZWfHS/x1TfkdY6s7gpSk0iiBbHv2pXBAHMuDVDJvpfr1lCbxCCvZ04HmFQ01dtoiykM9CCqsshr4SiL181a6I134gAWDKWd7tM7kJdBWZh6cO+qPvgdyrzucXDSstqG8RhatHjYkwDSsdtIxYZe8stMKIRaBAllTG3Iv2aTEd0L
+iQIcBAABAgAGBQJeIz++AAoJEIqj3WcC4bjBTA4QAJzl4n0q+wsTRbZHwy/otWCmWnIuUACvMcRR66ZtFuw3oTh45b/TthAEqYt0d7wGgVH59Lw6K74pM8Bq/tmVvto4ursQKrPqqSCQyAMBB/OASb01N2Qil7FgzKKBea1wvnAitr775IaDvO3ljLAuMhO4NArwU6hlT7o9SAXDynJdBLlOfT7dzWleYlaEB5cKQEqQcca8QKeovoFF8fUQo4SEJ9gbu5IISd/EIuBdy8wN4YbO0uAo/CxrCJb++47XwCIixEa2Xd5YQTzDE6krnFbRLSZUqLIcJURtKFZ2muMQKwFizQ0fEMBk/7It9EdtajaKRWQWbB65q9zmQcRbbaQPgqOYOdCIFCi8LC4J+WbnrrioiLTZ2HIUkew5+zIf8OeIpvX9mYHcKBvr3o91nxPjBRHUl1Oz7ur1L5S34OkJRSp4AFej72SSDXCwVKhWxiX7W+2X+KreXtm5Bi/FvhsH415LDVsqjebr9bNbjLrrR+0llLJvEB7FqzOz2WJjwIeKsstRDnZjRBsAIYcAISNjtRqjZ5Xnui/mmoQQqwhJngADP7IQ154/TvAfPlid+HDTm7QbBGgdAABFXVnq12/Td+EBsxKcP3N8q2EFF1lpO9an0sK6GeFSYw4kqFvXL+/Uwk79aBSkfiz9Ecc8YgbFNCnZ/SLNm6EIN9nbT1oW
 
 -->
