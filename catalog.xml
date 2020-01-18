@@ -28,6 +28,39 @@
     <category>Development</category>
     <entry-point command="run" binary-name="nvim-qt" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/openscad.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>OpenSCAD</name>
+    <summary xml:lang="en">The Programmers Solid 3D CAD Modeller</summary>
+    <description xml:lang="en">OpenSCAD is software for creating solid 3D CAD models. It is free software and available for Linux/UNIX, Windows and Mac OS X. Unlike most free software for creating 3D models (such as Blender) it does not focus on the artistic aspects of 3D modelling but instead on the CAD aspects. Thus it might be the application you are looking for when you are planning to create 3D models of machine parts but pretty sure is not what you are looking for when you are more interested in creating computer-animated movies.
+
+OpenSCAD is not an interactive modeller. Instead it is something like a 3D-compiler that reads in a script file that describes the object and renders the 3D model from this script file. This gives you (the designer) full control over the modelling process and enables you to easily change any step in the modelling process or make designs that are defined by configurable parameters.
+
+OpenSCAD provides two main modelling techniques: First there is constructive solid geometry (aka CSG) and second there is extrusion of 2D outlines. Autocad DXF files can be used as the data exchange format for such 2D outlines. In addition to 2D paths for extrusion it is also possible to read design parameters from DXF files. Besides DXF files OpenSCAD can read and create 3D models in the STL and OFF file formats.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/openscad.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/openscad.png" type="image/png" />
+    <category>Graphics</category>
+    <entry-point command="run" binary-name="openscad" />
+    <entry-point command="openscad_testing" binary-name="openscad_testing">
+      <needs-terminal />
+      <name xml:lang="en">openscad_testing</name>
+    </entry-point>
+    <entry-point command="openscad_utils" binary-name="openscad_utils">
+      <needs-terminal />
+      <name xml:lang="en">openscad_utils</name>
+    </entry-point>
+    <entry-point command="test_docs" binary-name="test_docs">
+      <needs-terminal />
+      <name xml:lang="en">test_docs</name>
+    </entry-point>
+    <entry-point command="test_mcad" binary-name="test_mcad">
+      <needs-terminal />
+      <name xml:lang="en">test_mcad</name>
+    </entry-point>
+    <entry-point command="__init__" binary-name="__init__">
+      <needs-terminal />
+      <name xml:lang="en">__init__</name>
+    </entry-point>
+  </interface>
   <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-abolish</name>
     <summary xml:lang="en">abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word</summary>
@@ -130,6 +163,6 @@
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDTIHAAoJEIqj3WcC4bjBxF4QAJn+JJ24TbDSDI5rcgKAs2E19owu8NZomm9yKmGz6AMOs8MxSbmcxzwHX58xN8/5m6uqHuBcT3r36tN1e1BhAcYv/3vnQvVSkN9miJ7+O0sW7sqX5gH6dd4WJCsyxzgRdnw77kXjX+Jjkd77dT9EoehKy0GD2Pse+IIuCnOuwNf+A+Sv26as7Tfa43u/oqtN/tHmDiD0tPJjSGAzQ9ZnEIXZq+IgftyxJOo9bIpdtyzd8RKGEhn0k1URa8UNZNYiwPt9u4GjlqfkT5SD6di3tntg/dAGsi3XszukAgObTZHlaLPkKfoqQmkK0rNI0L7d9TrcRtj9dk/xbFlCG/G+mJMdMLhGva6tKfd9VQ/4/aZRUipa/QZsRSWMhDe+ZvzEsrWnIKjPm83pF6df2KIFJpQeVPTGT4O0rwycEMY9PtuNHc0Qj+vMDpf63hFkt325q9YjLpDStKc87FOshdf44EpV0GqVOni2TeGsQEOp7VCptnx+AtgtvphccRZNNqsbV8llrfI3gP+ENRaazj1nkReai9HX4Ly42r3mW8tIPQTTZicQGlyGe0/CIUkbucowhWTZucWSl8HTOYB4WC0uN4qzfQrdwlVUSEnZAEmI9TuUIEf5V1fJr6QjCXqzjNyqMz3WPCPWqbhGPArwaGfQK8cSqD/n3tFPNuCplVhC/T8T
+iQIcBAABAgAGBQJeItjiAAoJEIqj3WcC4bjBmh4QAIEYCKh01KQVe0E766ZekZutV/pZrEChgkOHmv9p8SZp2zI/grv6rMXcxjRp8P/PWEdzBCzAHIZp3FWhDGiOPjgPqnlzpSc3TdpXuSpWk1xrw9Mk/uznWJ7F1kMlgbvlMykw6IXQ8vRZMgxTzkSlwqv4QDKfFIfpaHxdxhJeDtsSNU97S4mJ8NWn69qmJhACCB6xvBmw7U4lc2/obcvXYETRCzM7ns6yfPwcSqZbIbLrtl/ufHHH4tEUaLgF4eXBQ77KSXCwQc7ERMmDQ0yG0H7CrJHZg3igqcVz82ukibMnNOFTc5+WE9b3FT8m9Zm3tT+Wq8MygmipPN2lM4JNN1DUF44SqwKJjavzc2TIuzTMc8fGKw5GrvYQdr7USBdd+qNaM3dtmHoox0ky4s3pbzBQK39mxgrerxWqfN0nMtC4IEyg+Op5Ac3wCskcFfG3qzcRmMQLQUvj4XR/HJOT32k/IMz8/N7g7aAwXahack7KlrkPL8a9bQJvTqv5c7eEfZWfHS/x1TfkdY6s7gpSk0iiBbHv2pXBAHMuDVDJvpfr1lCbxCCvZ04HmFQ01dtoiykM9CCqsshr4SiL181a6I134gAWDKWd7tM7kJdBWZh6cO+qPvgdyrzucXDSstqG8RhatHjYkwDSsdtIxYZe8stMKIRaBAllTG3Iv2aTEd0L
 
 -->

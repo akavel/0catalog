@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/openscad.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>OpenSCAD</name>
+  <summary xml:lang="en">The Programmers Solid 3D CAD Modeller</summary>
+  <description xml:lang="en">OpenSCAD is software for creating solid 3D CAD models. It is free software and available for Linux/UNIX, Windows and Mac OS X. Unlike most free software for creating 3D models (such as Blender) it does not focus on the artistic aspects of 3D modelling but instead on the CAD aspects. Thus it might be the application you are looking for when you are planning to create 3D models of machine parts but pretty sure is not what you are looking for when you are more interested in creating computer-animated movies.
+
+OpenSCAD is not an interactive modeller. Instead it is something like a 3D-compiler that reads in a script file that describes the object and renders the 3D model from this script file. This gives you (the designer) full control over the modelling process and enables you to easily change any step in the modelling process or make designs that are defined by configurable parameters.
+
+OpenSCAD provides two main modelling techniques: First there is constructive solid geometry (aka CSG) and second there is extrusion of 2D outlines. Autocad DXF files can be used as the data exchange format for such 2D outlines. In addition to 2D paths for extrusion it is also possible to read design parameters from DXF files. Besides DXF files OpenSCAD can read and create 3D models in the STL and OFF file formats.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/openscad.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/openscad.png" type="image/png" />
+  <category>Graphics</category>
+  <implementation arch="Windows-x86_64" version="2019.5" id="sha1new=109efcefdcea62e5e4fda3c2a248606c620df279">
+    <command name="run" path="openscad.exe" />
+    <command name="openscad_testing" path="libraries/MCAD/openscad_testing.py">
+      <runner interface="http://repo.roscidus.com/python/python" command="run" />
+    </command>
+    <command name="openscad_utils" path="libraries/MCAD/openscad_utils.py">
+      <runner interface="http://repo.roscidus.com/python/python" command="run" />
+    </command>
+    <command name="test_docs" path="libraries/MCAD/test_docs.py">
+      <runner interface="http://repo.roscidus.com/python/python" command="run" />
+    </command>
+    <command name="test_mcad" path="libraries/MCAD/test_mcad.py">
+      <runner interface="http://repo.roscidus.com/python/python" command="run" />
+    </command>
+    <command name="__init__" path="libraries/MCAD/__init__.py">
+      <runner interface="http://repo.roscidus.com/python/python" command="run" />
+    </command>
+    <manifest-digest sha256new="R3FB2VO2ME3P3BLUBFI2UXCL754WAGXSVB7646APSAVUXBCXJHLQ" />
+    <archive href="https://files.openscad.org/OpenSCAD-2019.05-x86-64.zip" size="19605234" type="application/zip" extract="openscad-2019.05" />
+  </implementation>
+  <entry-point command="run" binary-name="openscad" />
+  <entry-point command="openscad_testing" binary-name="openscad_testing">
+    <needs-terminal />
+    <name xml:lang="en">openscad_testing</name>
+  </entry-point>
+  <entry-point command="openscad_utils" binary-name="openscad_utils">
+    <needs-terminal />
+    <name xml:lang="en">openscad_utils</name>
+  </entry-point>
+  <entry-point command="test_docs" binary-name="test_docs">
+    <needs-terminal />
+    <name xml:lang="en">test_docs</name>
+  </entry-point>
+  <entry-point command="test_mcad" binary-name="test_mcad">
+    <needs-terminal />
+    <name xml:lang="en">test_mcad</name>
+  </entry-point>
+  <entry-point command="__init__" binary-name="__init__">
+    <needs-terminal />
+    <name xml:lang="en">__init__</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeItiPAAoJEIqj3WcC4bjBcV8P/3EFfzgmrF8YQCqwY3sbOL04KojcV3Kkw5rhrcF6+DS+E+York2Jsll2dCdD44BCmELn2CUKchBnr3hKuse00h7YoYxNdL1BojzUKXTgx0bUKgK/zWszxtoTAKlWHsRUwjdAtvmELmCpGCUKeWiE1IvjIz3cYfLOqPTu98czDCSp9lLdyCDfQATGTA476mH+n+4auJ4OyBdLDREm7cqLT56h12mMNTYBPINRyCb8m+CLypTA2mE8JYciJfLx7viIG2BoaptWWn30iuiqBb8RVbBMFtKA+Ldp/c5P4ELL6Z+fix9fy5Ssg3Vqqs6iq0r0gHah7Xu2XWCk3j/eKYRJcirQd9NF2qVAtbjTyAg+1rBa6PzCLnCiqKTv35RKVEckIlrnxDfv1vJBKixHu/77WxnKY+Rv45X4O0UBvvkNWfR8c6K6SKQTBl/k6OIVT7u6lo1Ey5gA5CyeNz7fdzM9/YpTXcS4BhQl+KAWmMOH+vVJ/bYR+UB4z12Kp2SyGk2RRWcbwI0UmPRi7zEmVX1u3/tpRhAbxjv3Jls/oYDzVUG6fQbg60JNpGaK0oda9EFRn1ro3w19wesNqnTjM/vdq42Y8/8ZwUsAJNYA1Nl5HvFCAuHZSafu/Sy8Q/XclFYWZkdDPoQjJrB4QhtQ6YPhiEZVk7YBtOM7mFtQMfPbIJXK
+
+-->
