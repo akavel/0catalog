@@ -58,9 +58,24 @@ end
 local function mustexec(template, ...)
     assert(os.execute(template:format(...)))
 end
+local function exists(fname)
+    local fh = io.open(fname, 'r')
+    if fh then
+        fh:close()
+        return true
+    else
+        return false
+    end
+end
+
+local function splitrepo(repo)
+    local author, repo = repo:match('^([a-zA-Z0-9_%.-]+)/([a-zA-Z0-9_%.-]+)$')
+    local name = ('vim-%s'):format(repo:gsub('^vim%-', ''):gsub('%.vim$', ''))
+    return author, repo, name
+end
 
 local function mkfeed(info)
-    local author, repo = info.repo:match('^([a-zA-Z0-9_%.-]+)/([a-zA-Z0-9_%.-]+)$')
+    local author, repo, name = splitrepo(info.repo)
     local summary = info.summary or die('summary must not be empty, 0publish will complain, for: %s', info.repo)
     local commit = info.commit
     local isodate = info.isodate
@@ -71,7 +86,6 @@ local function mkfeed(info)
     log(version)
 
     -- replace appropriate fields in template
-    local name = (repo:find '^vim-') and repo or ('vim-' .. repo:gsub('%.vim$', ''))
     local fname = name .. '.xml'
     local fh = assert(io.open(fname, 'w'))
     fh:write((template:gsub('{([A-Z]+)}', {
@@ -92,7 +106,10 @@ end
 
 local function main()
     for i, v in ipairs(list) do
-        mkfeed{ repo=v[1], commit=v[2], isodate=v[3], summary=v[4] }
+        local _, _, name = splitrepo(v[1])
+        if not exists(name .. '.xml') then
+            mkfeed{ repo=v[1], commit=v[2], isodate=v[3], summary=v[4] }
+        end
     end
 end
 
