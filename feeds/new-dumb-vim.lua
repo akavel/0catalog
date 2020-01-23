@@ -36,8 +36,8 @@ local template = [[
   <homepage>https://github.com/{AUTHOR}/{REPO}</homepage>
   <group>
     <environment name="VIMPATH" insert="" mode="append" />
-    <implementation version="{version}">
-      <archive href="https://github.com/{AUTHOR}/{REPO}/archive/{commit}.tar.gz" extract="{REPO}-{commit}"/>
+    <implementation version="{VERSION}" released="{RELEASED}">
+      <archive href="https://github.com/{AUTHOR}/{REPO}/archive/{COMMIT}.tar.gz" extract="{REPO}-{COMMIT}"/>
     </implementation>
   </group>
 </interface>
@@ -72,21 +72,21 @@ local function mkfeed(info)
 
     -- replace appropriate fields in template
     local name = (repo:find '^vim-') and repo or ('vim-' .. repo:gsub('%.vim$', ''))
-    local fh = assert(io.open('_tmp.xml.template', 'w'))
+    local fname = name .. '.xml'
+    local fh = assert(io.open(fname, 'w'))
     fh:write((template:gsub('{([A-Z]+)}', {
         NAME = name,
         AUTHOR = author,
         REPO = repo,
         SUMMARY = summary,
+        VERSION = version,
+        COMMIT = commit,
+        RELEASED = os.date '%Y-%m-%d',
     })))
     fh:close()
 
     -- make 0install fetch the archive and fill SHA sum
-    -- TODO: is there a simpler way to get the SHA sum, size, etc. than by using 0template? -> write my own OCaml or Go app/subcmd for this if not
-    mustexec('0install run http://0install.net/tools/0template.xml _tmp.xml.template version=%s commit=%s', version, commit)
-    os.remove(name .. '.xml')
-    mustexec('ren _tmp-%s.xml %s.xml', version, name)
-    os.remove('_tmp.xml.template')
+    mustexec('0install run --command=0publish http://0install.de/feeds/ZeroInstall_Tools.xml --add-missing %s', fname)
     -- TODO: how to automatically sign the resulting feed with my signature???
 end
 
