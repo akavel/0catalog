@@ -177,8 +177,13 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">unimpaired.vim: Pairs of handy bracket mappings</summary>
     <homepage>https://github.com/tpope/vim-unimpaired</homepage>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-zig.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>vim-zig</name>
+    <summary xml:lang="en">Vim configuration for Zig</summary>
+    <homepage>https://github.com/ziglang/zig.vim</homepage>
+  </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeIz++AAoJEIqj3WcC4bjBTA4QAJzl4n0q+wsTRbZHwy/otWCmWnIuUACvMcRR66ZtFuw3oTh45b/TthAEqYt0d7wGgVH59Lw6K74pM8Bq/tmVvto4ursQKrPqqSCQyAMBB/OASb01N2Qil7FgzKKBea1wvnAitr775IaDvO3ljLAuMhO4NArwU6hlT7o9SAXDynJdBLlOfT7dzWleYlaEB5cKQEqQcca8QKeovoFF8fUQo4SEJ9gbu5IISd/EIuBdy8wN4YbO0uAo/CxrCJb++47XwCIixEa2Xd5YQTzDE6krnFbRLSZUqLIcJURtKFZ2muMQKwFizQ0fEMBk/7It9EdtajaKRWQWbB65q9zmQcRbbaQPgqOYOdCIFCi8LC4J+WbnrrioiLTZ2HIUkew5+zIf8OeIpvX9mYHcKBvr3o91nxPjBRHUl1Oz7ur1L5S34OkJRSp4AFej72SSDXCwVKhWxiX7W+2X+KreXtm5Bi/FvhsH415LDVsqjebr9bNbjLrrR+0llLJvEB7FqzOz2WJjwIeKsstRDnZjRBsAIYcAISNjtRqjZ5Xnui/mmoQQqwhJngADP7IQ154/TvAfPlid+HDTm7QbBGgdAABFXVnq12/Td+EBsxKcP3N8q2EFF1lpO9an0sK6GeFSYw4kqFvXL+/Uwk79aBSkfiz9Ecc8YgbFNCnZ/SLNm6EIN9nbT1oW
+iQIcBAABAgAGBQJeKhSDAAoJEIqj3WcC4bjBFZoP/iCEPLUlpt1kz8EcwvKvvvViPHKj4Gkd+2GBttf50CXxJwTx23gKcxa3i2UCxm6ppsnWkAYkAY8S1sCPSwPkh0PFiGuPh80jmOpo6vb7BxorW/z5LVShs/yFeL+qH1L7qLWg1ccCxwlNlCm/jLRvq292ROj4FwDTDcgY//n2uW+8ak6QbOf8qgsz4bwycLHb/XERKQ3Yo0JpdfTAqH40L+KWiCMktUckHcHZecNjEjPtGRu/BkkqvLAVrpNqAdUxPWAnzyylIqhEYUOaOmja03EzL+t7BRRlDVhIv65ETFYOa2jTanKlL99tE1zNkp6s/x/qHTY3mrZxj7jKSueyBYMBLxiYs+cqYxaQWTmfANwg4JjqecjoF19xleGWrLrrHU2DH24YqYiLZytyw4WjwIYPs5gNpODeXAPQf1DKxw9L4ALJO1fl7rCenNjdWWvHi8eaYaifc1NGMMcnAV8C0vb+SH4+7e0YtmM8+byqF2E0rStJkhUYPFQivp85pVLJgcb1NUIOpcqrFRl2VjfTMkkZyQJ8TRCMXfjJ8Ey869yA1OHbA/tuQURr8XE66+fs5PwWGpQRW2XXn8/f2XY4vwnxxxk5dI7APSmMKJ0lezzIDlZ6yyUdCdjdS2OxyzeN4yV8FVmrholbb8TBgd9vSIMTMDhXz1sd1Ii6yQ8FfOv6
 
 -->

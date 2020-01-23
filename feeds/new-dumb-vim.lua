@@ -25,6 +25,7 @@ local list = {
     {"t9md/vim-choosewin", "f91cdb9be92ce3bb9bccba16e8c659d5e8d7454f", "2019-09-17T09:45:39Z", "Land on window you chose like tmux's 'display-pane'"}, -- license: nil
     {"LnL7/vim-nix", "a3eed01f4de995a51dfdd06287e44fcb231f6adf", "2019-06-03T18:02:28Z", "Vim configuration files for Nix http://nixos.org/nix"}, -- license: "MIT"
     {"tpope/vim-obsession", "c44d3c432243d39469046f4e25d38a690e49c755", "2019-10-23T21:55:49Z", "obsession.vim: continuously updated session files"}, -- license: nil
+    {"ziglang/zig.vim", "669d4562d3ce0dba704374f1ccca66e4106b5234", "2020-01-21T20:33:12Z", "Vim configuration for Zig"}, -- license: "MIT"
 }
 
 local template = [[

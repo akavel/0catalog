@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-zig.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>vim-zig</name>
+  <summary xml:lang="en">Vim configuration for Zig</summary>
+  <homepage>https://github.com/ziglang/zig.vim</homepage>
+  <group>
+    <environment name="VIMPATH" insert="" mode="append" />
+    <implementation version="0.20200121.203312" released="2020-01-23" id="sha1new=6605e1a7c262b62fefc5c7f623cb49af93ffc556">
+      <manifest-digest sha256new="IEG6XTL3K6SIB2F3LHRIICB2LZGMJZ4GR5HSTJSVOCOMB6BP4NXA" />
+      <archive href="https://github.com/ziglang/zig.vim/archive/669d4562d3ce0dba704374f1ccca66e4106b5234.tar.gz" size="10568" type="application/x-compressed-tar" extract="zig.vim-669d4562d3ce0dba704374f1ccca66e4106b5234" />
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeKgsvAAoJEIqj3WcC4bjBUM4QAJdg/GmaZknZOkMnUk+woiGlMAihfapCdhBa0F1axo2FiP8WdDZZqmvMyO0Ws+5joHuciqnXxMMC9oswo9iOPo8wzxwlwHRqM2UmiwYzzjb6SJCaosiaw5xyfSJSv4JeAEXqmHVYeBeixl5CH1ZgBYyqZc0HgZlv98RVbRTE1pVwz0a/Cs/nLHn+UJDWzISAInyf5HDc5a7XsuXGAIhFguOV2/WGReR4yMzMNIlXbq3Vhs2H2+8ti/G+gGxP0tylJS6iOcWvsS6jVRxSpn3ig6WPQkhPwOQ0Zo+ZOGOexKag6BG+/Tp2IOhVxwhYssW7r13uvaApKb3pIuT2si2gwN5hyv6H++jyHI5O1vtj5e6sO5Dxa91Qu0jNlKF518yehEKe3QqTRlXGYIlOOPsrY+JNj2S/K3Yb3aGfEFZL1c3e5vNUQgw4vr14W8olFgVB4IN2Hjkd72rSPMNJbsBYvTEIS0uHgCHwgKTRtPABwIKWatdqRYfxvo4+7e7K1ksYjJdJzyF2uPDmrovHIn9gmGq3ZMcNSWcS4CMnLncHGSAPhiOesJZzPMWslWMMbzNp4KDnzco3E+yvLHMwe/Gdf8kgZ4wA2wPNsPRwkSMNCWcLr7gdrFvOIKUbP5sFC+KLCdICHC76Xyy4RFyzZgPG3RxSNFaP2D2q+DWmnkat/1Lk
+
+-->
