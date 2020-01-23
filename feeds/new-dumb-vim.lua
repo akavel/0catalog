@@ -100,8 +100,7 @@ local function mkfeed(info)
     fh:close()
 
     -- make 0install fetch the archive and fill SHA sum
-    mustexec('0install run --command=0publish http://0install.de/feeds/ZeroInstall_Tools.xml --add-missing %s', fname)
-    -- TODO: how to automatically sign the resulting feed with my signature???
+    mustexec('0install run --command=0publish http://0install.de/feeds/ZeroInstall_Tools.xml --xmlsign --add-missing %s', fname)
 end
 
 local function main()
