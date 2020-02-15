@@ -77,6 +77,19 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
       <name xml:lang="en">__init__</name>
     </entry-point>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/symphytum.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Symphytum</name>
+    <summary xml:lang="en">Personal Database Software</summary>
+    <description xml:lang="en">Symphytum is a personal database software for everyone who desires to manage and organize data in an easy and intuitive way, without having to study complex database languages and software user interfaces.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/symphytum.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/symphytum.png" type="image/png" />
+    <category>Office</category>
+    <homepage>https://github.com/giowck/symphytum#symphytum</homepage>
+    <entry-point command="run" binary-name="symphytum" />
+    <entry-point command="dropbox_client" binary-name="dropbox_client">
+      <needs-terminal />
+    </entry-point>
+  </interface>
   <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-abolish</name>
     <summary xml:lang="en">abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word</summary>
@@ -184,6 +197,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeKhSDAAoJEIqj3WcC4bjBFZoP/iCEPLUlpt1kz8EcwvKvvvViPHKj4Gkd+2GBttf50CXxJwTx23gKcxa3i2UCxm6ppsnWkAYkAY8S1sCPSwPkh0PFiGuPh80jmOpo6vb7BxorW/z5LVShs/yFeL+qH1L7qLWg1ccCxwlNlCm/jLRvq292ROj4FwDTDcgY//n2uW+8ak6QbOf8qgsz4bwycLHb/XERKQ3Yo0JpdfTAqH40L+KWiCMktUckHcHZecNjEjPtGRu/BkkqvLAVrpNqAdUxPWAnzyylIqhEYUOaOmja03EzL+t7BRRlDVhIv65ETFYOa2jTanKlL99tE1zNkp6s/x/qHTY3mrZxj7jKSueyBYMBLxiYs+cqYxaQWTmfANwg4JjqecjoF19xleGWrLrrHU2DH24YqYiLZytyw4WjwIYPs5gNpODeXAPQf1DKxw9L4ALJO1fl7rCenNjdWWvHi8eaYaifc1NGMMcnAV8C0vb+SH4+7e0YtmM8+byqF2E0rStJkhUYPFQivp85pVLJgcb1NUIOpcqrFRl2VjfTMkkZyQJ8TRCMXfjJ8Ey869yA1OHbA/tuQURr8XE66+fs5PwWGpQRW2XXn8/f2XY4vwnxxxk5dI7APSmMKJ0lezzIDlZ6yyUdCdjdS2OxyzeN4yV8FVmrholbb8TBgd9vSIMTMDhXz1sd1Ii6yQ8FfOv6
+iQIcBAABAgAGBQJeR9IqAAoJEIqj3WcC4bjBl9QP/ibn8ngr81s53JKzrVrfgpixIHA9MdBQSaas0cpRlbr2Ofc5aNdAfdflz1n2C0P8cbqIXrJJOUrGLpWe9xa4CNyVtF0lo4n8TJyB1pJCNxhlc/QWydYi55wkQPx4a1s3dRIwRVPqL3XCgMebkViE64maXlCPS36hAr9/rCK4fjTfmtCZt5uWHfDXJufJu2VHwox+HE1LuDG2o/Jg/0OiXQ0b7eWLyf/NHPs3vb5soeV95HDRtIYhxdDFLPKcBLEcgqqvNlHV2JxH1lelK6ppWqJNHbruwOVd+zD6M2qcAvLD7L0H+I1qr3bhB9R2epJK3fsE7Fe8ttS4CLfwabXcnKO9NeuRMdF/hdGiX4y7zoCF2NHnchnxR1ke3Fu3qnFKyvdG2tgHI0+Sv6Bgq8x2sMjt5XdUwdANMZ0YAkl2kgWnvNufDFNZ1/teltUUxgqkgHncPsIPM4yeOcspCH1txm5OySiOU1HM5ef+sKfn54Az3twyNaWD/lNB9NXIBEAsAJfy1i/x4yAAbpMRIHDn9LdVaA335pAp9sAPmmDTxFxeggPm3dSJXFSimb25l5OiQrPTAQFGQzjOmWGcn+DgOrUynI4NfPTgm5Z0IYSrVD66jugwongl5h+500eSLl8ddwMjttYSXrjpP3jZgI51+3uxOO86szqguurJ8WoC+nTL
 
 -->

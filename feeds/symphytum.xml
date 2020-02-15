@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/symphytum.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Symphytum</name>
+  <summary xml:lang="en">Personal Database Software</summary>
+  <description xml:lang="en">Symphytum is a personal database software for everyone who desires to manage and organize data in an easy and intuitive way, without having to study complex database languages and software user interfaces.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/symphytum.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/symphytum.png" type="image/png" />
+  <category>Office</category>
+  <homepage>https://github.com/giowck/symphytum#symphytum</homepage>
+  <implementation arch="Windows-*" version="2.6" id="sha1new=59694702794a807a6c70dc89813550310baafb8c">
+    <command name="run" path="symphytum.exe" />
+    <command name="dropbox_client" path="sync/dropbox_client.exe" />
+    <manifest-digest sha256new="74AVNISDQ5GYVCEXSD7KESS37DEACGF7J3E4DIHFWEVJ6ZQOF4TA" />
+    <archive href="https://github.com/giowck/symphytum/releases/download/v2.6/Symphytum-windows-portable.zip" size="32595429" type="application/zip" extract="Symphytum portable" />
+  </implementation>
+  <entry-point command="run" binary-name="symphytum" />
+  <entry-point command="dropbox_client" binary-name="dropbox_client">
+    <needs-terminal />
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeR9ISAAoJEIqj3WcC4bjBAq4P/1ucS2Xw35Ma3cJCr1Nw5dGdjYrUsrAS7vmtAEFjrV09YM/Ul0b5NjcdUAPHMqoQLZF8GB3X6dTxmPohg1jvrV/ArvpaqLjkc2OGDkorB+LcOtFtM2Kd6GckPKt73GWsLTVMQlG5p+GaWqu27o1RQBmhoXX9194Y9qRr1X3VJ14tkj0YT8qurcbWi4N8ElKIhQuhb+Z5Ruw+flmUCuu7CnXZ3DyrcGbOkoXdvjoGr/S4rL1q43B+PWUwlvQ/Qu4STWwJjRFMmkwi4KWZOg+ecr2nxMBqEFPb5jcgo69zG74VAE1gqbSLeGKV9humiN9Qab7MnZnDsMxhn5kWTUr6nt0LY2f4SIdQrDbBARJRStIVGHutEeLpAvAizJlr3HSuonVnsPmhQqLkI19OUBBXri/8r+SrzBRuGChWkwNcor5oJ8cW/+wd93TGVDBBFx4R1SliTR7tHTKWq2UFMgyZ0+NIn8+Pyl0KZVbXsITnih013dLJx1qzj53QD2tpkc8x4VgqS8lpHxOZqk+03ZSWK42P6HuSdsjlAhzEqpZrvvpAFaqmJnhhxkqxZGqYzNowXqgNyKgMpwLdokM+pHxvOJLoRlsLX+TvYqa+CZgT1Qi0A4wEnWyMTkRfY7Hu5GN21FgqllqXD22IAhsROP04XXHaZVuDZRPLS5CwbDcKP7lZ
+
+-->
