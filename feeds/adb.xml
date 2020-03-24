@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/adb.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Android Debug Bridge (adb)</name>
+  <summary xml:lang="en">a command-line tool that lets you communicate with an Android device</summary>
+  <category>Development</category>
+  <needs-terminal />
+  <implementation arch="Windows-*" version="29.0.6" id="sha1new=74de08d7f1eb7c6c6f75b05bc2e842f0fa09c390">
+    <command name="run" path="adb.exe" />
+    <manifest-digest sha256new="DPOSRFZY23DSNLZXUHY5EX5O73GG4ZVJZAPWJ3J4N2IUKLE67UBQ" />
+    <archive href="https://dl.google.com/android/repository/platform-tools_r29.0.6-windows.zip" size="7278590" type="application/zip" extract="platform-tools" />
+  </implementation>
+  <entry-point command="run" binary-name="adb" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJeeetKAAoJEIqj3WcC4bjBkr0QAIdGKXRec+/Kd83WJ5+t9sAGtBO24s0Kbo4dSHWZ8diDHIS8H7rvMhM9VbLt5S+s8fZkZwlkFf6BRyTFj8Lym/bPrsYRjiuqxFWhJqvsBhCvDSSTFn93LpA0IRrqBIIqBJnZjNPm+VR8Og4xmyYjMrHe4s+Asbl99xxCwvrhiJv8xz8DqG8o83R3hS18dg/hwPnlD8JjkL3EDIlpIKx3JRyMS3KRUbkm55Ug0ydw8zpvqvebi/cAvlKTUlkN4J8t3hkMo3OI0dJSE/l411n6JIpxSR/T+a0rE2wnkLibILTg7is66zOjZdG2CMV2n+w7vm2TG1HZzoWCOVBqcUT6icCZKtK8Nt9sX8vrJUenQvDRgX+HU5VIZ8lSkuwVbPesfwVlFAQ7YPBeYOo0wuljk+b8dqZ4Xpopas1iuUFb2rQYl5Qui8PvwLD8F7DjaIHT79j1PvhempxvGaFL1jjFI191Pp6Et18i0Zm5XlTJ18v7GXK0Oii6x6z1VV7UXdwN1+qgEcg8N8ZNlT4QM1SKe4kJEv8wDiyZ+e+7Ffj3V1zIq4JR9Q+zXQ/d2tR29Zr/l7PjZWbqqtxBL5BTA7dpAN2jacGKy3pTWaO1ZcDrSypvPSZ1RL8qM6b7s8QtcWyWpZZQ2rqrlLNb1p8gMWxyQgITR3JzVHJ3uiChD6AhTDgf
+
+-->

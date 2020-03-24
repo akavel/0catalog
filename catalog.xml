@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://0install.de/schema/injector/catalog http://0install.de/schema/injector/catalog/catalog.xsd" xmlns="http://0install.de/schema/injector/catalog">
+  <interface uri="https://akavel.github.io/0catalog/feeds/adb.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Android Debug Bridge (adb)</name>
+    <summary xml:lang="en">a command-line tool that lets you communicate with an Android device</summary>
+    <category>Development</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="adb" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>choosenim</name>
     <summary xml:lang="en">Easily install and manage Nim compiler versions</summary>
@@ -197,6 +204,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeR9IqAAoJEIqj3WcC4bjBl9QP/ibn8ngr81s53JKzrVrfgpixIHA9MdBQSaas0cpRlbr2Ofc5aNdAfdflz1n2C0P8cbqIXrJJOUrGLpWe9xa4CNyVtF0lo4n8TJyB1pJCNxhlc/QWydYi55wkQPx4a1s3dRIwRVPqL3XCgMebkViE64maXlCPS36hAr9/rCK4fjTfmtCZt5uWHfDXJufJu2VHwox+HE1LuDG2o/Jg/0OiXQ0b7eWLyf/NHPs3vb5soeV95HDRtIYhxdDFLPKcBLEcgqqvNlHV2JxH1lelK6ppWqJNHbruwOVd+zD6M2qcAvLD7L0H+I1qr3bhB9R2epJK3fsE7Fe8ttS4CLfwabXcnKO9NeuRMdF/hdGiX4y7zoCF2NHnchnxR1ke3Fu3qnFKyvdG2tgHI0+Sv6Bgq8x2sMjt5XdUwdANMZ0YAkl2kgWnvNufDFNZ1/teltUUxgqkgHncPsIPM4yeOcspCH1txm5OySiOU1HM5ef+sKfn54Az3twyNaWD/lNB9NXIBEAsAJfy1i/x4yAAbpMRIHDn9LdVaA335pAp9sAPmmDTxFxeggPm3dSJXFSimb25l5OiQrPTAQFGQzjOmWGcn+DgOrUynI4NfPTgm5Z0IYSrVD66jugwongl5h+500eSLl8ddwMjttYSXrjpP3jZgI51+3uxOO86szqguurJ8WoC+nTL
+iQIcBAABAgAGBQJeeetxAAoJEIqj3WcC4bjBJCgP/1J0No8GWS/R0ADW8I5trbk4EAtji3azQqd3RR7L8JKdCiV4CwcEeV4Qi8ZqG/Ix9mrHFQCpN5994AryWP80A1vj81Robq2bdcyJRfv2y94WJHuya0DOqnuG+/fSl4oJavnNi2e/1XQRUw8zdkgniZrG1en/kkYUcJbuPJsxoTru0WtoX09m3mOSouVqOD8JkXbeVa9sLk2zfFWNpXiVNbcTlrrbCWkiHuc6ShjhEsV4UMF+nwarlVAu7DN4wAf0Mm8OtDeeM4ER1ux/BWpp5DzWyQzK351o+5yYd/HCW5117QmogRhGd1IZEqt1QsiS2crM7qJJKiy2kq8+ElOmY3IeiZu2cRPELOn7FjLEcnYZSUhgje/Se+R3TflMSLBnx7+0ofIQrseEsQW7VAGemUjISPdPEpyY3GbRLqGqqW7gr3FzvdUZsRrhFvhTU/764Au0QD/PvKvXHEVa5ta0oWbyE49yYEYBz+2jfse4ab5zKWVjLyJSsKg/CGp0Z4O3vTqVDdSREUIRqn3HFB+ZA+2jjoi3Yk6Er4UmRAmY6pOoFlKPgeviVDA4RdpCmCdnabQpcFK/CV0p/oMZpxb365CnUo7LpGEOj9qYE+09FG+HeHLd1/iNJ3+BUuQYZW2zPBpBxup8Lf8MgJQKD5X66zTBHhuVs1v9jPeVa0oI8asn
 
 -->
