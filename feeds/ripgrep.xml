@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/ripgrep.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>ripgrep (rg)</name>
+  <summary xml:lang="en">a line-oriented search tool that recursively searches your current directory for a regex pattern</summary>
+  <category>Utility</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="12.0.0" id="sha1new=b881273c2a46d0ae2797b0e6fdd4e15a4bcf326d">
+    <command name="run" path="rg.exe" />
+    <manifest-digest sha256new="5A6ZVFHQAA2KZ2GLZJL7QF3BCA2B3GDBDAHFCRHV2OCXCNNJB42Q" />
+    <archive href="https://github.com/BurntSushi/ripgrep/releases/download/12.0.0/ripgrep-12.0.0-x86_64-pc-windows-msvc.zip" size="1843612" type="application/zip" extract="ripgrep-12.0.0-x86_64-pc-windows-msvc" />
+  </implementation>
+  <entry-point command="run" binary-name="rg" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJee86oAAoJEIqj3WcC4bjBiX0P/23PIBDiTcaQaMP/1g1JJr4eJnukO7gy7INUXhDW2MSLEKb24Nj2pbF425mZCbhriX8cPIMi2jruy8u3+3Af84yu1e8hEwIT+YW63RV0FGxVDgGZgjalT796saRL/xPPSF/Aq1Ea02ucYSDsKe2b4+AptCRiAU3u/ViQvYMQFaVstouIxrnj/AqD8Se4nDu5egDmn8riaKu1evI95cyHgKk8rNxzB5woWH95BzGldcRI84K7A9p/lhsQ2KHtsoW/k3Cl/Lo9y3pu7YK2cilj6+XvdpqgAuhPzcryvIRIaLF60bVEb5e3QUN+OTJiaClpdMmWB3vtyNtPSyGmrPHQ7dSoXUOnA244B7QKQQmOYKKlbOguFMc/cNRYERk+4z9BjXoW+EiwzKBUavr8up+jDYqLWYFqtsk78PoGoiITKoZ36RramiiixKCAdnvW3bbGtOARaExGhtn/K6QGgOY0pWn4xRXM2peS119uqJDbqd9huM7/mOXmEpvAa5rofhcQHkz/9VdYFZWTQ3qoNRTIi9YF1hgDgLc76Jhz1S//PuczMSFFuAq6h9nablaDilN6JYDb8DLX3mqDdEolUdr/fBZiRDsSRlwT/RLCHvRToJoq3JwFVDo+Q9/wJ2xzL3Y5IHFSnUzPW8MVNSVj1QianGlGUTORXKmmCdKMFaLJXWqd
+
+-->
