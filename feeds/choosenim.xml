@@ -13,11 +13,17 @@
     <manifest-digest sha256new="WK47DS3ATHXBOOZMBQM55OOBSKBTS3EMTT5IJS6EVHBEGHXBXBNQ" />
     <archive href="https://github.com/dom96/choosenim/releases/download/v0.4.0/choosenim-0.4.0_windows_i386.zip" size="1315024" type="application/zip" />
   </implementation>
+  <implementation arch="Windows-x86_64" version="0.6.0" id="sha1new=7e1190adb061d96211b1c9263a802abeb5af5f6d">
+    <command name="run" path="choosenim/choosenim.exe" />
+    <command name="runme" path="runme.bat" />
+    <manifest-digest sha256new="SATKNKX6JPZVGDMMWZ7XFFJVVW6GJ5DWXQ5CXTM2ROTAZCBBMHEA" />
+    <archive href="https://github.com/dom96/choosenim/releases/download/v0.6.0/choosenim-0.6.0_windows_amd64.zip" size="2234188" type="application/zip" />
+  </implementation>
   <entry-point command="run" binary-name="choosenim">
     <needs-terminal />
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDSmXAAoJEIqj3WcC4bjBbKMP/30/2JtGamMcMC7byYmjN8BSJwLclJ2QY64Pw4aKvapxEz0Ti79yttk7BevkEvHawbrjyQk9ZykqbVfjydRPF1BuGQSDwhENOc1g08bsa/Xx0MRTV2zkdKHCzNK1N+mSOTVtH22352EiMqVfG/4YoOQRkPILqPe4/U6YnZcUP8C6rctIYM9UHvUeXjoHt1pQBUYB2Ct2ahLqoK/a/Ol43z9iri2NKPTmFwcT9e9LFZWl1U0f2fWQYF0GuCkw33vrmYQAiFPBxp4XWmFU3ptgDPCjIgNGOWT45b/p+gZ/ydb4MtQWNuw2L160EsbDFcxqOwujrl2iSQ1h7ricQHKj3LfZGkz2aGXRvahiXNGrWf3YvF3DHjLIosaekrQ7u6Ow8mbp6C533VhLTMQmZ9lQQCPbegPnnX3b5iydV9S3hCWMAFh3AWtPZ7+YM/NOdlz6j8GJo+hOjLyvKlUIr60ZGDgwIttoWPEsQyfBXh/+yUVspwcKL05CfWQYj/kERYD2co4iBkEg+est1BN8iZqtQ5E4l5FBdY2JA6t2ukq/FGVsJVT3VHPIi0Bk3Bnah1tfLYu2ceraMQW0gw690Idkq4rOrR3CLln65h59VDZV/IF6WZaRwaenw6vwcyurQGfq+r7cR3edvytIlNucN7JGR5sMyCkwJ+rA8zl7pPER91my
+iQIcBAABAgAGBQJeh42ZAAoJEIqj3WcC4bjBxF4QAIjFLMYgY5/SDZXDsxWyQVDW+UFPdiszfkmVefWqSREu0zoT7MlrDK9INDLlPWFpujmeeOdjHemGGuE/iALVR/7+XlZ1vWk9+er5G8VrcebCs4w/O5WDL/xVzdR4brL3u2rv38/I/26j03ZEpsewkrt2T066Kzb2Cb0QlnLTgeFWbsVXecFPHZvXNSu+BjA8xdxgqoJPktR8/+hvuIMrIh49ditqfQJwERH+NRzrJI3zBj92flLLLrlu60q2m+K0Wyv6YIkMN/fDAUXO7kGbaU/F4oK7IgFOAgumn4dMrDfq4IRcLTVbTjiZUzW3QHMhmvKPx9GKvifhej99vGJKMAPKimrhhobFjqFHGC3BsY5eX0WxXUu/B0JEWidyuk30yANGebixNhhtkti4ylK3/iA1RxcWb7GqT6/28/i/0xpPnpwqwAc6qJKchoHv1BuNnoKKrDG3LxDswD6J6XRd++9EeXpTCu4Aw0jk1gDYpAct4XWnzCp9MuphTDm4SOmEDWfYUUVnXqBzI6MRfUpHwTjO+BBIrQZEh3PZGLSstTDFXf9vBnlz3GcmwJUlAmYdPJFrmICcrRBkiqJ8LG3QYNiZLbAYNub0mre1dFI7EF/I2DaycdUe4PFTMYnjcCSuuL2+Up+TMw0SX6YBuL0rwECsETmL+Oo0bxX5vJ2tvkBa
 
 -->
