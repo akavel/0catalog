@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/protoc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>protoc</name>
+  <summary xml:lang="en">compiler for Protocol Buffers - Google's Data Interchange Format</summary>
+  <category>Development</category>
+  <homepage>https://developers.google.com/protocol-buffers/</homepage>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="3.11.4.0" id="sha1new=db82d0955b75b73e8dfd08d86b914d81a56d5d4c">
+    <command name="run" path="bin/protoc.exe" />
+    <manifest-digest sha256new="3ASB7GHCWYOGTSISW65HXHHYBQYNQBKXDFLMSXGZNSJRKOLWR6IQ" />
+    <archive href="https://github.com/protocolbuffers/protobuf/releases/download/v3.11.4/protoc-3.11.4-win64.zip" size="1428016" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="protoc" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJejZV9AAoJEIqj3WcC4bjBq94P/3CXY/TuntthYKZyrYLWvDSBv90233RQNNbpmgF51gthoDJPYf0OPpMXe8ibDu8EsB5aFJDah+TX5mJdIS2K8K2SOVyljLxcNu6av/M5MO4rFt8W9ZX0iIW0BDZ5+H36CmsMzuAiQMJ5NulG97ArBnE94G7dJtpcY3iWNnSGA3wQKK1Ewvj8tndY+VgaNN7zbE+PNbSoRz0gyKt0Vl++jo9eSM5CxyIcGAoeHAcQfimgYzDUlaZNpIgXkbiC0eU8vbx5h5izzdTNDHWpFKPN3VoBF5SoLHoPJNcRMOeWrhVWF1r2fB+oCyLzaiQ7P1EXjxp6SO/isiGXUJ9VdwP/rM45QUiX7ERBSZUlbSbphWb24UlQ0kvPt98LH2tISqTCklxLMXZ7ydOrP08D4BVcR0v4imm8FvMgB4BnhSvc0C4JeAlmAZEb+boEH9qWHSpUnngLgWTVtcT0q5fdxuDgeGN+ahbMHqqX1oI3c83N7zSmNF3MvHPrHYCwl2uW2DCKU5JD6SThkgQHLdXOy+1kSHSjLCqiNj4mmodwtJ+6ouYxQSnFbLnqKZxOXLz2uqPG1XPIx/gp//o2bk25xUigjI+98ar7UV3qWn9ggdYEHBReuOWxe6C1kLXUmstqC6GVkF+7CkzRbvP5iOZvoGOhvHCeTbvDtdYchk1ZFvsQtC0+
+
+-->

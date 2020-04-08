@@ -84,6 +84,14 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
       <name xml:lang="en">__init__</name>
     </entry-point>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/protoc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>protoc</name>
+    <summary xml:lang="en">compiler for Protocol Buffers - Google's Data Interchange Format</summary>
+    <category>Development</category>
+    <homepage>https://developers.google.com/protocol-buffers/</homepage>
+    <needs-terminal />
+    <entry-point command="run" binary-name="protoc" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/ripgrep.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>ripgrep (rg)</name>
     <summary xml:lang="en">a line-oriented search tool that recursively searches your current directory for a regex pattern</summary>
@@ -211,6 +219,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeh42pAAoJEIqj3WcC4bjBeTAP/3DohAGrI/J0kKPmxPg/WozCoXsH6n6L8Wv4xrnXV70C8079P81xF3Sf5VsmCrGrYwCmfqxm9E66Td2TOoSsbC9ZnXrBcSKhV8e9hFJU6XALgK+STYREy/vHDhj5cS3W35F/A5HJ6oKF/Hj6+sBuC7Qja9WWFfRzdiuAnGlKgTLnKRUwdnEpacdP2RJ2ZoFZ0Z2aKlbJLXy2/752wXR7Dd3D5ImBaUpz7Q+44HNCDLgirOivgqKiVRYjRs0iGY083ePgu3gdLnQXhV+kxmLyK9lo8F+FKD4gDdfQm+vOgZu4AxPLMU29z0MFkJmTXeKWOSFbaeF6gua0nWNMbyTxEIBmwS98WFF5eQ+Wgn/MZgV9SjcGjg/iT1C3T/CgbDLv61GRiB2mUjKsHNKGATLfYNtE+DLkXeDHKZyN6HoMaSoFgAzu28P096t2Kn3SPwjRX1AmkvuDCGQlzJPP/FFGwJgUOak/eF9ruPeUZVFuV8bukekNekAQG3d1k8L0XUfu0LUKKkR7X2/Evw7qsA8wxyOLkp/T8qgtSEQWk3xrYa1W4KLWiodI1WShM7K7sykcUiaJl7nBWxa/Weu9K/u389lzRBAvgg/8x/2vappef0mnOeu0F5YJXLpw03mM2svTjndR3066iKMvqc9e34kp4myDyPL0LeAGZ+dQnEV6iiq/
+iQIcBAABAgAGBQJejZWKAAoJEIqj3WcC4bjBDX8P/RYwaUUEHQmimNqXTL94C1ABTBAfl6EDADw62mNw+IQVhK8+bxeDBTTPcq8bmj0J46XMCUU1+LG9ckW7Emn657HKE2OLQ6bogZ8usCaso784V/EUwKWt4ZLFTxLdlWgH4N0S+Dcgvn+/41+IpZpWzOeQrLm1xkSS1snd8YIr9IHhqM2I0hZxVuXKeIYpS3Qiuk6gPkRMALbhVW7YxRr0HS5zBftx0uF7fA+I6g+prYK0wLLv+lJflJkLxTHwU1IwxQgSoJRqPnrO53eAXAhKjc9P/5hA4+YulPuX+GPXpsAHeE6vhVa7cKaXviBmHW8afaJQ8V3EDlYvUJ+GxPew8+Fgp6U1w8TELPOQoiszoLoPc1+EQeDdyGp2QUkGPE+Hthwq97M1XAyLT/Oa9uSJvhF/nMsDD5P+OiJdUiN27ChOkBer7swmWw72fXYTpTF0Es7tTNlEf3qrQhYDai8HOE/nSTs8U7NG2qIN3D//bCOH1VQrxbbXiY8rVeC8DzhivjDR/12/mA2u3/lyuIIM2UciDhvFtCkSyKjesTPKRfbPjAA0QTBmigtvPWo86UA9/syOqMmPyu/z+zg79ILz4ae6KehJfGAV8mJhbHsS50H9ULz77oG+zOusJSS/1aPuqC+bNB1rsac6JLUTjFZVs9qBaU6fAzCTU5S9UmkTU/r9
 
 -->
