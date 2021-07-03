@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/zig.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Zig programming language</name>
+  <summary xml:lang="en">Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/zig.png" type="image/png" />
+  <category>Development</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="0.8.0" id="sha1new=2e269a13ea6e3da525883040202943e064eab9e7">
+    <command name="run" path="zig.exe" />
+    <manifest-digest sha256new="EOWBNSVBAPRZDRCRAI6YK7GJUVH5YQZHVXN2UHDB4IJMJXBFG64Q" />
+    <archive href="https://ziglang.org/download/0.8.0/zig-windows-x86_64-0.8.0.zip" size="61766193" type="application/zip" extract="zig-windows-x86_64-0.8.0" />
+  </implementation>
+  <entry-point command="run" binary-name="zig" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJg4HjjAAoJEIqj3WcC4bjBaQYP+gN2kfFngFSzjuGy5Hy1qtZnnflYMewvTnYPH+kU4jyXfffLTATzXDw4TKvWU/3bEqESBuUKulBv8Q2Ci7grdpn1y7CSF9IpZcIhFhM+wuLmXc7U3hiWkrVgs8+Emxn5yIL9PAb3LmkEDUflQH/BqQuv6zA1Jp83L0EpQ4uzXzT7F7uxEqi9+tWK1lueiVDr8hE9bpgDi9CdUdRZpBa4fWfzNTb2FXXKyq4g2f3rQYAP0qWq56bwkG/tHGLI2SsrVnd/afg+cXbqXpOS3lPoiauqTDv95q5pZlAyXYS00QvtyxB8J3fZvWaiD4cdW8+NNK4ThRlV9/A76UZBXZidxzjKbzRSvM5g8KZn0jQSw64TZu/DbYdd6kHSYCUzMXPn7FjdOnbJBDfcypaPaEjHTGnj3u4tR3WRnDsO98G7+hJ0qXabY4L1G/VqWvmGKqTKVmzKTJimcuNajujUGnUbQGp9AX3RlXwOt8FPDYxLWK0UBFYduPYPkm3mdYVHKswLNnk64K9BayH+iYnJSsgGaQmfzdJVHKHgen4XCnoH3FdO8O48BdkTLWxHd8FNooMzLe6vjLopi28+9Ph3afupBbLHOCJ25Io68xNX6ldj/1Tu9Ec5yUneC7wQTUvSdLo926SjvbYy89xvUu6C00p89WvdsfQbsuyOMPfvMj23CESi
+
+-->

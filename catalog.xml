@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
-<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://0install.de/schema/injector/catalog http://0install.de/schema/injector/catalog/catalog.xsd" xmlns="http://0install.de/schema/injector/catalog">
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://0install.de/schema/injector/catalog https://docs.0install.net/specifications/catalog.xsd" xmlns="http://0install.de/schema/injector/catalog">
   <interface uri="https://akavel.github.io/0catalog/feeds/adb.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Android Debug Bridge (adb)</name>
     <summary xml:lang="en">a command-line tool that lets you communicate with an Android device</summary>
@@ -217,8 +217,16 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">Vim configuration for Zig</summary>
     <homepage>https://github.com/ziglang/zig.vim</homepage>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/zig.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Zig programming language</name>
+    <summary xml:lang="en">Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/zig.png" type="image/png" />
+    <category>Development</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="zig" />
+  </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJe8Pg0AAoJEIqj3WcC4bjBT2YQAKQuhpDzj2ryj729ro2TugYcOv9o5SUtU/BhJo3/5hKGpYkLGP8MH+aFJalCzoIzyyqCxHM5TjQ7TlV+JX7wZcAcfbYKMClcz0FxiSUaKf65FnhXS2lZxwcgECDwQlkiW8NMv4j5JSMRx+AlDEvKJiePyGkcGbGfAeUCtyq33kDibmfQw/ca4HOW3GD859GtOTYjvCYsHKmRtqr6LwTsVqrTeY183r4pjgeBdKTXUTPv6mVVaJAlKkBKgoTHcX0bxoCvgi034I9S6d/EQEx30otG4KvdCmWTliQo/sjq87Y2K9MuJPJ890D1G9XM77AeYydDvYclYt1DbkjEo/F40fogbXoIZgISfTEo44tI0F74I14KjR9gZasoeEIKaACGiw5Yev+OA3PwmcAXktryk/upPLA9ryVXUTRIAHNKeS/iOYtA9i6S2aUj1AycL1/CkZPI9s64IU9pIz2EobslwjMeCb0DTv/soV7ki6nof3mn0WJjPtqiHVglanQmfhnShjhPzjifcPFFpP3sZ3+IFopUp80PfS1qs5XJvjdsGry60o392Z0tskDGgwAEUR2BNSiVrnumdSaBzz/1eH0gRILoyvkKMLbI1kPXx54JtTqA1klXmiAXIO026PLMve1mz0oyXlETe/NmtpKLnITn4BbzInAReJUup1DIoblK1zR0
+iQIcBAABAgAGBQJg4Hj1AAoJEIqj3WcC4bjBs74P/1Nf6dsB2EoLcCfalaqnq/rvKKccvEuYpPYwAXrsS27dj0RiNJ/DcdvqyyWSN9gb3C+iozXVRSpFfi1Ekg4Ea+jfE4zNu1dBm7GS05lMlWrAn2+LDfwsFZ9qkiZFJu2ljvRycyUF4i4bGQGDCPiuKHK85jC9sbZkRIZYzszmpeR/8uOSxTjPZrlrDgVU1AQ8GfX4E8RLYvLStEqnEJxIkvWJG26UkMV0b8+8mfN3RAFXg6JoDXYQURTBb4ujDT9pPcFOs+ULH2yhuqEgdEtu0oHDP5EJYZE7b3UB7xta4y6s66hwvTxebxwDEU6oycrsGW+4Jy60y5fKDBGLweyTIrlNdt4qkse4jh/sTZibkk1CIQFVstksE3sxGBSSyCUHK4rFQfjTgGNVlFfZEMvrIi8pddNv0pvEs92DwlH0FQqdKp/CVvTxZEe7tLCS+VOskWxknwjzzu55/x2rjsic+6OBt7NKbxZqDFJj4htZjJ2uIQcSsyrAdYs1ylDzr8/TulaE8+XEBDMYKqIUJu3xymxK4BMpo4pYaJbWXrlmCFLI09mOFBr/6PrRevkqzCLmqTFbPiSZGiA3zMUxN02u4RDA3uOnT32UJ1/1Guotf1qlhj/uz7poIPqz1d1uXNKkwqfe4muckPYf/s5U8d9r9s2U56aZGqDdzmmbgF3q/PoI
 
 -->
