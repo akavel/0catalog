@@ -11,9 +11,14 @@
     <manifest-digest sha256new="EOWBNSVBAPRZDRCRAI6YK7GJUVH5YQZHVXN2UHDB4IJMJXBFG64Q" />
     <archive href="https://ziglang.org/download/0.8.0/zig-windows-x86_64-0.8.0.zip" size="61766193" type="application/zip" extract="zig-windows-x86_64-0.8.0" />
   </implementation>
+  <implementation arch="Windows-x86_64" version="0.9.0" id="sha1new=b13e3d3e14424253ed6e1bf41440516c32e02475">
+    <command name="run" path="zig.exe" />
+    <manifest-digest sha256new="JA3ZZLFDH63XA2QXYD5A6ND36L3D5D7VV4OA3472BC2SIXOOMTEA" />
+    <archive href="https://ziglang.org/download/0.9.0/zig-windows-x86_64-0.9.0.zip" size="65045849" type="application/zip" extract="zig-windows-x86_64-0.9.0" />
+  </implementation>
   <entry-point command="run" binary-name="zig" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJg4HjjAAoJEIqj3WcC4bjBaQYP+gN2kfFngFSzjuGy5Hy1qtZnnflYMewvTnYPH+kU4jyXfffLTATzXDw4TKvWU/3bEqESBuUKulBv8Q2Ci7grdpn1y7CSF9IpZcIhFhM+wuLmXc7U3hiWkrVgs8+Emxn5yIL9PAb3LmkEDUflQH/BqQuv6zA1Jp83L0EpQ4uzXzT7F7uxEqi9+tWK1lueiVDr8hE9bpgDi9CdUdRZpBa4fWfzNTb2FXXKyq4g2f3rQYAP0qWq56bwkG/tHGLI2SsrVnd/afg+cXbqXpOS3lPoiauqTDv95q5pZlAyXYS00QvtyxB8J3fZvWaiD4cdW8+NNK4ThRlV9/A76UZBXZidxzjKbzRSvM5g8KZn0jQSw64TZu/DbYdd6kHSYCUzMXPn7FjdOnbJBDfcypaPaEjHTGnj3u4tR3WRnDsO98G7+hJ0qXabY4L1G/VqWvmGKqTKVmzKTJimcuNajujUGnUbQGp9AX3RlXwOt8FPDYxLWK0UBFYduPYPkm3mdYVHKswLNnk64K9BayH+iYnJSsgGaQmfzdJVHKHgen4XCnoH3FdO8O48BdkTLWxHd8FNooMzLe6vjLopi28+9Ph3afupBbLHOCJ25Io68xNX6ldj/1Tu9Ec5yUneC7wQTUvSdLo926SjvbYy89xvUu6C00p89WvdsfQbsuyOMPfvMj23CESi
+iQIcBAABAgAGBQJhwkhBAAoJEIqj3WcC4bjB3jAQAKmKGaur7pTLjApaZmd6qVTACDaaMInrwbWZ/bCltN8dvQMU4GxtVDEfLtcp76y3UdPkJ22/Qp0fHhoVlpRxtjBIAmgjR2zBXkB9L//+/pkbtRONNrESPLdQqReOciPvYmIv5B7/Abgnwaxpq8a5rk/3Zz9iPveM7X2OnGjnpzU5fnEIuZB17gaTbhNpBwgAdUeGqlI47CEv5pMAW1VBJsam6zlVIZJZ4WsvcY9ZBbF2wGwMaXuvR+iOe7DaWe0tTGwFlnt+gLgIfe3JxxiWEDsU/yycO4HJB5+YpKGcyOsShsMKtl7Vppl2gHfTMxaliucuGww4y9VbZkQysIWLiQuDl0u0hldv6t3pR6w8u8iCCmbZzEcufoy33PDfjfT57f53KN7BNAtmBcECNCRdeATfQJ7dHqDpe5P61WI+nGaEYQ66YdWsw43OY1oK/mQDFUkz7SB3dBzQcfamrcmfxx+2phUv4wltJE791gNOW78LbuCQTmFFhpldWWx1FBWT7sFC5HFRHbVuLqMn3sFoezCjMGn6VLgMXURMmYJTzEWk/Vx73MKm5a7Ru7swJ5VnyNkUkDsCaEDxWDb2AQuW2IZa/Vjsx+1bSn/Orm24pfagjAuxkJf2oFRBi8ZLJHIaxBIzQ4OVIqmfUTdbNbCknN4veWMBZ8Honx1SmbLUHjQ2
 
 -->
