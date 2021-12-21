@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/gyro.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gyro: a zig package manager</name>
+  <summary xml:lang="en">unofficial Zig package manager with an index, build runner, and build dependencies</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/gyro.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/gyro.png" type="image/png" />
+  <category>Development</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="0.4.0" id="sha256new_MWU3WCEFY4FL57D5NILOMDIQ3GXRLKFUGOWPSSIFZ553VFEKN4FQ">
+    <command name="run" path="gyro.exe" />
+    <manifest-digest sha256new="MWU3WCEFY4FL57D5NILOMDIQ3GXRLKFUGOWPSSIFZ553VFEKN4FQ" />
+    <archive href="https://github.com/mattnite/gyro/releases/download/0.4.0/gyro-0.4.0-windows-x86_64.zip" size="4846432" type="application/zip" extract="gyro-0.4.0-windows-x86_64\bin" />
+  </implementation>
+  <entry-point command="run" binary-name="gyro" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJhwlvNAAoJEIqj3WcC4bjB1PwP/R7mT0Ml8dlOs7+S5KHZ3gn5Y2IIkfticwHuosjBrtuE3u23AencxSowxoLDR86zQtOG0OKNU+rVlR+L58xUtgxyc9CGn9hlVnLmQBUliK3AfhdEUxsxkGSHvwfpY8wBDDeHO3e7t9PMo3bJQ7Tu3fJNK006GGQz6l5NkRcIpI94TwizTH/6mXghZ+96dJrlHHtKXUm3ky3wWl0aP/LHKePucB9CDR6BXVuwsyLMwej47YcC5/xyO/JqrqtbuHtehua+ceLgOg/Xv1S6p/jKK72MbT20ANJ6gzcTLpjkXcu0TL51Tp87YnIZh4GTkfvGNlilVeqGKmnQwRzKEXPlwJYbdAPfK450ENmJz6loUgbTT7ZM8LKkJCRudeuw8P3FTI9/dbpBbjCaua9jtAHvYxFsjZE1adQNFb+8C906ihOlU0wCviqr79Qc7VwMGX2kLCDaCrexrm1zr6AFvozVUb8g07pTgtRKClwu01Xb/V9NE5UofJEnpu789jUlQnree2jTMgIFm65APVhRgbQAKN8U6xqsCCLnkxClZ6Tdco04XvBt9yhmbojL5lXeZTHR0SJR86r9amPCJ8qMd7dmN/9IeDwJ+xocPQezhEiV3bB7n9Bl0E+c3ebrFfxhObCfNBDTl1CjSihdKZohBLhaucp6tFZNPh18PlBnhCiea1CK
+
+-->

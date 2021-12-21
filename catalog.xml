@@ -27,6 +27,15 @@
     <needs-terminal />
     <entry-point command="run" binary-name="cue" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/gyro.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>gyro: a zig package manager</name>
+    <summary xml:lang="en">unofficial Zig package manager with an index, build runner, and build dependencies</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/gyro.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/gyro.png" type="image/png" />
+    <category>Development</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="gyro" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/love2d.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>LÖVE 2D</name>
     <summary xml:lang="en">LÖVE 11.3</summary>
@@ -227,6 +236,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhwktaAAoJEIqj3WcC4bjBLtwQAIpXYQKTx9LrlEVU3J3njhMrNjmb3zYyg2R7gAi5z0X7IV32Gl/0V8znXaS93hAbwU4HwER9UpNyPZCe0HF+GM3/lUuGjflDBnIjkf21ecJkxiQbPQWvPBon+FoP5oO2CNYUp4CM3jTF3n/1dAdtbgNwBvlpZUo51M1hZy4aNMYiFLHYfxdb1i8uLOVpURxGEsUd4/0IALDos2QAlMI9ligJfJM+CarYOpEMVjYAfTA+W1uxEzjF67Zlp+qzI+PGYATbM23avro0ZxkwHIkTY4hJRNU1Iqka2m6D658fBO+REZNT7pU751jIn9tkVpMDe4SPDH7j5xc9VfDFotYaAbekNZVucpb8HaJkjlgbjeP5DwwedLVCsKsK4LM/jMkcDKHfh+917IvUb3wQ/cRTY9qaOi9s8TBUoDmKQghyGRdxkU7B8blWGZpE17nmbrITUmrVVO2w7ElRoYtgd0lRvVbquTaZtHiicspqIw0fboY+7Xf4ZETpx30kkEPXGuMONFVSPgUyG/Oeqai628uklsKBfp1Ayc0m3qN4ZtNv0FFY5jAZFEJjc5mtJbZp52T0ZZVfhdBp5R5vEcn70MnRQkPaHBWENOK+v6/X/622AOiOBe5VMn6Jifne41+gSNcqo2V8kheWEdSK1+QoBlTPnzo2wEDOSiQgp6veT1+0A2Jl
+iQIcBAABAgAGBQJhwlvmAAoJEIqj3WcC4bjB78YP/iaB0coe5Hw9+WY53rRZPXfuGeIuaFxMxWt15mQFTromneOntVIZIqYnvV9evLjTitKGu4a7jetrUjF9BRUBggX79z6BSx2iftAidtk4XYNnWCY/houYl19xrnyCmPe8GK/raYePvzxfC1cPg/ge264wGom7T/Wt9GVWym9Ys0gXdNy2lCPFB6WVl33DP9DVJh8ZJLv5FiwBjm677JBAlqnZ7PGXk3G+KEGVxLbg4DmFCsW82Xznz0xb6UoSISgE08xc0ZiGsasMf8yyaAdqsflzb4OcG6uHhaB1Ak0O8sPEmTfm4zNLzi0t74nRqTcy7rqbC6RCiR5+8LvJFhsXk29lYR/GRDjdYG7oIksLqNjnlPTrV1OPug2aDw2UMNbMQHki4pHanXGY2GeMhF2XKPl9/NzY5JVSQoy70LSJpLX1YGgw16Jw02DSICxKnwFLCFrYHxCW0wM2NI9oLcgXS/Cpp5p7WShFyG2SzHCCHSz3SM6+3u2i0tUXrdk3KigXMY3lNRAjr/M8tbJG6RU0ox3KnoPtpFBHmoeuOFS39F9atinXfx940pu8PrJChTTs6cEF2P/6++W5laEIiM5J08e6a6zc+XRP0PwQFZ/cqkMYmgYKFFXtCA1PbFTlmZfC1uLm/3Xey0jv4RqV5xDUAsuH7odflXibgqmYaeJ6/c/w
 
 -->
