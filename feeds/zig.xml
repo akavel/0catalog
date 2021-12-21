@@ -13,12 +13,12 @@
   </implementation>
   <implementation arch="Windows-x86_64" version="0.9.0" id="sha1new=b13e3d3e14424253ed6e1bf41440516c32e02475">
     <command name="run" path="zig.exe" />
-    <manifest-digest sha256new="JA3ZZLFDH63XA2QXYD5A6ND36L3D5D7VV4OA3472BC2SIXOOMTEA" />
+    <manifest-digest sha256new="I37LXVBF7U5NCCRKF6EAKYEUGI5BVU3DRK3WXDQ3ZIVEG6EWSMYQ" />
     <archive href="https://ziglang.org/download/0.9.0/zig-windows-x86_64-0.9.0.zip" size="65045849" type="application/zip" extract="zig-windows-x86_64-0.9.0" />
   </implementation>
   <entry-point command="run" binary-name="zig" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhwkhBAAoJEIqj3WcC4bjB3jAQAKmKGaur7pTLjApaZmd6qVTACDaaMInrwbWZ/bCltN8dvQMU4GxtVDEfLtcp76y3UdPkJ22/Qp0fHhoVlpRxtjBIAmgjR2zBXkB9L//+/pkbtRONNrESPLdQqReOciPvYmIv5B7/Abgnwaxpq8a5rk/3Zz9iPveM7X2OnGjnpzU5fnEIuZB17gaTbhNpBwgAdUeGqlI47CEv5pMAW1VBJsam6zlVIZJZ4WsvcY9ZBbF2wGwMaXuvR+iOe7DaWe0tTGwFlnt+gLgIfe3JxxiWEDsU/yycO4HJB5+YpKGcyOsShsMKtl7Vppl2gHfTMxaliucuGww4y9VbZkQysIWLiQuDl0u0hldv6t3pR6w8u8iCCmbZzEcufoy33PDfjfT57f53KN7BNAtmBcECNCRdeATfQJ7dHqDpe5P61WI+nGaEYQ66YdWsw43OY1oK/mQDFUkz7SB3dBzQcfamrcmfxx+2phUv4wltJE791gNOW78LbuCQTmFFhpldWWx1FBWT7sFC5HFRHbVuLqMn3sFoezCjMGn6VLgMXURMmYJTzEWk/Vx73MKm5a7Ru7swJ5VnyNkUkDsCaEDxWDb2AQuW2IZa/Vjsx+1bSn/Orm24pfagjAuxkJf2oFRBi8ZLJHIaxBIzQ4OVIqmfUTdbNbCknN4veWMBZ8Honx1SmbLUHjQ2
+iQIcBAABAgAGBQJhwktBAAoJEIqj3WcC4bjBu1YQAJkPXycl8FINpsWMh7tdrJWPu6ebRlfH1b0e9whzIQ8XHnIoXYBK2EJrj+CD1IQNckvoPfbTpVJ4N1A16YWfYPyDRtiLcME4ZXoOir1VtndeKgwgs69gMbFAt/XH20gS+jF8Oc9zOaZUkglIUyAr7DF0YnaPtQAfxgIUaiKcEqo886jQH0LYU/DWl9MneJ5de/31475luFnNCTKqSd7+wlu7A1bi4pxBwK/pipM2Vi72EkJpQR7r0dcxAIHIt0zCccuVlTKY0mwSKWJ1y2DPb+RS9VPpc7mOfnKYWTb6VunRhdiTTHsTHWmYkAc6k7QHiWU1RXKG3XUM56QcsqAcJ0fw6ucje3E+90ANZagQbD3RWbeFQMQIyAWZZhNoWH3/TW7ZuqQ1yiNdnpY3WTDRVOTm0424gOFpecSvAHbsnrJ7fIzCNXxcIY05L4/l8W0efU+zTd5dq7axS/LFrKVv1CMUjWZrkPFVff4MahiqRxl+p+Yibl/RP7f6t24bwxp4FohCugZPmuQJF9qjI/YHnPxebhlRU3S1WOa94gptOw9qzCuGetKpQUpqyh0RFV1EXyv+H+CXcw93sxkhie67JR5eZczRRAlal77EwUBNhKI6utxY4Pi8OLopemsAHCdhAuxuTnfnttT5rjdQvhE5Zo+avc26tVeJA5oEN8zgqjlV
 
 -->
