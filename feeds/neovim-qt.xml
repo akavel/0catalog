@@ -60,6 +60,33 @@
     <manifest-digest sha256new="522AFWIQDYKTG3VDWUT622TO7TN2P2LBVE6AOCQ6JIOTWDTX3J6A" />
     <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.16.1/neovim-qt.zip" size="21516602" type="application/zip" />
   </implementation>
+  <implementation arch="Windows-x86_64" version="0.6.0" id="sha256new_LD4SYA2GF5TGHLDTZHUK7QSR645MOHH7MZCHF3P47V24EEJ7BLFQ">
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nim.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
+    <command name="run" path="bin/nvim-qt.exe" />
+    <manifest-digest sha256new="LD4SYA2GF5TGHLDTZHUK7QSR645MOHH7MZCHF3P47V24EEJ7BLFQ" />
+    <archive href="https://github.com/neovim/neovim/releases/download/v0.6.0/nvim-win64.zip" size="34043570" type="application/zip" extract="Neovim" />
+  </implementation>
   <entry-point command="run" binary-name="nvim-qt" />
   <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <context-menu id="open-with">
@@ -70,6 +97,6 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJe8PgUAAoJEIqj3WcC4bjBUlEQAIbaSf2MhFAHXRkiKSpHq6K7Ahoj4eiLYQse9hzFk2ziLykcWoos+d1eBAo39ATaSsVT9+OJOcVteyuhWTin6+jSyb4XEGAElfK9BGACaC2w49bnUmMpXUEaVXDW1SmuRjO1MBQ4j9MEtEoqYCKZgKpzxzPMQlAfWHTGieObW+iEtltF0wZh6D+31QIgPAz0LlSwiSBncyKWq3ER6LfacNScJKCjSgrpRGEqlQVE3nurICDcnhIAKeZF46n3VJfGFZxL7OwV/QcKF+RiVYRvn+a8c5lVHlDAa6dHdkR3E9H46Y0W6Q4UdDCKwuLlWeujVPyEQuFLjy4x4gNPoOw9XUYRikBZvOq1aAAojCrUA4p8s9QJReHdxACI+93ErM+I03jchOUGZTYKuM4qV9kh9z6QjndCiE/slWNHUhzbXcDzDf2FYnF99RlcJ7ZTh2gUPhZepplCuhoyAKMgAInUDcx0yWLH5RuZKZ1c49FOMUJcIa917ot1ltFr20SdSYjmo+e6xU1/Jpy+clG2mFgU4zec1ANmLhlmLmQ2x5XUB8NXG1G1B/z4qHUPD6TBfLn3HtnoJZ5EbZbgelAvUcvkZCIZBCh656xvMYpkMFSYdXe+9O6K1r3k/k01W+R7gD6XYoqSUZYWQHjd0bQ5lgmP4inHtObm3qCHB9v9pG7lzdEu
+iQIcBAABAgAGBQJhxQW6AAoJEIqj3WcC4bjB8vQQAIB8Aoqr3hBL7Tz1O+gMYD3PhAwm0w3pISRcrbsOLq73a9nf1pFhrDe/q2XfbU3ubISGQvfwK909R+54QSoJiS5TKcT3ZRuTvP5qLyn7MDeGpwebmQbd6NJ3kkG589gM3PC1G0m7hSncriLwTu5xkY4aLdN0n4XouqGh/7ivarLEVH2IcqFtKGblyYx/XsF5hA7dJCN75hQMKuOfaWMvZ/QW8/z1rBiowceTSbPdO4LOzBXybTpBtfrwG5Kd5nmxPiZxf3i7DOcGZKU5fniMKKlXP0RI06mutea6fWNi0lt8v5IrLxSB9P8lN5xESxXW+MN4FoP8vde6nkwrersb3qhar+wx+if+F0s/UjbSKzulTlCqdnecK6mLRmC3Q5oneLeSPpzGcrGW40Jp6eMM42pCFQUsp4OgIseDmoWcwvJ5OFGfd0kaXA5caSICd2lmQ0JndGpZoEfyzOkhDpwSm5+yW4zgUh7lnOzJ0uLy3DrPYgiJ6EXiLRDFwy3jy8vO513n2tWTxH9M45vYwjliTAcRtJ8YBlbGXIU67M/UB+GeKkBjPkBkZ8it/sKeN47B1VIfEI6ayAxFcRwrBZ7DRRjqkSSUpCs+ENkilCuGdti2sCyD6m4No7+GxI/NCy8QF89/H/5Ky03z/y8caKDfNy74kbwUcnhTqHPCcMGpOXBy
 
 -->
