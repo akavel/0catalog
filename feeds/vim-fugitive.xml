@@ -10,9 +10,13 @@
       <manifest-digest sha256new="TZX5MFRSM2BTPPTBDQNTXHUWZREBQ2APT2QSIVCOBK3R2C54F73Q" />
       <archive href="https://github.com/tpope/vim-fugitive/archive/3bf602b13d86b7aef57fec4a2df29467b61435cb.tar.gz" size="61640" type="application/x-compressed-tar" extract="vim-fugitive-3bf602b13d86b7aef57fec4a2df29467b61435cb" />
     </implementation>
+    <implementation version="3.6" released="2021-11-25" id="sha256new_DYAF2RTGKRRGVBSFYOTHP7DGB2E7MIK6ARWYWCXYEOEHURSX65LQ">
+      <manifest-digest sha256new="DYAF2RTGKRRGVBSFYOTHP7DGB2E7MIK6ARWYWCXYEOEHURSX65LQ" />
+      <archive href="https://github.com/tpope/vim-fugitive/archive/refs/tags/v3.6.tar.gz" size="82333" type="application/x-compressed-tar" extract="vim-fugitive-3.6" />
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQw1AAoJEIqj3WcC4bjBYIcP/AkudJExGGUmlCn7beG73tSz8i2HfutUGwdDhLfzIV4XJAi+bzG2/rXbiTlGAC7DA4W/FOk7IqOrfQDgY5vkf3bFsThf9v93gP0D7rFLB3IdMxUV2k9Q/5JvBlxOMOj8AjmGk++mQ16DW3Jp84szXXLbuwoZpE609toixBKXKOGL4+ixBwzhUek1p+qZxaqUKS+NRElBPxpdZXbqXX/FygP7chp4i4fWgV4ZVs4STL1xzUSByz9b5yKHe7n3R257byEYDXZLOZacMgWMaDL8TdxrtcqGXWBM5mnX9gqf8hieoOZ9WRKtLTRWXuZOQWMEnYDzQqR+KOTmDlVF4AFKUv/ruuL2CewMyQno2lMseaRUf0F3Fopq9GEZTZ27subhRvqrgZpkWdGZ8NVyYspp7N6GMEfy4MGonh74rQmpmLG4v7X3densD5JoszYu4/2+xVkmVvMWQkDAMnPPVTyI9Wp1TWKob0BMMlYkzdr7Czp5YL3kqaAHv3aPzaOCYMe19W2Kj8SVmI5mN1z0VuH8vLhHoVNtpah6Pj6ldxkDDC4G3GaLSV2wWkwpvBliPoS3v3hhZlcddeU/aZj/o2gtx8qhwsmb/DcCgoCsNlAgKctLLthEkz6LmqMqP3G+vDrB6/Oln/RsVUWMSFlZr3YYyb8Mdt4skzuU5eAmp+o1RB0S
+iQIcBAABAgAGBQJhxQhgAAoJEIqj3WcC4bjBkJMP/AtWGJ9VFoTUyGv6xzo3/LmwUUlXtqKRfvCvq6A+0Yt5RnBxxRo9hzBZBYFy1oQkG7yM3F8V0K72h+S3gD7WrTyAAcg3xHp2HDm3/D0QQ0R0sx0auZVmHVLb4IlQ1iQDGq3N3Gfmv6eE/Kh/HQnUuHfDChjDgqPLEKhjS+vRZgJ0KzJPSVsBWK5TJUS1tqqzc+D4LuF/+NvT3Y92DBF5OC2lnpAr5fQiV59eAPMaNk9ZsLRGAloDybWeINGd2DxigJ6NZgNwfpbhU94p1EhAs8sFPg4ZNpDFNdMDldFDpO460nA7LeUWB82tzrKGN45MQpohFfMKXRCcxmet6DiaEwLzJYPMfjZbXNvzx+nOsl/Pm8jgp9lwqj4x6IVACoUwmSZB9Av4wj+Kl1MdLXAHtNgLCsVlBCe5yKbNkb+elAqf5O3XL6g0PFis6/LXT1QGC4nHhv3bxmFjIrg37KZnbXJPrcg1bkNbFj251fp9dm0cE176fko89PPrMHjAp8nelo8vJa2lJfqopXIiglKCXwtBbUZV4sfbZPPf478sLF8w0UN8Pd97KZyetVZ01HiWmtVwjYBZD8KiDWKe1ilMDUKO+7wvGsefsTQsgcbVHxgBHzKaZVCmRqOhcq0aD/vcOoiKsTNPw/O+4wbdp3DNIq1ajmlxJY5dBloEY9sKgTHc
 
 -->
