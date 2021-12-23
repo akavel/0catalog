@@ -10,13 +10,13 @@
       <manifest-digest sha256new="TZX5MFRSM2BTPPTBDQNTXHUWZREBQ2APT2QSIVCOBK3R2C54F73Q" />
       <archive href="https://github.com/tpope/vim-fugitive/archive/3bf602b13d86b7aef57fec4a2df29467b61435cb.tar.gz" size="61640" type="application/x-compressed-tar" extract="vim-fugitive-3bf602b13d86b7aef57fec4a2df29467b61435cb" />
     </implementation>
-    <implementation version="3.6" released="2021-11-25" id="sha256new_DYAF2RTGKRRGVBSFYOTHP7DGB2E7MIK6ARWYWCXYEOEHURSX65LQ">
-      <manifest-digest sha256new="DYAF2RTGKRRGVBSFYOTHP7DGB2E7MIK6ARWYWCXYEOEHURSX65LQ" />
+    <implementation version="3.6" released="2021-11-25" id="sha256new_EYN7WBQ6HQOQKNZXZT5OW4ODETI24CWENRWLMTCDTBM6FRY6NNMQ">
+      <manifest-digest sha256new="EYN7WBQ6HQOQKNZXZT5OW4ODETI24CWENRWLMTCDTBM6FRY6NNMQ" />
       <archive href="https://github.com/tpope/vim-fugitive/archive/refs/tags/v3.6.tar.gz" size="82333" type="application/x-compressed-tar" extract="vim-fugitive-3.6" />
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQhgAAoJEIqj3WcC4bjBkJMP/AtWGJ9VFoTUyGv6xzo3/LmwUUlXtqKRfvCvq6A+0Yt5RnBxxRo9hzBZBYFy1oQkG7yM3F8V0K72h+S3gD7WrTyAAcg3xHp2HDm3/D0QQ0R0sx0auZVmHVLb4IlQ1iQDGq3N3Gfmv6eE/Kh/HQnUuHfDChjDgqPLEKhjS+vRZgJ0KzJPSVsBWK5TJUS1tqqzc+D4LuF/+NvT3Y92DBF5OC2lnpAr5fQiV59eAPMaNk9ZsLRGAloDybWeINGd2DxigJ6NZgNwfpbhU94p1EhAs8sFPg4ZNpDFNdMDldFDpO460nA7LeUWB82tzrKGN45MQpohFfMKXRCcxmet6DiaEwLzJYPMfjZbXNvzx+nOsl/Pm8jgp9lwqj4x6IVACoUwmSZB9Av4wj+Kl1MdLXAHtNgLCsVlBCe5yKbNkb+elAqf5O3XL6g0PFis6/LXT1QGC4nHhv3bxmFjIrg37KZnbXJPrcg1bkNbFj251fp9dm0cE176fko89PPrMHjAp8nelo8vJa2lJfqopXIiglKCXwtBbUZV4sfbZPPf478sLF8w0UN8Pd97KZyetVZ01HiWmtVwjYBZD8KiDWKe1ilMDUKO+7wvGsefsTQsgcbVHxgBHzKaZVCmRqOhcq0aD/vcOoiKsTNPw/O+4wbdp3DNIq1ajmlxJY5dBloEY9sKgTHc
+iQIcBAABAgAGBQJhxQjsAAoJEIqj3WcC4bjB2nUP/iVvp2kPZohZCBuS0P3exjVqngy15KMkWUgQfsFN+XFg9koG4wzJEQ6E/LP2giB5uIVo7WqfbAXuY/gjO3mJgEUaG8HfNRZATZ2rJqaEvYAK4xbatIvWh07auV0w0vY8lja5ERo3VLPwtMm7XaQqyBDi0T1Y/dEbT8luz+DcEwXpudmqOyCScYvgACGScgbolms+PTbv+bizWETQJvzCJyYKr12VRKfWundwOOokcXTGtnU+fL7nRUrnQbzFWdnagJyceLw3M0IiNmtIOHQSkQvqL2cjoIa8mzA+bdXWVhUoshdByj+v3/Tj3OZmOV/KzY3S3jtKtDj1wKUJFD2rfzIdQ9CqX8B3GL1h05jVSUdwuvrrdF+fVKEnA5A2rDzkoyKrdv0VKUYda0qdODuOW26NpMA09RSmOAPOtSt85aAMWNx/SpplKKBabVgg24i86sZYMqjkRAFo+Ee2FTLpoSZWnRRnnWyVG/u+D03vlJqgnRxnYb/EdfqE3S38rM3XBa0xN/WQfYXsBDIyrTFMeqEHN/lY7iMlt4dKYUM8/HnSSElM0BF+7UNOonuYMo2PxJFAnKtWTqr75tul9AS73pnPgnQ3zdh9Yl7V1YDyBYTbhulW82t8UVqmNl2hWhH0qVEQI6eJ1NRToXmhLYBEgcf0acB1pPTEajClnB5CH54L
 
 -->
