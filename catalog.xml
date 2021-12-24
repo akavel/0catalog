@@ -216,6 +216,11 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">surround.vim: quoting/parenthesizing made simple</summary>
     <homepage>https://github.com/tpope/vim-surround</homepage>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-teal.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>vim-teal</name>
+    <summary xml:lang="en">Teal language support for Vim</summary>
+    <homepage>https://github.com/teal-language/vim-teal</homepage>
+  </interface>
   <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-unimpaired</name>
     <summary xml:lang="en">unimpaired.vim: Pairs of handy bracket mappings</summary>
@@ -236,6 +241,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQj4AAoJEIqj3WcC4bjBdPEP/i/77cXC2S8rSPfQTQBjDA+/l96fwecE558Za0shhbJml28IwU5PculvNypHJmUTyS9nlR6J5NwAopqtHtAxHqvVETaPKlfJJnHSaReIILXiwQL0Rt15Z8wATr58+PGTi6gLLwikjDe3JP8NpQLaZew7Dce54F0A39o2VtYzRWAUnoLB9RUvba1DuuU+lSaBRyKEKKrjQv101Nx5Ef8ibZUoeAlfbmejzZI0mM3Qko9mOuZpqHvApp+uphEhsunyAsIRcxCLUH9swCK5cdNCSRCoPI1T+iccTexO7qucquxVfuzvYGDspKzhAi0aeV4AL1if+TcDlpOKO0UqQDH5eY6QcvdODeAlyuikeu6uCTlYqGhXvwfOPrMI4ClhecJ/+ZF9Y0abxX2B4sjnwFEY7dhocLw5HZLwn8RE/oqy5hgDii2SyOkRGGovbrQo4Rbj3Obohhfc1hQxKBaalBCphJ9dRbNZGlNCpu9mIcsQkf5dH59RgxxdRZImUYRq9JHmX6/IxWsVcEo8yQreUQ31UyM/4llXfbaX8HHzgdnhUP5VwWRZ8BdnooRFiplGBGySzBdveyzv0rL22A1miWNOF174EFA9ctkDcEn7wtZb6ddlBOYtk6g2UFWqpNgjKVBIwNiLF7e5SETiW3sTlDVaMLFZXFFfMTkk4VUqt9YbLo0r
+iQIcBAABAgAGBQJhxQ1VAAoJEIqj3WcC4bjBAOYQAImJsjsuLvBw/REpE3rC6pMYwJwev9nfb8KOu/GAUB/XBCe9z5WJADbkEkF3u/wTCNg5e5VNEWQUHM6QOOumtdRaDq9PN5T8rWXeV8FnnNyFGn27G0lv/Q8Aa5nfOqvKe/6Eu+kolvFwGHsS76ie9f39sItYfZOrRMtbtLXFUNq5kmHYMwuE3qEkQBZlHqsWU73eSblkAZaC6uYWAZCZlwceclGpeeLS1LKLrCXIbhWe4o8ObJ51gAm0l2rBja1wG5IV8bov2SsW6VXcZ5bjJOol5+ZAWv5vK+GQYhFj6gZ6r5j4M27Ie/6EKovJ5iqNMV8UXqL93EktZVo0xRAFqjoSjZpHQTfiO0AALzNkpdf/Vdc6lAFyNzpWjuZMpn8f9R+nSHkt+TNnjeJg5r6Q4cjxaRSNuh8LS/btV98t4JrZugEnihV787FBFDIlOPc8C46sFjdVQizhSnXQx1y+xfaPR8+9CqXf+aVv2aUCZFQicRAxttj748LIhtEWr0h/l/1k2N1TCNZUO+qNlyczw8bHD63m13g80yu7bBrYh1zdti6rcHyGo031fS3xCSc7Y52Ar0MuXbvkV0DtGYZbXsdihuE+2mK1+Nwi9Cy+yEBcRE4xfpa3DWviddpsrPBHC7RgiCWIxko6ig8a4SpxxoElG/m6a6ziEQHdOqmEAyNw
 
 -->

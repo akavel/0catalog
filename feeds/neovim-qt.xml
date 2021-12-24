@@ -28,6 +28,7 @@
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-teal.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
     <manifest-digest sha256new="LD5EM3LPFYXQE22KQ74DWLVYPIRVIVKVCWU5OBG26XHJREIIFCQA" />
@@ -97,6 +98,6 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQW6AAoJEIqj3WcC4bjB8vQQAIB8Aoqr3hBL7Tz1O+gMYD3PhAwm0w3pISRcrbsOLq73a9nf1pFhrDe/q2XfbU3ubISGQvfwK909R+54QSoJiS5TKcT3ZRuTvP5qLyn7MDeGpwebmQbd6NJ3kkG589gM3PC1G0m7hSncriLwTu5xkY4aLdN0n4XouqGh/7ivarLEVH2IcqFtKGblyYx/XsF5hA7dJCN75hQMKuOfaWMvZ/QW8/z1rBiowceTSbPdO4LOzBXybTpBtfrwG5Kd5nmxPiZxf3i7DOcGZKU5fniMKKlXP0RI06mutea6fWNi0lt8v5IrLxSB9P8lN5xESxXW+MN4FoP8vde6nkwrersb3qhar+wx+if+F0s/UjbSKzulTlCqdnecK6mLRmC3Q5oneLeSPpzGcrGW40Jp6eMM42pCFQUsp4OgIseDmoWcwvJ5OFGfd0kaXA5caSICd2lmQ0JndGpZoEfyzOkhDpwSm5+yW4zgUh7lnOzJ0uLy3DrPYgiJ6EXiLRDFwy3jy8vO513n2tWTxH9M45vYwjliTAcRtJ8YBlbGXIU67M/UB+GeKkBjPkBkZ8it/sKeN47B1VIfEI6ayAxFcRwrBZ7DRRjqkSSUpCs+ENkilCuGdti2sCyD6m4No7+GxI/NCy8QF89/H/5Ky03z/y8caKDfNy74kbwUcnhTqHPCcMGpOXBy
+iQIcBAABAgAGBQJhxQ1AAAoJEIqj3WcC4bjBFrgQAJKCaeMhQEUkZAXqkxaQS07Opyto/+wtaE8qYUdjwgroPn4MkGlq1XGIXsuQP5m7fwb4AiLGVaMdDFfzRfZN5tuVsT3vdBts0bWgitDG+1TKckPP331CRNk6H5CFxq4l+eP2mjVOD6NYkZpdOmaeBhQPUuvAn0CnIJQW5Hs0fPpxv0NP4IWoFnnB1qiSokCEjA+ZLmdagmS1uRhoe9/OHrmJeqsUMS8/zpaOPXM7MGBtn20jPHBdvrpsTpas9OhQoq6dUi6zWpm1O23d3wmV1hIMh+BYWoqAGeIbnI2bq4s0QERcYVJ/dGowyKTw0biJAWtlj3QGHpfuQmCa+jEV5NT5VdetgeotxaQZ3E5OattrnIp5C68RaaU0xzlPcBgVF788JycGOk5XnLH1ldPaMtj0Q2cpiPYoMsr2vUgm+8BAnFp84CzKCPReyesTXmhJ82ZdiGGyo4vdfBSxCTSkViPlxtBhvfS3qyt+J53tvacLbYosniRPqEXETjky7u4vr44Bd4BEpB6lMbHq0b057dZ7Cw4ceqSk3F+HTyS02GJpUxPqJXhFHmG65do32/JhuIWGYemQgAFlIcKdBBv981BR8bDdckizB4wxMWcXK3hiNx7JXHSeYsZOLFQUmSKqoJtwj7ayxMq2gsswCbg1fVdvpF9zTcrp4NDb5U0JOw8s
 
 -->
