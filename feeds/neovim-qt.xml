@@ -28,7 +28,6 @@
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
-    <requires interface="https://akavel.github.io/0catalog/feeds/vim-teal.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
     <manifest-digest sha256new="LD5EM3LPFYXQE22KQ74DWLVYPIRVIVKVCWU5OBG26XHJREIIFCQA" />
@@ -83,6 +82,7 @@
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
     <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-teal.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
     <manifest-digest sha256new="LD4SYA2GF5TGHLDTZHUK7QSR645MOHH7MZCHF3P47V24EEJ7BLFQ" />
@@ -98,6 +98,6 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQ1AAAoJEIqj3WcC4bjBFrgQAJKCaeMhQEUkZAXqkxaQS07Opyto/+wtaE8qYUdjwgroPn4MkGlq1XGIXsuQP5m7fwb4AiLGVaMdDFfzRfZN5tuVsT3vdBts0bWgitDG+1TKckPP331CRNk6H5CFxq4l+eP2mjVOD6NYkZpdOmaeBhQPUuvAn0CnIJQW5Hs0fPpxv0NP4IWoFnnB1qiSokCEjA+ZLmdagmS1uRhoe9/OHrmJeqsUMS8/zpaOPXM7MGBtn20jPHBdvrpsTpas9OhQoq6dUi6zWpm1O23d3wmV1hIMh+BYWoqAGeIbnI2bq4s0QERcYVJ/dGowyKTw0biJAWtlj3QGHpfuQmCa+jEV5NT5VdetgeotxaQZ3E5OattrnIp5C68RaaU0xzlPcBgVF788JycGOk5XnLH1ldPaMtj0Q2cpiPYoMsr2vUgm+8BAnFp84CzKCPReyesTXmhJ82ZdiGGyo4vdfBSxCTSkViPlxtBhvfS3qyt+J53tvacLbYosniRPqEXETjky7u4vr44Bd4BEpB6lMbHq0b057dZ7Cw4ceqSk3F+HTyS02GJpUxPqJXhFHmG65do32/JhuIWGYemQgAFlIcKdBBv981BR8bDdckizB4wxMWcXK3hiNx7JXHSeYsZOLFQUmSKqoJtwj7ayxMq2gsswCbg1fVdvpF9zTcrp4NDb5U0JOw8s
+iQIcBAABAgAGBQJhxQ4WAAoJEIqj3WcC4bjBCe0P/2VROcBeinRpHCDC1r55d7ZRKuclj2TWNPn5DEJrVlth+xWj8VslD5wRm1T8D7SX0lEdz8ny5b0zL8urBQvaquBWfj44bKvs7AQ2VZPhm++KlEZS1gjvTQgXgWeBOb6h7L1eXzpt864jNciUtBkqK23EYgnby91lbGZxy4mabzdTcxh7xnoHJEv+qW9BhcJpOITbTEVFGpQYFwBj3pgFiP2R07QqDt8Bg7gzbd4gZzRDWZJJxPlHb9uIISGA7YVP7OXhHezD12n87pl1vttbgzWH6PVelmgOU1uGhka8Q9C8Qa0Ci5pH4DamXSfEVNuu3sBRQMoNilboR+p2vw9TtgbsIqypDgmwTJjpof7ofNMWvztL5NNrbJMDtqbDMV50Kp/aHG/lEZzObhTE1ayckD3Zp/gM+b3HNy8Cl4+6nh7YmVYWmfIFFZAq9Eh+64W06JG3mIz5iLVwXedQm//FN90rts68HvO1JRmU1mWq6krRsk94IhCFn94cRJfpitLfdyn2Ays2JNdMBnj+gU6WJ7zXBvIkEI70YjgJERWSBRXLII4VNh8rfOMyT+IDgOsCeTyGJLYaAloDeU25Ohe9NIMS2jNzemgGvDnM2/SnpTFWvrneyvXz/sV3i7AvN2MslgPiLxQVTqteRjXF8N/WglDfdOBkfMC8iYkPdyQVjouJ
 
 -->
