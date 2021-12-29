@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-fugitive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-fugitive</name>
   <summary xml:lang="en">fugitive.vim: A Git wrapper so awesome, it should be illegal</summary>
   <homepage>https://github.com/tpope/vim-fugitive</homepage>
@@ -17,6 +17,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQjsAAoJEIqj3WcC4bjB2nUP/iVvp2kPZohZCBuS0P3exjVqngy15KMkWUgQfsFN+XFg9koG4wzJEQ6E/LP2giB5uIVo7WqfbAXuY/gjO3mJgEUaG8HfNRZATZ2rJqaEvYAK4xbatIvWh07auV0w0vY8lja5ERo3VLPwtMm7XaQqyBDi0T1Y/dEbT8luz+DcEwXpudmqOyCScYvgACGScgbolms+PTbv+bizWETQJvzCJyYKr12VRKfWundwOOokcXTGtnU+fL7nRUrnQbzFWdnagJyceLw3M0IiNmtIOHQSkQvqL2cjoIa8mzA+bdXWVhUoshdByj+v3/Tj3OZmOV/KzY3S3jtKtDj1wKUJFD2rfzIdQ9CqX8B3GL1h05jVSUdwuvrrdF+fVKEnA5A2rDzkoyKrdv0VKUYda0qdODuOW26NpMA09RSmOAPOtSt85aAMWNx/SpplKKBabVgg24i86sZYMqjkRAFo+Ee2FTLpoSZWnRRnnWyVG/u+D03vlJqgnRxnYb/EdfqE3S38rM3XBa0xN/WQfYXsBDIyrTFMeqEHN/lY7iMlt4dKYUM8/HnSSElM0BF+7UNOonuYMo2PxJFAnKtWTqr75tul9AS73pnPgnQ3zdh9Yl7V1YDyBYTbhulW82t8UVqmNl2hWhH0qVEQI6eJ1NRToXmhLYBEgcf0acB1pPTEajClnB5CH54L
+iQIcBAABAgAGBQJhzNvQAAoJEIqj3WcC4bjB3dYP/1uTZ0N4dfw8VXktTiVZTGnhdlBjeWO3aKjAchn+5V3nJpVnTzRuUU/1JeTVWG4TZN2InwdUTV9LhaHijC+X2yWDDEfHKCW29YvKh9UuHA1CfJB+NnGbDyhiwO2fr/sW2jo7dW5xTMBARYIkEKKNXMdZ9ubGJeYiDpPc1Zro2eGxIko6N7Pvn0rmSiWPFaLCdbh6xow8XwEnkfTXW9BSVsq7+XAGlFet0WtJhjY3sb+jhse63xJEpGARtXpgn5uuZcFaH/CkebWhVjCbtoPT8+VllazwjJhCR5h18etyXiB9UC5nfUyv7n5PuOmnfTxocwwwLY88eCgq5K60pOnuVs5HRr84dkc9jOFMFNKmW0rDQ+TWPTBY+RihBwiWxebtmX215AsUf2ESVjAj4Ecb3OLXnXFtg23LPdh4lwDGMlFQl8surk6ylEeeL+OFISYIb8Ta3MOq9ilbso/3dToTpNoI4japcVcSmN9GPXzPQtEQW63G9A2Na6p4CeLn/FgF1yg/CCYq35iljAYg1QWHAZMUpz82wiMt7RL7wzhagBZPUmRsLTwcSyyBIV4piwxXvosuH8Vym4fuul2gnrtVOOKp9fQeEYYE++au0F1pfbxUqpvUKSpNKSaCTYQXptl7fbGVL4VYhmgXApWGCkPF2xvqz+ztC02AL5JPoyEZQgF2
 
 -->

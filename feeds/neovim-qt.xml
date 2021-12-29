@@ -7,81 +7,81 @@
   <icon href="https://akavel.github.io/0catalog/feeds/neovim.png" type="image/png" />
   <category>Development</category>
   <implementation arch="Windows-*" version="0.2.15" id="sha1new=2919c810c294d80110855522a67d4e3c7888cb66">
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nim.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-DrawIt.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-abolish.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-changesPlugin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-choosewin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-commentary.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-expand-region.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-fugitive.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-go-explorer.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-go.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-neosnippet.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-nim.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-nix.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-obsession.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-repeat.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-sensible.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-splitjoin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-unimpaired.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
     <manifest-digest sha256new="LD5EM3LPFYXQE22KQ74DWLVYPIRVIVKVCWU5OBG26XHJREIIFCQA" />
     <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.15/neovim-qt.zip" size="21497806" type="application/zip" />
   </implementation>
   <implementation arch="Windows-*" version="0.2.16" id="sha1new=56a92bc80606d47cd8556429c36632eb98ff5029">
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nim.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-DrawIt.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-abolish.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-changesPlugin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-choosewin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-commentary.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-expand-region.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-fugitive.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-go-explorer.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-go.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-neosnippet.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-nim.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-nix.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-obsession.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-repeat.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-sensible.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-splitjoin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-unimpaired.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
     <manifest-digest sha256new="522AFWIQDYKTG3VDWUT622TO7TN2P2LBVE6AOCQ6JIOTWDTX3J6A" />
     <archive href="https://github.com/equalsraf/neovim-qt/releases/download/v0.2.16.1/neovim-qt.zip" size="21516602" type="application/zip" />
   </implementation>
   <implementation arch="Windows-x86_64" version="0.6.0" id="sha256new_LD4SYA2GF5TGHLDTZHUK7QSR645MOHH7MZCHF3P47V24EEJ7BLFQ">
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nim.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" importance="recommended" />
-    <requires interface="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-CamelCaseMotion.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-DrawIt.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-abolish.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-changesPlugin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-choosewin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-commentary.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-expand-region.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-fugitive.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-go-explorer.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-go.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-neosnippet.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-nim.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-nix.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-obsession.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-plugin-AnsiEsc.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-repeat.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-sensible.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-splitjoin.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-surround.xml" importance="recommended" />
+    <requires interface="https://akavel.github.io/0catalog/feeds/vim-unimpaired.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-teal.xml" importance="recommended" />
     <requires interface="https://akavel.github.io/0catalog/feeds/vim-zig.xml" importance="recommended" />
     <command name="run" path="bin/nvim-qt.exe" />
@@ -98,6 +98,6 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQ4WAAoJEIqj3WcC4bjBCe0P/2VROcBeinRpHCDC1r55d7ZRKuclj2TWNPn5DEJrVlth+xWj8VslD5wRm1T8D7SX0lEdz8ny5b0zL8urBQvaquBWfj44bKvs7AQ2VZPhm++KlEZS1gjvTQgXgWeBOb6h7L1eXzpt864jNciUtBkqK23EYgnby91lbGZxy4mabzdTcxh7xnoHJEv+qW9BhcJpOITbTEVFGpQYFwBj3pgFiP2R07QqDt8Bg7gzbd4gZzRDWZJJxPlHb9uIISGA7YVP7OXhHezD12n87pl1vttbgzWH6PVelmgOU1uGhka8Q9C8Qa0Ci5pH4DamXSfEVNuu3sBRQMoNilboR+p2vw9TtgbsIqypDgmwTJjpof7ofNMWvztL5NNrbJMDtqbDMV50Kp/aHG/lEZzObhTE1ayckD3Zp/gM+b3HNy8Cl4+6nh7YmVYWmfIFFZAq9Eh+64W06JG3mIz5iLVwXedQm//FN90rts68HvO1JRmU1mWq6krRsk94IhCFn94cRJfpitLfdyn2Ays2JNdMBnj+gU6WJ7zXBvIkEI70YjgJERWSBRXLII4VNh8rfOMyT+IDgOsCeTyGJLYaAloDeU25Ohe9NIMS2jNzemgGvDnM2/SnpTFWvrneyvXz/sV3i7AvN2MslgPiLxQVTqteRjXF8N/WglDfdOBkfMC8iYkPdyQVjouJ
+iQIcBAABAgAGBQJhzNwBAAoJEIqj3WcC4bjBh3oP/2XC/qAWS07X3u9cInr6TaPbypExL6+VcUAs8QlHBMtjCDME4GIHPV+9HnfcpvS4mEzsnZPamP9Ro4qDtioPuM1OgAXAcxas7Ufm1pZDNaDKpiUY+/DH92mf5Y2DHQ3xk5x3HXwS978BIaXogf/APP7VCBeCYrEoi9oTTSomUFJFAPrQrKZyIAS8bna8lUSukX2AEwsd7pbMS5wyE1Xjofz9w35kFFBduiBj0zQRl6Hc9n4iu2B978ahGwWN+yoO6RBqCtTNCXJUhLb9SyMfv1a+FgELx7fV74x/POSFvHJVqna0rmNS5R3X/wzwJi2QirXMxV0C3hdcBumSZDgr3KO1Op0a8slsrdbYXCTLKvuFmHxmNzlT12XFFYUZsB/Q9LwzeG7vtkKelsiZdtwVXDtoCwtIR1xqOFA9aHy/XBZgBc4yRW35aGBKT15QX6BWnTONCsQBLDWJzbC4o7tuBuaHjaRFq6aGBcxXCDA258cpYuQKzM1A4RZG4+Vxv0XTnhURrq2qrH3xw0HnDE5hQAzpownCinmvSnfvNHXOvZTku1G6E16mWXJEHXDCys6IvYZLTFa06DUjTffDbOFOoh7UdEcBEytOYKS8jAvPH+w/ypyjJ/7NSmBexniLju7mUcB4CkTgrD4gqo3D0u3C2lYm6DAJP1cOVQTFa8I6NhTu
 
 -->

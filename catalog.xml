@@ -121,97 +121,97 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
       <needs-terminal />
     </entry-point>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-abolish.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-abolish.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-abolish</name>
     <summary xml:lang="en">abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word</summary>
     <homepage>https://github.com/tpope/vim-abolish</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-CamelCaseMotion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-CamelCaseMotion</name>
     <summary xml:lang="en">A vim script to provide CamelCase motion through words (fork of inkarkat's camelcasemotion script)</summary>
     <homepage>https://github.com/bkad/CamelCaseMotion</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-changesPlugin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-changesPlugin</name>
     <summary xml:lang="en">A Vim Plugin for indicating changes as colored bars using signs.</summary>
     <homepage>https://github.com/chrisbra/changesPlugin</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-choosewin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-choosewin</name>
     <summary xml:lang="en">Land on window you chose like tmux's 'display-pane'</summary>
     <homepage>https://github.com/t9md/vim-choosewin</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-commentary.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-commentary</name>
     <summary xml:lang="en">commentary.vim: comment stuff out</summary>
     <homepage>https://github.com/tpope/vim-commentary</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-DrawIt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-DrawIt</name>
     <summary xml:lang="en">Ascii drawing plugin: lines, ellipses, arrows, fills, and more!</summary>
     <homepage>https://github.com/vim-scripts/DrawIt</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-expand-region.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-expand-region</name>
     <summary xml:lang="en">Vim plugin that allows you to visually select increasingly larger regions of text using the same key combination.</summary>
     <homepage>https://github.com/terryma/vim-expand-region</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-fugitive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-fugitive.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-fugitive</name>
     <summary xml:lang="en">fugitive.vim: A Git wrapper so awesome, it should be illegal</summary>
     <homepage>https://github.com/tpope/vim-fugitive</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-go-explorer</name>
     <summary xml:lang="en" />
     <homepage>https://github.com/garyburd/go-explorer</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-go.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-go</name>
     <summary xml:lang="en">Go development plugin for Vim</summary>
     <homepage>https://github.com/fatih/vim-go</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-neosnippet.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-neosnippet.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-neosnippet</name>
     <summary xml:lang="en">neo-snippet plugin</summary>
     <homepage>https://github.com/Shougo/neosnippet.vim</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-nim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-nim</name>
     <summary xml:lang="en">Nim language plugin for vim</summary>
     <homepage>https://github.com/zah/nim.vim</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-nix.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-nix.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-nix</name>
     <summary xml:lang="en">Vim configuration files for Nix http://nixos.org/nix</summary>
     <homepage>https://github.com/LnL7/vim-nix</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-obsession.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-obsession</name>
     <summary xml:lang="en">obsession.vim: continuously updated session files</summary>
     <homepage>https://github.com/tpope/vim-obsession</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-plugin-AnsiEsc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-plugin-AnsiEsc</name>
     <summary xml:lang="en">ansi escape sequences concealed, but highlighted as specified (conceal)</summary>
     <homepage>https://github.com/powerman/vim-plugin-AnsiEsc</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-repeat.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-repeat</name>
     <summary xml:lang="en">repeat.vim: enable repeating supported plugin maps with "."</summary>
     <homepage>https://github.com/tpope/vim-repeat</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-sensible.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-sensible.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-sensible</name>
     <summary xml:lang="en">sensible.vim: Defaults everyone can agree on</summary>
     <homepage>https://github.com/tpope/vim-sensible</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-splitjoin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-splitjoin</name>
     <summary xml:lang="en">Switch between single-line and multiline forms of code</summary>
     <homepage>https://github.com/AndrewRadev/splitjoin.vim</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-surround.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-surround.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-surround</name>
     <summary xml:lang="en">surround.vim: quoting/parenthesizing made simple</summary>
     <homepage>https://github.com/tpope/vim-surround</homepage>
@@ -221,7 +221,7 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">Teal language support for Vim</summary>
     <homepage>https://github.com/teal-language/vim-teal</homepage>
   </interface>
-  <interface uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-unimpaired.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <interface uri="https://akavel.github.io/0catalog/feeds/vim-unimpaired.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>vim-unimpaired</name>
     <summary xml:lang="en">unimpaired.vim: Pairs of handy bracket mappings</summary>
     <homepage>https://github.com/tpope/vim-unimpaired</homepage>
@@ -241,6 +241,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhxQ4aAAoJEIqj3WcC4bjBElAP/ib3NSDGPNBIZl4GX57/slV0mqvK5oWHcbY2O1Sl9Hzpa2WMvvT9j3Jo/7QD2qmWr6sX1VumxTf5+uv2wi0uqhF4EWGWz136efSkgbfeVVZFKsye+DUQrjerq01y0oQmRx8QQYbg/qlOmWuHUrVa/f6JHgm+jP1UqGnXUpPkgS12+Vg82ZUZCQsHw7cxeOuBHyFtZMZzz4lu6HoOB8EL1sqEEA8S8jXn6HCkTW6eISmfL3nI0dDziXby+bHIOliU2YlEfjgzTIxkelhwL31cc85wi69Bm0hi+37HPtzIEMN96JQJE6fGTk/YuSugfbZRkE8J84FccPHgeOAwuuQEfn6FPjMy1Zfp+yYCnqzb/cHzShIeRsF4pAEoFmqfWsotjK/p31/Eab7CbYj2R70RkjSuT/eqLbRQeFi9pi6TgmD18MutKQIYzAyNJNcigbN2v/fxpV+OKqLI9Mf3fizz2w427HAxBakNXsY1LQZvpoLkMtNiITkegQdLPw+uJXYPlYOLTm9MtM9TbpoTCHf4X5PoffatJ6HJq3daGJ3dW/QuVHucYGYLyjwuG50HIf8pK16pF0q9Es6hWu/qtBpGuvplKmSCECvrwb6Sn/hZmNF/kP/VxTfnkzEmKEEqrx8EQl3bFpvxiVKKyJqfXFC//Pi87crJQsKcUi/s8R80VgKC
+iQIcBAABAgAGBQJhzNwOAAoJEIqj3WcC4bjBLK0P/0XlFaw5qDHET/n4yzbuBImuMuBAJcOqGS6Z0M0QiHZkLR4bxG61iNbm4WguRRf0fBX39mSBxteACqr6Y+CwescR1/hJSLja1Kf7DJfxpy7IeNs4xqASl+0V+G1xeBJ1blH0L3nDLZKPMGVZtZS1RLoGWlMbJg9tlwvDTGswjS8vQJzTaMlAlzv7y4Rtx77uBowyL0mBkGNrgQzn9XJ8FwL/arylXNvrDhyFHkUyNfKDFH0Op2nlW6eD3NmmUuv94YXczAHVXDZrSQl9avIQ2QEjN6nHErSQdDCw/K57snoQ9Myj/J1NAkJnxBiHrD9i7rVssaqAX/VuNU53uazU8pq0Wwx4QM6r5/N1adc2gPyxLHwE1KeWHyZvySAmJkjCNppM1sMLVd6Yo+N27cpEEtasv7yUmnTTyg/diEhl1rI9LTo4Fe7xe9gtU83flHN25ER7O+F2MaaHtcjj+I2p/+c1uAAWPj8kzC7bAE646oewz6/ljiDwpxULmWkKUVbvQXWFXBkrG1M6yd28xgChN6rWyJe3wZHq+xhi13UbvV1dlL7/2tmLIOr5AGKtNlChYdn6e5VaY6EBOrSpTyPIqL90+Lck8pfhjJQLXJupUeDFwSJnQghLXECPeIXzKGFIpa3aF9dSw0wCAR1F0My/WgebQ75eFO1aSUNa2+fZaOTT
 
 -->

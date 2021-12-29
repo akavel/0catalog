@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-repeat.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-repeat.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-repeat</name>
   <summary xml:lang="en">repeat.vim: enable repeating supported plugin maps with "."</summary>
   <homepage>https://github.com/tpope/vim-repeat</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQyIAAoJEIqj3WcC4bjBT/oP/3GYcp5rJxFUDmT5zkU5CQHzfcYFnq7eShOP62S5yEt8juzfg3xKhGFxTYxDAa9GUx2YSmVx+qGrmNLVsHunTB8Wg0a1Ok4LA31tqFTkfPR2h9y6lQvq/u3I02aKxrAe1SepI8CTgkMOMXWLTJr8TXAvAGNEhfGInMTR8PftFpJJjX9+ChL2WUX/SOs28GlRhHUj+4hM1CsgNrLrakHn2JreA3bW/gItzLHXAWN5a6UbOi31kZoMeYLQ0BLqCOA9VtpqNaHdc806TbXEbKYePEcfUG07wIYQxKj71Hnaa1UTW5w5/Tk50errP+LaNdgW61zO3xCmzDUKCP6gr0aeCv4Vsw13DoUveAT8ky8RQfdnHKD5OC8TTY9rTksQMqFQQkA55PhPIY55tBrTYS4kzMVoJCUSXhgUrq3oSfLgTwbSvFOC42ihkhITaVjQ/P3l2pQPMlj2e3bTc8/qR/COLT98V02HcumN2noQbmf5nJPIh/i/QuPfOSz5978osxCWk3cyaw7QMy8AzIvEB606NjoyQc6C/GXhjedwUbV03PcWlPHEXR5FQk8VfLJ85J7+HNkM5PktjPKzEy6t9IlbNxwjssjNw3MmsMVZwb17Hd50IHPmJGFfxU7MnaFMAp57La4eGlArW5y/P4g6+6qjneDFX3fWLH5HvN5oE9QFp0Ci
+iQIcBAABAgAGBQJhzNvYAAoJEIqj3WcC4bjBpk0P/1ttwJP+FtmRrdOr1oTmvZJp3W4hr71YceVpFtqeD1prx/Fe3Cv9QSjOPJEDzsCKkmIT4d1kRcYTUw5umNdUfY8q1MEVvu67JvlJPATssEax4gEmwIjx9EbJWBU0ZGet+EG3W3pGv56Sg/73lNN8fw1xGh6DKlpWEPwLACxJzcxzNUyQVNL+MMAmk3JAaRzBr0x2FO73SB21BSqYVNFRmvFIzFBzfiBIvi7qyiMCg6adUen/4pcNLsGb0vMeLdCyFK4DcqITWx4NDesctiknIZLge6STrMJPIowbaIMbLQYYW53atEf8Z/j/yS/mX8zb2GvK9Vh2PZP9JD80/xH4P9fyJFXcMmRGbxTYlm5pZjqsH8OnTPh2itrxktQ4x1NIIrvHZ6cGwnTN+dFX2NxSKeL+zGIe2AD0tjJB4tVRzggABc2axEJt6RBHDaMqJ7g+07q3J5RXqr7lyxPx0/Ge/QEGhZUrBjgodDkSjwE1kuKISH6lJRFNrVeScAhBzf1qZejfDae1tZUl7F637rZIHl6/9DQoM6Ecri/a/qLeVC7M3Dh7StHTXXqURrEhBQA3iA6l7autJs8hsx/PRwwr0aLqJ0ez6y2IV4tHB4dsVOwaX4IzOJ5jQ3OUL7dBFZ8o+pRwKBmRXiZCPLZbCdiOlR4+1WCZi71DkmOC0+kg4jJH
 
 -->

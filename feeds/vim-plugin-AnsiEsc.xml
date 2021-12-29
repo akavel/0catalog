@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-plugin-AnsiEsc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-plugin-AnsiEsc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-plugin-AnsiEsc</name>
   <summary xml:lang="en">ansi escape sequences concealed, but highlighted as specified (conceal)</summary>
   <homepage>https://github.com/powerman/vim-plugin-AnsiEsc</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQyAAAoJEIqj3WcC4bjBBygQAKAgx0umfhtBcpa8XscI8h8VaeLAZK6TKpFdvDwdbmOEzIikeBibITiNbpwkPKfmRZbP6V/TxY10quBaK1M2L3UiyGmXhsJfd8Gr7QKK/JxJhB4N5ykOjWs8L2zxKcegMCNvHcwWSRpmDPQFjdc5EK70h8L9WFkJ/RoH1N6MtJ/DPo+bol6SGM+YfyaFrUDW10lucpTe4oYkXuE91j2bvkuTPF21Smx6439DjnIEmpcdF4RH1KAA8/MGqsqMm2WjjgFEAuoZTYLz0F5Z8CHFB9W9ET3fjc9PpZCdKP0XeP0oLXuN18KTzOObDQATaJa/Rl2U+cwUEPnEjdeX2yrq0XTt/bWUQyh7BVm1uGuEo2xwxI3QjxfxNTYacB4YfU8YCs25HbwkD4GcRLxkVwF7ibs8U/aBQk7rw8VwH9D6DRAXtp3qIlLLFYxK3OT6AAmgMOvgkgIe+nt8y8D7YcgVx8WETypktD0glgd88pUABkrwmKckMos9IcAuH+49QZo7JJo7R2WxPhJXk8z0jnoXFb0bEzzPmNsMlOZoL2BLWoZa5Pk23rmICUbtcdZjfHmI7N/gb0gt5zS2cnszMNjb3LCRcY2QA0lmkTYcP7FW6krsh/tKttujCxDH6qRjnXG6e1F2MNB7tAsu+dgnMAXRei6VF9Xx/kMQOW1Pp8CQQ20F
+iQIcBAABAgAGBQJhzNvXAAoJEIqj3WcC4bjBxJEQALPgS9UV1yJXsPUZxomYI3EjUWxwLNbxT6JTA8DcIgD4+PIjn607X+OLAbzbjXrOJSlclb12RYMVn0hB5nDrttfwnZ5chOhYNvRPgcaqR5MTSD6UlXznU+Vp7G2zbofibklz8s0FRfJ+Xj261nzXs7xrokU3ErC7uJu6RZLYhIlH1PL+YJt4oayIn2fnD6e66vg7012LbLlW7AAsq3/ps5Gd8RO7vmGQrn2YcbrexeCl3nqjy15Y3vlkIrSe+0o58xyPiBHt4JkzsijBNrfFU7oERcXYGyvcEPD3FS48tBGjg3oNUdxwrxLz1n6lxyLy1dl/6RZ+Ve/ZaWLjC3b4jhV5Dc/uc2X3x5HXqQEFfgIWDWjvmpaPjsh3/rHYAiVpnnRpfkqQYvz9SdUMpbGsBGOMUKqFziGZeiDwL1GjWpcO3ArMlkiq/63E1rfR+rffb5LP8ux/yStDMBxzImpdbG1hnC9ueJdNcURxDUbUU6KHO7rLhz+eLFOfitZkUNP5v8WG9HjKYEX1GyqpG6oUDHJTUTWvhA+iZl6AUUXZNYgQzel0Aumk6WbQsd1VQE6c3nk64L/y5RE2ZoW3z010n9BW1l0BB6nPgcXTJVLmlFk/AgxFV6Ul5zld0XL1PIfPA1i7KtA62jsy/1W38iumeXh8iurwsPXZL/VLo88RnMCJ
 
 -->

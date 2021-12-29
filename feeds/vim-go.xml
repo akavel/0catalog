@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-go.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-go</name>
   <summary xml:lang="en">Go development plugin for Vim</summary>
   <homepage>https://github.com/fatih/vim-go</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQw9AAoJEIqj3WcC4bjBLAYP/10DIfX5DvwQTmnEJ3mZSWrLjdEaz2XakhlGzug/FgMkDFZqQtXuqGRMVUuShm4AIfaN5XZre0dLx1PcjiIEU8DcgJ7FInKqwr69rRyY/vBU9rjuFpxaefYRE4eXYXywODKAUaKBkTqwA/Fljcc/V+uI/qwseem8l1rgDM03VTlwyA0niIKf18J2qwf6MJpOMlNQKHi15yH5VDQF5wTCIJtT+O7VGJ73sExX65SHwSUswqXXOaIEDWgMlzz3YdArmbleJl/RUM4Iq/XoHGA4vJ+QsOE53WqeTad27vjWim+s6gJmeakgOuihRxPq+5XtdOFdaT+KNBvY2pVb/umQzmDPPMz8mU5QDbTPfT5Kc0FfQH+VGu2FkiId69zoxLbiL9YfeHKdJG+DkOyR5QZCj9jb/XEmvxfDXQks1dyswsWUEWp40zo0pCTFELA9dL+EfwH0I7NeuFIdl9DmQHYT0T7PXzDKAh3dLCLESIPs/2BL1FdovADiBD7an0VPaGlXpK3qS2VXzVIFyZig6t9oe6rUXLotUwL3uFiC4iPPbP3KVt7yGiTzatXKLTIVpQG7n7xER8iCgk1lWByBC4h7UxKUOg7KZW1AFzFXQCikZP2GoEKIcQdaRsJ2AjSVvKFHBqDRtGpwPOlTYgjkOdR0pI2kzZ1yVTuSyhFxLjyhSgbP
+iQIcBAABAgAGBQJhzNvSAAoJEIqj3WcC4bjBbR0P/2VxQbcTZ3v5QuVrYamMQ3FuTL6hlAU+lMCoAwaazBm1ZUFiOsxYtvi8RNx6kJLNTmu1xyhVZhu6vMFeYmk7Oue1eFM6lZVzJGWkx190dvpUuwVEA3t8DOglvrhD1qaVjfaiG5wh12Q1w1kxQazHxhtRK1028kHksDL8HJPbHmckXw0oZPZpQivo9yMLzpKElyZ5w/fTA4erXDZGVc7Wmh52zOyueibtrhyix5qeXKcUulnvjbzcTIMaP4P9pbcm+vJ3xYlHqgICgR4mgS9giuyjVg7sfP6p6qPf0XZKzB8cFqhzM70hbVDUHOsxxzcF1sCmd7Sxs3UCr/XmlU4RW+y2whyVEDVCo0U6J8tbX/uqIidw565AwAwHDwFQADfEQV+WatMb4BYnIwSvY2eO9fX9c0LDpduDb7he/4K0SNtlnC9J4occA+H5ls3hK00fJ3MJh5YapHn56uq0/+10gvs568pjVvDRF1YsUypx9kGmQtTa5ydSkrQbcXb72BRrwycTT5IV61A28eo/VYXen7ETnsYcFjHEL/loTj/T4fCGOc+rTFXz/nI34UEZ0Y9Af/UUJabb4duC3Dww6t551J8ebq1uauu29egu44RDRFteyIpDwy/dyBGIOqzq0pGRrVehU0Cbkt2WVEEau9zW5deBab8jIZ3Vs/DNARKmdFRJ
 
 -->

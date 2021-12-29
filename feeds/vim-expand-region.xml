@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-expand-region.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-expand-region.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-expand-region</name>
   <summary xml:lang="en">Vim plugin that allows you to visually select increasingly larger regions of text using the same key combination.</summary>
   <homepage>https://github.com/terryma/vim-expand-region</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQwuAAoJEIqj3WcC4bjBjv4QAKzCOrEWa6dWMKRe61E4nckWO7wbY1ChKSw4nF9gdjfRSuLOABuI6rmQ9++TFLg5wslOwfRwAdDJ8l82toH0L0DxxY6bKhZ2/WmtoKAgjFUGWbPEoGG/gp4e8JS4UldWt5Oa/TNtU+vmP2c69s+k1Lg4BYtfoRa0sRucBBZkTQhHUMgoKy9u6dgXW5JYyWvmZbZhC0nD7qgdwlccdBsPiPkdHUZEtGCW4m3nY7Pd5Kv019FBotm9+539E4wGVhN0ZUVcU+TfkOn6/JPNhP5M0Jze54Z1ilXMuUKbsDMfM5d1bNDZ7LljQAN0UhGH71ekw4Y142NwLquN9ooP9ha+oQdgjIQICxg8zjz+zRpcjAcpLVNSbJ6IcGbvyWHa9Wrtww/5uSpqJiZVXyYVn+mTHwjpHI7lj73X1IS7ITJ6B/MrYAIrPDWsY5/MJxLQR5P1IaG8oYf4QpKDwojIftnQX3e4varZr8xu1jzVe5AH24oNFQPLsSNk6P4bpwNWNwTvZxSAOxf+N5i0WdMFs7EVtU0LJ4tiaNRhiBHeHYOtb2CAPfjO7ibH7patB1dEKjEn3dFgwHtOu26/iCCH/UmQeAISRbyI26cK4ia8SmlCvTqguGvm/TH7rfoBxRmqHhAM2E3wX7HGG0tUWahJ+TE02Yi19Rks5GHAL6GNVUFeMwKk
+iQIcBAABAgAGBQJhzNvPAAoJEIqj3WcC4bjBEWQP/RTYZyE8QmfpDLA36eQurGutx8vgnKm3jO8c6Hewm5rai5Xw6tUNGMRSmz3Solut+7X4dwDlpiyFYcxRMT5296gcFWkvN6nD6SylE4K6fSlXwkJEq+73vz+E4qbwT+S00OkzwyuqxLafFcRuUVaJ9U26nadht1PH7qf2HmIOy42WKCtpIhU975aOlIu/5ZD+RRPW5rj3/5rE82k9+rSF63+aRvZeTr0oyAu7nXseXQyj32ws66LVCBM+OePB95M82Ju6U535jwbbrvmqf34xL4GpkFC8cuTTd5ecuTRTb3EPHWn8kCEykaFxEkfOjkuvb98CE+lkxA1hNaGrTVoVqDjCNMjR88Y8sNmrCm+odrNHz3FQXoCYdbf52Rjz3az69UdiqSApPJi2Lc0kfFl2yzHaZiwG46YW9Dhxk6lm8Tp/WKNShjhDKwuD2sJBQUPnNiKcyvos3pf+2vWpmvOabiRwCl7XOR1fG585OcpfOFS3HENWibcg4xY0a0LrfYicK5fqF3PZ6WyttOlGmUsz105f+qB3vE+47k0ybLWliiXiI/Z3rdDcPh21BAb+nBhmkLuRXkseiU7x3YaPT/NJvRmKOYu9VIvmyj444oAoI0V1A9S8ikSxp04WnEPAQdcCanpPSKV43r8F4T9meaZRkXViorFQOo+n4P4RpsVpqKSM
 
 -->

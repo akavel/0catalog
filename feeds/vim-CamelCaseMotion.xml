@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-CamelCaseMotion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-CamelCaseMotion.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-CamelCaseMotion</name>
   <summary xml:lang="en">A vim script to provide CamelCase motion through words (fork of inkarkat's camelcasemotion script)</summary>
   <homepage>https://github.com/bkad/CamelCaseMotion</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQwBAAoJEIqj3WcC4bjBCzAQAKnFRdf98kSvPQ+DQjjL0t9mYyBtkDiysw1j3Z2Dzv8x6iEv0HvgFZPOhr0HqClHUDPeEjMuIFN/4Rt7kqlFoeHtmU+Jd5XoJgauBpN7FHB6oxiO+MmoFHmub4fbxBU6sewitFd+cfpPQgViIsDeNMAjVLxceKRzslZjBdjHAavtJaj7B+jZPIDLPIOz2bf7SEz1lJnm6+2PMxTLx/LuiTrFIHjA2RIcpn7fTsjlwRK1bm72Ol3fz9DqesRYauQSr3DuYoe9fYwF4Ydhg6EKhfLv2OY2TJaDFp6T0rX2zyU4QbVl0o3tGs8WiD6oUQWCDIS/Xb9NnH39WcFltZm5CylhpULW6LnczxiK8ZKf3prW1BL4gDk897ntDJd1jWVCE2B7IwgOErYANJ0sS2gB/+5BuBO+4Z/CyKzmjOjnbnWG/q3VB/zo1Jr83RYW6uuHAKueUWqZvPJ/E68shqCLVI+4iR3fbxotzrA0YeaTDEKbtj+l83rapjrzaV8MyO2l1AiqV7tDbqX73/AAac5GK+3iC2bDHuUHchywrpsWnmmZ+Bkn22a2e9IZAEiYsWy+1LUI9adUI8CC7NprI3MhzQXuoGyNM8eW76tuvnUunPHuQQWssvAtkU819SgU/1whebd6/Fnr9lGZD6UsCaiksr/Owr7+saGTEZtVZJrkep0X
+iQIcBAABAgAGBQJhzNvLAAoJEIqj3WcC4bjBIGYP/RJ/XYjyKi+WpD4fswzWLlu5oLvu48Zo1DYeYCnmZT0sc0avZ/nNasSGAP0G2xSAvMQtbRhy0NUNtpnZMgguvp66UcX/9DGN0Znoy3LWvgJqcoUzGA9LYR+PuP0F+vPjREXQK/mlXLGBkQiPFuwgsWF1JKxkG5I4m+6v/cZGTXGmHvfUqzj0H9YoAtYtbosuMsNu906u4phoN1KD2cVor74NLnxkoT0t7eDd3dK1619IyiuGc+HvS+EADofO+/ee6EJhTksgWzJGdYE8XoE2gUpSRcGXYrQiEcd6PAtC3PbuEL3oAhQhfbESyw6FJ7qcuFXIGVsZOulPBpC8TICr1psJ72hnnXVFRNd8ceZqV6HZeykjray6hfGQqffptMUsIlIzQX6nsk8azvthpRCkDkTmoUk2mGKMpYjvGuO55IjDdiFFeLt/WcaGRxHDCVIpkdV1fWe8e/R1Utze7DM8IOVXsdM+obAKOFKDBkN1VlT9B1BAO0Bfr3qvuo7br4n6+f8Rk/fBSY94L06haHnWz2w65ho2F5gsL5LW6tp7jMQKwR5JeUXV52jSZf+mOXljDb25wmjBDsSI6L50B8RtubbWUyLqNazuUVDta1Jbv8WMJFloz1+3DIWuZMMfYI/YKBX4YF7PwGFCvWzhPbNb11R6AhtZRqNT45c0cqcRjULa
 
 -->

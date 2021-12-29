@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-commentary.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-commentary.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-commentary</name>
   <summary xml:lang="en">commentary.vim: comment stuff out</summary>
   <homepage>https://github.com/tpope/vim-commentary</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQwfAAoJEIqj3WcC4bjBY4YQAKsABwmmyJXgjOfwYQnXwM+S1wBflh5IGSqhFl7V5rJcYQB1aN+7NDnVS5geJs+sxQVB0UYaxCthHhMX2jVbpAvI7boNkYyiJs6LRfOyK+uKr13gJe5VJAiJ6hCMj9BgdTWQ9k83ejKhpnKyuyrHZC+Cq8wtVJ4oldWZZFKuoGw7A7YY/Xywi7I2s8L9vPtIwQnQW8inB+9uH5bqFgO8WtO1oYBlB4u1GVx5xupXGznNAXRCoiMHz7bmTVJ8rKyWCI3fSp995CDdhCTfiBDaVgh2jE+1Fv9jybzQKjHhBVF3RraaAuUv04NLrWjVS42CndPm8lq80irQHBUAGPR6MAiCyunLGcBvzhiuT9DnDiB7fSC+lS+vKkPkRlllbVubQTDar01es60OKx0w9ShcHs9X1snLhjjZKaZDTTyFbQZOhvk1yDB7HHeFS1KWY2MtWlrocAcL7tWAhVUoj2ExlSarz7C3x6pWxwxTPNQwHgmVDHDxw9z8eWHInq/tQ6cUCuxjXHcc0dUU6LOavarsnEt+twhZlQXJYXecxUttM/xUSdhI8+556d4UsPgRm0p1xJgh4NjNA6ABOcMbtka5o4B3JCOCBfup+XVpOpvfZVskWuOTuuPIYQBLVVqTDlbRjmSC7ka1/u5b/Yff4OP2rsr4E0oltut4DdkCQ8iYCGp0
+iQIcBAABAgAGBQJhzNvNAAoJEIqj3WcC4bjBhKkP+wRzQ4a9L9qHAwrQKmuFMG00camdRMotKBFHtaxYadW4OfMdLxEmAhSBZ7JgyqEqxRUR7VW9HLthk38HfcWki0EE+YNtjS4sHZ7pJHGvD3gRC/2S/ixUtRJ3nZNMi4r+f6kINg8zUopdv9hoYmNOjbEbe9K8nWies69Ki0RBoo75g2DImg7b6qHXzqCUVtv/SYLz3MwKxBTbXOPmGLcxA2+R1n/C/xt6ijsC5o2CSx7WNyIwUd5Mzq6SRaUvyQynwjSJUKvbUNIjGfJ+y4lvRDAn/gPwCqqNg7E0qMAgxGjyE34lILhK5jvUuDNUJrMbRf5bfB8aLHecFVyKfAJtD+Sw4x9wNRpRQ27GpzILiAwA+hEGnfevuVCGjVz4rFVBhBWdH2+sdSCTu87xzUwn7OwCzxNK3NkltPPmiGZ0eOy/hJhzJ17HKsxEZ8uvvQsecBWunbxfHOJC85TE7d7TVkmCZxk/dyIi9EmIPl2BsYmhL+aPDm9Tyfbw2SM7RvWwJ4cp1IdOda0KU4cKq/S9iRR7qMojsQAJQfMu90V8OJTZull6NYAZBwmlDVxGhT8bkoYUVpdnsAklq8SjaXNFLCotHwPmPTm4QyysZ0VNz3QMRu+1Uk4ZRw0YCvDNHlyN742FS3P23zO/AiEWP1Um085zXPQslmBZn34k6XZBTBSw
 
 -->

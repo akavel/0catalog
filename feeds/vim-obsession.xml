@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-obsession.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-obsession.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-obsession</name>
   <summary xml:lang="en">obsession.vim: continuously updated session files</summary>
   <homepage>https://github.com/tpope/vim-obsession</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQxzAAoJEIqj3WcC4bjB5PQP/1eY9bakTrO+XAgL9eQlmLQheCD04LEmR0NP831pD+jDHDwivDSXglAqEA3Ylzc8iQpJY4dyZwSt2MEycyvOuc6uJ3unn+A9ccD3+4rTOoKrjj1t5dHd7UeLN5CH328EZmPHbTHz95+zimAaIYLn/8hXnuga0dUAPj+rbij6jxkQ2OBo+F+v4PDiMcPgRSjiHfhy3KhTs1u3d+eYxyKjsj/uBQ9Xe3FOYIeob+rWKm3ntv3HWUm51Wt8KvRhgM8HKKuCGPuEAV/SBVr6cHUJvpLrfxDmcz7/Q82SCy00w8Wn81IvhIpRbvNmoFXlL21x9RUEUAvA/QnwINAEOJcshms9Kiese7VrHtaCWI5CzLmBjIZgNdGnyDRPfUr/IsNfNAHb6EgW94IKNQak8E7eU3wV2FBX+z+AMb9t9hENiNxdk4Yx0FOqx+JPhY+l83YWrgMFhXqSslQQtg/mkPD2VEflDm8eiWtxTfmReKKq7kKwPSYdrLW5t7QyU48zflwPK0bezC17jyd4lWejhp9kW+sc7nHhNTCLsME5tJ4KeefgJ7tAgJ/p6olpvC8AadFilRRTdY/nsszdJKB5Wcd6pMEGfQEjC2xRBGn8PNgQ1z2iXQPQXer6eLJTm8M45Oyayy52i19onbZUWc3ODsfsECBzQXmMFt1wlZ6ZKQOk97bx
+iQIcBAABAgAGBQJhzNvWAAoJEIqj3WcC4bjBRbcP/2WVxt8rCYSuU8mclfDaAa9CLoe9U3GQj3LAfzVso+0XmhY41ztCsinGk2i0saR4Mr9bVKEpWxtMBmBFD1MFWGeX9KXH6lLQvtJscR0Lhd2p5Et4mFb7Id1hnmnWOoNi64rvAt1bmSH6eJq3TLG+vlRNDeCiuYxA5Lydl1VVPnQARTpRG3IGTzwAdqWkMmcNd8TBMgn/zN1XBuNF9rE7/ETcUU2F9NrF0IMfYJIWefi7uNAIjHeAPO25JQ9uH8V49X4xnvtU4ugeyUj59002a1/anfrjox+wORr83Arr5OZhslX4M/TN2obZH/NCOPuIvhlC8Nk2xoLgk6T+2FU91KnQa0zv5zj4uTbTfoPYjnb++rpzzBpstme6PgCvI2/pIEnSmE7CcErK1NgrgSFhgSVrETnzDRgpC+7LStDC1HJPj11Y3PueKfAD9sq0RqLAQGC6/eGNK71AzXtUsJZ3v8nt41HAuI89UhvLv37KAEtmrSCnP8wLmRjCnEH1B8Rzqqz9szWenFY7XZYpv4EHE+yi/YoZKPzOmgoaEUvJYibSrY6/pui0tUI3M8bcWK6FZ5DVPm4O2FGzMU5UJ3QQLsOdHtSJ0hjd0ZU8BTSNrcrUOZCCxe17SUDQSVWa4qi2DS0uaBzDLhcs8HDD1AzRb1xxv8Z/Ho06MoaPJU54VYff
 
 -->

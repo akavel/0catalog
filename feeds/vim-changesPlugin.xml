@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-changesPlugin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-changesPlugin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-changesPlugin</name>
   <summary xml:lang="en">A Vim Plugin for indicating changes as colored bars using signs.</summary>
   <homepage>https://github.com/chrisbra/changesPlugin</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQwKAAoJEIqj3WcC4bjBVxYP+wctF07KTOxaY54nCR2vWX8aFGpZehuhYgrjhQZFbkUrVKql0VKbk+8gql69cIs55zvcO10H4sd8H63a/4q/UG1QFYd4cyZ1D9g5SX4DvK3JV/vobuMoxoQBkCLYNVHXQYHEEkR40+NqKyNCtjz1fVz821LMKsER/mck+H3eQDmFYqxAZ1VqMg6Mw2qms94qa864+NMKOS4Dq6nxbR6CuYD57aW7HfzhMEXOk38p3kFxcWLsS3u40EdZlT4w9dp+urZSxrSxc7FDhNBq2cuDSj2qo0t2aZw6FZwKCOfesvLoMmMkJq43Z/Krp48ngnnFqgDmRiSbUAx2QwzeQUvCwWUTL1EguhCnmj5iiiDwmX5S2CEzhNXqUmzlQB/WsqTjLUq+mbVquKnKaFVtsKv/sJv5N/x0gdWxEbdYdV/vG6hx2Uo3V5+Zd2a4jujh7fGWL+0eHz4idNveSzwj2p450DmUlw8TbQUtzMJmjCqcDRd7KMKn1C0H6/ejk/48Mk1Ivu/VZiwEOLLHpQd37DjFiRV7pF/Khcm4Qmr0Hp999DlaVkTgQXMwJMv5V9Pm3drKuSvENUa/P2G1WKbc4ncG10mrmgwI6Gzv+lhrtx6AjGp6ZDD6gVg6FbpULJhqg+C8SzxZoMXh6TLLGTfSIxTtmdtwTsVSA+PIiPV4uwxOguR9
+iQIcBAABAgAGBQJhzNvLAAoJEIqj3WcC4bjBQkMQAKcbh5x3Zoq8cEOhGh/arQTWUlJbz4EWdoy0YQnTqzXG8jSnMKPQSAHXvSPHd6wPeM446WxiRCzwRX6p/vUtpWjQWhg7FpTEERZXxB76PWOY7zrqR6SVhhk4xlcnLErldmRIijzk2aYie/TbxgzMlbQZS/e5MEfUMksHpzBoD54PV79ye5L286YPXwuFynQLeJF+XRzHlSBwQlVrI5r42zhSMsvGshwYVfK9hq0erECfGgUrsPioxUlgoT+eznEWiUJvwmgXqAGNzEJPIBMLkZZeOUPidPdxI7r78ssxZKTKE/fVQL1RU8fP5v85iEC62eDyZm3N94KSjulT+eYNrMofMLBwzZnuQa6pU8oPwmdhftrwWfLIPIYf6AWMgXwftwPHnypc1tnlyxvW2zetQBpvDWq2si2nnFBeX3zgLehq3YnrIAF1K8JUg8UElfZPlQnDNJrKMpEFPMyxlVOH2QDKX9FbrwbtT+dAsV/9p8/HOKzP/uqTBbP8LQFoPC70hlCPjPiA1V+/+0gG1/tGEY/o3cDckflAelEjaxQV3lIyognxFzSsHzZMNypt4Edb8e1Zd77nh5T0V2dirM2SwiodQXeFNP2Hca3DSSeBbI2A3jPy6q1cSN+aBlAgMqpj9kDylfdb7oU4LLw4ANVjm3tIos8aLi4wkeGiMym2ss1y
 
 -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-DrawIt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-DrawIt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-DrawIt</name>
   <summary xml:lang="en">Ascii drawing plugin: lines, ellipses, arrows, fills, and more!</summary>
   <homepage>https://github.com/vim-scripts/DrawIt</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQwmAAoJEIqj3WcC4bjBgt8P/3VMqto7fwIJzQeF+8Y1n/rZvtqzv7IzWH+6+enHky+pKBTvqAn0hoAgkmGA986s2wvLespX5PgD0WbkB0HCIdBz7iYN52LVF942DLrdwgRuSkfxbzkMcBiQOBgH9zqRz0SipxHGacDV1n9ukORXMl2pCHub7NMo9qkkpMTF0v/6t/Mp3SxP1pZuIG3qfIC2Mg2ByJT3fKUijyH4TVTbvL/eqQ6nBuOTNpmOrlB/T6OG8kmerMVIimyR0BXNmCXZjkLvntS+D7c0+ls04lEI3enDYiSOPqgMauTIl111RZVRTaW2yusLgXjiWnmQ4COFFbyU0BwSRRAOT1+M+X+W35skgVsuL1/JxJYUQ/sOsCgh8P+GH/eS5nEVdS+iPFKB1D69+msDlrRbRWFMHyTjSQb9zsAEfn8Xr6m0SB5AqRA6BBB/li6iz+yIpt7pf0Yl/8V+QkpVaf1QL/k1s8z5qT88coDlm/gB/263drNgUdGoESFTqQ0b/J6SiiyByO5IzDCWbphpwAzEgYupptVYEW7TCdKx+YqrHj3xkLWLTVTSBml6ec8P26xC8QstYGZLddkRsR0R4hZL+xmUSQu7Bx80/6mMavYHlQLtv1v16FJCePe2waonyTBUeh1qxt1m3oW1C1wB3mQwaf7FpmwtFUVG7dBb3hrYQyUvTX4RQJbJ
+iQIcBAABAgAGBQJhzNvOAAoJEIqj3WcC4bjBx84P/iuRaf1tcwdCvngaOqHFKZRncBkYehEjDtapEUBHvoxatvkjbEAzanE5m02jP8zig7stexvLzPbtRaGoVx0rtnP0O9qhM6dLvi4lKMRLDIfrAQlmg7fbluMH8J5mVjGRODS+weTbIAjjcem0KnfiHW2aTWZRbVTLA25kvdCJkobzI52ZAFBYEkGSOdWKHdhCfpJXmo1/IyIMlJPfkDqG62uxdmLQtRY2r5I5K+8OXnJsrs0oLlNrewFJGf1BkG11fbhEEzYplPy/Zm3wfnFzTSBcYue9m9WX93Mvgf1Xva7aID8LNvr4VbC/Zuo87vKFI9ooo5vmQUvDn9P9yxhkPRvrzQNOId3jRqA6Xnoxr7DEKv6sKozu6QrcF5rA46ymyeVzUOqxb0KbmfBAje0dCAoeESAeCLgePAiur/UVNCBBN1jl/BaenhEG+0H+bHn7K2bPDnoZToxrsFl20P/EGSzcAH9viV6sQ2ifPlPeXFZdF3j4E76IySHjCkIjrBW4qg3IJOuVU2UENqYBiqFVGgXZQSYl5w8+5m9SJmGrDCKA5np6PmCsIMQnFB7Hw+PnN5pjA6vTYsT+2k5eDYhFRVpYCCeZfqWoAZXTpG5z/OH5O3ahAtj2kb6k7Yz0XnnRWacOkqWL9GMYHTqXlKn0FbTkOPD5LmbLh8Y3/plSWlda
 
 -->

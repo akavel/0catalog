@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-splitjoin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-splitjoin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-splitjoin</name>
   <summary xml:lang="en">Switch between single-line and multiline forms of code</summary>
   <homepage>https://github.com/AndrewRadev/splitjoin.vim</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQyWAAoJEIqj3WcC4bjBeH0P/jCnwJAtA2IjK8+3hqrR3sYmW7SjRq7mIso62PMgFoRSimWAlSOdl/emTabwJE9MPVbbXu6JbYgccbUC0ZZvwVj0LS3H6/8hSH0OnLb5JNWHnJ2sdNe2rDEK75torLHjMcNxA36Gs/bjuqj+UbE087SL2BLpOUtBauAzWhZewZPMpgPpp7PQVkvnS9nHmBd5qBDr/5iSQ7lV63sC4P1vmsNBeUsj4MKSKLUAU+ZF03ryFLp5Ji79qEzQLuxet+hPYYfR7e0htCud/Y4CbCKQThHu0A6QGlv/2oEMCgJLt37cvWClDCmvUSHVYfyYBrCRS/yPplAkdSMIJekFh4QaYrDq6ViVUFkW7JIM3clA2AEydpGlgRyS3LD1clBQcMprzAwmcEriHePh1qOdbH9XyTSiJlFKgvxI2nYAC26C2ex0iqONiy8436cXlLab0+WhS49sZ41TH2LekVH2iqBMkDgDt4K7TA2jeFbCYvoF+B7fbgZVGLJSifkm4r06VfP0P2YfqseZJ/xjXQTRfjl5K8StWnpI/0BUTNWDdxDk3UlYsIyBcu3DIwZ3Xtu3gzWVQHYIKtjzTwXTtjPQejuX6rXVhODTC+oWcTLQl1c4VZo+DhXn3L/05qr5JOy2p838vEkvotXyJLX5gBly9e0thnxSwfgPgUUd1Yx0rmAXHi2j
+iQIcBAABAgAGBQJhzNvaAAoJEIqj3WcC4bjBTLQP/2GJohdhpbXbipXb/pk2GETd1lTbWfrsu88vGVh5zfvGmxnLnishQMfjnluVbrLpPQ72pEl36bZ+VQr/6fiT5lxFWyoJXiVNjAW+gMOCfRZO0OXq3yETVivSg00Zb/TKtQeossBoNc6Ev7LtG1NzMmgvehPWmad4l96KQXULV11M2Oj6Gf2wcVxyRYYCaXDEom32oQ0W5heLdMj2WrYXUQsXIoPqCAZrG+SEBGK0a7BOKfshsjyy30a6DEluLmxPyOcgpmEtVrDsKIzH8rXYbcBa8V0jxztixf8JCy723sZ0NkCKPo/kjghNqZzZT/gmaHqohKcG6X5Ox9fWp2vc3ajhYgDbvawOFGYqPEkgzuH8BeD/8MF0KVee7WN/Bx9BcpKHSy0R04QJPw+LaOW3jNbFVM7Y3i+1xwjVTF6LJ80A/9+mS+GV/D/hzboDA0alvwQ24TvvabzBD2XFfFgkSUdAujjWZ78rAPMJZcd5SKeqci6ajLM6ErnDhyJlqA9uAl13/VdOPr9WPJaXV9vOypIkuZc0TRTUrNkh01hKrVU7gmmsPtUbvt75Pl4vAluk6IVNxr79vrEzsX7XEB1ri1w9AN/16lMAzYhgmHst2/RInBODWmHMxvK7b+2GGZJxRM98Ubz4lhNoru0KGFiiBSs0/49mxyOFunPvebp6shIc
 
 -->

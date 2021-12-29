@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-go-explorer</name>
   <summary xml:lang="en" />
   <homepage>https://github.com/garyburd/go-explorer</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQxFAAoJEIqj3WcC4bjBY8QP+wXHwxMsGFZjA1O9WreFqAv0fXzhNf2WXwPLg3IqVdDGN9RYPZLnz+TQrMsN2xjlvPXwRwBWC6oOPTAeuBA2V+zL1txGE5MYouilI0hDQkCRaRSGy9IVMmUInTgjmVEhgS/OUleRfR4TqneB+ccgWIZMyo/ApwL6Ds8ukNjJzTUWhKQNLgQrMNI8QbriiyFFmEYu09/QpvOJV/pji5EbDvDccEs9rWY1XAhYceJEDFYZIMh9RcXSrZegcs8JQb2jLqd+u1zHY5Wepg51ZAcZ3n5T7pMuhaivwSB5CoqIEfz5cHLjXqRoEAJxC4SfiNh8NYjhZb/fm10Glk0DBnWfFrXs4VJG4S/MmCLi63sVxkNCdwE4QpgTGSAOzuHrO3P1PBbB11Yr/Wj1tt2WcwJ8x3AR+fI2oZNwfk5zQuPwl1FxUZWUaJ+JFbIQk2b2TUaaMyqzrcrjUjdKU9FX5UzydFAuUBMXs5GyXqybwzcq15aWJAbJnQAGIl2GVRUoS3YGJbGsXCb/o7kp7WKFQEqgfPdmxArlbysB58mo31wdwyhUxsdA/TS4dHV5Xgl+kd4tsLziZcMsOxIabEoHumHytV+Nlgajg1rT7HmrErQT+4pkAwFVoqzNnoVS35FKWG7CfZgqnSi/kxchJbstthnxNMbB5xgHt/rIUy+YJ+WB53Hw
+iQIcBAABAgAGBQJhzNvRAAoJEIqj3WcC4bjBW6IQALK2sWLQlElCSAzAA5wPv2Vzk9MlGS2bBbw7azIRHE106XOSvxG6QAi38sxGE6VHSTk8CBAJarn8XJTV/Mb1nBE6NNo9DfmqY25+jrJpbiaq8Cc4fKKNuVl7k9W4dJIDhrBgic8cK79+fNKaOYhRyyoUelgFrUb1Ob8qtyWlcYeHPJ6PFoLEpi4xXfqw6yOPPdvx0FK6bmXrlEyGTOstVf/UHuoGByp13ENyhdj9hiQ1B+ZqtWmUctz1s5xX/0QrLXrxkQafKnQoXYLQ+QZXycUQmqVRNpjkfkmpin0P0bXrvfv0phvLkdxxY2RBBa65oNA3FFS9z9dOlvgJq/mHOqTJMJVxt5MrxbiZkM6RdE0wvUiiVGSX+7JzI7oDDJyE9Ha6xBDeBMeLavIPSO+m1IeHHdZ6cOX6O2dj/7kGiX+e7Whfdcb9ZAqsiJKJZACyl6xTeNz4Yyh52qgeh/ZCmH24CmP2R8He7KG5MvWYkUpbzE3jOf2VqMzKzu7jEXo/zkcvDBhZL1ndx/BwhQFCvdwiT2OYp+0AIvbH6ikSRBheNcELoIdD0RKXDdjkbyQHJeMZgHpOQtz+aPEzKaI/ySEcZVD0iIzvRF5wB/FVTbdjOX5PRPMllfd2+j+f/PrZI64RDFb42W77LBHEXl0Vm0WQx/UPX/QHjLNEAuuwqoAn
 
 -->

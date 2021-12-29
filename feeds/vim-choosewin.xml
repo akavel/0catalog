@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
-<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://raw.githubusercontent.com/akavel/0catalog/master/feeds/vim-choosewin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-choosewin.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-choosewin</name>
   <summary xml:lang="en">Land on window you chose like tmux's 'display-pane'</summary>
   <homepage>https://github.com/t9md/vim-choosewin</homepage>
@@ -13,6 +13,6 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeDQwRAAoJEIqj3WcC4bjBqEUQAKrMXPXyc0oANxzw5DhUQ78y12YMdM5Md19yH/fJxPl8BVfu4QG4B4Z/VQ6K0BqdvLKCjBQUq7lz2rtt4khNBKaz7lSbSQwFoVdIXv8q+HbM1xpORE+nxldo6jV+9thxWxnhZ7wlv4IsEMScalG1s1P+qPOnHH9ltTxmCUxGTttV7Ldu8Bmc6Ph52vyl6XsIgS4Yay89Z+e152RkUCWGqDPgvwUovh+iusgz4VJRuZYKI9eIoVljtbm7Zgldv/8T5KzzC+JR8AYqhcnZZ9ssnyXHQk8LWiVESMCffpVf9qGroqQguNQ0KGnMilV9ya/W4Mct/+unxWwE9WXYrgtTbRp0P1gRA2Y2BtarYUYexH/9pWwhe43bfSFj0qX//aJ/XB5EaLIwK0bFGK8QYqERUS9Hh6CYdSGwh4McdyG6cDGVEqXPfoabAyOrK+OUVujtt1Zk2TI0GlsaJb+8gdzgKmKENQhgCvOPruDsyvrYZ+5eZrglXDo0DQzxRJCom7wstjdl50/KJyI83HSYEqD0XUTFBOh+P467p+78EGmI0uB9H4l7sDk8O45RoPmCVdodKAP2lmnIMxxQORfu87R97H5h8RxTtlx4zM3ZNtTV1NFnGi/yW6+1Xyn1eN16Yesi/gRfgicolht5myQlrmC5qUqwpNk8raZh4KLxCdg3A9E6
+iQIcBAABAgAGBQJhzNvMAAoJEIqj3WcC4bjB03cP/3FHScV28wjjHvkUW45dpo24vzfPlsNgdIQr7ensa6C1SBbgbFvahNA6/bT75GmFVWlYJKrqkFHmRIxQEg6K0FFemlmdpm+IAKARcCt9ofkqlB0FDzpuVtq+7TQQVOgAXejFUkhoIu8Zq9YyO5O1rjdvKwOPrURts46rSOMt0YbCEBF0AXPdNSzMJCVHu53f5mqtB6Asw98f5Eh1EGusWyEUmkkCeP3EMg8bIfl/v//dJbO0BY3U9oQXCVgRtSdQIx/p86/vTKOBIJ8zo3TVudjlaygUJ25ouF4cD9+CF/QSRdmcE2Y438wYEn1r7ARD2RU9piszQpyZpdTzjKC5SlCcO+9usXxd+LAdtcork1Aau1Sl2mxE6zY38HBFUZp93OEdNGymG54ydwUsAbuMxQche/AsU9k9I9EatLon/EfLJz/I8igDHF7hX7EDbJVDWA39w5utpk5fw0FhjUylCSAz35GeACzpwAQTb8yodWUyEXW8WXx5Bmk1AmPRWAOdhKG/VlcTI9a8MTYdx7eqjp3rs8XtjSiPtjnHuoDk6fVCFM9d7EuU2A/64+akTWp14owylyt/ZMvumG1T93A7Y7kqgGDkLdl/74y+v4/Mu4QPQXFse4B97ejqYOz/vHXEIeJ/1T+p0dJ1JlVfjqu+R3LXOCyuCYQ3x30GBgDpf8II
 
 -->
