@@ -2,17 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="feed.xsl"?>
 <interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/vim-go-explorer.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>vim-go-explorer</name>
-  <summary xml:lang="en" />
-  <homepage>https://github.com/garyburd/go-explorer</homepage>
+  <summary xml:lang="en">Vim plugin for exploring Go code</summary>
+  <homepage>https://github.com/akavel/go-explorer</homepage>
   <group>
     <environment name="VIMPATH" insert="" mode="append" />
     <implementation version="0.20160424.183938" released="2020-01-01" id="sha1new=2fdc957b07b58c57c54028af1f91c0511ebb9660">
       <manifest-digest sha256new="5BJKJ335MVQVQWIQGHCITE3RFI55BOVL2DFU5TINOEWXIEQ3DTUQ" />
-      <archive href="https://github.com/garyburd/go-explorer/archive/6a82202d18e3b4a4a06b6c22769ee9511335e6ae.tar.gz" size="14928" type="application/x-compressed-tar" extract="go-explorer-6a82202d18e3b4a4a06b6c22769ee9511335e6ae" />
+      <archive href="https://github.com/akavel/go-explorer/archive/6a82202d18e3b4a4a06b6c22769ee9511335e6ae.tar.gz" size="14928" type="application/x-compressed-tar" extract="go-explorer-6a82202d18e3b4a4a06b6c22769ee9511335e6ae" />
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhzNvRAAoJEIqj3WcC4bjBW6IQALK2sWLQlElCSAzAA5wPv2Vzk9MlGS2bBbw7azIRHE106XOSvxG6QAi38sxGE6VHSTk8CBAJarn8XJTV/Mb1nBE6NNo9DfmqY25+jrJpbiaq8Cc4fKKNuVl7k9W4dJIDhrBgic8cK79+fNKaOYhRyyoUelgFrUb1Ob8qtyWlcYeHPJ6PFoLEpi4xXfqw6yOPPdvx0FK6bmXrlEyGTOstVf/UHuoGByp13ENyhdj9hiQ1B+ZqtWmUctz1s5xX/0QrLXrxkQafKnQoXYLQ+QZXycUQmqVRNpjkfkmpin0P0bXrvfv0phvLkdxxY2RBBa65oNA3FFS9z9dOlvgJq/mHOqTJMJVxt5MrxbiZkM6RdE0wvUiiVGSX+7JzI7oDDJyE9Ha6xBDeBMeLavIPSO+m1IeHHdZ6cOX6O2dj/7kGiX+e7Whfdcb9ZAqsiJKJZACyl6xTeNz4Yyh52qgeh/ZCmH24CmP2R8He7KG5MvWYkUpbzE3jOf2VqMzKzu7jEXo/zkcvDBhZL1ndx/BwhQFCvdwiT2OYp+0AIvbH6ikSRBheNcELoIdD0RKXDdjkbyQHJeMZgHpOQtz+aPEzKaI/ySEcZVD0iIzvRF5wB/FVTbdjOX5PRPMllfd2+j+f/PrZI64RDFb42W77LBHEXl0Vm0WQx/UPX/QHjLNEAuuwqoAn
+iQIcBAABAgAGBQJhzfViAAoJEIqj3WcC4bjBBg4QAI6kpOljkruPFSgWq3XHsj15XC2LEohgoKUiSQpAfzFzLznhnTyWEahCP/25tbIYORS6bdP6BPHJ4cfqlVCXogeXf0/FwgfbzMlF383f9/Q+4EgvAY139SjRBzsCnTHSjjSa0+Nr18ehs88d6Fd0+JKUPnq79pzf/dXak7anPxgNtVjnkYVU+niz0X+JZQFiKiqSU3ZS5w8oftBZ8IRU9BXdJ4M84thofQFrXyQy8M2bcTfymbxSqp8LO4Kts8E9VS//F9CaasxNbLfbRYvR3c7QVfW9/8EriFIAD+7jJ5EbkV9Git5XR0VNwOw9O4fNstLETsH2TgfwEc6qFyBmGFqRbc3PeslTO5ETRd6OrgNpIbGO9aZKdj+xo3VZhi2uGe+qrURAIUD/2kw3jbKFRg6gygtl2b6ouJtMOiHLnq/QqB/1/fHEdjJPhSqbxJ78TatgOnBA95gKF+w/WeXcRBYI29r64z5dtjKWdDSxqWlxrtsAua+Uyb/qdpxTQfhpUi3tXTQ0NzO+IBqEWnmphaHsrhPzWKFeYWnM2iGNVyqmFNEoGtA9zle9H7188Wt2UmkQ4X27/B3gpJndYYWh24vor1ohFO+8m4gIuDKSvrgw+GhUTydWe0esw7farrUGgm8+/g4g8CLZQNr30G/tDmYYVmKhlhiI33rHylHZ6qOb
 
 -->
