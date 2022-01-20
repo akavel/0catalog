@@ -15,14 +15,20 @@
     <manifest-digest sha256new="ZYTS3G6LKSX7RDFHI7PTEODYNZLGLUMY35X2ZWBVGZFRPWJBCDYQ" />
     <archive href="https://bitbucket.org/rude/love/downloads/love-11.3-win64.zip" size="4251545" type="application/zip" extract="love-11.3-win64" />
   </implementation>
+  <implementation arch="Windows-x86_64" version="11.4" id="sha256new_O5KGNU2A4IQR3FH4PSQCQHYURSV5QIIPML2DOCOVNSF2V4UTEI6A">
+    <command name="run" path="love.exe" />
+    <command name="lovec" path="lovec.exe" />
+    <manifest-digest sha256new="O5KGNU2A4IQR3FH4PSQCQHYURSV5QIIPML2DOCOVNSF2V4UTEI6A" />
+    <archive href="https://github.com/love2d/love/releases/download/11.4/love-11.4-win64.zip" size="4419681" type="application/zip" extract="love-11.4-win64" />
+  </implementation>
   <entry-point command="run" binary-name="love" />
   <entry-point command="lovec" binary-name="lovec">
     <needs-terminal />
     <name xml:lang="en">LÖVE</name>
-    <summary xml:lang="en">LÖVE 11.3</summary>
+    <summary xml:lang="en">LÖVE interpreter with console</summary>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJeIz+vAAoJEIqj3WcC4bjBoq8P/2uiD4axkCaLWwlbwMpY+Qs39d3lfj1SB9iMKt+ZPMxSuXPAisvvpEM92uHZKOeLY8kVRWoiblN6BTmMwbrR/lhQtLl8Qe8k+DaRtadsCrxx8PR97ZjKSuuQXkkRLXDXLzGGcTj9BIFizWz8wR/soudbfof8stT/6zHVqzQTBr9Ue6FutNugQY0hdOlg0Vu0xOoETTdCJMcoMdYY2ghdI1j7+SAPGKR864sEJLw+4EcT5FsO+qMoNmR8OVR08NBRi2bFPYkulBiTChVLBFubXT/L5A0BoLxymYOSJYuNHwqBnfCERy2RFK1cF+GrsuLQF3ecdEJR7fn+Y6vq6gUfq5xO7fGLPAht/imdZNiUDFUbEKeZYcl+S3IavvcKrXR9mbXMmRmUwq2K+llP4XZ0ZkWGnQgdXPUSDSnTw4cIfCnz0+h3ZULbhSZgJwbrqBjMVHb3OmZRtBhxbI5swFLRCqKvoHgBqjC7pK36GEFaaQHVE2n6U6dYX6z+d9Jd9TNDHRvxvTpHt2pYC/B5a/2bRoWR7OoBHCj0B6eWYtRhM6T44e+AWhgInsFOjldqqBxb+f3eWq4t1CrLilX2A8ZTe4TJZ9GB/wlkNvkjVJlmSPwc0wqCIqAj6uhBDVshekdcBh4Z4f/UGpTA8Nc6MVhZpchQvPAUvCBip9amkZnKZG4Q
+iQIcBAABAgAGBQJh6X3gAAoJEIqj3WcC4bjB4c4P/jEm7qWaFUDoKGrhYFzO6IN8NH+XUq3w4tvF0UuQAbKUHVlBtErIOYUnsE9gXyGUt01uHt5bDKIJwgqGUbjpBLakQEr0n6m0/rNQnm+vYKbOC41Aci/jUoVUG8WLvojvtfBrK0GoXsxjghBWKW2A7sqUDvXhrjImx2RQTWSSmM60Xqes1jSipvzTN5PkMtrKCgRjYY6ZMeJCI16De4wVYSc51VUtvK9eKlVD3YqhwwPvlOmJG9Y2uvc1gk72CwgvJRzxqlRscMa6cmxrpaCilQEH5GF+7p097aQWB5ClCtcSjdzjgIA/YW76XL8ZOeD9ZGs4tzzwi1K18LToZMJEQgQ3997tufXV+H3IJxad+8w4nuL0q4+nhKbyS8TbGNMzXoD7ZNLQICLoSO9cp4xBpvuN2NjNhtj+Fx3Kk2qGDvT87nREcCXlSBdy94wMPkzeUErwh25W/pqrxXCm6TjFQhuMbtvMcL36Ld4BZScWbPPs9ADFf6pX17kW8wtYKqnYARc8E4DsawILAkuCaJx+3cK6T+c4JbPpgutDT6D2JXvSBqNG6rlO8s3QMZCp1Po/rTkYSnTVykU5VcCTtolp8HAebBNYIAiUqTN0vLzhIMjHLzNULVMnWb1ZyinbN32CVt5AUvSJJ80ULtK40Z4Q9Bb0QnsvfM9PXsKQDBoQp860
 
 -->

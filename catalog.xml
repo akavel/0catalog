@@ -49,7 +49,7 @@
     <entry-point command="lovec" binary-name="lovec">
       <needs-terminal />
       <name xml:lang="en">LÖVE</name>
-      <summary xml:lang="en">LÖVE 11.3</summary>
+      <summary xml:lang="en">LÖVE interpreter with console</summary>
     </entry-point>
   </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/neovim-qt.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
@@ -241,6 +241,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJhzfWJAAoJEIqj3WcC4bjByWkP/0o8W6nRMrT6Uv+YqfbENN7XYnR2ezfqMQbKPQhCD0iJ1GMS/7tVtQLwVpNjxfT/nCJT2qrNMTs05cGn13RRPF/SvgfkLVr2P+xetxrHYzIm47BwUCUa4mlNVwCYGD5TKywUtWIHFj4fSncFxhIOYQ/A8NNH/tnakCwLRwioZVUIHGi0J2xmVWHzFnARcDt/x9h4FlYMSA0AMkE60Dwxu8LnhWtBxv8P0FZBp99Q0bwetff25uC/qUBI8gwve/j4IbIEskzZJNfJty0IHIWECjuHMnvXMNQeHL+zCKJbrf8SaR/drwG8fFB4FnZb71vO6+A2Wb4ZonH8Uh8LQRca4e7+7l7CFpw6JTxUcgUbfjs47Ewoed9PY5QAJZXMn4YVUpvUhkAP9ywTwNcJ+OIlHS6FN13eDfF1CoXZp1hZTz2DDLUZJTJhczreR7FOldN0s6ygIF3J9T3YYC3lAWw03ZgfzwJQMwu8mAQI3ra30lBoMA2Yh1KpAerZf5BOJfV4paXm5we1aSq5LUsyiJVt6g38j5OrPPAHCmfZLMZyb1B4UXH7e9btMwnnafAxKJL1nEepW5rrt+h/b6EYboC09PBo2+Cc0wCGpyYOvNDPxUOehdhR8dpxVQD0FOl6SOtVkIntDumu9ur9phiH+Faw8z+dxMAQ3sjlXhaKoOMwo9af
+iQIcBAABAgAGBQJh6X4aAAoJEIqj3WcC4bjB6jwP/0cJbXPF2B9HpBd7gWR9rtcE/U9jELaEedED5rxkV7z58hPej4tFtD9vpnS5qlpJOty1qhMyusPGTkz/wX2MuuBBrf7Kw7x3OMR+fp+5O8zEPR5BdwcFvPSSI95LuoGn5TAAe11U0Efo/Ime9ZSUgB4oPTDU+nB0k4GLpeXYkKcjl3Vi2lEhBahLXMg7iDUIoLR4LKjsiUhPs9QaYWkGiZmpXmZpta6T0hn2HgM2rK2vN/gVz12ToqeoQb/1bDAIwE1C0i608NVA6T2qteCuZiXjVm5W38LaeS86huFF1//jQ4T0x5EVzPK9qqNzDeBv3dcDXOgSN5+L7mBWZqwM6jchZT95WuXC2Ilob+7S6nKfAtWsjpY73mHDxuEgw1kEZ/URhXkadfNRRiP8ga5ZPQQMceKU/xvpe/aA2QPFsSoqSBotZi0jCLfNkyaSNGSGQTI44acXOGxNIuquApKVr3qyBbnrfMXAQBlQU9zW0isGmhdy8hDUewe8B1WfPaWbrVlDXB9ExTVnrfnsrFwc5N2Zp4lvvHFASGvlfA1BAKkdW1jaEhAumiVmgrc/EPrGh+0fN1bqV5F28PrAN3vdtHP5VgC5015dBwGqzCWLvZeD7HiLRuOqDzX8SbrNkpMrI8jiCv8u0pE5dZjFCl4GjtBzTrVZ7mCyCQYlEFNLhRE2
 
 -->
