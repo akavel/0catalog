@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/slwrite.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Stylus Labs Write</name>
+  <summary xml:lang="en">a word processor for handwriting</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/slwrite.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/slwrite.png" type="image/png" />
+  <category>Office</category>
+  <implementation arch="Windows-x86_64" version="3.0.1423" id="sha256new_6DPE4U4Q6I7PEQMZCX4O7ZH24NYC674RA7Z76AWHZX6G23UQ4X3Q">
+    <command name="run" path="Write.exe" />
+    <manifest-digest sha256new="6DPE4U4Q6I7PEQMZCX4O7ZH24NYC674RA7Z76AWHZX6G23UQ4X3Q" />
+    <archive href="http://www.styluslabs.com/write/write300.zip" size="3759650" type="application/zip" extract="Write" />
+  </implementation>
+  <entry-point command="run" binary-name="Write" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJh6ej1AAoJEIqj3WcC4bjBHksP/0rpRSeNduDgUYXKXN1PclF6joNxvkdmMrP4UGn6zi5XkNkR2B15Ghky+9tQGJOLYlcIp6h8Wddh3T5TUGMQgCcXDI1bYqLqxtlxG0J0v475E16E/mzkn4nHLnJSJ4+SElklaT7AztN48pdEBxvfK7WE6ewSmU1dYXyJNd6mYMQE8ZqdqtRcUcQ5mkY/gJ4AsTfEFTRM4MFo9wuvuvz46Ph0hZOHnsU3bpyoIdOrgvxi5QuznCQUNLLKTL3mMsVi2Tfa5k8bjdVlixPB3GlqFa8FKbAo6Mxm+i5jx3gjoB5vtdMxIEYGjFiIvIM52yTdHwiRtUiCaGKv+fRmYQl3t7Ci6d7LPbfP1vfIDnixO6pmdCB4ZmmfQKLnAIFG9b8DNIG+NiTjlDk+qCB1hRsWWwGe6oJVmHuxp7W6hYSrrqHbnS/x4ieeAf96ipCnRbfgQV1uwSJS9WoYgN7eYfOovU2Do3i30o7q6NagcNF0h26aVR8oXTo3UF1/NbgY3dh9drypBtlouSQx1aRhuyha20ihCX8g7tqPh544s7NQSwbM6RSdF9VC0byuHySZC8nLeBup3XDdfM6wXvbIHVYsSJA9bqg3pr+6rlyUyBc4kPyI0fB07FMKInoJ2WQO14JxqbekBKFy8ufkR4WIOaeS9VTj5KnYJr/KUOopAA+6abEP
+
+-->

@@ -108,6 +108,14 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <needs-terminal />
     <entry-point command="run" binary-name="rg" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/slwrite.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Stylus Labs Write</name>
+    <summary xml:lang="en">a word processor for handwriting</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/slwrite.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/slwrite.png" type="image/png" />
+    <category>Office</category>
+    <entry-point command="run" binary-name="Write" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/symphytum.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Symphytum</name>
     <summary xml:lang="en">Personal Database Software</summary>
@@ -241,6 +249,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJh6X4aAAoJEIqj3WcC4bjB6jwP/0cJbXPF2B9HpBd7gWR9rtcE/U9jELaEedED5rxkV7z58hPej4tFtD9vpnS5qlpJOty1qhMyusPGTkz/wX2MuuBBrf7Kw7x3OMR+fp+5O8zEPR5BdwcFvPSSI95LuoGn5TAAe11U0Efo/Ime9ZSUgB4oPTDU+nB0k4GLpeXYkKcjl3Vi2lEhBahLXMg7iDUIoLR4LKjsiUhPs9QaYWkGiZmpXmZpta6T0hn2HgM2rK2vN/gVz12ToqeoQb/1bDAIwE1C0i608NVA6T2qteCuZiXjVm5W38LaeS86huFF1//jQ4T0x5EVzPK9qqNzDeBv3dcDXOgSN5+L7mBWZqwM6jchZT95WuXC2Ilob+7S6nKfAtWsjpY73mHDxuEgw1kEZ/URhXkadfNRRiP8ga5ZPQQMceKU/xvpe/aA2QPFsSoqSBotZi0jCLfNkyaSNGSGQTI44acXOGxNIuquApKVr3qyBbnrfMXAQBlQU9zW0isGmhdy8hDUewe8B1WfPaWbrVlDXB9ExTVnrfnsrFwc5N2Zp4lvvHFASGvlfA1BAKkdW1jaEhAumiVmgrc/EPrGh+0fN1bqV5F28PrAN3vdtHP5VgC5015dBwGqzCWLvZeD7HiLRuOqDzX8SbrNkpMrI8jiCv8u0pE5dZjFCl4GjtBzTrVZ7mCyCQYlEFNLhRE2
+iQIcBAABAgAGBQJh6ekkAAoJEIqj3WcC4bjBUYsP/RV3XMw7kRvzwq6I73nss2TtkpIdwZAq4jd0IIw0oq+a/BpVVpSHrnTC4kJMVh1QeyMiW6jN/HkLCNFD+njO8jsSRrA9SEbUAwGhxQEqPHBbgYkdWYVFUaJ178I5Ax4kWJaQBLGmE+for+Bz3jgWvTg6YF2GCo1mtCS45h0uQKC7334HnTJCJo0ICrmZwNHSmcILDeXxTgVMlZSVnaSO2Hjt5wWyjcvF4GaI1eNltpO3hUjvluIkEuYqPqIvZ7fNjmxr2EJ7pWemjxjW9TCmLvsI0yajT+6QChJTqCU20D/rZlxyz29cGGg+wa+WsBvBJyP22gRnfNc8DUrloLFSdZii5w6dwOr6Y7cdcRt5DZXXNXIvQt2KR2l61zchlXWNFZ9MfvWCmj6f3WqrcyGVSOyUeplL3zh0BsuOwFIV2vqG+TiEOiiuJAenCOvzVAaJinxvLm3ttknFL/whmjxIysk4gSbgFRHhp8e6Hp2egy+RR0Q9YarWDmIJEQiXvcXOM32myrwKfypq+YkrqVudk6VYHf+4YjiKd0BmAdmZ/h83UVaguwQsHQeHZtsP8Rjmx8MThv9HtaxYvm3bKDM6s6ubcG3RJERIdgbhSj26oF5n47aBgU5h+kuZvnkcytLnFRHWHkPk2uV2icKX4p+XHdOZnxXXWNC4VErdcEQR3BhK
 
 -->
