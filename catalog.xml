@@ -116,6 +116,14 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <category>Office</category>
     <entry-point command="run" binary-name="Write" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/sumatrapdf.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>SumatraPDF</name>
+    <summary xml:lang="en">PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM, image viewer for Windows.</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/sumatrapdf.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/sumatrapdf.png" type="image/png" />
+    <category>Office</category>
+    <entry-point command="run" binary-name="SumatraPDF-3.3.3-64" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/symphytum.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Symphytum</name>
     <summary xml:lang="en">Personal Database Software</summary>
@@ -249,6 +257,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJh6ekkAAoJEIqj3WcC4bjBUYsP/RV3XMw7kRvzwq6I73nss2TtkpIdwZAq4jd0IIw0oq+a/BpVVpSHrnTC4kJMVh1QeyMiW6jN/HkLCNFD+njO8jsSRrA9SEbUAwGhxQEqPHBbgYkdWYVFUaJ178I5Ax4kWJaQBLGmE+for+Bz3jgWvTg6YF2GCo1mtCS45h0uQKC7334HnTJCJo0ICrmZwNHSmcILDeXxTgVMlZSVnaSO2Hjt5wWyjcvF4GaI1eNltpO3hUjvluIkEuYqPqIvZ7fNjmxr2EJ7pWemjxjW9TCmLvsI0yajT+6QChJTqCU20D/rZlxyz29cGGg+wa+WsBvBJyP22gRnfNc8DUrloLFSdZii5w6dwOr6Y7cdcRt5DZXXNXIvQt2KR2l61zchlXWNFZ9MfvWCmj6f3WqrcyGVSOyUeplL3zh0BsuOwFIV2vqG+TiEOiiuJAenCOvzVAaJinxvLm3ttknFL/whmjxIysk4gSbgFRHhp8e6Hp2egy+RR0Q9YarWDmIJEQiXvcXOM32myrwKfypq+YkrqVudk6VYHf+4YjiKd0BmAdmZ/h83UVaguwQsHQeHZtsP8Rjmx8MThv9HtaxYvm3bKDM6s6ubcG3RJERIdgbhSj26oF5n47aBgU5h+kuZvnkcytLnFRHWHkPk2uV2icKX4p+XHdOZnxXXWNC4VErdcEQR3BhK
+iQIcBAABAgAGBQJigAthAAoJEIqj3WcC4bjBnaQP+gKiY9Kv7VpQQyvF230c4A8A8p7YivaEAbzup1MM9I0MXRWgWR+mhX2dOOe/WqymWfpU7sJuJG1cj5s8oZTxej5niANKCm2xu0hgK0184RZx0lj2/ck/oMvR508SsnxDaTksfEfqcCHw0N8F1gb0iKDxWKMY1urwxPMbXLO7l05FmnSTh9P6iA6i76BGJxEuA8IjEXJOVbdNINdukKohy4ejeZB33WmysixRLyaORjS+HG0nNtAv7Os5ZZU+Tt16kFSuihmBrC5lJUPSDDcyFedoc5UHKTkEqRS4LShWd5ttdn0FyCcV7jzKZhf/d+2IPGVqeMcgh5ePo2oYlMfX2HLu8KTo4iXbeFvCYJBIbzV6E9/gycrIIh/R2PFzJG2QRLoaPaWbZSzCJISJwb1s0A6a+xKSnVekuHcGSJlJrolX23Fnj4XZUB1Nri/bUBOOFm7eKj0+pfY4l1FQBen//utcPsXo0pfO0fq5YTD9K9EI3wQ5F/Jrz5eLYPrb5Ht8qUvu4aD7OLr+65B3FsXztQSmetV3SrxKSDIx7NIYt0hsiiLLp03WapCVONriPY+a52FcAPtr13cUhKmaIqixrICXNFCGC5eET4/V0mqg+7YgiV4V3hEApqTIJHACFrh/zk3r0H0htg71NzA+9uqoLRn5LXj3bzvBprgysMy9bxx5
 
 -->

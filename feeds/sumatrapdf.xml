@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/sumatrapdf.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>SumatraPDF</name>
+  <summary xml:lang="en">PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM, image viewer for Windows.</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/sumatrapdf.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/sumatrapdf.png" type="image/png" />
+  <category>Office</category>
+  <implementation arch="Windows-x86_64" version="3.3.3" id="sha256new_OGVLVPL6YQXBTVRKJNFFRHMLSVL42B3AH2TKWU4UWGBHNRRG6EKQ">
+    <command name="run" path="SumatraPDF-3.3.3-64.exe" />
+    <manifest-digest sha256new="OGVLVPL6YQXBTVRKJNFFRHMLSVL42B3AH2TKWU4UWGBHNRRG6EKQ" />
+    <archive href="https://www.sumatrapdfreader.org/dl/rel/SumatraPDF-3.3.3-64.zip" size="6987358" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="SumatraPDF-3.3.3-64" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJigAtDAAoJEIqj3WcC4bjBLHEP+wYHbaaM8aNxFweqcthutvFAF7f/O1sA7BpHoW4mZbkMmwJoGGtorxDkhAsys/bA91Kx/hXK/CHwxEwNXUWyJ7ZH0XzDONexqlUw+I3udtGgQfpmHHz3t7DZyldnSyXWWysGT7xK+bvsAYZqlXwVynlTUxYe1QtcxE2HVGUx+Ti5dv2e32qJPeQ6A4xUCnPZ+EEY2IwUmA9yvIA9Ge9MmnFMpyAJsthbJpKCX3PH0jdb0zSQFvdN3DewL7hmO8bYDhB6k5AuZg1oQLM0bE9LeQwLXqM2Lj1EpNuGsk9HODPbDZ9TL5vWJERdTIRg49JItQgCQtTSKgOGmLXOKNEB9z3MykPg2KFXYQ/ninSi618zCyXQHZIJr15WPoK1YZNC7Px01p4YLKfqItG4L3Ia/ExdD1vE/YMjbUqJwdDNKsIwj7IbaUdNB0hccNmqnaWR2QtpN1smxjEX9enAf1g+nPopat4LZWen/avyxduScm18NLNStepI9AS+jsK+WIxz9ZKbmK9FzNmfUIU0RZ0PgMULtq5/YWG/jQiBJxbrB+OWr83mUyWJQS6RqCZ0tNSeuDPBq9YxbWfqrWnTwxNxQqrHQzfDg+G3d/fjwyu6dRrB3eTmdtw0ldJ+ysHDAr/SxmPGyqG9zA7Nx6NYJixzD8Etkp3WJo7kfr5J9ZUOX1Hl
+
+-->
