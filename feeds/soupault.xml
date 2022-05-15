@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/soupault.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Soupault</name>
+  <summary xml:lang="en">a static website management tool</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/soupault.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/soupault.png" type="image/png" />
+  <category>Office</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="4.0.0" id="sha256new_CGXOTAE75FTA7YB4KY5KP5LYYSGOOJHI5RFS3IVD7KOZXFQ6PTTQ">
+    <command name="run" path="soupault.exe" />
+    <manifest-digest sha256new="CGXOTAE75FTA7YB4KY5KP5LYYSGOOJHI5RFS3IVD7KOZXFQ6PTTQ" />
+    <archive href="https://files.baturin.org/software/soupault/4.0.0/soupault-4.0.0-win64.zip" size="4826202" type="application/zip" extract="soupault-4.0.0-win64" />
+  </implementation>
+  <entry-point command="run" binary-name="soupault" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJigXCIAAoJEIqj3WcC4bjBx4wP/jdDFAQkw1UEniJGAEPxydwPHFO/FdDT8CiJlK/pqZuapCWKN6mZK9ksTMDbMiNPj+3ZL3NfZr+j3uWPWR78wEofKomeYs4jyxpHTVVTv+v6btdq3iygNXTl1SjB0Wy1yGehXhvYIhFmsIM4gdaxKzguO0dP2bgdXQsp5TWrYzdsnOtPS3YOBcAFjq+YK0ILB7jOBHroZyEFyPlGuXj530a+zQ04D0691YQEkXWrT+PqPQPltDcLIVwbiKFZ8nGyuG/ruFb9/X5olqRtiI8jbMvaGup+CvHagO92+14JBkEt6S2gz0UGnGe0v0kEG8neFnghluuKWIx9Jyb2EAi/m5pTez7ra3TxKN3cQqub3ORvfSRdtkHDKFlUTiNR1U2dT+kkli9w0hjH8zf2neMqjSRK0jnbTOSUZXdNti9ECb4y77awYBRfLFjRMBYSt8eDFr3fxv6ZTh9cflEdapiEdc37GzP6hAwrfDgf7MVa6BiLVOscK4n8LS5gHgqj3LPb5twwCYqLdPE75BU04OtYdBQeQ03j19J7SS7NDxICCZrf4lK+074drASyF/jYDaDDcFBsRxqc79P07rveSiMrfnrHZjcHZz6XstpNon7ydEDFqW7bWvk19iPxsvKYsT+f/WkBssi6l4h+KM9autt68nFgQnrElSGWJ8dPhw3qXScq
+
+-->
