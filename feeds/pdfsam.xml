@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/pdfsam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>PDF Split And Merge Basic Edition</name>
+  <summary xml:lang="en">PDFsam Basic</summary>
+  <description xml:lang="en">a desktop application to split, merge, mix, rotate PDF files and extract pages </description>
+  <icon href="https://akavel.github.io/0catalog/feeds/pdfsam.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/pdfsam.png" type="image/png" />
+  <category>Office</category>
+  <implementation arch="Windows-*" version="4.3.3" id="sha256new_KQ4OSU4LMMBAXXV4RZBA47JXXTRHJ6IXB72SA7JZYU5D4F23CR2Q">
+    <command name="run" path="pdfsam.exe" />
+    <command name="pdfsam-basic-4.3.3" path="pdfsam-basic-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam" path="bin\pdfsam.bat" />
+    <command name="pdfsam" path="bin\pdfsam.sh">
+      <runner interface="https://apps.0install.net/utils/bash.xml" />
+    </command>
+    <command name="bcmail-jdk18on-1.71" path="lib\bcmail-jdk18on-1.71.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="bcpkix-jdk18on-1.71" path="lib\bcpkix-jdk18on-1.71.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="bcprov-jdk18on-1.71" path="lib\bcprov-jdk18on-1.71.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="bcutil-jdk18on-1.71" path="lib\bcutil-jdk18on-1.71.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="commons-io-2.11.0" path="lib\commons-io-2.11.0.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="commons-lang3-3.12.0" path="lib\commons-lang3-3.12.0.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="eventstudio-3.0.4" path="lib\eventstudio-3.0.4.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="fontawesomefx-commons-9.1.2" path="lib\fontawesomefx-commons-9.1.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="fontawesomefx-fontawesome-4.7.0-9.1.2" path="lib\fontawesomefx-fontawesome-4.7.0-9.1.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="fontawesomefx-materialdesignfont-2.0.26-9.1.2" path="lib\fontawesomefx-materialdesignfont-2.0.26-9.1.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="fontbox-2.0.26" path="lib\fontbox-2.0.26.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="gettext-commons-0.9.8" path="lib\gettext-commons-0.9.8.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="hibernate-validator-4.2.0.Final" path="lib\hibernate-validator-4.2.0.Final.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jackson-core-2.13.3" path="lib\jackson-core-2.13.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jackson-jr-objects-2.13.3" path="lib\jackson-jr-objects-2.13.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-base-17.0.2-win" path="lib\javafx-base-17.0.2-win.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-base-17.0.2" path="lib\javafx-base-17.0.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-controls-17.0.2-win" path="lib\javafx-controls-17.0.2-win.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-controls-17.0.2" path="lib\javafx-controls-17.0.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-graphics-17.0.2-win" path="lib\javafx-graphics-17.0.2-win.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-graphics-17.0.2" path="lib\javafx-graphics-17.0.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-media-17.0.2-win" path="lib\javafx-media-17.0.2-win.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javafx-media-17.0.2" path="lib\javafx-media-17.0.2.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javax.inject-1" path="lib\javax.inject-1.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jcl-over-slf4j-1.7.36" path="lib\jcl-over-slf4j-1.7.36.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="logback-classic-1.2.11" path="lib\logback-classic-1.2.11.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="logback-core-1.2.11" path="lib\logback-core-1.2.11.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="metadata-extractor-2.18.0" path="lib\metadata-extractor-2.18.0.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-alternate-mix-4.3.3" path="lib\pdfsam-alternate-mix-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-core-4.3.3" path="lib\pdfsam-core-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-extract-4.3.3" path="lib\pdfsam-extract-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-fx-4.3.3" path="lib\pdfsam-fx-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-gui-4.3.3" path="lib\pdfsam-gui-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-i18n-4.3.3" path="lib\pdfsam-i18n-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-injector-2.0.0" path="lib\pdfsam-injector-2.0.0.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-merge-4.3.3" path="lib\pdfsam-merge-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-rotate-4.3.3" path="lib\pdfsam-rotate-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-service-4.3.3" path="lib\pdfsam-service-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-simple-split-4.3.3" path="lib\pdfsam-simple-split-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-split-by-bookmarks-4.3.3" path="lib\pdfsam-split-by-bookmarks-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="pdfsam-split-by-size-4.3.3" path="lib\pdfsam-split-by-size-4.3.3.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sambox-2.4.24" path="lib\sambox-2.4.24.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-commons-1.1.7" path="lib\sejda-commons-1.1.7.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-conversion-4.3.14" path="lib\sejda-conversion-4.3.14.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-core-4.3.14" path="lib\sejda-core-4.3.14.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-fonts-4.3.14" path="lib\sejda-fonts-4.3.14.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-io-2.1.4" path="lib\sejda-io-2.1.4.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-model-4.3.14" path="lib\sejda-model-4.3.14.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sejda-sambox-4.3.14" path="lib\sejda-sambox-4.3.14.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="slf4j-api-1.7.36" path="lib\slf4j-api-1.7.36.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="thumbnailator-0.4.17" path="lib\thumbnailator-0.4.17.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="validation-api-1.0.0.GA" path="lib\validation-api-1.0.0.GA.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="xmpcore-6.1.11" path="lib\xmpcore-6.1.11.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="java" path="runtime\bin\java.exe" />
+    <command name="javaw" path="runtime\bin\javaw.exe" />
+    <command name="jrunscript" path="runtime\bin\jrunscript.exe" />
+    <command name="keytool" path="runtime\bin\keytool.exe" />
+    <command name="jrt-fs" path="runtime\lib\jrt-fs.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <manifest-digest sha256new="KQ4OSU4LMMBAXXV4RZBA47JXXTRHJ6IXB72SA7JZYU5D4F23CR2Q" />
+    <archive href="https://github.com/torakiki/pdfsam/releases/download/v4.3.3/pdfsam-4.3.3-windows.zip" size="52896323" type="application/zip" extract="pdfsam-4.3.3-windows" />
+  </implementation>
+  <entry-point command="run" binary-name="pdfsam" />
+  <entry-point command="pdfsam-basic-4.3.3" binary-name="pdfsam-basic-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-basic-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam" binary-name="pdfsam">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam</name>
+  </entry-point>
+  <entry-point command="pdfsam" binary-name="pdfsam">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam</name>
+  </entry-point>
+  <entry-point command="bcmail-jdk18on-1.71" binary-name="bcmail-jdk18on-1.71">
+    <needs-terminal />
+    <name xml:lang="en">bcmail-jdk18on-1.71</name>
+  </entry-point>
+  <entry-point command="bcpkix-jdk18on-1.71" binary-name="bcpkix-jdk18on-1.71">
+    <needs-terminal />
+    <name xml:lang="en">bcpkix-jdk18on-1.71</name>
+  </entry-point>
+  <entry-point command="bcprov-jdk18on-1.71" binary-name="bcprov-jdk18on-1.71">
+    <needs-terminal />
+    <name xml:lang="en">bcprov-jdk18on-1.71</name>
+  </entry-point>
+  <entry-point command="bcutil-jdk18on-1.71" binary-name="bcutil-jdk18on-1.71">
+    <needs-terminal />
+    <name xml:lang="en">bcutil-jdk18on-1.71</name>
+  </entry-point>
+  <entry-point command="commons-io-2.11.0" binary-name="commons-io-2.11.0">
+    <needs-terminal />
+    <name xml:lang="en">commons-io-2.11.0</name>
+  </entry-point>
+  <entry-point command="commons-lang3-3.12.0" binary-name="commons-lang3-3.12.0">
+    <needs-terminal />
+    <name xml:lang="en">commons-lang3-3.12.0</name>
+  </entry-point>
+  <entry-point command="eventstudio-3.0.4" binary-name="eventstudio-3.0.4">
+    <needs-terminal />
+    <name xml:lang="en">eventstudio-3.0.4</name>
+  </entry-point>
+  <entry-point command="fontawesomefx-commons-9.1.2" binary-name="fontawesomefx-commons-9.1.2">
+    <needs-terminal />
+    <name xml:lang="en">fontawesomefx-commons-9.1.2</name>
+  </entry-point>
+  <entry-point command="fontawesomefx-fontawesome-4.7.0-9.1.2" binary-name="fontawesomefx-fontawesome-4.7.0-9.1.2">
+    <needs-terminal />
+    <name xml:lang="en">fontawesomefx-fontawesome-4.7.0-9.1.2</name>
+  </entry-point>
+  <entry-point command="fontawesomefx-materialdesignfont-2.0.26-9.1.2" binary-name="fontawesomefx-materialdesignfont-2.0.26-9.1.2">
+    <needs-terminal />
+    <name xml:lang="en">fontawesomefx-materialdesignfont-2.0.26-9.1.2</name>
+  </entry-point>
+  <entry-point command="fontbox-2.0.26" binary-name="fontbox-2.0.26">
+    <needs-terminal />
+    <name xml:lang="en">fontbox-2.0.26</name>
+  </entry-point>
+  <entry-point command="gettext-commons-0.9.8" binary-name="gettext-commons-0.9.8">
+    <needs-terminal />
+    <name xml:lang="en">gettext-commons-0.9.8</name>
+  </entry-point>
+  <entry-point command="hibernate-validator-4.2.0.Final" binary-name="hibernate-validator-4.2.0.Final">
+    <needs-terminal />
+    <name xml:lang="en">hibernate-validator-4.2.0.Final</name>
+  </entry-point>
+  <entry-point command="jackson-core-2.13.3" binary-name="jackson-core-2.13.3">
+    <needs-terminal />
+    <name xml:lang="en">jackson-core-2.13.3</name>
+  </entry-point>
+  <entry-point command="jackson-jr-objects-2.13.3" binary-name="jackson-jr-objects-2.13.3">
+    <needs-terminal />
+    <name xml:lang="en">jackson-jr-objects-2.13.3</name>
+  </entry-point>
+  <entry-point command="javafx-base-17.0.2-win" binary-name="javafx-base-17.0.2-win">
+    <needs-terminal />
+    <name xml:lang="en">javafx-base-17.0.2-win</name>
+  </entry-point>
+  <entry-point command="javafx-base-17.0.2" binary-name="javafx-base-17.0.2">
+    <needs-terminal />
+    <name xml:lang="en">javafx-base-17.0.2</name>
+  </entry-point>
+  <entry-point command="javafx-controls-17.0.2-win" binary-name="javafx-controls-17.0.2-win">
+    <needs-terminal />
+    <name xml:lang="en">javafx-controls-17.0.2-win</name>
+  </entry-point>
+  <entry-point command="javafx-controls-17.0.2" binary-name="javafx-controls-17.0.2">
+    <needs-terminal />
+    <name xml:lang="en">javafx-controls-17.0.2</name>
+  </entry-point>
+  <entry-point command="javafx-graphics-17.0.2-win" binary-name="javafx-graphics-17.0.2-win">
+    <needs-terminal />
+    <name xml:lang="en">javafx-graphics-17.0.2-win</name>
+  </entry-point>
+  <entry-point command="javafx-graphics-17.0.2" binary-name="javafx-graphics-17.0.2">
+    <needs-terminal />
+    <name xml:lang="en">javafx-graphics-17.0.2</name>
+  </entry-point>
+  <entry-point command="javafx-media-17.0.2-win" binary-name="javafx-media-17.0.2-win">
+    <needs-terminal />
+    <name xml:lang="en">javafx-media-17.0.2-win</name>
+  </entry-point>
+  <entry-point command="javafx-media-17.0.2" binary-name="javafx-media-17.0.2">
+    <needs-terminal />
+    <name xml:lang="en">javafx-media-17.0.2</name>
+  </entry-point>
+  <entry-point command="javax.inject-1" binary-name="javax.inject-1">
+    <needs-terminal />
+    <name xml:lang="en">javax.inject-1</name>
+  </entry-point>
+  <entry-point command="jcl-over-slf4j-1.7.36" binary-name="jcl-over-slf4j-1.7.36">
+    <needs-terminal />
+    <name xml:lang="en">jcl-over-slf4j-1.7.36</name>
+  </entry-point>
+  <entry-point command="logback-classic-1.2.11" binary-name="logback-classic-1.2.11">
+    <needs-terminal />
+    <name xml:lang="en">logback-classic-1.2.11</name>
+  </entry-point>
+  <entry-point command="logback-core-1.2.11" binary-name="logback-core-1.2.11">
+    <needs-terminal />
+    <name xml:lang="en">logback-core-1.2.11</name>
+  </entry-point>
+  <entry-point command="metadata-extractor-2.18.0" binary-name="metadata-extractor-2.18.0">
+    <needs-terminal />
+    <name xml:lang="en">metadata-extractor-2.18.0</name>
+  </entry-point>
+  <entry-point command="pdfsam-alternate-mix-4.3.3" binary-name="pdfsam-alternate-mix-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-alternate-mix-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-core-4.3.3" binary-name="pdfsam-core-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-core-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-extract-4.3.3" binary-name="pdfsam-extract-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-extract-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-fx-4.3.3" binary-name="pdfsam-fx-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-fx-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-gui-4.3.3" binary-name="pdfsam-gui-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-gui-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-i18n-4.3.3" binary-name="pdfsam-i18n-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-i18n-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-injector-2.0.0" binary-name="pdfsam-injector-2.0.0">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-injector-2.0.0</name>
+  </entry-point>
+  <entry-point command="pdfsam-merge-4.3.3" binary-name="pdfsam-merge-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-merge-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-rotate-4.3.3" binary-name="pdfsam-rotate-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-rotate-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-service-4.3.3" binary-name="pdfsam-service-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-service-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-simple-split-4.3.3" binary-name="pdfsam-simple-split-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-simple-split-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-split-by-bookmarks-4.3.3" binary-name="pdfsam-split-by-bookmarks-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-split-by-bookmarks-4.3.3</name>
+  </entry-point>
+  <entry-point command="pdfsam-split-by-size-4.3.3" binary-name="pdfsam-split-by-size-4.3.3">
+    <needs-terminal />
+    <name xml:lang="en">pdfsam-split-by-size-4.3.3</name>
+  </entry-point>
+  <entry-point command="sambox-2.4.24" binary-name="sambox-2.4.24">
+    <needs-terminal />
+    <name xml:lang="en">sambox-2.4.24</name>
+  </entry-point>
+  <entry-point command="sejda-commons-1.1.7" binary-name="sejda-commons-1.1.7">
+    <needs-terminal />
+    <name xml:lang="en">sejda-commons-1.1.7</name>
+  </entry-point>
+  <entry-point command="sejda-conversion-4.3.14" binary-name="sejda-conversion-4.3.14">
+    <needs-terminal />
+    <name xml:lang="en">sejda-conversion-4.3.14</name>
+  </entry-point>
+  <entry-point command="sejda-core-4.3.14" binary-name="sejda-core-4.3.14">
+    <needs-terminal />
+    <name xml:lang="en">sejda-core-4.3.14</name>
+  </entry-point>
+  <entry-point command="sejda-fonts-4.3.14" binary-name="sejda-fonts-4.3.14">
+    <needs-terminal />
+    <name xml:lang="en">sejda-fonts-4.3.14</name>
+  </entry-point>
+  <entry-point command="sejda-io-2.1.4" binary-name="sejda-io-2.1.4">
+    <needs-terminal />
+    <name xml:lang="en">sejda-io-2.1.4</name>
+  </entry-point>
+  <entry-point command="sejda-model-4.3.14" binary-name="sejda-model-4.3.14">
+    <needs-terminal />
+    <name xml:lang="en">sejda-model-4.3.14</name>
+  </entry-point>
+  <entry-point command="sejda-sambox-4.3.14" binary-name="sejda-sambox-4.3.14">
+    <needs-terminal />
+    <name xml:lang="en">sejda-sambox-4.3.14</name>
+  </entry-point>
+  <entry-point command="slf4j-api-1.7.36" binary-name="slf4j-api-1.7.36">
+    <needs-terminal />
+    <name xml:lang="en">slf4j-api-1.7.36</name>
+  </entry-point>
+  <entry-point command="thumbnailator-0.4.17" binary-name="thumbnailator-0.4.17">
+    <needs-terminal />
+    <name xml:lang="en">thumbnailator-0.4.17</name>
+  </entry-point>
+  <entry-point command="validation-api-1.0.0.GA" binary-name="validation-api-1.0.0.GA">
+    <needs-terminal />
+    <name xml:lang="en">validation-api-1.0.0.GA</name>
+  </entry-point>
+  <entry-point command="xmpcore-6.1.11" binary-name="xmpcore-6.1.11">
+    <needs-terminal />
+    <name xml:lang="en">xmpcore-6.1.11</name>
+  </entry-point>
+  <entry-point command="java" binary-name="java">
+    <needs-terminal />
+    <name xml:lang="en">OpenJDK Platform 11</name>
+    <summary xml:lang="en">OpenJDK Platform binary</summary>
+  </entry-point>
+  <entry-point command="javaw" binary-name="javaw">
+    <name xml:lang="en">OpenJDK Platform 11</name>
+    <summary xml:lang="en">OpenJDK Platform binary</summary>
+  </entry-point>
+  <entry-point command="jrunscript" binary-name="jrunscript">
+    <needs-terminal />
+    <name xml:lang="en">OpenJDK Platform 11</name>
+    <summary xml:lang="en">OpenJDK Platform binary</summary>
+  </entry-point>
+  <entry-point command="keytool" binary-name="keytool">
+    <needs-terminal />
+    <name xml:lang="en">OpenJDK Platform 11</name>
+    <summary xml:lang="en">OpenJDK Platform binary</summary>
+  </entry-point>
+  <entry-point command="jrt-fs" binary-name="jrt-fs">
+    <needs-terminal />
+    <name xml:lang="en">jrt-fs</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJjJNkiAAoJEIqj3WcC4bjBYDcQALHQU+Lo1p+vRjSLZ8DYUVzBIBTPYjcsFrI/6mrvIZ3DSRSFLuMgKewQl23gV3Ii0tgvJKdqsq5CijRlsZB/4tPjUI5VJbkIn26TinBHiVEn5fySqx8AA0epb0eN2HqnBKJWOGXHZ+/Qb84nOdP5Y3AjLlOoshTdAf5rL6X8NqtxBQ9sK0XU/ERHdqjnG2R+dLbAZypg/kaDqGimeXs01lrkJrCiD58OmCMKx9Sc0rT4d4n1j7ZmBgMTX4uuuJz0feALh73SnstyZ+Z9iBGXJZZDy20acpz2E4IdQEXNx5mjq9MgsnZMDQcXESG3PHkgRbnV38rFQ8oB9D6Sub9yzc3GaJZ0qYtyTUqLaURvlK1Tlc8Srn4JXNur3i0cNK+YIplqafYpxKD/9K+WKNjvf7x0TZM7GVWsU0ODelHGsGfurTQPk41Y1GiMkdmnclN30UoMEx9r9bky/7pj5HQURJYDOZviy0frKCSbVaTncyjw8IAgAAxHK7ueQL1OfQzQSLe5nMmHwUpGFu2MLi6ojjEKcd6QyRrfDKCrX874xRN1jVCNQ3daIwBEuNtJFA7pmdKVnsHiGdgQaXdRwz2HbAbIuGVgjat2ejZk56ybt/xha2VXduBApNTGptdnFwSmY/tS+k/0k7/LJulVrMpMIY8WjhcCi/QrMOxpQ11nPFiB
+
+-->
