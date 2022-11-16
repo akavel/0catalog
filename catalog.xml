@@ -364,6 +364,31 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <needs-terminal />
     <entry-point command="run" binary-name="rg" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/sapling.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Sapling SCM</name>
+    <summary xml:lang="en">a cross-platform, highly scalable, Git-compatible source control system</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/sapling.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/sapling.png" type="image/png" />
+    <category>Development</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="sl" />
+    <entry-point command="editmergeps" binary-name="editmergeps">
+      <needs-terminal />
+      <name xml:lang="en">editmergeps</name>
+    </entry-point>
+    <entry-point command="editmergeps" binary-name="editmergeps">
+      <needs-terminal />
+      <name xml:lang="en">editmergeps</name>
+    </entry-point>
+    <entry-point command="run-isl" binary-name="run-isl">
+      <needs-terminal />
+      <name xml:lang="en">run-isl</name>
+    </entry-point>
+    <entry-point command="__init__" binary-name="__init__">
+      <needs-terminal />
+      <name xml:lang="en">__init__</name>
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/slwrite.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Stylus Labs Write</name>
     <summary xml:lang="en">a word processor for handwriting</summary>
@@ -522,6 +547,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJjJNlGAAoJEIqj3WcC4bjBw68QAJVZ+GnXx26B3/irnsZm36thAo1sixKYDaeH5FIXkRdvzKFzE6QctyXJZaflBQs8lDVj36E9US1CRQP9R1Hpv8CJ9oM3pSbd+OjkTba9o+m2TXdAmQP+7cZX9CUbmwe844RD8L/81mEuBRQqdhzbaLBhVQNsJ4Fhrwi8CNNl+0+Dou3lR0lIfhkt9oOUojy3Lpk4YT7dCWPQwSU5vBQdoRPzsHoGwimjKCsw39tjU+61gS8BWdKxUPEF6i5gMR0Wt7bW9cNRVZcMbrQ9vuvN7p37wPx6NouCrBRm60tgzms8umss52TGDAn/0vzphiy2yKh2GKk4EnNJ6xReZKW4VfnpNVag4HTO+c8ZF0mgxe+EGlDXIqdq6NY4i4kBdgpbhYpBuf+pwtxzkDjPmVVcBPzZdHx89RD17Y9eCq2v8Dlz704c8p494RPf4hscEf+dpEeG50Zw8KaT1DQdFBDkBkUmOg6PGApRO7o2Kot8m46UPc6o4VCUyN+CJhvE7TtnvkrCCun2B8tgzgBXIAyoGoWsPaie8NLjAO/QlbM1TQ5SFFJLW09NwGKkmVR6ix95us508/gTMa4ILz+K+7+o7JuZ+pKZ/e+XFtlMVyP2861dRz/s8xusC8xINNVSIvQSxhFmHa07mj2Oj+YvK6GEHfl2g02zwPdmDgLxVEcetXMf
+iQIcBAABAgAGBQJjdRUkAAoJEIqj3WcC4bjB4k8QALLR5BM73ny+AZHzN5+xRanWVqdJ2a66+G3sTyCMIDr12S2LGuDfffKwDwvzcZfbHcnTgVa3KleypdcK8xdp7x6CUXG9tJH18Fa9Ugtqv/9RA4Wm51V4UjTpl969ELiDtNQ+sez1Oo9/f9qO4CF9m5H96HnUZBt5l6LPmUu1iG764odwjRqs4HmyhejDur/wJb6XeGAeiLGZu4pbwOZA1FMfKqvrSGZULI28GmQpvMZXHIprJ9l5CX4tXWh+ftzGvlaaNd/DNreaJmTTMLqG/Fm2Lv9g4wqcLVGohSJuAuvSo9oLkskMUvWqlo/yBtPCv1vRqBa6RnSX79uUW6jUivbDtfTlVbRvWRRWv9vlm4/NjiH1GnUO8vd56gCfLwEPR8MVcQWVmcluQ1Xx1b1DyKAcUPGwj6kD/qt48+Y9LrKL+esweIds33TPXLSb1R7FvFLuUknefYNij7B3rFGieflJ6FSsnoads3443ntvJD3cyJ0y9M9PisQE/NCPm8upaPZlfzF/aizM3iFper/50roKE2oqmMTVYbqPfhK0KHkCNCKrWcelr/i5jQcZL7R2S+1bBAHo1x/sERf6FxwGrI8XENM1IeRXSE7BoTuBYboN2rpWt4PsLGW6+vb6DeHEbWupMOC7GUMCUZ7Mkyao0pVH2yVWXrM4dba6His3AJmr
 
 -->

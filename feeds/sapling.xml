@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/sapling.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Sapling SCM</name>
+  <summary xml:lang="en">a cross-platform, highly scalable, Git-compatible source control system</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/sapling.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/sapling.png" type="image/png" />
+  <category>Development</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="20221116-62901" id="sha256new_3H5GIJ5OXVHQNME5WL4CK3YZYXMVWE6NA2PHUTIKW4UZ7OUV3NUA">
+    <command name="run" path="sl.exe" />
+    <command name="editmergeps" path="contrib\editmergeps.bat" />
+    <command name="editmergeps" path="contrib\editmergeps.ps1">
+      <runner interface="https://apps.0install.net/powershell/powershell.xml">
+        <arg>-ExecutionPolicy</arg>
+        <arg>Bypass</arg>
+      </runner>
+    </command>
+    <command name="run-isl" path="edenscm-isl\run-isl.bat" />
+    <command name="__init__" path="edenscmnative\__init__.py">
+      <runner interface="https://apps.0install.net/python/python.xml" command="run" />
+    </command>
+    <manifest-digest sha256new="3H5GIJ5OXVHQNME5WL4CK3YZYXMVWE6NA2PHUTIKW4UZ7OUV3NUA" />
+    <archive href="https://github.com/facebook/sapling/releases/download/20221116-062901-64e95e85/sapling_windows_20221116.062901.64e95e85_amd64.zip" size="44261666" type="application/zip" extract="Sapling" />
+  </implementation>
+  <entry-point command="run" binary-name="sl" />
+  <entry-point command="editmergeps" binary-name="editmergeps">
+    <needs-terminal />
+    <name xml:lang="en">editmergeps</name>
+  </entry-point>
+  <entry-point command="editmergeps" binary-name="editmergeps">
+    <needs-terminal />
+    <name xml:lang="en">editmergeps</name>
+  </entry-point>
+  <entry-point command="run-isl" binary-name="run-isl">
+    <needs-terminal />
+    <name xml:lang="en">run-isl</name>
+  </entry-point>
+  <entry-point command="__init__" binary-name="__init__">
+    <needs-terminal />
+    <name xml:lang="en">__init__</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJjdRReAAoJEIqj3WcC4bjBJaUQAJYN6hZp2SKT30TVd3mE23jReGLcSwH0nslCBR84dcsKoa5DJV9r7GN456T/wnHy9oLz3fSWXJqasKWUjFLl3Mj311iqxx058MeA17xonPTxmEWkDquOxTe6FHa6/mPhuzpB7cEhYhlJe6n6FYwatzQg7eVLHHd44b8SpG+Qrz1kmAo5rcJ+h2JJpNx8t9pUP9/m/hyh4xcVvT5b3sh71jEFGZfhj02i6JwPq8hhyVn6MKsBDowwUinKI2/d/B+ORHPNqvNfsnXZCfUWnC2NMix0oc5h7LM794ueJDKNQaQSD8gvKwjWZYC7VU1A+SHvHaoi0D0tb2i+yKUrsLnRD+2OK0crsDVcJL7Q9qzgXujGNRGsCgWhmbHbQWfYc2UoXO16qR73cAsa1VH4wL1yUQWW9kVKOiur4GwlJum2bsRdCEWMOjJui4fC4XoHRzOrGUXrZtH/N6ML7YLEjWAFKtXFw5mxKWDchoyo/Xiqb1didp02z7ri9DAl29oO6BKtzJAJBUmU/ele1LNCOAYYbF0fe49r35rye02ibS8si/yRG+Lru23sIwAR9bWzy3Gl/D7KcPsNZA0MYV/XwJneTjquKE4rk2CQJsdyFC8tZFHciCCvqUlDg5U1ql8aCPtajx1FOktvrLn2l3Ie/CMbBlL4F35gyaSxRdnrk+l1fMwn
+
+-->
