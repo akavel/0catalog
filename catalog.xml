@@ -93,6 +93,13 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
       <name xml:lang="en">__init__</name>
     </entry-point>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/pandoc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>pandoc</name>
+    <summary xml:lang="en">universal document markup converter</summary>
+    <category>Office</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="pandoc" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/pdfsam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>PDF Split And Merge Basic Edition</name>
     <summary xml:lang="en">PDFsam Basic</summary>
@@ -547,6 +554,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJjdRUkAAoJEIqj3WcC4bjB4k8QALLR5BM73ny+AZHzN5+xRanWVqdJ2a66+G3sTyCMIDr12S2LGuDfffKwDwvzcZfbHcnTgVa3KleypdcK8xdp7x6CUXG9tJH18Fa9Ugtqv/9RA4Wm51V4UjTpl969ELiDtNQ+sez1Oo9/f9qO4CF9m5H96HnUZBt5l6LPmUu1iG764odwjRqs4HmyhejDur/wJb6XeGAeiLGZu4pbwOZA1FMfKqvrSGZULI28GmQpvMZXHIprJ9l5CX4tXWh+ftzGvlaaNd/DNreaJmTTMLqG/Fm2Lv9g4wqcLVGohSJuAuvSo9oLkskMUvWqlo/yBtPCv1vRqBa6RnSX79uUW6jUivbDtfTlVbRvWRRWv9vlm4/NjiH1GnUO8vd56gCfLwEPR8MVcQWVmcluQ1Xx1b1DyKAcUPGwj6kD/qt48+Y9LrKL+esweIds33TPXLSb1R7FvFLuUknefYNij7B3rFGieflJ6FSsnoads3443ntvJD3cyJ0y9M9PisQE/NCPm8upaPZlfzF/aizM3iFper/50roKE2oqmMTVYbqPfhK0KHkCNCKrWcelr/i5jQcZL7R2S+1bBAHo1x/sERf6FxwGrI8XENM1IeRXSE7BoTuBYboN2rpWt4PsLGW6+vb6DeHEbWupMOC7GUMCUZ7Mkyao0pVH2yVWXrM4dba6His3AJmr
+iQIcBAABAgAGBQJkIxS4AAoJEIqj3WcC4bjBM3YP/06cVay0oimnfhkRJajCyZAXp+0jpV0p1QdRpPLX2C4Zdl4/8eDge+r3cDZ6ZYVPGJbmgZd02DRXfrQJ38iaPGm7BKkEEP1NpqVMdPUYnB+Zk/DtNG2qom64mmTO331kF9BjuQttAnvG2/SwC7q63Gv/7pzRSsiVLM5/AJiUn7VS+EJnRumCX7sKG3YVAzxUYNujkJ6PEJjTCVbJht+fmrrlMiVuGYkc2xzcdpy8O1ntCJoq/1nPAlxcCicKyxUZzsegBOOnA3QZmVs1blqPxmif1/rChi7XZjdRWBq+8uVZFF6FnZwh1OhtjvCuEm7KF5ZA0zqLowVVnaf0PRaWF1jv6uqbjpYsM8ast4s7VFv9TG3jkfXGmv9NwgCjCuEiK2YLqThD8bDMLBlzAXatXnLBPcQmMWkG8Cf6FCpyVW2el0DU1u25A2MXPP5E+XOsE0ZEUZxPCEF24qukmcL4Ao7YFR8m2qdqvpxEa4SNuxJNCfkJPPnilzbLEoxdPbzzQfHLHbFb3BSoS1R5otl0QnsC96iDuWNANxDEhvHQeBo0E2Sv5VILHnXlUaEps2deT3sxOAo8zMOe+ii2f1GgdTBXVTa43D3I/TTYjDoTi/yaUhaOFiK6sBF/6PZm1Ge3+5KiwUxe+8MmUz/UzQHbahZpK3xyBIvU1YjzPxivG1KK
 
 -->

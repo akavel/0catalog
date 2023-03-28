@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/pandoc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>pandoc</name>
+  <summary xml:lang="en">universal document markup converter</summary>
+  <category>Office</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="3.1.2" id="sha256new_Z2CLKE2AFZLFZK5X6WSFVMVZ5N3SBI2C5FA4JH2BZ6QQ37IIY7BQ">
+    <command name="run" path="pandoc.exe" />
+    <manifest-digest sha256new="Z2CLKE2AFZLFZK5X6WSFVMVZ5N3SBI2C5FA4JH2BZ6QQ37IIY7BQ" />
+    <archive href="https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-windows-x86_64.zip" size="26642710" type="application/zip" extract="pandoc-3.1.2" />
+  </implementation>
+  <entry-point command="run" binary-name="pandoc" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJkIxSrAAoJEIqj3WcC4bjBuNoP/jOeySXKnJxBc+55ir8yr+LGuZKbEWclsEXRc+jMpX/UloX4LmhNVGy1qHXW8W8ao98xEOsUaGk30O7a0byNtwkmTu3zWJ7jtXjQmf3FHNgbkFcnY+nIzWZNHG11nCMgnCRLg9QlE+tfnOwUdmec4Bq8/X0VJp+q309KTv7aRJ2tihbDSoHm4MKCH8R8xWp/bAabsQDz86FC0OZA/+ySPJIGHOpfXPI+MaqHqagRrcmPAB5RJdWPjf+LIL/6BNC46dPC28Fd4kCkCNprwZqPTg4qX3rjQ3QrWaOXG0Y7xuV4Lr8iTNXN/aNkmGuOvFzTgbrA9rk6EHT8WIpM4Z0+nCGaFDVtt7zo0d+B4MOrx8anUKWbnbWAW1ReGGFsMFRwyCk1zXxRljWkM+KLRPA0QJA6b+IJkqmlDU9CpkFmc1K0KvswFfXE1XqxmAxZvAi+hgFifaeCXetENtkM7LjZ3DV7mUbTl9jvkr7tYClEJYWXoDnOhREqj1mpJs2i+LUX1Xjj+wluCVc1A5SFukGH4wXZn2ZSLnMPKqELnGAiteixvw/eujqQZUlI7V2Q/zjMJKY1IdRlyGgYur4IuXZjb9cJqydfunBJg7P4AtHt+MSbxATFyE8VDglF06Zecq1tVTwKQTMQPhI2ky6cqrPGY1viO3FaRQmos0WoMGdNK6YU
+
+-->
