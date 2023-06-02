@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/kid3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Kid3</name>
+  <summary xml:lang="en">audio tag editor</summary>
+  <description xml:lang="en">easily tag multiple MP3, Ogg/Vorbis, FLAC, Monkey’s Audio, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA/WMV, WAV and AIFF files (e.g. full albums) without typing the same information again and again and have control over both ID3v1 and ID3v2 tags</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/kid3.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/kid3.png" type="image/png" />
+  <category>Audio</category>
+  <implementation arch="Windows-x86_64" version="3.9.3-1" id="sha256new_O6V3RQWHB656RFMD7WMFIDJHFEQI4N6UK74WCQE6HUQ2Z255DPAA">
+    <command name="run" path="kid3.exe" />
+    <command name="kid3-cli" path="kid3-cli.exe" />
+    <manifest-digest sha256new="O6V3RQWHB656RFMD7WMFIDJHFEQI4N6UK74WCQE6HUQ2Z255DPAA" />
+    <archive href="https://deac-ams.dl.sourceforge.net/project/kid3/kid3/3.9.3/kid3-3.9.3-1-win32-x64.zip" size="25436890" type="application/zip" extract="kid3-3.9.3-win32-x64" />
+  </implementation>
+  <entry-point command="run" binary-name="kid3" />
+  <entry-point command="kid3-cli" binary-name="kid3-cli">
+    <needs-terminal />
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJkea4OAAoJEIqj3WcC4bjBEg8P/35XNqh+QYs8osHSyIQVkExz+mwX6+h9NqPKLv0QWNMY9o/yyjQghVVn8EYgedyU2ugUqhOft55rM+X8mPGhS0iASG3ZHxsJolM2f3c6juvp3o7uHOeGAQ5MiwSUhjCIKEDnMQ4/dpeYA6T4k5JvaXh+2c+3vJ188SnPssKra8BKKkFZLCk7/yz4BzEzJsAGCY1NdVVkVlrUuENArkCbbX/wIilxkS1Q0vLACXyP5fssep8FOoP6ITDL20g4S2eSh+IIYMQKwLu/Tq2n9OiGApuD++F6/Zc/w+OQzxPfOINA1CM6IKndxcQCCGdi6qrV1NXlLDXJ/8zLZXLwJqNgESSeSuboTBdhQpOET4tnNSoK6eMQIQT4CuFoH6ESWxiqVO5w/dbDUc8tbq4IArOu6++a43cJe5/304F+qlKB/bE4drwpOcd8z5852EIsvALvM25lq12z9OM9SSMq+rVqKAuixowHKwn0i9yYhRPQ5vk/nRtsu8cNJgRKMb3GkX/T2/imGjKejLdxa2dciyP2srDkj92Em5xfIu2kclBX7i5XcxscC7mzLxaw4ybwac8sqwGdsO4uz8aG46eBiU4JvhzSyT9BioBrmbSEFKLFQKUCy29sSIeACCEBNk/mZvjjFm253ufk3MqIfJtoH3XIKvxSV//WEABgQIwPp4RmgzT7
+
+-->

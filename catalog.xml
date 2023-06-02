@@ -36,6 +36,18 @@
     <needs-terminal />
     <entry-point command="run" binary-name="gyro" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/kid3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Kid3</name>
+    <summary xml:lang="en">audio tag editor</summary>
+    <description xml:lang="en">easily tag multiple MP3, Ogg/Vorbis, FLAC, Monkey’s Audio, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA/WMV, WAV and AIFF files (e.g. full albums) without typing the same information again and again and have control over both ID3v1 and ID3v2 tags</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/kid3.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/kid3.png" type="image/png" />
+    <category>Audio</category>
+    <entry-point command="run" binary-name="kid3" />
+    <entry-point command="kid3-cli" binary-name="kid3-cli">
+      <needs-terminal />
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/love2d.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>LÖVE 2D</name>
     <summary xml:lang="en">LÖVE 11.3</summary>
@@ -554,6 +566,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJkIxS4AAoJEIqj3WcC4bjBM3YP/06cVay0oimnfhkRJajCyZAXp+0jpV0p1QdRpPLX2C4Zdl4/8eDge+r3cDZ6ZYVPGJbmgZd02DRXfrQJ38iaPGm7BKkEEP1NpqVMdPUYnB+Zk/DtNG2qom64mmTO331kF9BjuQttAnvG2/SwC7q63Gv/7pzRSsiVLM5/AJiUn7VS+EJnRumCX7sKG3YVAzxUYNujkJ6PEJjTCVbJht+fmrrlMiVuGYkc2xzcdpy8O1ntCJoq/1nPAlxcCicKyxUZzsegBOOnA3QZmVs1blqPxmif1/rChi7XZjdRWBq+8uVZFF6FnZwh1OhtjvCuEm7KF5ZA0zqLowVVnaf0PRaWF1jv6uqbjpYsM8ast4s7VFv9TG3jkfXGmv9NwgCjCuEiK2YLqThD8bDMLBlzAXatXnLBPcQmMWkG8Cf6FCpyVW2el0DU1u25A2MXPP5E+XOsE0ZEUZxPCEF24qukmcL4Ao7YFR8m2qdqvpxEa4SNuxJNCfkJPPnilzbLEoxdPbzzQfHLHbFb3BSoS1R5otl0QnsC96iDuWNANxDEhvHQeBo0E2Sv5VILHnXlUaEps2deT3sxOAo8zMOe+ii2f1GgdTBXVTa43D3I/TTYjDoTi/yaUhaOFiK6sBF/6PZm1Ge3+5KiwUxe+8MmUz/UzQHbahZpK3xyBIvU1YjzPxivG1KK
+iQIcBAABAgAGBQJkea5nAAoJEIqj3WcC4bjBw1sQALnDk0Djslr28VkHufhoOkDBOFx8MVIaaseOLCRXTmS7w0h5NbwiKW71iUlELcq4/zbAKC8JQCsWwSCCV5CvV3hkPCWNQjSQkPgiIlu/14a5Nvo6JgkvUYxVZbaCGVa+nfmu+Q/YY23czTZMPbloBguXeGbiRKhFhtx+dibCIXYuLOhVzgHyMruBlP2KsbQlBLcBg95br3rW5jflkXzk1IyC5Frzt4JNNP7+SEIBEGjAazyVscwIhktc1WVAdTB6z2dRQCFr/+ej52zTM/tn1y0/UTLo9GR7DXRHTFGwCw9HDj0A9vXGpgvg3aUJ8S5eaoABHlJ2NZg+OIeDqAMRDvzqI1MvHB/d/ZH7JyPCDBMh2EH2TjB2MuX/lfygLP2iivqAKcazA5SRZTOLmGv3S7yU7y6/b4yPetMvYBHm3nvFtrYXUsN51ySO4ADW6pCWW4RA7hSpFNspaO3rzHguicNsmJhEjCg3JgJcqNJaMZuCYfItMBi+3+TcifyB5HZVCAb34uu0+HTANkMq60YatpIu3XIooNi0sdPmPsapeTq8/zl/6uYZ18ACxcuRujDIJETDHlfn+DQtp/VlnvdbvVpphVZHZ5ORVD5NqqhEVy02LWM6XxbL9TjMH+OC/fkFOXWih8lkZ1pFFK6CGLvwCMjsDwcrx7FgbdG1ydb/PkTn
 
 -->
