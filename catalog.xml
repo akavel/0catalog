@@ -36,6 +36,14 @@
     <needs-terminal />
     <entry-point command="run" binary-name="gyro" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/jujutsu.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Jujutsu VCS</name>
+    <summary xml:lang="en">A Git-compatible DVCS that is both simple and powerful </summary>
+    <category>Development</category>
+    <homepage>https://github.com/martinvonz/jj</homepage>
+    <needs-terminal />
+    <entry-point command="run" binary-name="jj" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/kid3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Kid3</name>
     <summary xml:lang="en">audio tag editor</summary>
@@ -566,6 +574,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJkea5nAAoJEIqj3WcC4bjBw1sQALnDk0Djslr28VkHufhoOkDBOFx8MVIaaseOLCRXTmS7w0h5NbwiKW71iUlELcq4/zbAKC8JQCsWwSCCV5CvV3hkPCWNQjSQkPgiIlu/14a5Nvo6JgkvUYxVZbaCGVa+nfmu+Q/YY23czTZMPbloBguXeGbiRKhFhtx+dibCIXYuLOhVzgHyMruBlP2KsbQlBLcBg95br3rW5jflkXzk1IyC5Frzt4JNNP7+SEIBEGjAazyVscwIhktc1WVAdTB6z2dRQCFr/+ej52zTM/tn1y0/UTLo9GR7DXRHTFGwCw9HDj0A9vXGpgvg3aUJ8S5eaoABHlJ2NZg+OIeDqAMRDvzqI1MvHB/d/ZH7JyPCDBMh2EH2TjB2MuX/lfygLP2iivqAKcazA5SRZTOLmGv3S7yU7y6/b4yPetMvYBHm3nvFtrYXUsN51ySO4ADW6pCWW4RA7hSpFNspaO3rzHguicNsmJhEjCg3JgJcqNJaMZuCYfItMBi+3+TcifyB5HZVCAb34uu0+HTANkMq60YatpIu3XIooNi0sdPmPsapeTq8/zl/6uYZ18ACxcuRujDIJETDHlfn+DQtp/VlnvdbvVpphVZHZ5ORVD5NqqhEVy02LWM6XxbL9TjMH+OC/fkFOXWih8lkZ1pFFK6CGLvwCMjsDwcrx7FgbdG1ydb/PkTn
+iQIcBAABAgAGBQJk1haWAAoJEIqj3WcC4bjBJFwQAKK7PtqmUFRdgxUoP3u7K46rGXEcQM13pflo7wf7/W/u3RaIaA+6Knlp9XY/LOjjyObuuX/bn2F8vgqFU26b5rnYjaa1vljeAPOSyKOf6VWiWSlnf3jQOJmuhZUuaS/tsKwAApJDoSwUSQXecKx/eB4UXE5ZQzKn7ZBffmqju3gLwmJ9xRKWVYXRroPIWlMoSyDqRKKB9b20DDqVdtsVMP8A1cKUwHDJig5ds5pfMEmFnrP3Q0t/MYrM1waEZPPFu8HoY9G9I4lChOLD00qp4a5mJIsxnOIHpHWF27125UU1Oy06H4//CaKdbPprUZ3gNsmBVbfKFmI5Ht8USM0UA8DqYyXmhlTTMI5PLSbuAchG1RhGmUGEf573hI8ruTexZ6b4+Ym0XoEw6n3yAagZNHTn5q4SK1tmMndgY2FhEoN+D2SLVhYWM8NH54z6fGJNMZMb1+pIxzXMWp8MAysfqOgv4cIpf9YP76AHzi49Q4SKfMEQmq/PdBi4QDK1k1EFI7qI+tN2qLuk+TitlKA1UrilEvEe43gmMBKrFnNDP1U/KpEWtzNB3hbovwGyvuz0fZ5kXOTEAFohQ+nXcAyHfBlp27uDLR/CDq1XvPG+MsSVtGTU98NGRXE90HcLYzGA/0ju3bWoy5y/426/WxnItQ9iK7cB0YXA6poRcr0w6gop
 
 -->
