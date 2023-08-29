@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/putty.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>PuTTY suite</name>
+  <summary xml:lang="en">SSH, Telnet, Rlogin, and SUPDUP client</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/putty.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/putty.png" type="image/png" />
+  <category>Network</category>
+  <category>Utility</category>
+  <implementation arch="Windows-x86_64" version="0.79" id="sha256new_6SRK5EF5ZGUFHZ6U5OZK3I3NCXF5ZQXWO7MWSEIEQQNXHID5ZHZA">
+    <command name="run" path="PUTTY.EXE" />
+    <command name="PAGEANT" path="PAGEANT.EXE" />
+    <command name="PLINK" path="PLINK.EXE" />
+    <command name="PSCP" path="PSCP.EXE" />
+    <command name="PSFTP" path="PSFTP.EXE" />
+    <command name="PUTTYGEN" path="PUTTYGEN.EXE" />
+    <manifest-digest sha256new="6SRK5EF5ZGUFHZ6U5OZK3I3NCXF5ZQXWO7MWSEIEQQNXHID5ZHZA" />
+    <archive href="https://the.earth.li/~sgtatham/putty/0.79/w64/putty.zip" size="3943459" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="PUTTY" />
+  <entry-point command="PAGEANT" binary-name="PAGEANT">
+    <name xml:lang="en">PuTTY suite</name>
+    <summary xml:lang="en">PuTTY SSH authentication agent</summary>
+  </entry-point>
+  <entry-point command="PLINK" binary-name="PLINK">
+    <needs-terminal />
+    <name xml:lang="en">PuTTY suite</name>
+    <summary xml:lang="en">Command-line SSH, Telnet, and Rlogin client</summary>
+  </entry-point>
+  <entry-point command="PSCP" binary-name="PSCP">
+    <needs-terminal />
+    <name xml:lang="en">PuTTY suite</name>
+    <summary xml:lang="en">Command-line SCP/SFTP client</summary>
+  </entry-point>
+  <entry-point command="PSFTP" binary-name="PSFTP">
+    <needs-terminal />
+    <name xml:lang="en">PuTTY suite</name>
+    <summary xml:lang="en">Command-line interactive SFTP client</summary>
+  </entry-point>
+  <entry-point command="PUTTYGEN" binary-name="PUTTYGEN">
+    <name xml:lang="en">PuTTY suite</name>
+    <summary xml:lang="en">PuTTY SSH key generation utility</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJk7hzWAAoJEIqj3WcC4bjBSt8P/1aPlwNVDz4/QZK9GvFPzriSS44/sXZ1IQP4e/XeH46gZKSf/LcJzuGEfU1WdP10u/IxMAq85iRK7fV5/4Cuqm/G9S11xIQ3NG/dS8b7iXwK1xVbQTwN51ElaMzj6+00soj4v0YiGEJZXinRj/oIAqlmNcLjvvU9sGop6enIZTk1l+LU9wqCWSaBNkKIk8vLXP2RlZyhGQnZlObakOqwPAVME4oMrqi0f7EKY4MwWcNwCKQm8b9C5PKeAMdX1JS2QNyTvcPPn14UPCCehX6UCIr37cZ9Nc6cLmwxFYwJNOgV8lHChlvDU+iIYADCwLFkW2svlMTlZUv6W0LwIO/7i2tA1Eeph9O5pC35AdlEg2ofdDLKP3akx1cSnqfwLKLVLLPybQFgGXnE+bkixWNKhrBWVq6sd8b+9hwncK9K29jExjd8DAibB+FHBe//CLpZKgHHo2aQPCxaREdZneNS4nKMEeVMfwIHmEPt+L2KaRF+k6gaioXACoVrPqC5rApJKCxczJeKpkuAdxDZG2bNuYhIMrSPH2w52AxIyE52f5ZR1y57+/scI9B0vR7f5KcT4ZBnpHSpVS8JiUaP0lOOXzky/dFGfp1Xfnxolv0bBsR6wSSTLjrMB1P59p8Hv+CdBA4i9N0YQ7Bxx+b/i9OENUUlMeHqyuS7NI1xTEa7HM5n
+
+-->

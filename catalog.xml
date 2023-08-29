@@ -384,6 +384,38 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <needs-terminal />
     <entry-point command="run" binary-name="protoc" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/putty.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>PuTTY suite</name>
+    <summary xml:lang="en">SSH, Telnet, Rlogin, and SUPDUP client</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/putty.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/putty.png" type="image/png" />
+    <category>Network</category>
+    <category>Utility</category>
+    <entry-point command="run" binary-name="PUTTY" />
+    <entry-point command="PAGEANT" binary-name="PAGEANT">
+      <name xml:lang="en">PuTTY suite</name>
+      <summary xml:lang="en">PuTTY SSH authentication agent</summary>
+    </entry-point>
+    <entry-point command="PLINK" binary-name="PLINK">
+      <needs-terminal />
+      <name xml:lang="en">PuTTY suite</name>
+      <summary xml:lang="en">Command-line SSH, Telnet, and Rlogin client</summary>
+    </entry-point>
+    <entry-point command="PSCP" binary-name="PSCP">
+      <needs-terminal />
+      <name xml:lang="en">PuTTY suite</name>
+      <summary xml:lang="en">Command-line SCP/SFTP client</summary>
+    </entry-point>
+    <entry-point command="PSFTP" binary-name="PSFTP">
+      <needs-terminal />
+      <name xml:lang="en">PuTTY suite</name>
+      <summary xml:lang="en">Command-line interactive SFTP client</summary>
+    </entry-point>
+    <entry-point command="PUTTYGEN" binary-name="PUTTYGEN">
+      <name xml:lang="en">PuTTY suite</name>
+      <summary xml:lang="en">PuTTY SSH key generation utility</summary>
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/ripgrep.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>ripgrep (rg)</name>
     <summary xml:lang="en">a line-oriented search tool that recursively searches your current directory for a regex pattern</summary>
@@ -574,6 +606,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJk1haWAAoJEIqj3WcC4bjBJFwQAKK7PtqmUFRdgxUoP3u7K46rGXEcQM13pflo7wf7/W/u3RaIaA+6Knlp9XY/LOjjyObuuX/bn2F8vgqFU26b5rnYjaa1vljeAPOSyKOf6VWiWSlnf3jQOJmuhZUuaS/tsKwAApJDoSwUSQXecKx/eB4UXE5ZQzKn7ZBffmqju3gLwmJ9xRKWVYXRroPIWlMoSyDqRKKB9b20DDqVdtsVMP8A1cKUwHDJig5ds5pfMEmFnrP3Q0t/MYrM1waEZPPFu8HoY9G9I4lChOLD00qp4a5mJIsxnOIHpHWF27125UU1Oy06H4//CaKdbPprUZ3gNsmBVbfKFmI5Ht8USM0UA8DqYyXmhlTTMI5PLSbuAchG1RhGmUGEf573hI8ruTexZ6b4+Ym0XoEw6n3yAagZNHTn5q4SK1tmMndgY2FhEoN+D2SLVhYWM8NH54z6fGJNMZMb1+pIxzXMWp8MAysfqOgv4cIpf9YP76AHzi49Q4SKfMEQmq/PdBi4QDK1k1EFI7qI+tN2qLuk+TitlKA1UrilEvEe43gmMBKrFnNDP1U/KpEWtzNB3hbovwGyvuz0fZ5kXOTEAFohQ+nXcAyHfBlp27uDLR/CDq1XvPG+MsSVtGTU98NGRXE90HcLYzGA/0ju3bWoy5y/426/WxnItQ9iK7cB0YXA6poRcr0w6gop
+iQIcBAABAgAGBQJk7hzjAAoJEIqj3WcC4bjBr6wP/iBM9QHVhG4LsTfI3kJfvufGxbm20uRX0AtuCykVYrjI3w1vXvIl0aiZvVhvTRN7DvOeoFb4/n8IPCEbte0AG524hEo2uiYfnAioaAp9jfzgfxObnkHqGZw9YVXE2pHWF3+zbEjRc0TW33klFjH30INJgf0ZRB6jQB8g7uXN5ebEAS6hzwM/HuTivsGgxFBnUVds7G51ba1yWDJWWweUVRV45goby3ncCRVp03H4XYHDryhcrXWc4QxfKPwe/xyzJ1TGXrLZlnIXm/LK2VwAM3sfCkQRhIPQ4cTJ5fHQ5vdN/PeLZugQDdGWxcaEqwZMt6YQDcEi0cmkpUSEOcO/HY2++CnK2yLXJjXoRvo5f8IRBzVzZ4FLxN0ak4tXmc5RsEpo1Dm3hxOJlgVPTvLWI7CkoTTilO4632TAa4ocy5RtKVEQLPO53+uRbtTG877zyIV3uIgWGSNwSW2tlcgyY4W62B0UZjtP4JFmbsGudI0uayMhGp2j7YlvfWzH3NbAuegBqY5LhlL9pnGsqi28YlcjWeQFHuCMz1wjj7yVUvX9OsUznYoJFmLN58H6wp1pmf1IhmEjKa8aHDhepiI7TdxIMouVYE4xt0luuZdmSz9MSK6VhUysDiN4mXtXJIMzNqYipQeWI7ATzaF2IspMkpDX1Oyy1bWk8bbvk/ySnMEp
 
 -->
