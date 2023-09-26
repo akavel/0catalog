@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/sweethome3d.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Sweet Home 3D</name>
+  <summary xml:lang="en">An interior design application to draw house plans &amp; arrange furniture</summary>
+  <description xml:lang="en">Sweet Home 3D is a free interior design application which helps you draw the plan of your house, arrange furniture on it and visit the results in 3D.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/sweethome3d.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/sweethome3d.png" type="image/png" />
+  <category>Graphics</category>
+  <implementation arch="Windows-*" version="7.1" id="sha256new_7VAEN3JU52T6IUB5MDLPHK4WC4KJ3C2LVAT764AZ42FYYAALQNZQ">
+    <command name="run" path="SweetHome3D-windows-x64.exe" />
+    <command name="SweetHome3D-windows-x86" path="SweetHome3D-windows-x86.exe" />
+    <command name="charsets" path="runtime\linux\i586\runtime\lib\charsets.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="deploy" path="runtime\linux\i586\runtime\lib\deploy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javaws" path="runtime\linux\i586\runtime\lib\javaws.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jce" path="runtime\linux\i586\runtime\lib\jce.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jfxswt" path="runtime\linux\i586\runtime\lib\jfxswt.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jsse" path="runtime\linux\i586\runtime\lib\jsse.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="management-agent" path="runtime\linux\i586\runtime\lib\management-agent.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="plugin" path="runtime\linux\i586\runtime\lib\plugin.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="resources" path="runtime\linux\i586\runtime\lib\resources.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="rt" path="runtime\linux\i586\runtime\lib\rt.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="cldrdata" path="runtime\linux\i586\runtime\lib\ext\cldrdata.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="dnsns" path="runtime\linux\i586\runtime\lib\ext\dnsns.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jaccess" path="runtime\linux\i586\runtime\lib\ext\jaccess.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="localedata" path="runtime\linux\i586\runtime\lib\ext\localedata.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sunjce_provider" path="runtime\linux\i586\runtime\lib\ext\sunjce_provider.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="zipfs" path="runtime\linux\i586\runtime\lib\ext\zipfs.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="local_policy" path="runtime\linux\i586\runtime\lib\security\policy\limited\local_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="US_export_policy" path="runtime\linux\i586\runtime\lib\security\policy\limited\US_export_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="local_policy" path="runtime\linux\i586\runtime\lib\security\policy\unlimited\local_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="US_export_policy" path="runtime\linux\i586\runtime\lib\security\policy\unlimited\US_export_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="charsets" path="runtime\linux\x64\runtime\lib\charsets.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="deploy" path="runtime\linux\x64\runtime\lib\deploy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javaws" path="runtime\linux\x64\runtime\lib\javaws.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jce" path="runtime\linux\x64\runtime\lib\jce.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jfxswt" path="runtime\linux\x64\runtime\lib\jfxswt.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jsse" path="runtime\linux\x64\runtime\lib\jsse.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="management-agent" path="runtime\linux\x64\runtime\lib\management-agent.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="plugin" path="runtime\linux\x64\runtime\lib\plugin.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="resources" path="runtime\linux\x64\runtime\lib\resources.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="rt" path="runtime\linux\x64\runtime\lib\rt.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="cldrdata" path="runtime\linux\x64\runtime\lib\ext\cldrdata.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="dnsns" path="runtime\linux\x64\runtime\lib\ext\dnsns.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jaccess" path="runtime\linux\x64\runtime\lib\ext\jaccess.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="localedata" path="runtime\linux\x64\runtime\lib\ext\localedata.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sunjce_provider" path="runtime\linux\x64\runtime\lib\ext\sunjce_provider.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="zipfs" path="runtime\linux\x64\runtime\lib\ext\zipfs.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="local_policy" path="runtime\linux\x64\runtime\lib\security\policy\limited\local_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="US_export_policy" path="runtime\linux\x64\runtime\lib\security\policy\limited\US_export_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="local_policy" path="runtime\linux\x64\runtime\lib\security\policy\unlimited\local_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="US_export_policy" path="runtime\linux\x64\runtime\lib\security\policy\unlimited\US_export_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="java-rmi" path="runtime\windows\i586\runtime\bin\java-rmi.exe" />
+    <command name="javaw" path="runtime\windows\i586\runtime\bin\javaw.exe" />
+    <command name="jjs" path="runtime\windows\i586\runtime\bin\jjs.exe" />
+    <command name="jp2launcher" path="runtime\windows\i586\runtime\bin\jp2launcher.exe" />
+    <command name="pack200" path="runtime\windows\i586\runtime\bin\pack200.exe" />
+    <command name="ssvagent" path="runtime\windows\i586\runtime\bin\ssvagent.exe" />
+    <command name="unpack200" path="runtime\windows\i586\runtime\bin\unpack200.exe" />
+    <command name="charsets" path="runtime\windows\i586\runtime\lib\charsets.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javaws" path="runtime\windows\i586\runtime\lib\javaws.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jce" path="runtime\windows\i586\runtime\lib\jce.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jsse" path="runtime\windows\i586\runtime\lib\jsse.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="management-agent" path="runtime\windows\i586\runtime\lib\management-agent.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="resources" path="runtime\windows\i586\runtime\lib\resources.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="rt" path="runtime\windows\i586\runtime\lib\rt.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="access-bridge-32" path="runtime\windows\i586\runtime\lib\ext\access-bridge-32.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="cldrdata" path="runtime\windows\i586\runtime\lib\ext\cldrdata.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="dnsns" path="runtime\windows\i586\runtime\lib\ext\dnsns.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jaccess" path="runtime\windows\i586\runtime\lib\ext\jaccess.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="localedata" path="runtime\windows\i586\runtime\lib\ext\localedata.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sunjce_provider" path="runtime\windows\i586\runtime\lib\ext\sunjce_provider.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sunmscapi" path="runtime\windows\i586\runtime\lib\ext\sunmscapi.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="zipfs" path="runtime\windows\i586\runtime\lib\ext\zipfs.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="local_policy" path="runtime\windows\i586\runtime\lib\security\policy\limited\local_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="US_export_policy" path="runtime\windows\i586\runtime\lib\security\policy\limited\US_export_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="local_policy" path="runtime\windows\i586\runtime\lib\security\policy\unlimited\local_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="US_export_policy" path="runtime\windows\i586\runtime\lib\security\policy\unlimited\US_export_policy.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="javaw" path="runtime\windows\x64\runtime\bin\javaw.exe" />
+    <command name="jrt-fs" path="runtime\windows\x64\runtime\lib\jrt-fs.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="batik-svgpathparser-1.7" path="SweetHome3D-macosx.app\Contents\app\batik-svgpathparser-1.7.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="Examples" path="SweetHome3D-macosx.app\Contents\app\Examples.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="freehep-vectorgraphics-svg-2.1.1c" path="SweetHome3D-macosx.app\Contents\app\freehep-vectorgraphics-svg-2.1.1c.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="Furniture" path="SweetHome3D-macosx.app\Contents\app\Furniture.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="Help" path="SweetHome3D-macosx.app\Contents\app\Help.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="iText-2.1.7" path="SweetHome3D-macosx.app\Contents\app\iText-2.1.7.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jeksparser-calculator" path="SweetHome3D-macosx.app\Contents\app\jeksparser-calculator.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="sunflow-0.07.3i" path="SweetHome3D-macosx.app\Contents\app\sunflow-0.07.3i.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="SweetHome3D" path="SweetHome3D-macosx.app\Contents\app\SweetHome3D.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="Textures" path="SweetHome3D-macosx.app\Contents\app\Textures.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jmf" path="SweetHome3D-macosx.app\Contents\app\ext\jmf.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jnlp" path="SweetHome3D-macosx.app\Contents\app\ext\jnlp.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="gluegen-rt" path="SweetHome3D-macosx.app\Contents\app\ext\java3d-1.6\gluegen-rt.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="j3dcore" path="SweetHome3D-macosx.app\Contents\app\ext\java3d-1.6\j3dcore.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="j3dutils" path="SweetHome3D-macosx.app\Contents\app\ext\java3d-1.6\j3dutils.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jogl-java3d" path="SweetHome3D-macosx.app\Contents\app\ext\java3d-1.6\jogl-java3d.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="vecmath" path="SweetHome3D-macosx.app\Contents\app\ext\java3d-1.6\vecmath.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <command name="jrt-fs" path="SweetHome3D-macosx.app\Contents\runtime\Contents\Home\lib\jrt-fs.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" command="run">
+        <arg>-jar</arg>
+      </runner>
+    </command>
+    <manifest-digest sha256new="7VAEN3JU52T6IUB5MDLPHK4WC4KJ3C2LVAT764AZ42FYYAALQNZQ" />
+    <archive href="https://netcologne.dl.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-7.1/SweetHome3D-7.1-portable.7z" size="362964741" type="application/x-7z-compressed" extract="SweetHome3D-7.1-portable" />
+  </implementation>
+  <entry-point command="run" binary-name="SweetHome3D-windows-x64" />
+  <entry-point command="SweetHome3D-windows-x86" binary-name="SweetHome3D-windows-x86">
+    <name xml:lang="en">Sweet Home 3D</name>
+    <summary xml:lang="en">Sweet Home 3D</summary>
+  </entry-point>
+  <entry-point command="charsets" binary-name="charsets">
+    <needs-terminal />
+    <name xml:lang="en">charsets</name>
+  </entry-point>
+  <entry-point command="deploy" binary-name="deploy">
+    <needs-terminal />
+    <name xml:lang="en">deploy</name>
+  </entry-point>
+  <entry-point command="javaws" binary-name="javaws">
+    <needs-terminal />
+    <name xml:lang="en">javaws</name>
+  </entry-point>
+  <entry-point command="jce" binary-name="jce">
+    <needs-terminal />
+    <name xml:lang="en">jce</name>
+  </entry-point>
+  <entry-point command="jfxswt" binary-name="jfxswt">
+    <needs-terminal />
+    <name xml:lang="en">jfxswt</name>
+  </entry-point>
+  <entry-point command="jsse" binary-name="jsse">
+    <needs-terminal />
+    <name xml:lang="en">jsse</name>
+  </entry-point>
+  <entry-point command="management-agent" binary-name="management-agent">
+    <needs-terminal />
+    <name xml:lang="en">management-agent</name>
+  </entry-point>
+  <entry-point command="plugin" binary-name="plugin">
+    <needs-terminal />
+    <name xml:lang="en">plugin</name>
+  </entry-point>
+  <entry-point command="resources" binary-name="resources">
+    <needs-terminal />
+    <name xml:lang="en">resources</name>
+  </entry-point>
+  <entry-point command="rt" binary-name="rt">
+    <needs-terminal />
+    <name xml:lang="en">rt</name>
+  </entry-point>
+  <entry-point command="cldrdata" binary-name="cldrdata">
+    <needs-terminal />
+    <name xml:lang="en">cldrdata</name>
+  </entry-point>
+  <entry-point command="dnsns" binary-name="dnsns">
+    <needs-terminal />
+    <name xml:lang="en">dnsns</name>
+  </entry-point>
+  <entry-point command="jaccess" binary-name="jaccess">
+    <needs-terminal />
+    <name xml:lang="en">jaccess</name>
+  </entry-point>
+  <entry-point command="localedata" binary-name="localedata">
+    <needs-terminal />
+    <name xml:lang="en">localedata</name>
+  </entry-point>
+  <entry-point command="sunjce_provider" binary-name="sunjce_provider">
+    <needs-terminal />
+    <name xml:lang="en">sunjce_provider</name>
+  </entry-point>
+  <entry-point command="zipfs" binary-name="zipfs">
+    <needs-terminal />
+    <name xml:lang="en">zipfs</name>
+  </entry-point>
+  <entry-point command="local_policy" binary-name="local_policy">
+    <needs-terminal />
+    <name xml:lang="en">local_policy</name>
+  </entry-point>
+  <entry-point command="US_export_policy" binary-name="US_export_policy">
+    <needs-terminal />
+    <name xml:lang="en">US_export_policy</name>
+  </entry-point>
+  <entry-point command="local_policy" binary-name="local_policy">
+    <needs-terminal />
+    <name xml:lang="en">local_policy</name>
+  </entry-point>
+  <entry-point command="US_export_policy" binary-name="US_export_policy">
+    <needs-terminal />
+    <name xml:lang="en">US_export_policy</name>
+  </entry-point>
+  <entry-point command="charsets" binary-name="charsets">
+    <needs-terminal />
+    <name xml:lang="en">charsets</name>
+  </entry-point>
+  <entry-point command="deploy" binary-name="deploy">
+    <needs-terminal />
+    <name xml:lang="en">deploy</name>
+  </entry-point>
+  <entry-point command="javaws" binary-name="javaws">
+    <needs-terminal />
+    <name xml:lang="en">javaws</name>
+  </entry-point>
+  <entry-point command="jce" binary-name="jce">
+    <needs-terminal />
+    <name xml:lang="en">jce</name>
+  </entry-point>
+  <entry-point command="jfxswt" binary-name="jfxswt">
+    <needs-terminal />
+    <name xml:lang="en">jfxswt</name>
+  </entry-point>
+  <entry-point command="jsse" binary-name="jsse">
+    <needs-terminal />
+    <name xml:lang="en">jsse</name>
+  </entry-point>
+  <entry-point command="management-agent" binary-name="management-agent">
+    <needs-terminal />
+    <name xml:lang="en">management-agent</name>
+  </entry-point>
+  <entry-point command="plugin" binary-name="plugin">
+    <needs-terminal />
+    <name xml:lang="en">plugin</name>
+  </entry-point>
+  <entry-point command="resources" binary-name="resources">
+    <needs-terminal />
+    <name xml:lang="en">resources</name>
+  </entry-point>
+  <entry-point command="rt" binary-name="rt">
+    <needs-terminal />
+    <name xml:lang="en">rt</name>
+  </entry-point>
+  <entry-point command="cldrdata" binary-name="cldrdata">
+    <needs-terminal />
+    <name xml:lang="en">cldrdata</name>
+  </entry-point>
+  <entry-point command="dnsns" binary-name="dnsns">
+    <needs-terminal />
+    <name xml:lang="en">dnsns</name>
+  </entry-point>
+  <entry-point command="jaccess" binary-name="jaccess">
+    <needs-terminal />
+    <name xml:lang="en">jaccess</name>
+  </entry-point>
+  <entry-point command="localedata" binary-name="localedata">
+    <needs-terminal />
+    <name xml:lang="en">localedata</name>
+  </entry-point>
+  <entry-point command="sunjce_provider" binary-name="sunjce_provider">
+    <needs-terminal />
+    <name xml:lang="en">sunjce_provider</name>
+  </entry-point>
+  <entry-point command="zipfs" binary-name="zipfs">
+    <needs-terminal />
+    <name xml:lang="en">zipfs</name>
+  </entry-point>
+  <entry-point command="local_policy" binary-name="local_policy">
+    <needs-terminal />
+    <name xml:lang="en">local_policy</name>
+  </entry-point>
+  <entry-point command="US_export_policy" binary-name="US_export_policy">
+    <needs-terminal />
+    <name xml:lang="en">US_export_policy</name>
+  </entry-point>
+  <entry-point command="local_policy" binary-name="local_policy">
+    <needs-terminal />
+    <name xml:lang="en">local_policy</name>
+  </entry-point>
+  <entry-point command="US_export_policy" binary-name="US_export_policy">
+    <needs-terminal />
+    <name xml:lang="en">US_export_policy</name>
+  </entry-point>
+  <entry-point command="java-rmi" binary-name="java-rmi">
+    <needs-terminal />
+    <name xml:lang="en">Java(TM) Platform SE 8</name>
+    <summary xml:lang="en">Java(TM) Platform SE binary</summary>
+  </entry-point>
+  <entry-point command="javaw" binary-name="javaw">
+    <name xml:lang="en">Java(TM) Platform SE 8</name>
+    <summary xml:lang="en">Java(TM) Platform SE binary</summary>
+  </entry-point>
+  <entry-point command="jjs" binary-name="jjs">
+    <needs-terminal />
+    <name xml:lang="en">Java(TM) Platform SE 8</name>
+    <summary xml:lang="en">Java(TM) Platform SE binary</summary>
+  </entry-point>
+  <entry-point command="jp2launcher" binary-name="jp2launcher">
+    <name xml:lang="en">Java(TM) Platform SE 8 U202</name>
+    <summary xml:lang="en">Java(TM) Web Launcher</summary>
+  </entry-point>
+  <entry-point command="pack200" binary-name="pack200">
+    <needs-terminal />
+    <name xml:lang="en">Java(TM) Platform SE 8</name>
+    <summary xml:lang="en">Java(TM) Platform SE binary</summary>
+  </entry-point>
+  <entry-point command="ssvagent" binary-name="ssvagent">
+    <name xml:lang="en">Java(TM) Platform SE 8 U202</name>
+    <summary xml:lang="en">Java(TM) Platform SE binary</summary>
+  </entry-point>
+  <entry-point command="unpack200" binary-name="unpack200">
+    <needs-terminal />
+    <name xml:lang="en">Java(TM) Platform SE 8</name>
+    <summary xml:lang="en">Java(TM) Platform SE binary</summary>
+  </entry-point>
+  <entry-point command="charsets" binary-name="charsets">
+    <needs-terminal />
+    <name xml:lang="en">charsets</name>
+  </entry-point>
+  <entry-point command="javaws" binary-name="javaws">
+    <needs-terminal />
+    <name xml:lang="en">javaws</name>
+  </entry-point>
+  <entry-point command="jce" binary-name="jce">
+    <needs-terminal />
+    <name xml:lang="en">jce</name>
+  </entry-point>
+  <entry-point command="jsse" binary-name="jsse">
+    <needs-terminal />
+    <name xml:lang="en">jsse</name>
+  </entry-point>
+  <entry-point command="management-agent" binary-name="management-agent">
+    <needs-terminal />
+    <name xml:lang="en">management-agent</name>
+  </entry-point>
+  <entry-point command="resources" binary-name="resources">
+    <needs-terminal />
+    <name xml:lang="en">resources</name>
+  </entry-point>
+  <entry-point command="rt" binary-name="rt">
+    <needs-terminal />
+    <name xml:lang="en">rt</name>
+  </entry-point>
+  <entry-point command="access-bridge-32" binary-name="access-bridge-32">
+    <needs-terminal />
+    <name xml:lang="en">access-bridge-32</name>
+  </entry-point>
+  <entry-point command="cldrdata" binary-name="cldrdata">
+    <needs-terminal />
+    <name xml:lang="en">cldrdata</name>
+  </entry-point>
+  <entry-point command="dnsns" binary-name="dnsns">
+    <needs-terminal />
+    <name xml:lang="en">dnsns</name>
+  </entry-point>
+  <entry-point command="jaccess" binary-name="jaccess">
+    <needs-terminal />
+    <name xml:lang="en">jaccess</name>
+  </entry-point>
+  <entry-point command="localedata" binary-name="localedata">
+    <needs-terminal />
+    <name xml:lang="en">localedata</name>
+  </entry-point>
+  <entry-point command="sunjce_provider" binary-name="sunjce_provider">
+    <needs-terminal />
+    <name xml:lang="en">sunjce_provider</name>
+  </entry-point>
+  <entry-point command="sunmscapi" binary-name="sunmscapi">
+    <needs-terminal />
+    <name xml:lang="en">sunmscapi</name>
+  </entry-point>
+  <entry-point command="zipfs" binary-name="zipfs">
+    <needs-terminal />
+    <name xml:lang="en">zipfs</name>
+  </entry-point>
+  <entry-point command="local_policy" binary-name="local_policy">
+    <needs-terminal />
+    <name xml:lang="en">local_policy</name>
+  </entry-point>
+  <entry-point command="US_export_policy" binary-name="US_export_policy">
+    <needs-terminal />
+    <name xml:lang="en">US_export_policy</name>
+  </entry-point>
+  <entry-point command="local_policy" binary-name="local_policy">
+    <needs-terminal />
+    <name xml:lang="en">local_policy</name>
+  </entry-point>
+  <entry-point command="US_export_policy" binary-name="US_export_policy">
+    <needs-terminal />
+    <name xml:lang="en">US_export_policy</name>
+  </entry-point>
+  <entry-point command="javaw" binary-name="javaw">
+    <name xml:lang="en">Azul Zulu 11</name>
+    <summary xml:lang="en">Zulu Platform x64 Architecture</summary>
+  </entry-point>
+  <entry-point command="jrt-fs" binary-name="jrt-fs">
+    <needs-terminal />
+    <name xml:lang="en">jrt-fs</name>
+  </entry-point>
+  <entry-point command="batik-svgpathparser-1.7" binary-name="batik-svgpathparser-1.7">
+    <needs-terminal />
+    <name xml:lang="en">batik-svgpathparser-1.7</name>
+  </entry-point>
+  <entry-point command="Examples" binary-name="Examples">
+    <needs-terminal />
+    <name xml:lang="en">Examples</name>
+  </entry-point>
+  <entry-point command="freehep-vectorgraphics-svg-2.1.1c" binary-name="freehep-vectorgraphics-svg-2.1.1c">
+    <needs-terminal />
+    <name xml:lang="en">freehep-vectorgraphics-svg-2.1.1c</name>
+  </entry-point>
+  <entry-point command="Furniture" binary-name="Furniture">
+    <needs-terminal />
+    <name xml:lang="en">Furniture</name>
+  </entry-point>
+  <entry-point command="Help" binary-name="Help">
+    <needs-terminal />
+    <name xml:lang="en">Help</name>
+  </entry-point>
+  <entry-point command="iText-2.1.7" binary-name="iText-2.1.7">
+    <needs-terminal />
+    <name xml:lang="en">iText-2.1.7</name>
+  </entry-point>
+  <entry-point command="jeksparser-calculator" binary-name="jeksparser-calculator">
+    <needs-terminal />
+    <name xml:lang="en">jeksparser-calculator</name>
+  </entry-point>
+  <entry-point command="sunflow-0.07.3i" binary-name="sunflow-0.07.3i">
+    <needs-terminal />
+    <name xml:lang="en">sunflow-0.07.3i</name>
+  </entry-point>
+  <entry-point command="SweetHome3D" binary-name="SweetHome3D">
+    <needs-terminal />
+    <name xml:lang="en">SweetHome3D</name>
+  </entry-point>
+  <entry-point command="Textures" binary-name="Textures">
+    <needs-terminal />
+    <name xml:lang="en">Textures</name>
+  </entry-point>
+  <entry-point command="jmf" binary-name="jmf">
+    <needs-terminal />
+    <name xml:lang="en">jmf</name>
+  </entry-point>
+  <entry-point command="jnlp" binary-name="jnlp">
+    <needs-terminal />
+    <name xml:lang="en">jnlp</name>
+  </entry-point>
+  <entry-point command="gluegen-rt" binary-name="gluegen-rt">
+    <needs-terminal />
+    <name xml:lang="en">gluegen-rt</name>
+  </entry-point>
+  <entry-point command="j3dcore" binary-name="j3dcore">
+    <needs-terminal />
+    <name xml:lang="en">j3dcore</name>
+  </entry-point>
+  <entry-point command="j3dutils" binary-name="j3dutils">
+    <needs-terminal />
+    <name xml:lang="en">j3dutils</name>
+  </entry-point>
+  <entry-point command="jogl-java3d" binary-name="jogl-java3d">
+    <needs-terminal />
+    <name xml:lang="en">jogl-java3d</name>
+  </entry-point>
+  <entry-point command="vecmath" binary-name="vecmath">
+    <needs-terminal />
+    <name xml:lang="en">vecmath</name>
+  </entry-point>
+  <entry-point command="jrt-fs" binary-name="jrt-fs">
+    <needs-terminal />
+    <name xml:lang="en">jrt-fs</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJlErrZAAoJEIqj3WcC4bjBaCAQALVBAMNWu8wi4GX7S2llq/JxqEOQ4wPgPGUjao1Qr46uFuL3PULfdZ6weTMHAFjSvFi0q5Yvj8yY0+2wfwbMFRgN5HcfEvEi8y9ASVk2Be+tvEQQSuu4Exjgd1OBst1Uog7xrrqCvy+SwBlvEC5t0uWLWA2eI3KlwpVmBovmXVkz4cJoxaHK4XD/Mf5Z6gnIxnPI+Hs//dWPW2s26pof/cCXPVa97e0D20BuW5Xw43cjfj7ru7GQ30e7qpVJzg6XI5uAyCF7u010AQFynFqt2XRresNdp5KOA4AbmBcBJ+tQsuSIjQ0I7qsIdR8A+ggnq+bFOpMbG1vB0VBj7wvzFQM0HaSTdO3R9DeLDvzA6A13uDMA4hAJMRocZ1+DTf/t1br/QOqQgUI4uPC4mMSi/ODVnM++0EXbFZS3l6x8+IjJQbucncuB8wKNUN4MUB3JN/JEZvFkAtCppTT40NeIEsy5JrzKVPs5kPh2HNqjFAxjFfZL82yJdieEINmxNjUR6P+HyjF9mAJvjx7CVlkDr8BfKYt4COO/JySCvreuznFE4pKqfQyHHinLJLCDsDJ4MdMKovW/leLswX4N4gC6FTr9S04U+EEy7BWUJDaVSjSU8PgS2k4gSUlBwhC0nKr9xG7x5Lh/Aj9zJvBdPK8ifgmOCgY+T0CEGkYdvsdt8h8R
+
+-->
