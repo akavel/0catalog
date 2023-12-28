@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/rymdport.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Rymdport (wormhole-gui)</name>
+  <summary xml:lang="en">Cross-platform application for easy encrypted file, folder, and text sharing between devices. </summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/rymdport.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/rymdport.png" type="image/png" />
+  <category>Utility</category>
+  <homepage>https://rymdport.github.io/</homepage>
+  <implementation arch="Windows-x86_64" version="3.5.1" id="sha256new_LHVTOFXD2ZKGULJYEBLMSMZCIXVMAHBLEPOBIV6KPO7JXCU3QP7A">
+    <command name="run" path="Rymdport.exe" />
+    <manifest-digest sha256new="LHVTOFXD2ZKGULJYEBLMSMZCIXVMAHBLEPOBIV6KPO7JXCU3QP7A" />
+    <archive href="https://github.com/Jacalz/rymdport/releases/download/v3.5.1/rymdport-v3.5.1-windows-amd64.zip" size="11123403" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="Rymdport" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJljSHMAAoJEIqj3WcC4bjBxiYP/02X2UEH+n0oqJdYtzSsNXkCffSEShC4oFRv1ZTsD9MXmUqSVXViZuGUUbpEtE2q0d0kMYMaTWkjheooGVeD2K8xaiyfGpaRCn4KlRA6ZFQJr5fBuxiD5n2NaMMRtENlZdfcINb2iFmxepgN9fFOzKx+uZQrSNS81uETNBSSZC12DzWgoU4zOs4+58RtDXzZ1dbUwVJeuQJGI/7P9uTOoVIGYix0JIKTuIRFrE67lXiojTLZwzxmUIMLIwMDB6yCSXwykClHz+kcRquOH0YZZm2fiXzfzLNBfC32yNLrLeo1oXQMPVOzfwzJN/Pzcgz8mAiEg4/m4dm7dJzDyFSV075Bqn2GNCRUP8N9SNSlFz/GoFJzjixtEpvQaSyvmo1aJXC0PCQfdkGhj20CnQT4CIC+WKkZ8emTlulB39YGcwgPhtlqH3P2DoqWlBvJZ+1yE1Yi9bV4kkpaG5btjFQ0/7+G3+ZBrG0dbF4dEjHycsccW6/0ZscO6FOzwUHLDZClZ0S7Q5C34G80uFXepH9ctZ5ADFkApNcqJI0RQysURk9HLc48CYJXLiYqP1hVos7uM9AgC1wnkHAMzku7rLXyV+t3wV0U16t5lt3gT07yc0+9c6v2ZvzVfIkCVtCaHbmekdsRlaP9sEle54frWw+LrsHtpeuMFKlGNFVSSkBqHOgB
+
+-->

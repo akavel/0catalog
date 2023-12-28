@@ -423,6 +423,15 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <needs-terminal />
     <entry-point command="run" binary-name="rg" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/rymdport.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Rymdport (wormhole-gui)</name>
+    <summary xml:lang="en">Cross-platform application for easy encrypted file, folder, and text sharing between devices. </summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/rymdport.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/rymdport.png" type="image/png" />
+    <category>Utility</category>
+    <homepage>https://rymdport.github.io/</homepage>
+    <entry-point command="run" binary-name="Rymdport" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/sapling.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Sapling SCM</name>
     <summary xml:lang="en">a cross-platform, highly scalable, Git-compatible source control system</summary>
@@ -967,6 +976,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJlErr7AAoJEIqj3WcC4bjBD9cP/1q8wvsble4nDoSzCfD3yswTV5aOrIgl1jS8TbhSmXsoJvrLIRsHki4iTGL4f2ymY98a/ZFJKAwcy91j0roriUJQuVMgJMIFr/3kEE2QbmsUDo99EuJx9r4ogVDO81rjcPqk1I2owpfkpStraUhymiEDPvCvaGZI1YUOuhs4DxlFjP3dKCkDDrqFr1tNtIhWrM6QQCJnFk7Pv8VC8IzRb+6SsKiN9/ttCd47dXQMclFZEQ79xDpK/9291V3vGoqM0DPyJWnzcGn7GhGpSDrs1I7tqvMU4g7ouGILy8iKEl+9Ds2EpJ0gDP3b5PpQ7StuyD486MBWOJbX6U3PWIhcsjOJtf9bmkHRw40MAXMIm2X6YDz0sVjJu/lv3A7+Qm70khl28jipTek+7sAcCFb1DOyfHQQGPFQAu2soZpTabgRa+/ow0x0bfHY/JAp18If2HzAQpwyXnPL7vdDFrtvZmR4mPSxAc/xyd7gK4vlKvOEOtIHCUUiJy/EXIAHZK7lAJjg2yjMiVZDV/LAaLTjwnUzfpDCixt6+T9k9kkt1sj8A796WC+/MCRrn0NQzYo/shLoqCCfrEzF11YRiIPiSK6gK7q9f23tzIMqr38VF5ilssmYF2MI5olKdmxc6EkptF+SMrnwLL0pGsgSwY3vkZ4mFXTvjPBzpTCjQVdNvoOWA
+iQIcBAABAgAGBQJljSHnAAoJEIqj3WcC4bjBrPEP/RcyipVy0TkwpOMQWbMIspswqL20ez/maWR+4gK9xfLTmUgICWToeP/xznT7KzAey8OeidQ6L6b0emdzao1BLshR05W80YxEVXmB9f3PXGgjqDEtEd5eQdwHsxX3QyfrvRDlRnTCHcnhreI0EXRaM4eUqSzikQ1jn9yD/ittIvyC95QT7TyFq/HAizxjCfaxGWVzMRRUziJDwW+sGufJZ1BshSl592LF83H2ebweE8z8pvn4XeAl7eQJ4Kvq/Z4D9YqFXUtnlVhSlqt2/ccq14P0JCO7KD8gvD1WqTFol6ldIG20AdIbGGXzmZpIBU3HOoSO/O1Ux5aXSnXFPy0gbwltBqEHOIGWjNc4cxRF7tJEXY33DwZvHVCpnop+mr9PGl8X9ibhwQuL0XsbUCHJGXFBey4nAA3C3ZB+az+U3OIrkPbXgDoxhAPaUvqyHhQSfHQjoRJ+vN+O5nM4mHDakJ1tTGJ3oP8DfvVIJ5XgDK73el8RlKXtio4NUWhIm9W2vuSEC61+VlfFTH36KgXCf6AJzhPtHlCYQamOtWlF4a9FxxYVeinVLxH+wic9fYf9tplxxzWK4KebppBaHnmeduq0SaHcbntVxX7H+oFXXVucRXPBqer4szww/AcSxsVmTCYD6e2YrzB5ozEaJMJcCcsZ1EMQk/NFDL0ELiG3qb69
 
 -->
