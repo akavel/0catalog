@@ -966,6 +966,23 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">Vim configuration for Zig</summary>
     <homepage>https://github.com/ziglang/zig.vim</homepage>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/warp.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Warp</name>
+    <summary xml:lang="en">Fast and secure file transfer</summary>
+    <description xml:lang="en">Warp allows you to securely send files to each other via the internet or local network by exchanging a word-based code.
+The best transfer method will be determined using the Magic Wormhole protocol which includes local network transfer if possible. File transfers are encrypted.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/warp.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/warp.png" type="image/png" />
+    <category>Utility</category>
+    <entry-point command="run" binary-name="warp" />
+    <entry-point command="gdbus" binary-name="gdbus">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="gspawn-win64-helper-console" binary-name="gspawn-win64-helper-console">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="gspawn-win64-helper" binary-name="gspawn-win64-helper" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/zig.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Zig programming language</name>
     <summary xml:lang="en">Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.</summary>
@@ -976,6 +993,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJljSHnAAoJEIqj3WcC4bjBrPEP/RcyipVy0TkwpOMQWbMIspswqL20ez/maWR+4gK9xfLTmUgICWToeP/xznT7KzAey8OeidQ6L6b0emdzao1BLshR05W80YxEVXmB9f3PXGgjqDEtEd5eQdwHsxX3QyfrvRDlRnTCHcnhreI0EXRaM4eUqSzikQ1jn9yD/ittIvyC95QT7TyFq/HAizxjCfaxGWVzMRRUziJDwW+sGufJZ1BshSl592LF83H2ebweE8z8pvn4XeAl7eQJ4Kvq/Z4D9YqFXUtnlVhSlqt2/ccq14P0JCO7KD8gvD1WqTFol6ldIG20AdIbGGXzmZpIBU3HOoSO/O1Ux5aXSnXFPy0gbwltBqEHOIGWjNc4cxRF7tJEXY33DwZvHVCpnop+mr9PGl8X9ibhwQuL0XsbUCHJGXFBey4nAA3C3ZB+az+U3OIrkPbXgDoxhAPaUvqyHhQSfHQjoRJ+vN+O5nM4mHDakJ1tTGJ3oP8DfvVIJ5XgDK73el8RlKXtio4NUWhIm9W2vuSEC61+VlfFTH36KgXCf6AJzhPtHlCYQamOtWlF4a9FxxYVeinVLxH+wic9fYf9tplxxzWK4KebppBaHnmeduq0SaHcbntVxX7H+oFXXVucRXPBqer4szww/AcSxsVmTCYD6e2YrzB5ozEaJMJcCcsZ1EMQk/NFDL0ELiG3qb69
+iQIcBAABAgAGBQJljTGjAAoJEIqj3WcC4bjBs1UP/1+PgXVmdxpDqyNnfz22ghd2Ki5fexwr3f/QC2t8vZGts/uybHrUSTdYQPld0eoFdZLZ3CaHzUgsFPNf82lLSelWfg7qo5qo7H7TqmzdN33Yvgg0cu3bTS5001zi+OTmnmzMzEzl8GyBh9fdFspnTORSECQjzlFh6D1hoT4IVSwDR/E2Kc9CQfZwG/zeVYM+Crk9NzU6Sdkkaj5b7lDzbpT2Hy4vPqsH3sj0gpwwa4TYUT6L4muxbA9lMiq7vg53fP5I7oP3HYFlisboYSi4q9RrNA2l49mg+bGuTQsytKRCfB8YYs8wpUwaiSMH5+RLfza3jYMPnCQimcyuihA4ryL2OHdsEeAMoZn3BxQHVPD23gdyTDAbN9vIhUlZZ/b0USwnJEz78qi57ZaHh/Tia2R3ZjblKA2r6fqbu4f1JE+LOprZanKeYoCw1iJMXmV5FuCKRni7M/8G4wmjnLLr27kCUGUUPNpwaaOS+iS3gbxj6Nrl4b854/w7mzB+1W1UUM9zJRe4OLEwKiBIasQMTozdhtEIJNKbwuqyaWZXP/Bd11smdzUy9jET7LP6vXASPyrzhmyfW8Das8oSnZJi2Ij/rZrq52iQio1JOjjYNdb+HcSVH9279btRKuMwarPsLQ6BAMOPSZBJuen6bisXCFrl20EJoVzD7tRzmXBdAksF
 
 -->
