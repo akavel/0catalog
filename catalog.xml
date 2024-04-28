@@ -36,6 +36,19 @@
     <needs-terminal />
     <entry-point command="run" binary-name="gyro" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/itch.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>itch</name>
+    <summary xml:lang="en">the itch.io desktop app</summary>
+    <description xml:lang="en">The itch.io app, itch, lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated. Access your collections and purchases, or browse for new games via the in-app browser.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/itch.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/itch.png" type="image/png" />
+    <category>Game</category>
+    <entry-point command="run" binary-name="itch" />
+    <entry-point command="cli" binary-name="cli">
+      <needs-terminal />
+      <name xml:lang="en">cli.js</name>
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/jujutsu.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Jujutsu VCS</name>
     <summary xml:lang="en">A Git-compatible DVCS that is both simple and powerful </summary>
@@ -967,6 +980,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJlErr7AAoJEIqj3WcC4bjBD9cP/1q8wvsble4nDoSzCfD3yswTV5aOrIgl1jS8TbhSmXsoJvrLIRsHki4iTGL4f2ymY98a/ZFJKAwcy91j0roriUJQuVMgJMIFr/3kEE2QbmsUDo99EuJx9r4ogVDO81rjcPqk1I2owpfkpStraUhymiEDPvCvaGZI1YUOuhs4DxlFjP3dKCkDDrqFr1tNtIhWrM6QQCJnFk7Pv8VC8IzRb+6SsKiN9/ttCd47dXQMclFZEQ79xDpK/9291V3vGoqM0DPyJWnzcGn7GhGpSDrs1I7tqvMU4g7ouGILy8iKEl+9Ds2EpJ0gDP3b5PpQ7StuyD486MBWOJbX6U3PWIhcsjOJtf9bmkHRw40MAXMIm2X6YDz0sVjJu/lv3A7+Qm70khl28jipTek+7sAcCFb1DOyfHQQGPFQAu2soZpTabgRa+/ow0x0bfHY/JAp18If2HzAQpwyXnPL7vdDFrtvZmR4mPSxAc/xyd7gK4vlKvOEOtIHCUUiJy/EXIAHZK7lAJjg2yjMiVZDV/LAaLTjwnUzfpDCixt6+T9k9kkt1sj8A796WC+/MCRrn0NQzYo/shLoqCCfrEzF11YRiIPiSK6gK7q9f23tzIMqr38VF5ilssmYF2MI5olKdmxc6EkptF+SMrnwLL0pGsgSwY3vkZ4mFXTvjPBzpTCjQVdNvoOWA
+iQEcBAABAgAGBQJmLp+LAAoJENowmjMI8Ih7LzYH/1K78kPsFcDFlWJJhcJEnAFJjEbgNqq37/406NNVTjjF3h8hkMIjTkqEk4AYzl5/MXzvogi/MKh5i6z5O9oE8ZxxmkeKfUKtUCVNWrVidT+VdlZD18j/Ikansr00f5UzbkKWtotG8ESckQ0RO6AvUZE21W7WEYGqSHwAmB7LvOEnmj8IFZThEePtlKDyyO3LUXhSb1yHJ4RwuK2P1jBW4oI2+n2a0HoOLaIfSkuV8jxtY5gtD7e1zTABPV7wSjaEw4EZnP+b7XGn7CyyxSWal+v481T+xEjluBqGC7D/rkKD5qTr1ci55erkw9ct1muutRZExHHrLd2XeZyzsoA1ZwI=
 
 -->
