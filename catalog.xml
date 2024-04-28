@@ -36,6 +36,19 @@
     <needs-terminal />
     <entry-point command="run" binary-name="gyro" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/itch.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>itch</name>
+    <summary xml:lang="en">the itch.io desktop app</summary>
+    <description xml:lang="en">The itch.io app, itch, lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated. Access your collections and purchases, or browse for new games via the in-app browser.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/itch.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/itch.png" type="image/png" />
+    <category>Game</category>
+    <entry-point command="run" binary-name="itch" />
+    <entry-point command="cli" binary-name="cli">
+      <needs-terminal />
+      <name xml:lang="en">cli.js</name>
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/jujutsu.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Jujutsu VCS</name>
     <summary xml:lang="en">A Git-compatible DVCS that is both simple and powerful </summary>
@@ -993,6 +1006,6 @@ The best transfer method will be determined using the Magic Wormhole protocol wh
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJljTGjAAoJEIqj3WcC4bjBs1UP/1+PgXVmdxpDqyNnfz22ghd2Ki5fexwr3f/QC2t8vZGts/uybHrUSTdYQPld0eoFdZLZ3CaHzUgsFPNf82lLSelWfg7qo5qo7H7TqmzdN33Yvgg0cu3bTS5001zi+OTmnmzMzEzl8GyBh9fdFspnTORSECQjzlFh6D1hoT4IVSwDR/E2Kc9CQfZwG/zeVYM+Crk9NzU6Sdkkaj5b7lDzbpT2Hy4vPqsH3sj0gpwwa4TYUT6L4muxbA9lMiq7vg53fP5I7oP3HYFlisboYSi4q9RrNA2l49mg+bGuTQsytKRCfB8YYs8wpUwaiSMH5+RLfza3jYMPnCQimcyuihA4ryL2OHdsEeAMoZn3BxQHVPD23gdyTDAbN9vIhUlZZ/b0USwnJEz78qi57ZaHh/Tia2R3ZjblKA2r6fqbu4f1JE+LOprZanKeYoCw1iJMXmV5FuCKRni7M/8G4wmjnLLr27kCUGUUPNpwaaOS+iS3gbxj6Nrl4b854/w7mzB+1W1UUM9zJRe4OLEwKiBIasQMTozdhtEIJNKbwuqyaWZXP/Bd11smdzUy9jET7LP6vXASPyrzhmyfW8Das8oSnZJi2Ij/rZrq52iQio1JOjjYNdb+HcSVH9279btRKuMwarPsLQ6BAMOPSZBJuen6bisXCFrl20EJoVzD7tRzmXBdAksF
+iQIcBAABAgAGBQJmLqcgAAoJEIqj3WcC4bjBcqYQAKi+W4g7IKILFn+H+SOup+qp5gvBwpqOtkVpgqljW5qp2XnqRd/XyCTbVg9IML3twm5njeE0aUr1zanF4s8iwSTOKuZ3XvAPXXvTTvntapCRM81LNHB0vYffEVApcmleCQ7wVcvC5jD8zR+RjrkJQKkk9gCOuHTDQlJ4hre0CMrwpsrvl5+0lPd9mmGAC0WaiMBtE/GTBYk0K59Nii7S1yGN28Dw6vqsbOKpXUpD2vn7TxI+ZtLajbJo9wRY+yXiUayiEOfhnu9J2SX1YvId45zU4mk4nEkhxqd/4tXcDCI3spdz4QHBfPW0H5OSq7zoQi7Cmy0ltncgcsXIbVklJFuDxlsVWK/2MJIDsXnMBZhVvFyhFrAGkRL71X5fP8zyJh/Y90mqrnKT7iKVVjoY1nvpJq0KQB4rdV2AsE8lanC+YlhgJxfS4Y9dCj9KoLwVUg7GQQI6iY8bIBLFxA7TzMXwaEIoubL9HGRB87U+/7iFWCzEID+519yOYXtSzIcIF3LeFpj4LaujatDcB+drYqbQonjlum7nR9jWt9HNiV406cc1RpbRhrN+O8g9D+qbLxJP61IPXyH61eWVFK0e2Oj/yU/aKR+nAuKSUp/yH4oTfSXCmw6p0BRVXvI7dMKy8butHTfzK3Cl/An7brsVXFwPJK9NViLI6onCA7Wv6Fkc
 
 -->

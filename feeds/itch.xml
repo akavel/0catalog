@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/itch.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>itch</name>
+  <summary xml:lang="en">the itch.io desktop app</summary>
+  <description xml:lang="en">The itch.io app, itch, lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated. Access your collections and purchases, or browse for new games via the in-app browser.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/itch.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/itch.png" type="image/png" />
+  <category>Game</category>
+  <implementation arch="Windows-x86_64" version="25.6.2" id="sha256new_APRH6BPECHOVOU2E3E65NQDDTTUXVS63A7RRXQ7JSY3LHR2GLONA">
+    <command name="run" path="itch.exe" />
+    <command name="cli" path="resources\app\node_modules\systeminformation\lib\cli.js" />
+    <manifest-digest sha256new="APRH6BPECHOVOU2E3E65NQDDTTUXVS63A7RRXQ7JSY3LHR2GLONA" />
+    <archive href="https://broth.itch.zone/itch/windows-amd64/25.6.2/archive/default" size="85257460" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="itch" />
+  <entry-point command="cli" binary-name="cli">
+    <needs-terminal />
+    <name xml:lang="en">cli.js</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJmLqZ8AAoJEIqj3WcC4bjBzNkP/RPzRn0xDGfHZjmQnZzNXUlGP+ggLax9sl2UZC3i2TO5vA3x1MZQ2K7wbXrp+NvB9H36+Tcv7AMzErHNXlkkx+IK2P4nXaKkt/aUH74mHgdujBxwB2LXSqxaiIICVPp1cbLT7EVyYJnAaRmTB6upZlVMuEFd8qhUJlSoEq+GJKteO09UiD4SyydE+NXHokOUU7K3utjjTnzjDC9qUoNEHOy8wZYrdvfu/TSJLeNDW0cP8RWsgqPG0HXGy8rp2ZfDdfD5otB/z4v8xyKYdC/Y94nDMvWH0fkUZdZXffXz94OKYHOWgdOJS6l0gtDh0dCf+upSAs77HKWF0wjOvDhkgtBCqlxcg5pGfX0P9pNn3sxtrRYI4KAFrwH2bPkpSNsqXifPgMedtA+T2NGloIk/Ssoe/Yh24VTg5CqDFwd5qV2WPS+8Pa72O784on1cJjsKWqZE+5qMSDIqeY7McR8ta5WYwvJ5arEl8RZgKaGIFoBb7NT6W1VPgL/lVBiLWdzbHbRWmb7peCzmUCVfB2T0DxaEoJbKZThLfS/Wq6ozIh6qVFp12QqDiWRD0rPFuKzrFbALDxSbu9ZYahYfqo+1gdr0ukuMjpQocS/miZjKs0Np3fsU2HEiiAhxSRDZAMIe6VpUxYI92GK7dfvr/0QM30flgtQkWWzJ3danfgjDf/5r
+
+-->
