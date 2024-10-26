@@ -436,6 +436,15 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <needs-terminal />
     <entry-point command="run" binary-name="rg" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/rymdport.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Rymdport (wormhole-gui)</name>
+    <summary xml:lang="en">Cross-platform application for easy encrypted file, folder, and text sharing between devices. </summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/rymdport.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/rymdport.png" type="image/png" />
+    <category>Utility</category>
+    <homepage>https://rymdport.github.io/</homepage>
+    <entry-point command="run" binary-name="Rymdport" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/sapling.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Sapling SCM</name>
     <summary xml:lang="en">a cross-platform, highly scalable, Git-compatible source control system</summary>
@@ -970,6 +979,23 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">Vim configuration for Zig</summary>
     <homepage>https://github.com/ziglang/zig.vim</homepage>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/warp.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Warp</name>
+    <summary xml:lang="en">Fast and secure file transfer</summary>
+    <description xml:lang="en">Warp allows you to securely send files to each other via the internet or local network by exchanging a word-based code.
+The best transfer method will be determined using the Magic Wormhole protocol which includes local network transfer if possible. File transfers are encrypted.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/warp.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/warp.png" type="image/png" />
+    <category>Utility</category>
+    <entry-point command="run" binary-name="warp" />
+    <entry-point command="gdbus" binary-name="gdbus">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="gspawn-win64-helper-console" binary-name="gspawn-win64-helper-console">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="gspawn-win64-helper" binary-name="gspawn-win64-helper" />
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/zerobrane.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>ZeroBrane Studio</name>
     <summary xml:lang="en">Lightweight IDE for your Lua needs</summary>
@@ -1002,6 +1028,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJnHQ15AAoJEIqj3WcC4bjBM28P/idWcvWpOrrTdAzcUNxVyRBGfBQqWF3JxmmFMiYIqCUgi1gOxlOKi7rSDr7BZkzzxkfC8txNOkZZAnaL29n5p5uvNeKLufDIOmRTgLnzH+aEA7Alll6K1VLrk7gq9+4kWYNhriRuKFT/yqs/J4hHI/wvAe/rH3QPQI8XZlb/Pp3wHkprSWUD00ZRByEnLFckz05nHW2hXMFrPd18KocYN1QlugNn2S6bf2Lr/jhOMPP5R/OIEFxB+vetfXqV029eU3CA42Y1xxIvaaKIzlsaYTWtSiYaGi3uSdbk5oQA4NNkLo50C3quPT+7085oXUD5Q2v4wYGtWdoAEqf7bg7ATK3jGArqmbnee7xeS2DoRUBAjUplGPP0dUH0yI1WmiaGiZpap42w8Fpb3ijJIZqF7ISyLXI917fsFS7y9dIOQ8cvhcJOQbdYUahHG9nprOY1tLolgaD0Vzze5ZIO6zQIb+ttu8vRxld/o6H16yXeQfQfN/fOJjLeLK4KLte93aOAy3DFxAFUUoSZuYOecbq35c1WMgN4CktkVEP16KAvZaDtGZ3XOd7X08+s0y7FHc5C+FLHsLBu82GlP4rKQx5/yFzCbHw6tSLJMFFjc/bRuLR9jRAHJAm0umZ88R5p4ViDe8jczqMgW0X4PikaYgNe8hW6Stq/oZH3YaEDll1+ufq/
+iQIcBAABAgAGBQJnHQ5XAAoJEIqj3WcC4bjBc5UP/2xG94SwJq1aXH7iPo75hDFCquoNVmaOBmB87jlwGH/fRqw2AUSsEqVvgAdiB1459u7kBG58IuJtvSuZwnkwTUAoF2iaz1lRTD8lJNAAgritJzN4z5LXgk1qyFT/+vQwpcJX/sD5Sf3CNqZ1VUDFQ1d5SX1IccBjyRCZzGesdIG0YoCAnusucDO78C4oExGagREvvBCa8a+mxXtmoLRj017NJ0Eyje+hrdiXT+ciYw5v2XXBDqWnnWn9q6R/2n7fuzGQLTQqmJrwhrYyfeSLXke7eqcKHI0ReQIxaTdTO1At1kCrxaqd33Jiu2QlQldVkIRfkhMn1IHvCLO+SxYCKTRu4hJ2Qy/cEN21PhNoh4tcBkjyJl+HsLYGsFA4vuSGx0pbWlNrQQYR/+MUwY3tK4bTXTCaQDOGEnM4PRYLD1nsIhTQIHdMRUexgk0ZZeuNM/dRMsKJoCPalhL8DjWqmqCezsqkhT1vLMCwG8Rpd08bHfHzQ2Ngp8/OiGzIcepY7lDm2xf/Bj2zCUmbiPk4d/3a5dQZukY941+bP55zjHM0wPlnE+vLvvJl3H+V4hgUdMya9d9k6+2pUXlSxpQ3K6ICi5zS+coAbVGoTfjwRcjcdFulG8qW3Thc7No/lfoCKxwkgubTzCAXMFaoKVaI2peAx0O8CZyykV7nZdeYlvGG
 
 -->

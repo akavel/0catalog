@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/warp.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Warp</name>
+  <summary xml:lang="en">Fast and secure file transfer</summary>
+  <description xml:lang="en">Warp allows you to securely send files to each other via the internet or local network by exchanging a word-based code.
+The best transfer method will be determined using the Magic Wormhole protocol which includes local network transfer if possible. File transfers are encrypted.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/warp.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/warp.png" type="image/png" />
+  <category>Utility</category>
+  <implementation arch="Windows-x86_64" version="0.6.2" id="sha256new_5M7KDFEWLFYDC7VR3W6VWIABC2UF65YM7AIXBUETW2MZZLVHWJAA">
+    <command name="run" path="warp.exe" />
+    <command name="gdbus" path="gdbus.exe" />
+    <command name="gspawn-win64-helper-console" path="gspawn-win64-helper-console.exe" />
+    <command name="gspawn-win64-helper" path="gspawn-win64-helper.exe" />
+    <manifest-digest sha256new="5M7KDFEWLFYDC7VR3W6VWIABC2UF65YM7AIXBUETW2MZZLVHWJAA" />
+    <archive href="https://gitlab.gnome.org/World/warp/-/jobs/3342243/artifacts/download?ext=.zip" size="36424170" type="application/zip" extract="warp-nightly-windows" />
+  </implementation>
+  <entry-point command="run" binary-name="warp" />
+  <entry-point command="gdbus" binary-name="gdbus">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gspawn-win64-helper-console" binary-name="gspawn-win64-helper-console">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="gspawn-win64-helper" binary-name="gspawn-win64-helper" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJljTGUAAoJEIqj3WcC4bjBLR4P+wWq6fB8ApqKA/FqhQy0gHpbA3lXCGBM6FBEfXKKkhfr5Xql7/JBVJxrPg73+Aml3P73WdEkec0kkrpIYdUTjsEbfD381PjJOD7YTHjVmPrmZJsaV1yUSUjXLM6BzmuXJU1aw+Ky817STS6goEBjDDCKOKnoT/GOQNb9cC/xgouYwqfq2qfHAo8X9/4di4ur7AjMV2KIkgATujTLBJzlRCoKakLjY30vx0LKPvqORxi67Z5Xunjqhk4oOORJKNwHAfBXoVoM+zUJlkdHROQPo9J9c2QLxLoQg142qhBzxHGdjMTaN8xlg43nI80opcGQ6K3GAZmwjdMh739Rvotx6I9rHwjmJjzE8XJOlE/8QRyqiByKI+XhmqMHX3mfRWReDeMMZU+9Q1nlVxkZXqcitLq6Ad8sDaeKKti8vo/R8YXObScCw5cnWZylb3AX+tv5mlgOpuwa2Y2E0GmsUFr1LCWeHqy6jTYDM25nXK3buWVYWBj2FuT9OniRItNKedoFHXruj7j7zmls278W0mL+64xcTHsu+Eb359j7IdNu9+DnWwLPU5i1jU3i1DKDZnophzwhzqPk85K8/4wR4s9CXp7FwdvxK2PZrzjNLYIgl7UQ3m79QneL3qGohP3RBs19ir6InkDW8D9mnNEQ+Yjh0KLPaWCOd/HzoeB9h8CvPds6
+
+-->
