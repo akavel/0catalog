@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/zerobrane.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>ZeroBrane Studio</name>
+  <summary xml:lang="en">Lightweight IDE for your Lua needs</summary>
+  <description xml:lang="en">ZeroBrane Studio is a lightweight Lua IDE with code completion, syntax highlighting, live coding, code analyzer, and debugging support for Lua 5.1, Lua 5.2, Lua 5.3, Lua 5.4, LuaJIT, and other Lua engines.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/zerobrane.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/zerobrane.png" type="image/png" />
+  <category>Development</category>
+  <homepage>https://studio.zerobrane.com/</homepage>
+  <implementation arch="Windows-*" version="2.1" id="sha256new_55G2DRHUBHNIQLEQEPJ2CEHWUBFUNKUAEZSARS4DHZEGOAJKHOQA">
+    <command name="run" path="zbstudio.exe" />
+    <command name="lua" path="bin\lua.exe" />
+    <command name="lua52" path="bin\lua52.exe" />
+    <command name="lua53" path="bin\lua53.exe" />
+    <command name="lua54" path="bin\lua54.exe" />
+    <manifest-digest sha256new="55G2DRHUBHNIQLEQEPJ2CEHWUBFUNKUAEZSARS4DHZEGOAJKHOQA" />
+    <archive href="https://download.zerobrane.com/ZeroBraneStudioEduPack-2.01-win32.zip" size="8327643" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="zbstudio" />
+  <entry-point command="lua" binary-name="lua">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="lua52" binary-name="lua52">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="lua53" binary-name="lua53">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="lua54" binary-name="lua54">
+    <needs-terminal />
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJnHQz2AAoJEIqj3WcC4bjBkf0P/2DzK6Apm7bMCFjGd+Q2DIzzsUEmgcw1i/vN4617wGBHzOMU7YF+3hBdd2/uIuLkl96ffptxnBkGeppT6kWUXnn4nlPLJHk7tFKWhMBXrL1/VN5RJeWye21VWR7c8j3scLtkMddGFQvN0/02V1LMiO+NvMQUEpy+YHpnbpTI8wlmwvI4O6Ta5uvcFWDWa8MqYBzWqq1HzUFXEKmo++N1jFkHwc9wPrm9Md+04ZtKq6RnQyz1GTBai2KqMb7ygaIMp7fOVozdrLQ1WEmIUwSUWOEfYuL72rgalBHCi8DXcDEeEcBan87EAyy8yrG78gAUbgPW95c14XOaU5o+um8zxwkZGpg9KcqpkwkMbUNOQBGW/zZO4mXQLBebGFE6I8gBXF8gCBC4S5MNmT7UFqLoAbOXVksfXq8vgxQW9RJG/C9Jph1PviAEDBXa7/3tt4LHCUguW4n3pmwyFRrsHJfsn5UzfsUsAolalg2ETJhcOmIBGa9FR7n+9Xb66u1Em/iTgF+vOVRTYBdcEBseGz25MG7i8JKHPe2AChaUlBaTTLwcdChyTvv2rfPV0h16F9quaDODzZD7Cuafm1zVVZswTaj0PDKIBwCJSuDU8tJdFD6acZQfNElJu8GjvOCKPD/ga96XHPioeRZfWL9zDsuOTxfC7MmUJXFN+7PkBWGX6LBV
+
+-->

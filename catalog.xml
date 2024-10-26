@@ -970,6 +970,28 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
     <summary xml:lang="en">Vim configuration for Zig</summary>
     <homepage>https://github.com/ziglang/zig.vim</homepage>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/zerobrane.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>ZeroBrane Studio</name>
+    <summary xml:lang="en">Lightweight IDE for your Lua needs</summary>
+    <description xml:lang="en">ZeroBrane Studio is a lightweight Lua IDE with code completion, syntax highlighting, live coding, code analyzer, and debugging support for Lua 5.1, Lua 5.2, Lua 5.3, Lua 5.4, LuaJIT, and other Lua engines.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/zerobrane.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/zerobrane.png" type="image/png" />
+    <category>Development</category>
+    <homepage>https://studio.zerobrane.com/</homepage>
+    <entry-point command="run" binary-name="zbstudio" />
+    <entry-point command="lua" binary-name="lua">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="lua52" binary-name="lua52">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="lua53" binary-name="lua53">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="lua54" binary-name="lua54">
+      <needs-terminal />
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/zig.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>Zig programming language</name>
     <summary xml:lang="en">Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.</summary>
@@ -980,6 +1002,6 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJmLp+LAAoJENowmjMI8Ih7LzYH/1K78kPsFcDFlWJJhcJEnAFJjEbgNqq37/406NNVTjjF3h8hkMIjTkqEk4AYzl5/MXzvogi/MKh5i6z5O9oE8ZxxmkeKfUKtUCVNWrVidT+VdlZD18j/Ikansr00f5UzbkKWtotG8ESckQ0RO6AvUZE21W7WEYGqSHwAmB7LvOEnmj8IFZThEePtlKDyyO3LUXhSb1yHJ4RwuK2P1jBW4oI2+n2a0HoOLaIfSkuV8jxtY5gtD7e1zTABPV7wSjaEw4EZnP+b7XGn7CyyxSWal+v481T+xEjluBqGC7D/rkKD5qTr1ci55erkw9ct1muutRZExHHrLd2XeZyzsoA1ZwI=
+iQIcBAABAgAGBQJnHQ15AAoJEIqj3WcC4bjBM28P/idWcvWpOrrTdAzcUNxVyRBGfBQqWF3JxmmFMiYIqCUgi1gOxlOKi7rSDr7BZkzzxkfC8txNOkZZAnaL29n5p5uvNeKLufDIOmRTgLnzH+aEA7Alll6K1VLrk7gq9+4kWYNhriRuKFT/yqs/J4hHI/wvAe/rH3QPQI8XZlb/Pp3wHkprSWUD00ZRByEnLFckz05nHW2hXMFrPd18KocYN1QlugNn2S6bf2Lr/jhOMPP5R/OIEFxB+vetfXqV029eU3CA42Y1xxIvaaKIzlsaYTWtSiYaGi3uSdbk5oQA4NNkLo50C3quPT+7085oXUD5Q2v4wYGtWdoAEqf7bg7ATK3jGArqmbnee7xeS2DoRUBAjUplGPP0dUH0yI1WmiaGiZpap42w8Fpb3ijJIZqF7ISyLXI917fsFS7y9dIOQ8cvhcJOQbdYUahHG9nprOY1tLolgaD0Vzze5ZIO6zQIb+ttu8vRxld/o6H16yXeQfQfN/fOJjLeLK4KLte93aOAy3DFxAFUUoSZuYOecbq35c1WMgN4CktkVEP16KAvZaDtGZ3XOd7X08+s0y7FHc5C+FLHsLBu82GlP4rKQx5/yFzCbHw6tSLJMFFjc/bRuLR9jRAHJAm0umZ88R5p4ViDe8jczqMgW0X4PikaYgNe8hW6Stq/oZH3YaEDll1+ufq/
 
 -->
