@@ -8,6 +8,53 @@
     <needs-terminal />
     <entry-point command="run" binary-name="adb" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/arduino-ide.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Arduino IDE</name>
+    <summary xml:lang="en">Arduino IDE</summary>
+    <icon href="https://akavel.github.io/0catalog/feeds/arduino-ide.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/arduino-ide.png" type="image/png" />
+    <category>Development</category>
+    <homepage>https://www.arduino.cc/en/software</homepage>
+    <entry-point command="run" binary-name="Arduino IDE" />
+    <entry-point command="windows-trash" binary-name="windows-trash">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="rg" binary-name="rg">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="arduino-cli" binary-name="arduino-cli">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="arduino-fwuploader" binary-name="arduino-fwuploader">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="arduino-language-server" binary-name="arduino-language-server">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="clang-format" binary-name="clang-format">
+      <needs-terminal />
+      <name xml:lang="en">clang</name>
+    </entry-point>
+    <entry-point command="clangd" binary-name="clangd">
+      <needs-terminal />
+      <name xml:lang="en">clang</name>
+    </entry-point>
+    <entry-point command="winpty-agent" binary-name="winpty-agent">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="options-doc" binary-name="options-doc">
+      <needs-terminal />
+      <name xml:lang="en">options-doc</name>
+    </entry-point>
+    <entry-point command="serial-port-build" binary-name="serial-port-build">
+      <needs-terminal />
+      <name xml:lang="en">serial-port-build</name>
+    </entry-point>
+    <entry-point command="terminateProcess" binary-name="terminateProcess">
+      <needs-terminal />
+      <name xml:lang="en">terminateProcess</name>
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/choosenim.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>choosenim</name>
     <summary xml:lang="en">Easily install and manage Nim compiler versions</summary>
@@ -1028,6 +1075,6 @@ The best transfer method will be determined using the Magic Wormhole protocol wh
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJnHQ5XAAoJEIqj3WcC4bjBc5UP/2xG94SwJq1aXH7iPo75hDFCquoNVmaOBmB87jlwGH/fRqw2AUSsEqVvgAdiB1459u7kBG58IuJtvSuZwnkwTUAoF2iaz1lRTD8lJNAAgritJzN4z5LXgk1qyFT/+vQwpcJX/sD5Sf3CNqZ1VUDFQ1d5SX1IccBjyRCZzGesdIG0YoCAnusucDO78C4oExGagREvvBCa8a+mxXtmoLRj017NJ0Eyje+hrdiXT+ciYw5v2XXBDqWnnWn9q6R/2n7fuzGQLTQqmJrwhrYyfeSLXke7eqcKHI0ReQIxaTdTO1At1kCrxaqd33Jiu2QlQldVkIRfkhMn1IHvCLO+SxYCKTRu4hJ2Qy/cEN21PhNoh4tcBkjyJl+HsLYGsFA4vuSGx0pbWlNrQQYR/+MUwY3tK4bTXTCaQDOGEnM4PRYLD1nsIhTQIHdMRUexgk0ZZeuNM/dRMsKJoCPalhL8DjWqmqCezsqkhT1vLMCwG8Rpd08bHfHzQ2Ngp8/OiGzIcepY7lDm2xf/Bj2zCUmbiPk4d/3a5dQZukY941+bP55zjHM0wPlnE+vLvvJl3H+V4hgUdMya9d9k6+2pUXlSxpQ3K6ICi5zS+coAbVGoTfjwRcjcdFulG8qW3Thc7No/lfoCKxwkgubTzCAXMFaoKVaI2peAx0O8CZyykV7nZdeYlvGG
+iQIcBAABAgAGBQJnsN80AAoJEIqj3WcC4bjBXX8P/AtNBIwvsPG8RW5eEOGVyfUloeeClMc9PKkji/Y3Xx+uXLNzIvAh80LnF85D1iuSMiRwOQrlh9hXrMtQVa7aCS6bh2n0SCtyMCnzeQ3ZXCBaC5C2/cLmUV3edUSVLo+RtYCZ0mYnHiFbSZlayuN7Q++9Coz2ebJMYrYtpygNx0qGKxO4peFDKINJkUTkFo4rbVL8DdgLE15SmsIPuLRIgfkezXuFIjliZ2MtiBhIOk1ddKR2BFZbdyMc53ImPPl2N1R7IglojqWaHU15HOjfYeKfQ0HRev6DYbKl6J//9Tld0tw76ndASeAY3Yvv5NKAzvx5nsb5Gp643LXEKYB3+YWqihCG1uDXi8DOmwLddUJqnzOfPcPbGongdCbKUwWYbVZRLbns0c+Eugx8a3LlLD/1OOAthH7SbAFAYYqGW3l/hjbvLXP+UK8jgJMjtK21u9mfCYRrBCxXGwApaCov5aKsZH5tPeJvMqZ95e7FRT1kvhLVw988xqA8bE3e8M4MciIDLD4UCuX00bcCNk3K1hIzSKReHTaoLjV3V6nYjzlcHz+7dB+koKZUI+8iaKuRpV7nNSlF2GMUvKFJXHhj8YzZI1arM3+DnXu3iAr9PvNwSijixAM0ivcgegBPn2ahve0mFhFf1SnRpCGRFRiOenn2Pf6Bc1EKsgO16Oe5eCxV
 
 -->

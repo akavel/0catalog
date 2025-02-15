@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/arduino-ide.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Arduino IDE</name>
+  <summary xml:lang="en">Arduino IDE</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/arduino-ide.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/arduino-ide.png" type="image/png" />
+  <category>Development</category>
+  <homepage>https://www.arduino.cc/en/software</homepage>
+  <implementation arch="Windows-x86_64" version="2.3.4.0" id="sha256new_AWSMSODJV2JEOUSQPVHWV4FD62CKR6RGQPBAB6M6YZOWIQVQOE7Q">
+    <command name="run" path="Arduino IDE.exe" />
+    <command name="windows-trash" path="resources\app\lib\backend\windows-trash.exe" />
+    <command name="rg" path="resources\app\lib\backend\native\rg.exe" />
+    <command name="arduino-cli" path="resources\app\lib\backend\resources\arduino-cli.exe" />
+    <command name="arduino-fwuploader" path="resources\app\lib\backend\resources\arduino-fwuploader.exe" />
+    <command name="arduino-language-server" path="resources\app\lib\backend\resources\arduino-language-server.exe" />
+    <command name="clang-format" path="resources\app\lib\backend\resources\clang-format.exe" />
+    <command name="clangd" path="resources\app\lib\backend\resources\clangd.exe" />
+    <command name="winpty-agent" path="resources\app\lib\build\Release\winpty-agent.exe" />
+    <command name="options-doc" path="resources\app\plugins\cortex-debug\extension\options-doc.py">
+      <runner interface="https://apps.0install.net/python/python.xml" command="run" />
+    </command>
+    <command name="serial-port-build" path="resources\app\plugins\cortex-debug\extension\serial-port-build.sh">
+      <runner interface="https://apps.0install.net/utils/bash.xml" />
+    </command>
+    <command name="terminateProcess" path="resources\app\plugins\vscode-arduino-tools\extension\dist\terminateProcess.sh">
+      <runner interface="https://apps.0install.net/utils/bash.xml" />
+    </command>
+    <manifest-digest sha256new="AWSMSODJV2JEOUSQPVHWV4FD62CKR6RGQPBAB6M6YZOWIQVQOE7Q" />
+    <archive href="https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.4_Windows_64bit.zip" size="195432506" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="Arduino IDE" />
+  <entry-point command="windows-trash" binary-name="windows-trash">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="rg" binary-name="rg">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="arduino-cli" binary-name="arduino-cli">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="arduino-fwuploader" binary-name="arduino-fwuploader">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="arduino-language-server" binary-name="arduino-language-server">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="clang-format" binary-name="clang-format">
+    <needs-terminal />
+    <name xml:lang="en">clang</name>
+  </entry-point>
+  <entry-point command="clangd" binary-name="clangd">
+    <needs-terminal />
+    <name xml:lang="en">clang</name>
+  </entry-point>
+  <entry-point command="winpty-agent" binary-name="winpty-agent">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="options-doc" binary-name="options-doc">
+    <needs-terminal />
+    <name xml:lang="en">options-doc</name>
+  </entry-point>
+  <entry-point command="serial-port-build" binary-name="serial-port-build">
+    <needs-terminal />
+    <name xml:lang="en">serial-port-build</name>
+  </entry-point>
+  <entry-point command="terminateProcess" binary-name="terminateProcess">
+    <needs-terminal />
+    <name xml:lang="en">terminateProcess</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJnsN8fAAoJEIqj3WcC4bjB7kQP/3G3c066FwixwT5CzJezdIbqwXojNH/wNgVsKclNi+eDhvXrix7Zd7QJGCl0uME4Ps6DnCltxwkg/jcWMz5jCeKXRnKjO4CZUofbOoymJC9H7/60NQ/AHGsJqyMWmsxzXXTiNK4zP/drPNTr2C7g8ajHAqixzg6RXpscfh8Ay6hoyYVDgq2oa5293RUdTJICKhBbnE8xg3FzN34h8s0raiv0qSL7ClRiB++xgFfxX3HiHGNlV9rBSDvqT/f7RXDjgiHravEZ/TIsvbjhrjweEaVxEC8r9HlXa9JTEaBSgn89iVm+Fpi2pydVt7mddbY/b2A/uKpxYyG+GwjDquDP4Pov9SasDXE/zmY+NdR5BLXp/Uw40AXhAjvoHsrPqCEvxQA15ZXYFEcTaY6i/eNjsrCKPEioWCNn7QPZMeRiAYQlEp7+P/UYpO0caMzDBMbbLwkFj+H3yDxGVneHAUOm5tmPM67vCQbkX+qc44QjznSrb3du6LpfmpK98VpoK5XBAJwIzGdhtLHQ3bjk4B4GetSThKx9cACK3p/WK7vNa9hvNvWk0cR1HdZVT989y2we7bPgjaE2aypmJ+1j+G4wRVO6SO0bTKCyXGHFB7cLc+2K7FDVFCF7tRpFwByktneNJMq3LijfI+i/0Tl9XJ/s4VovC4EZNF/YdpkXeEFIUVgk
+
+-->
