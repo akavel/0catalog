@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/obs.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>OBS Studio</name>
+  <summary xml:lang="en">Free and open source software for video recording and live streaming</summary>
+  <icon href="https://akavel.github.io/0catalog/feeds/obs.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/obs.png" type="image/png" />
+  <category>AudioVideo</category>
+  <implementation arch="Windows-x86_64" version="31.0.1" id="sha256new_DGJUKDIH4PO7G4EJCFWYC7HRTWLBH6UEQEEIKPCWE4KJIXVLV4AQ">
+    <command name="run" path="bin\64bit\obs64.exe" />
+    <command name="obs-amf-test" path="bin\64bit\obs-amf-test.exe" />
+    <command name="obs-ffmpeg-mux" path="bin\64bit\obs-ffmpeg-mux.exe" />
+    <command name="obs-nvenc-test" path="bin\64bit\obs-nvenc-test.exe" />
+    <command name="obs-qsv-test" path="bin\64bit\obs-qsv-test.exe" />
+    <command name="url-text" path="data\obs-plugins\frontend-tools\scripts\url-text.py">
+      <runner interface="https://apps.0install.net/python/python.xml" command="run" />
+    </command>
+    <command name="get-graphics-offsets32" path="data\obs-plugins\win-capture\get-graphics-offsets32.exe" />
+    <command name="get-graphics-offsets64" path="data\obs-plugins\win-capture\get-graphics-offsets64.exe" />
+    <command name="inject-helper32" path="data\obs-plugins\win-capture\inject-helper32.exe" />
+    <command name="inject-helper64" path="data\obs-plugins\win-capture\inject-helper64.exe" />
+    <command name="virtualcam-install" path="data\obs-plugins\win-dshow\virtualcam-install.bat" />
+    <command name="obspython" path="data\obs-scripting\64bit\obspython.py">
+      <runner interface="https://apps.0install.net/python/python.xml" command="run" />
+    </command>
+    <command name="obs-browser-page" path="obs-plugins\64bit\obs-browser-page.exe" />
+    <manifest-digest sha256new="DGJUKDIH4PO7G4EJCFWYC7HRTWLBH6UEQEEIKPCWE4KJIXVLV4AQ" />
+    <archive href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-31.0.1-Windows.zip" size="181520144" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="obs64" />
+  <entry-point command="obs-amf-test" binary-name="obs-amf-test">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="obs-ffmpeg-mux" binary-name="obs-ffmpeg-mux">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="obs-nvenc-test" binary-name="obs-nvenc-test">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="obs-qsv-test" binary-name="obs-qsv-test">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="url-text" binary-name="url-text">
+    <needs-terminal />
+    <name xml:lang="en">url-text</name>
+  </entry-point>
+  <entry-point command="get-graphics-offsets32" binary-name="get-graphics-offsets32">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="get-graphics-offsets64" binary-name="get-graphics-offsets64">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="inject-helper32" binary-name="inject-helper32">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="inject-helper64" binary-name="inject-helper64">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="virtualcam-install" binary-name="virtualcam-install">
+    <needs-terminal />
+    <name xml:lang="en">virtualcam-install</name>
+  </entry-point>
+  <entry-point command="obspython" binary-name="obspython">
+    <needs-terminal />
+    <name xml:lang="en">obspython</name>
+  </entry-point>
+  <entry-point command="obs-browser-page" binary-name="obs-browser-page" />
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJnudrcAAoJEIqj3WcC4bjBgxkP/0Jvtbpe+K9MyaDCql2MRWg/tpq/V7honKI4FFoiqKSHhLxDXJvvaXC+BYG1SFLmeLvtL2F+NICSt42hjsMJDEZ/+VH7xwsZUAVTvfqyds1jB0uL9UBC2ruI03dbui/tJ7N6Dmv2FI8X45wrUAjG3nIwDwbGLsR8eMmpY3BuZue6tsaI4yW4l3VIURL1dNCZurI8pGbiwxAyw1devWROdtasvPzQdIAlUYd8GBFi5h3hOk9BUggoJepnx4DO1l2I1kBVWZ9jIIj1A9MxgV0dGpO/8IwfsgnUjoaDRfdsxpTYvCmndYJFjhDpR64g4kHri0ZVHryzQBzOcTn2gwaQkumUXHG8julioo7prmJLYYs08r3T99m0t4Xxm+k1fbCbmQdpqs7ZwzuFrOyxYxnNuLiYN0apdQcjuH9mY5Ca+f+eQLPdoCFDDytrBW8ZgRQH8CQRM9m9RpAoYco0QKAM7BFU2nD44QUMuV2hjxvc4085yTB4QSBZcgeEodpo+zWw4wEmZoyVLoXmvMK1D3hOxSgX9mQI52+5kf2yHATd59JbWPkvs2sbF+pGUdn0J0qYqIstzEbNp7hvlRKZY653fka/zS74iW4Kh+yFmd+pKL8HfRag7K1JSfLQfLJCvGK1eB6o2sQqt5zxvXWGmuQQz0facQs09zgpKwnkDcgc/kl+
+
+-->
