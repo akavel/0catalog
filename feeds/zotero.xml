@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/zotero.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Zotero</name>
+  <summary xml:lang="en">Your personal research assistant</summary>
+  <description xml:lang="en">Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.</description>
+  <icon href="https://akavel.github.io/0catalog/feeds/zotero.ico" type="image/vnd.microsoft.icon" />
+  <icon href="https://akavel.github.io/0catalog/feeds/zotero.png" type="image/png" />
+  <category>Science</category>
+  <implementation arch="Windows-x86_64" version="7.0.13" id="sha256new_CAKQPL57HS57FEVZLVGUG2XFS4NV445S3C77DUUIU2AP45BQKJCQ">
+    <command name="run" path="zotero.exe" />
+    <command name="plugin-container" path="plugin-container.exe" />
+    <command name="updater" path="updater.exe" />
+    <command name="helper" path="uninstall\helper.exe" />
+    <manifest-digest sha256new="CAKQPL57HS57FEVZLVGUG2XFS4NV445S3C77DUUIU2AP45BQKJCQ" />
+    <archive href="https://download.zotero.org/client/release/7.0.13/Zotero-7.0.13_win-x64.zip" size="113337685" type="application/zip" extract="Zotero_win-x64" />
+  </implementation>
+  <entry-point command="run" binary-name="zotero" />
+  <entry-point command="plugin-container" binary-name="plugin-container">
+    <name xml:lang="en">Firefox</name>
+    <summary xml:lang="en">Plugin Container for Firefox</summary>
+  </entry-point>
+  <entry-point command="updater" binary-name="updater">
+    <name xml:lang="en">Zotero</name>
+    <summary xml:lang="en">Zotero Software Updater</summary>
+  </entry-point>
+  <entry-point command="helper" binary-name="helper">
+    <name xml:lang="en">Zotero</name>
+    <summary xml:lang="en">Zotero Helper</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJnuZGxAAoJEIqj3WcC4bjBxLQQAKCRgFOnGuIod0l478oSI+aasfTPFCBJ/LPbjSF44mPFCubX+fVGm1RdP21qE4wst3aIVeETJhKjejq+ZbYID68yX7+Ooi1LGsTi9g+KQBy15huCLYMxws5GLt0NEMZGktfzwDl/CjKStuozy34BoIexyzr9WT3/1nj/BdLZtTnHuMHs++sbLQi1rxmWPXVT2AJuUMTLa4yfSzE8E0qnwpLTSNl9IZOZLw3E1IXhmg+0Bgk1RqnRo190QDusgujdR7+L86VKUz+LwS+/VrSJDKkBLtV0N+xdhtqRkaV0eRI6vU0txCH3D6pFS3QA97lHDvFCqEgWAO2113XpfkdF72Q00pV2ciFgklZABAlNAlK3OunFmrdyHgDQLo/F4/gLQJvKP/KYS6zonFajP/BmBrm605V2dspH01/V3rpP/nDWCQU1KzK/CGNQ09TDAraa9v+Du6eXhR7ZvjYPzFUUvJZj+iaa5mU0j8mppvltPqE5DWdOQ7mO1C9pF7N64b1pIiKOFb4zn0x2xv6k0iDINZdTJXP8RMHW6RyS1+PZwfQ1dkYme3a2ep/oi20eNLQy8J/ouSpwonWHdEH4NnWrdgSZecou/M5Y3Stwe6JVC0CDeb6SPwkZBH77rAtRGMSYWbYZqzik4pyDfym+yRhS6NEt+HgFlrcqKqKnwXberQLw
+
+-->

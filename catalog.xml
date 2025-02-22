@@ -1073,8 +1073,29 @@ The best transfer method will be determined using the Magic Wormhole protocol wh
     <needs-terminal />
     <entry-point command="run" binary-name="zig" />
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/zotero.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>Zotero</name>
+    <summary xml:lang="en">Your personal research assistant</summary>
+    <description xml:lang="en">Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.</description>
+    <icon href="https://akavel.github.io/0catalog/feeds/zotero.ico" type="image/vnd.microsoft.icon" />
+    <icon href="https://akavel.github.io/0catalog/feeds/zotero.png" type="image/png" />
+    <category>Science</category>
+    <entry-point command="run" binary-name="zotero" />
+    <entry-point command="plugin-container" binary-name="plugin-container">
+      <name xml:lang="en">Firefox</name>
+      <summary xml:lang="en">Plugin Container for Firefox</summary>
+    </entry-point>
+    <entry-point command="updater" binary-name="updater">
+      <name xml:lang="en">Zotero</name>
+      <summary xml:lang="en">Zotero Software Updater</summary>
+    </entry-point>
+    <entry-point command="helper" binary-name="helper">
+      <name xml:lang="en">Zotero</name>
+      <summary xml:lang="en">Zotero Helper</summary>
+    </entry-point>
+  </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJnsN80AAoJEIqj3WcC4bjBXX8P/AtNBIwvsPG8RW5eEOGVyfUloeeClMc9PKkji/Y3Xx+uXLNzIvAh80LnF85D1iuSMiRwOQrlh9hXrMtQVa7aCS6bh2n0SCtyMCnzeQ3ZXCBaC5C2/cLmUV3edUSVLo+RtYCZ0mYnHiFbSZlayuN7Q++9Coz2ebJMYrYtpygNx0qGKxO4peFDKINJkUTkFo4rbVL8DdgLE15SmsIPuLRIgfkezXuFIjliZ2MtiBhIOk1ddKR2BFZbdyMc53ImPPl2N1R7IglojqWaHU15HOjfYeKfQ0HRev6DYbKl6J//9Tld0tw76ndASeAY3Yvv5NKAzvx5nsb5Gp643LXEKYB3+YWqihCG1uDXi8DOmwLddUJqnzOfPcPbGongdCbKUwWYbVZRLbns0c+Eugx8a3LlLD/1OOAthH7SbAFAYYqGW3l/hjbvLXP+UK8jgJMjtK21u9mfCYRrBCxXGwApaCov5aKsZH5tPeJvMqZ95e7FRT1kvhLVw988xqA8bE3e8M4MciIDLD4UCuX00bcCNk3K1hIzSKReHTaoLjV3V6nYjzlcHz+7dB+koKZUI+8iaKuRpV7nNSlF2GMUvKFJXHhj8YzZI1arM3+DnXu3iAr9PvNwSijixAM0ivcgegBPn2ahve0mFhFf1SnRpCGRFRiOenn2Pf6Bc1EKsgO16Oe5eCxV
+iQIcBAABAgAGBQJnuZHHAAoJEIqj3WcC4bjBl5AQAK1rzM4BeN8jJhU7krQhPRGmm5+DpswjxPDZ1Pj1WkpQd30ZduFyo0JJb82y86m4FrPsU+wxa/4Q2rB6QkQWyZ3fR0Aj/VH2S/CMPBJfSksdF6m9VOBHfB82ChBCEWRi0Sc3bl5nu3zvUr0GGi5qxO2c+wWgItWs9BsAYOyIs5VRKKAW2c606Pa2QvaE8vwRW0rLFglfEtGKsg7tvuFBeKd/wFAsxVN+Vi6397focvVMe1yLeiP+QT80DhAVKAJ7utOGRCQ8gWHs/6rNNuLCVc3VbvZ+OP/6byVh5HO55ykK5tTPyRU0gGR8oniqx0bEQgEQRC0L6XAFUG9er4XTAM0wrjZAmI+ZiNo+dFrNmDKUoWOSzC05Y8nifl2bu2A/U16q5Pue0dJPVimrJiqW2HC+OADYAnrUo4dPaQyNl4iZk3rzCTu1eB4WoXkI56qBdaOoRTyDonsz0Tir4rt7iwJnq1a+LWyy7+DvkbxtiAtGYasiax7qD6OEZPrERh9SX8KmuBtBP82PZjUvn+O5r6O8ICEiykSnMLDIvMs81X8Z9oN8sLytiEteHsnY2aksnJ2cZDWuckJWSXs0tD9mwGP/irMmvIoKjHrfNfuL/8df8TKk8O64cflUGiFY+6gLlcuXZRMWn9424ISkBm6o1znvmJxE6fne4yMRKjN3ph8d
 
 -->
