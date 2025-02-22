@@ -140,51 +140,6 @@
     <category>Development</category>
     <entry-point command="run" binary-name="nvim-qt" />
   </interface>
-  <interface uri="https://akavel.github.io/0catalog/feeds/obs.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-    <name>OBS Studio</name>
-    <summary xml:lang="en">Free and open source software for video recording and live streaming</summary>
-    <icon href="https://akavel.github.io/0catalog/feeds/obs.ico" type="image/vnd.microsoft.icon" />
-    <icon href="https://akavel.github.io/0catalog/feeds/obs.png" type="image/png" />
-    <category>AudioVideo</category>
-    <entry-point command="run" binary-name="obs64" />
-    <entry-point command="obs-amf-test" binary-name="obs-amf-test">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="obs-ffmpeg-mux" binary-name="obs-ffmpeg-mux">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="obs-nvenc-test" binary-name="obs-nvenc-test">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="obs-qsv-test" binary-name="obs-qsv-test">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="url-text" binary-name="url-text">
-      <needs-terminal />
-      <name xml:lang="en">url-text</name>
-    </entry-point>
-    <entry-point command="get-graphics-offsets32" binary-name="get-graphics-offsets32">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="get-graphics-offsets64" binary-name="get-graphics-offsets64">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="inject-helper32" binary-name="inject-helper32">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="inject-helper64" binary-name="inject-helper64">
-      <needs-terminal />
-    </entry-point>
-    <entry-point command="virtualcam-install" binary-name="virtualcam-install">
-      <needs-terminal />
-      <name xml:lang="en">virtualcam-install</name>
-    </entry-point>
-    <entry-point command="obspython" binary-name="obspython">
-      <needs-terminal />
-      <name xml:lang="en">obspython</name>
-    </entry-point>
-    <entry-point command="obs-browser-page" binary-name="obs-browser-page" />
-  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/openscad.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>OpenSCAD</name>
     <summary xml:lang="en">The Programmers Solid 3D CAD Modeller</summary>
@@ -1141,6 +1096,6 @@ The best transfer method will be determined using the Magic Wormhole protocol wh
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJnudr5AAoJEIqj3WcC4bjBDOQP/0V1KndUh7EI9spafwujfS/SUEU/clcSubCPLvOvlEQgzuI0zxx8JmZir3jQFtbQ+8dY8Bhj1Rd0841x74DJ+zIsQ/VX0syDvH62U8nYJvKXdt4KISz0d8nJG8h+4/PSlb/SjGgwXy79EK2smSYt81ulbrDUiUr6PwRAMp2ZssI7CW1+gsburUHYN+XIMAe7WCRZ8n/U0MDo83No+g7WDSAtOP6Bu0ECilcEKGtF9oiP2OXUJ3bS9uXJmJOgmpkjyOIWgVUHfVwhhcviXsWWsIdXlBaG/qHSlPi8RTmJlRL/BDkFFSAdEJG+1u4qU+UsjLziISss7eWlgNevKUzHAKqMSV7apHIYUYG1oZnfwNINz6HzfQyEG0ISCf3uaRUqiOQn7B28Dvn6FyAz4/SvgmiFhU4+IYulQI5YZKo35nvvomgJ3iKfDesv3FbMNQJuARrQARaN4DwyQiFX5OPP6H1p3m1hd6gxfeuXYL9rVJX7dFoKjOAYbpeAkmNR6tVnRj/uMPKuKDr7MuzZHEsQv/0hD3CGmTYbORkUs9F0g1mghaWT2pslQPJ40bbzrSLqa0g9g7ScmgemGYeEFFBl11NB4dQP0/3k/DrPMV88kJ4Qy+u+tniRM0nPIK9pI/5NPzsuO0FNV48bP9uPkfirp4Bu8cVj5A+13doiYAoSjrv/
+iQIcBAABAgAGBQJnudxKAAoJEIqj3WcC4bjBuLoP/2NvOuSRBLdaOThJaROB9VdeUvm0CmWjtZZXkgnf5IjCSVNSj/0HKeKedB48Kx+yvhYddQb5qBps4OWUXNnjPnuD6d5+7ED/xKmVyZg2QPzumShoj56GW5M1ADwsR5FlGJqMqFLLOHI98hg4rNTCiWuz6LlbcrbGnaBdSzwVFqhpV5cZfOB+S2mK4Hw7qEzRHf36oXc++YC7BmcyU5Aqjl1hurmwPQiBoD7Box6NJfcj3q95PP1h912XKve1Bi6gC13s60HJTv62vLY414p9d5CJ7sYrbfid53YGRhoi1u5SwsxF0pPSMPJLHU2bc2JtBEQZoaFfEGfunFhYVsbLch43dkZBMQiagRx+fo+E5hjUriK68tgSUMPJwLa8hx6h42Ac49s0XGm7Pgr6LqLfMhAZIH87kFl/8zV2qgiU1bOJytNZ/HkTgkadiKdS7sLq7KyFjzPBiwShgzzE2ykszQAwFWqx28/EYw5NsKML1SwPFX3g4Ke2Xm07Xq/wflVL53n3up/GMU0U3xwAjmTaKOPOsTH61fGzwvMgdZWoqXb6j0JKAJ43CVO3tEtqYc9ccUJeJRtuCJ0CldpOJH4Y+ARWECUP5PWGi1arT4DjLZU4Yw1L1pyAkjJzq45ay0MWBJ+NNkG4B7t1WJ6hqkWiNb+YmWy+ginuUPMceTm+6Nqq
 
 -->
