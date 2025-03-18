@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://akavel.github.io/0catalog/feeds/probe-rs.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>probe-rs</name>
+  <summary xml:lang="en">a modern, embedded debugging toolkit, written in Rust</summary>
+  <category>Development</category>
+  <needs-terminal />
+  <implementation arch="Windows-x86_64" version="0.27.0" id="sha256new_UV6HRETL4FE6PJV5UBAIWK456U74NPTO2IWEXBE435WK4ZTBJNGA">
+    <command name="run" path="probe-rs.exe" />
+    <command name="cargo-embed" path="cargo-embed.exe" />
+    <command name="cargo-flash" path="cargo-flash.exe" />
+    <manifest-digest sha256new="UV6HRETL4FE6PJV5UBAIWK456U74NPTO2IWEXBE435WK4ZTBJNGA" />
+    <archive href="https://github.com/probe-rs/probe-rs/releases/download/v0.27.0/probe-rs-tools-x86_64-pc-windows-msvc.zip" size="29747073" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="probe-rs" />
+  <entry-point command="cargo-embed" binary-name="cargo-embed">
+    <needs-terminal />
+  </entry-point>
+  <entry-point command="cargo-flash" binary-name="cargo-flash">
+    <needs-terminal />
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQIcBAABAgAGBQJn1fhxAAoJEIqj3WcC4bjB+/QP/RK9PmMSNcajMQbCrLDz50xajIIq+l9aZetOm4mpu0IAbZ6bi3rGV0LOyyohx+rTHL2cStWdP/b28Iro8zA3ISa7flseLBst3B48SN5+MGK4DcWeSqrN0lnUS06HlnKZLGjmS9/kjiCYGnntZqZcbMwOsjQ5JAE6DynVHdlxrzE9T36cLTdOccOdmwig1QkUBhHoDfgeHi9ZMI6c4symQnQfmm9VVqY4ud0PdbDPSotGAa+LrplaoakwKE5ta/8rLUILiLkmWrBGrlCbrqGtUSJiZQJzmbFTK9XngiWINm7D7V/1CYyy4s+d8pEEELrxMBitwkirkZtxBbXoKSSMUdWDRipEyrCepEfnGQczj2D3YDOQe0wl1Ps/dBgcypzm7IRNL/K8JuMiYc38B/u79+EM03jSLeNu7mgIODu5Dg0ZYyzYAaPo9h1ERcrwR79u1SkAEInXCBPxQdVa0TuXj63YD0Nwdv/MjUFsZ0mblF3ISfv/2/tUismb2VRHBaobkzseV6XQcBcySqXO/80BkaOyNV8A4BGZmJCE+ZbsQ1/Is46SZ++nQUMTmmYCnXbHvDsNL9SIwerMLh4kiW7DmM5MDIiuijZDuH8abYxQh2qKHtMp8Sf3vXBuf2Hn/JhGmJa0kvHCGiPkW3OvaoWND8gbCCuUEYFb0E+teh6QSpn7
+
+-->

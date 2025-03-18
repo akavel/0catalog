@@ -436,6 +436,19 @@ OpenSCAD provides two main modelling techniques: First there is constructive sol
       <name xml:lang="en">jrt-fs</name>
     </entry-point>
   </interface>
+  <interface uri="https://akavel.github.io/0catalog/feeds/probe-rs.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>probe-rs</name>
+    <summary xml:lang="en">a modern, embedded debugging toolkit, written in Rust</summary>
+    <category>Development</category>
+    <needs-terminal />
+    <entry-point command="run" binary-name="probe-rs" />
+    <entry-point command="cargo-embed" binary-name="cargo-embed">
+      <needs-terminal />
+    </entry-point>
+    <entry-point command="cargo-flash" binary-name="cargo-flash">
+      <needs-terminal />
+    </entry-point>
+  </interface>
   <interface uri="https://akavel.github.io/0catalog/feeds/protoc.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
     <name>protoc</name>
     <summary xml:lang="en">compiler for Protocol Buffers - Google's Data Interchange Format</summary>
@@ -1096,6 +1109,6 @@ The best transfer method will be determined using the Magic Wormhole protocol wh
   </interface>
 </catalog>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJnudxKAAoJEIqj3WcC4bjBuLoP/2NvOuSRBLdaOThJaROB9VdeUvm0CmWjtZZXkgnf5IjCSVNSj/0HKeKedB48Kx+yvhYddQb5qBps4OWUXNnjPnuD6d5+7ED/xKmVyZg2QPzumShoj56GW5M1ADwsR5FlGJqMqFLLOHI98hg4rNTCiWuz6LlbcrbGnaBdSzwVFqhpV5cZfOB+S2mK4Hw7qEzRHf36oXc++YC7BmcyU5Aqjl1hurmwPQiBoD7Box6NJfcj3q95PP1h912XKve1Bi6gC13s60HJTv62vLY414p9d5CJ7sYrbfid53YGRhoi1u5SwsxF0pPSMPJLHU2bc2JtBEQZoaFfEGfunFhYVsbLch43dkZBMQiagRx+fo+E5hjUriK68tgSUMPJwLa8hx6h42Ac49s0XGm7Pgr6LqLfMhAZIH87kFl/8zV2qgiU1bOJytNZ/HkTgkadiKdS7sLq7KyFjzPBiwShgzzE2ykszQAwFWqx28/EYw5NsKML1SwPFX3g4Ke2Xm07Xq/wflVL53n3up/GMU0U3xwAjmTaKOPOsTH61fGzwvMgdZWoqXb6j0JKAJ43CVO3tEtqYc9ccUJeJRtuCJ0CldpOJH4Y+ARWECUP5PWGi1arT4DjLZU4Yw1L1pyAkjJzq45ay0MWBJ+NNkG4B7t1WJ6hqkWiNb+YmWy+ginuUPMceTm+6Nqq
+iQIcBAABAgAGBQJn1fiFAAoJEIqj3WcC4bjB0sQP/1JabyN+SQvlN9Z2SWAOyBR5rmkRqddiRh6L2sewU1uOwfGqowDeCtvy8OQuEhQTbW5w2SPvPgojIoyO2MnnCZgd7ad6LW8PX+iHU1VeD3V5PK7e+v6vlFltBE4KQ6KzLsiFSDaWHYjWkZe91B/eCeKxzUwrjCAKnoxaBId9rWC3R0bVmH5WkdXEUOuLY/O8W0NAI3CBndeJSeqW06xW+csNwyclzoN05ECKm+nXRtrvkBfVdX8uQUc4v4iPJOThq77pY6cN3k+McEZGQ67+6Kl83g/jXc453DGSArrdv/rj/gdmAfU4rKBpztr3Nax7uHKgH+xyTOcGnrl0Iqe9X8NSxV8NCNCoE80h6St2RUwt87iVKCavefZ3JlQ2PO8ZsqamDsybNC8Amhll3HlRZ2hcCZ48T7IZmvkaxguw4YBseCtxUk5tdZrtRXNAEUfKEJ2AFR+JQWI05UtojNqo2hcVthCT7ETm6bSF9bZr6cWgUCSsAPBTEh0Y0aRAlASjrCx2Dxf6rwtxd7V3pQ6i9eucMhyhP9nadSHEnqLhOBaj3WqcTl8cVRvK9v733bkMsyRlrLa2QbEPTPHCibAD7eFeBRL2IBIlrLg4R/LXPTOqj035KJSOIz45s6/y08P3S/fUKvuo/tYZfL+VabrM2BgId6afe0X8d26r9go3ZTO2
 
 -->
