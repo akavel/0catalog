@@ -6,14 +6,14 @@
   <category>Development</category>
   <homepage>https://github.com/martinvonz/jj</homepage>
   <needs-terminal />
-  <implementation arch="Windows-x86_64" version="0.8.0" id="sha256new_JGNUMPYH3YMCI5C34DW4JK4X2EE5QLRT2C6YVYBE74GRAMYXBXPQ">
+  <implementation arch="Windows-x86_64" version="0.27.0" id="sha256new_KZYVLKMTIC6EYFNK55AJCPRLOSKIAYIIMTC423PRRKMICWGYQDOQ">
     <command name="run" path="jj.exe" />
-    <manifest-digest sha256new="JGNUMPYH3YMCI5C34DW4JK4X2EE5QLRT2C6YVYBE74GRAMYXBXPQ" />
-    <archive href="https://github.com/martinvonz/jj/releases/download/v0.8.0/jj-v0.8.0-x86_64-pc-windows-msvc.zip" size="4426756" type="application/zip" />
+    <manifest-digest sha256new="KZYVLKMTIC6EYFNK55AJCPRLOSKIAYIIMTC423PRRKMICWGYQDOQ" />
+    <archive href="https://github.com/jj-vcs/jj/releases/download/v0.27.0/jj-v0.27.0-x86_64-pc-windows-msvc.zip" size="8448378" type="application/zip" />
   </implementation>
   <entry-point command="run" binary-name="jj" />
 </interface>
 <!-- Base64 Signature
-iQIcBAABAgAGBQJk1hZ2AAoJEIqj3WcC4bjB9/EQAJgC/pinasGAkFJL0JfwIWYStu0mkuNv1nfX2T0JF7N7w0EMpy7rkZJCqULSCWxaGsQ2OHZzqDDLB8emm67tjLxa9EHXzdEpQevPWNBP5M+fC7MCGGWoMHp2IC7WV6hJv/vm1d2h5B6NXznAgJNG+M5ZskUoGY3kJIVj4q6aLLOaD5AxGZ4LHwg2XJpYYa+ChwzTlLonx45GGAq7TtSG4Ufit+1h8zLMgxg/BdPt33pKHajWO1NAdzaPBSi3sTCkGfJn6VHpunwxIWbOsCqqABvY6r/Ad8uNWNq8GjJlRlQct1BpsLth1xGJdnKz0owg/9JqwfaKVuOQDMZFU3VvFG7nPkpxidMmYKMnNkEK3XPElw+Eqi7LZtoKjqiydNJd1B5A1MmHzNhGhiOO7A9AIjf7nBMgJhz49EqIWc/1lQ8VV2WIGlv771Yhrp7CbeKwO518UdVs1PqzKZ7CBc2uRJZokK6LcwoGYLS7BZJ90bCZ87YKe4JsfZdS6eiJC5Gk0/mdU14PxQrgi8mKH8cE7782iF5aDLLEBHoFniq2IG/gRpiCSrmoZtbkvMGg97MdUztOKzNc7tqt6cdxKnC4Q7E+KacrRVHR/0q5roQyAOmY65w6gnIahAtBwd0ur3B8SleUnvg9i3N3s1qSRn7BvESEYbYW6YvNgtU5ow+8D8pD
+iQIcBAABAgAGBQJn2I9vAAoJEIqj3WcC4bjB314P+gM/aR5qzmrAIXBIBRjh9CIpM641zxi+yCVlEtKm1Gra4jBF+4KudVl8AW7nNF/NqA/dAieGnVsOrNlXTUKUxSBKlIcNK7ZXq8MZcAE9Ng7jHi14cm6bS/X3KVpcdo2T7u+Wb/ae1KsHeu+MmBDHczfP+GULaNhyNa+g6nVrUTY4wtbRRQ2m8064epsxiDm861ON439ys6AQVXmEIuOaOkKV3p1FnHD7+Ei1rzQ9Itx2sp2v0oNMZyFlEODTlMRCoP6UpvauFjZPx5mcjtT1/YE8SCiSfpmlrB+lirZ+gsfxuW1vQyD+hcTTw4fDilSkf2128h6TReOYA2HySXRqWWVAUEeQyUFcxuEEGJVtrA/u/aFfOYNzRvd9BW6VHcIHg1sW230nYa+soJ4qzxbktw9e2d6uhGkTksTTJvZqnjF8i0wR4dLEeQD+bDskLCsPSTaL6YwY8NESmWR0lQ3IN+TuwMfKIYxf35WZWWracq3h/Nkh7b3zCLcaIahe4y7qoZ7VXQPvJbe+k7yK0VFz1nsRLXDSRX84MBYCJMlVMJs4e60uP+r7WCPB08j1vb0Riwb0nrkp/UKs0XhlQUmUyYazGxVzPt77SpMewBvh3X1uLkKQECLUUla8v5jdrJVVgyAA+DlWAfAQP8u09sVwPhu8rGtRJA/D80tCBFBnXglw
 
 -->
